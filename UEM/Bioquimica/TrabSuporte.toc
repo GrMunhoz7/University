@@ -1,0 +1,11 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Introdução}{2}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Revisão Bibliográfica}{3}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Análise e Resultados}{5}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Conclusão}{6}{section.0.4}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{7}{section*.4}%

@@ -1,0 +1,107 @@
+#*
+Model para o reator do Ex. 1.1
+ *#
+
+using "types";
+ 
+Model ReatorA
+
+	PARAMETERS
+	Ar 					as area;
+	UA 					as Real (final Unit = 'kJ/(s*K)');
+	ko 					as Real (final Unit = '1/s');
+	EaR 					as Real (final Unit = 'K');
+	DHro 				as heat_reaction;
+	DCp 				as cp_mol;
+	Cp_A 				as cp_mol;
+	Cp 					as cp_mass;
+	rho_A 				as dens_mass;
+	rho 					as dens_mass;
+	TR 					as temperature;
+	
+	VARIABLES
+	V 						as volume;
+	C_Ai 				as conc_mol;
+	C_Bi 				as conc_mol;
+	T_i 					as temperature;
+	Vp_i 				as flow_vol;
+out	C_A 			as conc_mol;
+out	C_B 			as conc_mol;
+out	T 					as temperature;
+out	Vp 				as flow_vol;
+	T_c 					as temperature;
+	k 						as Real (final Unit = '1/s');
+	DHr 				as heat_reaction;
+
+	EQUATIONS
+	"Balanco de massa global"
+	diff(V) = (rho_A/rho)*Vp_i - Vp;
+
+	"Balanco molar A"
+	diff(C_A) = (Vp_i/V)*(C_Ai - C_A*(rho_A/rho)) - k*C_A;
+
+	"Balanco molar B"
+	diff(C_B) = - (Vp_i/V)*(C_B*(rho_A/rho)) + k*C_A;
+
+	"Balanco de energia para o reator"
+	diff(T) = ((Vp_i*C_Ai*Cp_A)/(rho*V*Cp))*(T_i - T) - k*C_A*DHr/(rho*Cp) - (UA/(rho*V*Cp))*(T - T_c);
+
+	"Cinetica"
+	k = ko*exp(-EaR/T);
+	
+	"Entalpia de reacao"
+	DHr = DHro + DCp*(T - TR);
+
+end
+
+
+FlowSheet Ex12
+
+	DEVICES
+	reator 			as ReatorA;
+	
+	SET
+	reator.Ar = 0.107 * 'm^2';
+	reator.UA = 0.5 * 'kJ/(s*K)';
+	reator.ko = 1.48E11 * '1/s';
+	reator.EaR = 19124 * 'K';
+	reator.DHro = -231 * 'kJ/mol';
+	reator.DCp = 0.012 * 'kJ/(mol*K)';
+	reator.Cp_A = 0.1222 * 'kJ/(mol*K)';
+	reator.Cp = 0.1160 * 'kJ/(mol*K)' / (47 * 'g/mol');
+	reator.rho_A = 1051 * 'g/l';
+	reator.rho = 1038 * 'g/l';
+	reator.TR = 298 * 'K';
+	
+	SPECIFY
+	reator.C_Ai = 1 * 'mol/l';
+	reator.C_Bi = 0 * 'mol/l';
+	reator.T_i = 675 * 'K';
+	reator.Vp_i = 5 * 'l/s';
+	reator.Vp = (reator.Vp_i) * '1/m^0.5' * sqrt(reator.V/reator.Ar);
+	reator.T_c = 700 * 'K';
+
+	INITIAL
+	reator.C_A = reator.C_Ai;
+	reator.C_B = 0 * 'mol/l';
+	reator.V = 50 * 'l';
+	reator.T = reator.T_i;
+
+	OPTIONS
+	TimeStep = 0.1;
+	TimeEnd = 50;
+	TimeUnit = 's';
+
+end
+
+
+Optimization Ex12Optimization as Ex12
+	MAXIMIZE
+	reator.C_B;
+
+	FREE
+	reator.Vp_i;
+
+	OPTIONS
+	Dynamic = false;
+end

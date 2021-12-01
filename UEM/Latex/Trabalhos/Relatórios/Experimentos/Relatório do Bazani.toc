@@ -1,0 +1,22 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Objetivo}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Resumo}{3}{section.0.2}
+\contentsline {section}{\numberline {0.3}Introdu\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{4}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Lei de Hooke}{4}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Molas em S\IeC {\'e}rie}{4}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {0.3.3}Molas em Paralelo}{5}{subsection.0.3.3}
+\contentsline {section}{\numberline {0.4}Procedimento Experimental}{6}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Materiais}{6}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}M\IeC {\'e}todo}{6}{subsection.0.4.2}
+\contentsline {section}{\numberline {0.5}Resultados e Discuss\IeC {\~a}o}{7}{section.0.5}
+\contentsline {section}{\numberline {0.6}Conclus\IeC {\~a}o}{9}{section.0.6}
+\renewcommand *{\cftappendixname }{AP\^ENDICE \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Gr\IeC {\'a}fico dos Coeficientes}}{10}{appendix.A}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{11}{section*.2}

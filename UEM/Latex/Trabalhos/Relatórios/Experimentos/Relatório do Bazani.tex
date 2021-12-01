@@ -1,0 +1,556 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+\renewcommand{\sc}{\textsc}
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+%\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+%\usepackage[num]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Laboratório de Estática\\Relatório sobre Lei de Hooke}
+\autor{Gabriel Rodrigues Munhoz\\RA 162053541}
+\local{Ilha Solteira, São Paulo}
+\data{Setembro de 2017}
+\instituicao{%
+  Universidade Estadual Paulista  - Unesp
+  \par
+  Faculdade de Engenharia de Ilha Solteira  - FEIS}
+\tipotrabalho{Relatório técnico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+%\makeindex
+% ---
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Relatório sobre Lei de Hooke}
+\rhead{\thepage}
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=2]{../../Imagens/SA03x.jpg}  }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\includegraphics[scale=0.6]{../../Imagens/barraunesp-assvisual.png} 
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+%\imprimirfolhaderosto*
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\newpage
+
+\section[Objetivo]{Objetivo}
+\pagestyle{fancy}
+Estudo sobre o modo como se comporta a Lei de Hooke com molas em série e em paralelo. 
+\newpage
+\section[Resumo]{Resumo}
+\pagestyle{fancy}
+O experimento realizado consistiu em determinar o coeficiente de elasticidade em três arranjos diferentes de mola. Primeiramente a mola sozinha, em seguida duas molas em série e por fim duas molas em paralelo. Após realizado todo o procedimento e os cálculos, os resultados obtidos foram de acordo com a teoria provando que as molas em série diminuem seu coeficente de elasticidade, enquanto em paralelo elas aumentam.
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+% \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+  %\item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+  %\item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+\section[Introdução Teórica]{Introdução Teórica}
+\pagestyle{fancy}
+\subsection[Lei de Hooke]{Lei de Hooke} 
+
+A força exercida por uma mola sempre é contrária ao movimento realizado, assim podemos supor que a força elástica é conservativa e por isso na Lei de Hooke o sinal é negativo. Tal força é proporcinal ao deslocamento e é dada por \cite{hallidayfundamentos}:
+
+\begin{center}
+
+ $\vec{F}$ = -k$\vec{d}$ \qquad (Lei de Hooke)
+
+\end{center}
+
+A constante elástica é simbolizada pela letra $"$k$"$ e é o que caracteriza uma mola ou sistema de rígido ou não, quanto maior tal constante mais rígido será o sistema. A unidade de $"$k$"$ é newton por metro no SI. \cite{hallidayfundamentos}
+
+A força elástica é linear por se tratar de apenas uma multiplicação entre a constante elástica e a distância, no entanto, se trata de uma força variável, já que, durante a ação a força se altera, podendo diminuir, mudar de sinal ou aumentar. \cite{hallidayfundamentos}
+
+\subsection[Molas em Série]{Molas em Série} 
+A partir da Lei de Hooke podemos pressupor que com duas molas:
+
+\begin{center}
+\[
+ \vec{F} = k_{1}\Delta\vec{d}_{1} \qquad e \qquad \vec{F} = k_{2}\Delta\vec{d}_{2} 
+\]
+\end{center}
+
+Poderemos transformar em:
+
+\begin{center}
+\[
+  \Delta\vec{d}_{1} = \frac{\vec{F}}{k_{1}} \qquad e \qquad \Delta\vec{d}_{2} = \frac{\vec{F}}{k_{2}}
+\]
+\end{center}
+
+Com uma associação em série a constante elástica se altera, portanto colocamos o nome de $"$$k_{eq}$$"$ (Constante elástica equivalente) e tal sistema sofrerá uma distenção $"$$\Delta$ $d_{eq}$$"$ (Variação equivalente):
+
+\begin{center}
+\[
+ \Delta\vec{d}_{eq} = \Delta\vec{d}_{1} + \Delta\vec{d}_{2}
+\]
+\end{center}
+
+Portanto, teremos:
+
+\begin{center}
+\[
+ \frac{\vec{F}}{k_{eq}} = \frac{\vec{F}}{k_{1}} + \frac{\vec{F}}{k_{2}}
+\]
+\end{center}
+
+Como a força aplicada nas duas molas é a mesma, a fórmula pode ser transcrita como:
+
+\begin{center}
+\[
+ k_{eq} = \frac{k_{1}k_{2}}{k_{1} + k_{2}}
+\]
+\end{center}
+	
+Com isso, podemos tirar a conclusão que o coeficiente equivalente sempre possui um valor menor do que os coeficientes iniciais. Isso ocorre, pois, em série a força aumenta a deformação das duas molas e ocasiona uma menor rigidez no sistema. \cite{UFC}
+
+\subsection[Molas em Paralelo]{Molas em Paralelo}
+
+A partir da Lei de Hooke podemos pressupor que com duas molas:
+
+\begin{center}
+\[
+ \vec{F} = k_{1}\Delta\vec{d}_{1} \qquad e \qquad \vec{F} = k_{2}\Delta\vec{d}_{2} 
+\]
+\end{center}
+
+Com uma associação em paralelo a constante elástica se altera, portanto colocamos o nome de $"$$k_{eq}$$"$ (Constante elástica equivalente) e tal sistema sofrerá uma distenção $"$$\Delta$ $d_{eq}$$"$ (Variação equivalente), para o sistema paralelo notamos que a força equivalente $"\vec{F}_{eq}"$ vale:
+
+\begin{center}
+\[
+ \vec{F}_{eq} = \vec{F}_{1} + \vec{F}_{2}
+\]
+\end{center}
+
+\begin{center}
+\[
+ k_{eq}\Delta\vec{d}_{eq} = k_{1}\Delta\vec{d}_{1} + k_{2}\Delta\vec{d}_{2}
+\]
+\end{center}
+
+No entanto, teremos sempre a mesma deformação nas duas molas, pois a força será aplicada nas duas ao mesmo tempo, com isso:
+
+\begin{center}
+\[
+ \Delta\vec{d}_{eq} = \Delta\vec{d}_{1} = \Delta\vec{d}_{2}
+\]
+\end{center}
+
+Resultando em:
+
+\begin{center}
+\[
+ k_{eq} = k_{1} + k_{2}
+\]
+\end{center}
+	
+Portanto, podemos tirar a conclusão que o coeficiente equivalente sempre possui um valor maior do que os coeficientes iniciais. Isso ocorre, pois, em paralelo a força é aplicada simultaneamente nas duas molas, diminuindo a deformação e ocasionando uma maior rigidez no sistema. \cite{UFC}
+
+% ----------------------------------------------------------
+% PARTE - preparação da pesquisa
+% ----------------------------------------------------------
+\newpage
+\section[Procedimento Experimental]{Procedimento Experimental}
+\pagestyle{fancy}
+\subsection[Materiais]{Materiais}
+Nesse experimento foram utilizados os seguinte materiais:
+
+-Apoio;
+
+-Molas;
+
+-Suporte para os pesos (com instrumento de encaixe para utilizarmos as molas em paralelo);
+
+-Pesos;
+
+-Régua milimetrada;
+
+
+\subsection[Método]{Método} 
+
+Primeiramente colocou-se uma mola no apoio e mediu-se o comprimento inicial dela com o suporte para os pesos pendurado. Após isso, foram adicionados os pesos de 1kg, 2kg e 3kg separadamente e anotou-se o comprimento da mola em cada peso. Com esses valores calculou-se um coeficiente de elasticidade médio.
+
+Em seguida, foram colocadas em série 2 molas com coeficientes de elasticidade muito próximos, tais molas possuem o mesmo coeficiente da mola utilizada anteriormente. Após isso, foi repetido o procedimento anterior e adicionados os pesos de 1kg, 2kg e 3kg separadamente e anotou-se o comprimento das molas em cada peso. Com tais valores foi calculado um coeficiente de elasticidade médio para o sistema em série.
+
+Por fim, foram alocadas as mesmas 2 molas em paralelo e anotados os comprimentos das molas em cada vez que foram adicionados pesos ao sistema. Assim como anteriormente, os pesos foram de: 1kg, 2kg e 3kg. E ao final foi calculado um coeficiente de elasticidade médio.
+
+% ----------------------------------------------------------
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Parte de revisãod e literatura
+% ----------------------------------------------------------
+\newpage
+\section[Resultados e Discussão]{Resultados e Discussão}
+\pagestyle{fancy}
+
+Primeiramente foram colhidos os resultados de uma mola sozinha e calculados os coeficientes de elasticidade:
+
+\begin{center}
+\begin{table}[H]
+\caption{Dados coletados de uma mola}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+
+\hline
+Lo$(mm)$ & Lf$(mm)$ & m$(kg)$ & k$(N/m)$ \\ 
+\hline
+36 & 38 & 1,0 & 4900,0 \\
+\hline
+36 & 48 & 2,0 & 1633,3 \\
+\hline
+36 & 59 & 3,0 & 1278,3 \\
+
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{center}
+
+Tais coeficientes foram calculadas da seguinte forma:
+
+\[
+k = m*g/(Lf - Lo)
+\]
+\[
+k = 1*9,8/(38 - 36) = 4900,0 N/m 
+\]
+\[
+k = 2*9,8/(48 - 36) = 1633,3 N/m 
+\]
+\[
+k = 3*9,8/(59 - 36) = 1278,3 N/m
+\]
+
+Sendo $"g"$ a gravidade valendo 9,8. Após isso, foi calculado um coeficiente médio para a mola, por meio da média entre os 3 coeficientes encontrados. Portanto, esse coeficiente médio vale:
+
+\begin{center}
+$k_{m}$ = 2603,9 N$/$m
+\end{center}
+
+Em seguida, foram colhidos os resultados de sistema de duas molas em série e calculados os coeficientes de elasticidade:
+
+\begin{center}
+\begin{table}[H]
+\caption{Dados coletados de uma mola}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+
+\hline
+Lo$(mm)$ & Lf$(mm)$ & m$(kg)$ & k$(N/m)$ \\ 
+\hline
+114 & 118 & 1,0 & 2450,0 \\
+\hline
+114 & 137 & 2,0 & 852,2 \\
+\hline
+114 & 160 & 3,0 & 639,1 \\
+
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{center}
+
+Tais coeficientes foram calculadas da seguinte forma:
+
+\[
+k = m*g/(Lf - Lo)
+\]
+\[
+k = 1*9,8/(118 - 114) = 2450,0 N/m 
+\]
+\[
+k = 2*9,8/(137 - 114) = 852,2 N/m 
+\]
+\[
+k = 3*9,8/(160 - 114) = 639,1 N/m
+\]
+
+Sendo $"g"$ a gravidade valendo 9,8. Após isso, foi calculado um coeficiente médio para o sistema, por meio da média entre os 3 coeficientes encontrados. Portanto, esse coeficiente médio vale:
+
+\begin{center}
+$k_{m}$ = 1313,8 N$/$m
+\end{center}
+
+Por fim foram colhidos os resultados de um sistema de duas molas em paralelo e calculado os coeficientes de elasticidade:
+
+\begin{center}
+\begin{table}[H]
+\caption{Dados coletados de uma mola}
+\begin{center}
+\begin{tabular}{c|c|c|c}
+
+\hline
+Lo$(mm)$ & Lf$(mm)$ & m$(kg)$ & k$(N/m)$ \\ 
+\hline
+36 & 36 & 1,0 & - \\
+\hline
+36 & 36 & 2,0 & - \\
+\hline
+36 & 39 & 3,0 & 9800,0 \\
+
+
+\end{tabular}
+\end{center}
+\end{table}
+\end{center}
+
+Tais coeficientes foram calculadas da seguinte forma:
+
+\[
+k = m*g/(Lf - Lo)
+\]
+\[
+k = 3*9,8/(39 - 36) = 9800,0 N/m
+\]
+
+Sendo $"g"$ a gravidade valendo 9,8. Como obtivemos apenas um valor de coeficiente para o sistema em paralelo utilizamos ele como sendo nosso coeficiente médio de elasticidade. Portanto, esse coeficiente médio vale:
+
+\begin{center}
+$k_{m}$ = 9800,0 N$/$m
+\end{center}
+% ---
+% ---
+
+Com esses resultados verificamos que o coeficiente de elasticidade pode variar dependendo do arranjo de molas. No entanto, já esperávamos isso, pois de acordo com a Lei de Hooke quando duas molas se encontram em série seu coeficiente de elasticidade tende a diminuir e quando estão em paralelo seu coeficiente tende a aumentar. Vide Apêndice A.
+
+Portanto, o experimento foi satisfatório, pois como utilizamos molas com coeficiente de elasticidade igual os resultados se aproximaram muito do que era previsto. Os desvios que podem ter aparecido podem ter sido causados por causa dos coeficientes das molas não serem exatamente iguais e a forma de medida não ser tão precisa.
+
+\newpage
+% ---
+
+\section[Conclusão]{Conclusão}
+\pagestyle{fancy}% ---
+
+A associação de molas pode aumentar ou diminuir o coeficiente de elasticidade do sistema. Por meio do experimento e das análises realizadas, notamos que uma associação de molas em série faz com que a deformação aumente, diminuindo o coeficiente de elasticidade. E na associação em paralelo o coeficiente aumenta, pois sua deformação diminui, visto que a força é dividida entre as duas molas separadamente.
+
+O experimento realizado mostrou que utilizando duas molas de coeficiente muito próximos o valor desse coeficiente em uma associação em série, cai pela metade e durante uma associação em paralelo, ele dobra.
+
+
+\apendices 
+\chapter{Gráfico dos Coeficientes}
+
+\begin{figure}[H]
+\begin{center}
+
+\caption{Gráfico dos Coeficientes de Elasticidade:}
+\includegraphics[scale=0.75]{../../Imagens/Latex/graficorelatorio.jpg} 
+
+\end{center}
+\end{figure}
+
+%\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\bibliographystyle{acm}
+\bibliography{REF}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+\end{document}

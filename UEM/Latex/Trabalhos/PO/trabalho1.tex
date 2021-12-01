@@ -1,0 +1,434 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Trabalho de Pesquisa Operacional\\Análise de lucratividade dos produtos de uma esfiharia por meio de programação linear}
+\autor{Eduardo Favoretto Vale Bom RA 108139\\Gabriel R. Munhoz RA 106802\\João Vítor Batistão RA 108074}
+\local{Maringá, Brasil}
+\data{Novembro de 2020}
+\orientador{Juliana Adrian Emidio}
+\coorientador{-}
+\instituicao{%
+  Universidade Estadual de Maringá -- UEM
+  \par
+  Departamento de Engenharia de Produção -- DEP
+  \par
+  Pesquisa Operacional}
+\tipotrabalho{Trabalho acadêmico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com
+as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=1.4]{imagens_suporte/LogoUEM.pdf.jpg} }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1cm][c]{1cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{imagens_suporte/Logo-UEM-–-Modelo-4-Anexar.png}  
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\chapter*[Introdução]{Introdução}
+\addcontentsline{toc}{chapter}{Introdução}
+% ----------------------------------------------------------
+
+	Será realizado um estudo e a aplicação do método simplex em uma esfiharia de Maringá/PR para tornar o resultado operacional e o lucro da empresa melhores. Para isso foi realizado o levantamento de alguns dados cruciais para a resolução deste problema, como as restrições, todos os custos relacionados a matéria prima e o resultado do lucro histórica da empresa no momento, para fins de comparação. Será realizado tudo isso porque encontrou-se um potencial de maximização do lucro da empresa, além de analisar a viabilidade do modelo de negócios (se está sendo rentável ou não) e como poderemos auxiliar a empresa a melhorar a operação em si. \cite{ehrlich1991} \cite{milhomem2015utilizaccao}
+
+	Portanto, essa aplicação de programação linear tem como principal objetivo levantar os produtos vendidos pela empresa, mapear quais são as restrições de produção, elaborar o modelo de maximização, resolver o modelo utilizando o Solver Excel e consequentemente encontrar o lucro máximo sobre a produção.
+
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+\part{Referencial Teórico}
+
+\chapter{Programação Linear}
+% ----------------------------------------------------------
+
+	Com a evolução da organização do trabalho, foram surgindo um conjunto de técnicas quantitativas que resolvessem de maneira mais eficiente possível as problemáticas encontradas nas organizações. Tais técnicas, tem como objetivo principal, gerar insumos para decisões e resoluções de problemas complexos como maior aproveitamento de recursos levando em consideração impedimentos materiais, de recursos humanos e econômicos. 
+
+	A programação linear utiliza de métodos matemáticos para modelar o problema e atingir soluções ótimas que, no caso em questão a maximização dos lucros da esfiharia.
+
+\chapter{Método Simplex}
+
+O método simplex é técnica amplamente utilizada com o intuito de definir de uma maneira numérica a solução ótima de um modelo de equações vinculado à programação linear. É um método algébrico, extremamente eficiente para a resolução de sistemas, adaptado ao cálculo computacional - algoritmo. Esse método iterativo inclui um procedimento de início e um critério para determinar quando parar. \cite{unesp}
+	
+	Neste sistema linear de equações existem algumas características padrões, e são elas:
+
+\begin{itemize}
+\item Todas as variáveis são não negativas ($\geq$ 0)
+\item Tem-se de obter um resultado da maximização do problema
+\item Todas as restrições funcionais  são na forma $\leq$
+\end{itemize}
+
+\textbf{Estrutura do método gráfico}
+
+O método se divide em três principais passos. O primeiro passo consiste em identificar uma solução básica viável inicial para o programa de PL. Isso pode ser definido atribuindo valores iguais a zero às variáveis de decisão. \cite{hillier2013introduccao}
+
+O segundo passo é o teste de otimalidade. É necessário identificar se o ponto em que você está analisando é o melhor vértice entre todos que são gerados pelas intersecções das retas de restrições. Ou seja, ocorrendo nesse vértice o maior valor para Z ele será atribuido como valor ótimo ou valor ideal. \cite{hillier2013introduccao}
+
+O terceiro passo  consiste em transformar o sistema de equações e recalcular a solução básica para nossa PL, caso o valor do vértice do segundo passo não se encaixe como solução ideal. \cite{hillier2013introduccao}
+
+\textbf{Forma tabular}
+
+A forma algébrica apresentada anteriormente não é a forma ideal para a resolução de problemas, para isso usamos a forma tabular, que registra somente as informações cruciais para a resolução dos cálculos algébricos. \cite{hillier2013introduccao}
+
+\begin{itemize}
+\item Coeficientes das variáveis
+\item O lado direito das equações
+\item Variáveis básicas
+\end{itemize}	
+
+Como no método anterior, este também tem um passo a passa a ser seguido:
+
+Início: Modelar o problema
+
+Primeiro passo: Encontrar uma SBF inicial para o problema PL.
+
+Segundo passo: Teste de otimalidade (Enquanto existir uma variável não-básica com coeficiente negativo, ainda existe solução melhor a ser encontrada.
+
+\begin{figure}[htb] \centering \label{figura1}
+\caption{Exemplo do método tabular}
+\includegraphics[scale=1]{imagens_suporte/tabela1.png}  
+\legend{Fonte: \cite{unicamp}}
+\end{figure}
+
+Esta é a tabela inicial de um problema real. Para se chegar em uma solução ótima, é necessário realizar iterações até satisfazer o segundo passo descrito acima. \cite{unicamp}
+
+% ---
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ---
+\include{abntex2-modelo-include-comandos}
+% ---
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+\part{Desenvolvimento}
+
+
+\chapter{Introdução}
+
+
+A empresa selecionada para realização desse estudo consta de 3 funcionários, sendo que 2 atuam na cozinha e 1 controla o caixa. O estoque de ingredientes é definido para cada semana conforme a quantidade demandada na semana anterior sempre mantendo um controle do que ainda há em estoque. A massa das esfihas é feita com antecedência, com isso há certa quantidade máxima de esfihas que podem ser produzidas em um dia de funcionamento, esse valor também é definido conforme o histórico de demanda e é de aproximadamente 7200 unidades de massa no mês.
+
+O turno de trabalho gira em torno de 6 a 8 horas dependendo do dia e a esfiharia funciona de quarta-feira até domingo, totalizando por volta de 132 horas trabalhadas no mês. A cozinha opera em linha com os 2 funcionários do setor e a produção de 20 esfihas demora certa de 25 minutos para ser finalizada.
+
+O estudo em questão foi realizado no cardápio da empresa que consta de 7 tipos de esfiha e não contabilizou bebidas e nem sobremesas.
+
+Nesse trabalho foi utilizada uma ferramenta do Excel para a resolução do problema chamada “Solver” utilizada para o teste de hipóteses com o intuito de encontrar o valor ideal (mínimo ou máximo) dependendo do tipo de problema analisado por meio de programação linear.
+
+Nessa ferramenta é possível introduzir restrições e limites, assim como o necessário para a resolução do problema abordado neste artigo.
+
+
+\chapter{Metodologia}
+
+	Foram levantadas as variáveis do problema de acordo com os tipos de esfihas que são produzidas no estabelecimento, sendo 7 tipos diferentes com variações de ingredientes.\\
+\\
+Variáveis (quantidade de cada esfiha que será produzida)
+\begin{itemize}
+
+\item x$_1$: esfiha de carne
+\item x$_2$: esfiha de frango
+\item x$_3$: esfiha de calabresa
+\item x$_4$: esfiha de 4 queijos
+\item x$_5$: esfiha de carne com queijo
+\item x$_6$: esfiha de frango com catupiry
+\item x$_7$: esfiha de calabresa com queijo
+
+\end{itemize}
+
+	Elaborou-se a tabela, figura 2, com os ingredientes e suas respectivas quantidades para cada tipo de esfiha, adicionando na mesma o preço final de venda dos produtos e a quantidade mínima de ingredientes totais necessários em estoque.
+
+	Tomou-se como base o histórico de vendas mensal para cada tipo de esfiha, sendo que durante um mês há uma média de fabricação de 7200 esfihas. Levando em consideração a duração dos turnos já descrito e um tempo médio de produção por unidade de aproximadamente um minuto e dez segundos(0,019h).
+
+\begin{figure}[H] \centering \label{figura2}
+\caption{Tabela com quantidade de ingredientes utilizados, disponíveis e a possível demanda e preço}
+\includegraphics[scale=0.46]{imagens_suporte/iamgem.png}
+\legend{Fonte: Própria}
+\end{figure}
+ 
+	Foi realizado um levantado dos custos de acordo com preços médios dos produtos e a quantidade de ingredientes utilizados em cada esfiha - como mostrado a seguir - e, a partir do preço de venda, foi calculada uma margem de contribuição unitária, que posteriormente foi utilizada para gerar os coeficientes do problema de maximização.\\
+\\
+Exemplo: Custos (esfiha de carne)\\
+\\
+1unid. de massa \dotfill R\$ 0,50\\
+10g de carne \dotfill R\$ 0,40\\
+4g de tomate \dotfill R\$ 0,05\\
+1g de cebola \dotfill R\$ 0,05\\
+\\
+CUSTO TOTAL \dotfill R\$ 1,00\\
+PREÇO FINAL \dotfill R\$ 3,50\\
+\\
+LUCRO \dotfill R\$ 1,50
+
+Esse modelo foi aplicado em todos os tipos de esfihas produzidas com valores aproximados de gramaturas e preços médios dos ingredientes.
+
+\chapter{Modelagem}
+
+	Com a primeira etapa de definição de variáveis concluída e todas as restrições encontradas, foram elaboradas a equação de maximização (\ref{eq1}) e as inequações de restrições:
+
+\begin{equation} \label{eq1}
+Máx (Z) = 1,5x_1 + 1,5x_2 + 1x_3 + 2x_4 + 1,5x_5 + 1,5x_6 + 1,5x_7
+\end{equation}
+
+\textbf{Restrições:}
+	
+\begin{itemize}
+\item Restrição de quantidade de massas disponíveis:
+\end{itemize}
+\begin{equation}
+x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7 \leq 7200
+\end{equation}
+
+\begin{itemize}
+\item Restrição de tempo disponível(em horas):
+\end{itemize}
+\begin{equation}
+0,019*(x_1 + x_2 + x_3 + x_4 + x_5 + x_6 + x_7) \leq 132
+\end{equation}
+
+\begin{itemize}
+\item Restrição de ingredientes(em gramas):
+\end{itemize}
+\begin{eqnarray}
+Carne \to & 10x_1 + 10x_5 & \leq 30000\\
+Tomate \to &  4x_1 & \leq 8000\\
+Cebola \to & 1x_1 + 1x_2 + 1x_3 & \leq 4000\\
+Frango-desfiado \to & 10x_2 + 10x_6 & \leq 25000\\
+Calabresa-picada \to & 10x_3 + 10x_7 & \leq 16000\\
+Mussarela \to & 5x_4 + 5x_5 + 5x_7 & \leq 10000 \\
+Parmesão \to & 5x_4 & \leq 2500\\
+Provolone \to & 5x_4 & \leq 2500\\
+Catupiry \to & 5x_4 + 5x_6 & \leq 9000
+\end{eqnarray}
+
+\begin{itemize}
+\item Restrição de não-negatividade:
+\end{itemize}
+\begin{equation}
+x_1 ; x_2 ; x_3 ; x_4 ; x_5 ; x_6 ; x_7 \geq 0
+\end{equation}
+
+\part{Resultados}
+
+\chapter{Resultados Obtidos}
+
+A partir da utilização do método Simplex integrado no software do Excel por meio do "Solver", obteve-se o seguinte resultado mostrado pela figura 3. 
+
+\begin{figure}[htb] \centering \label{figura3}
+\caption{Planilha utilizada para utilização do "Solver" no Excel e resultados obtidos}
+\includegraphics[scale=0.47]{imagens_suporte/results.png} 
+\legend{Fonte: Própria}
+\end{figure}
+
+Devem ser produzidos 2000 unidades de esfihas de carne, 1553 unidades de esfihas de frango, 447 esfihas de calabresa, 500 esfihas de 4 queijos, 1000 esfihas de carne com queijo, 947 esfihas de frango com catupiry e 500 esfihas de calabresa com queijo para que o lucro da empresa seja máximo durante 1 mês.
+
+O lucro máximo da esfiharia em questão seria de R\$  10.447,37 com uma venda mensal de 6947 esfihas. Durante esse período seriam utilizadas todas as horas disponíveis para preparo das esfihas e a totalidade de quase todos os ingredientes em estoque, com exceção de "calabresa picada" e "catupiry".
+
+
+
+\chapter{Conclusão}
+
+Com a análise foi visto que a margem de contribuição dos produtos não é alta, o que pode causar certo prejuízo dependendo da quantidade de vendas realizadas no mês. Como foi definido no início da problematização uma quantidade de massa para produção de 7200 esfihas e um total de 132 horas de trabalho há certo interesse em aumentar essa produção e com isso também o marketing da empresa deve acompanhar para conseguirem resultados mais seguros. 
+
+Além disso, foi verificado um grande estoque do ingrediente "calabresa picada" que não se utilizaria caso fossem produzidas as esfihas de acordo com a solução ótima encontrada.
+
+A análise da pesquisa operacional, feita no estabelecimento por meio da programação linear, amplia a visão do empresário fazendo com que ele possa melhorar a competitividade de sua empresa e maximizar os lucros. A esfiharia em questão não consegue controlar a própria demanda por ser uma produção de cunho puxado, ou seja, são realizadas as vendas de cada tipo de esfiha conforme a vontade de cada cliente. No entanto, a partir dessa análise foi possível verificar a viabilidade de todos os produtos e também quais seriam os tipos de esfiha priorizados mesmo com ingredientes comuns entre elas.
+
+Portanto, a programação linear é extremamente efetiva em análises empresariais, mostrando a solução ótima do problema levantado, podendo ser ele de produção, custeio, ou até mesmo o máximo de pessoas que podem ser impactadas com uma ou outra campanha de marketing.
+
+
+\bibliography{referencias}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}

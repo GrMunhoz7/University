@@ -1,0 +1,13 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Introdução}{3}{section.0.1}%
+\contentsline {section}{\numberline {0.2}Revisão de Literatura}{4}{section.0.2}%
+\contentsline {section}{\numberline {0.3}Metodologia}{5}{section.0.3}%
+\contentsline {section}{\numberline {0.4}Desenvolvimento}{6}{section.0.4}%
+\contentsline {subsection}{\numberline {0.4.1}Tempo médio e confiabilidade}{7}{subsection.0.4.1}%
+\contentsline {subsection}{\numberline {0.4.2}Tempo normal e padrão}{8}{subsection.0.4.2}%
+\contentsline {subsection}{\numberline {0.4.3}Lead time, tempo de ciclo e takt time}{9}{subsection.0.4.3}%
+\contentsline {subsection}{\numberline {0.4.4}Capacidade}{10}{subsection.0.4.4}%
+\contentsline {section}{\numberline {0.5}Conclusão}{11}{section.0.5}%

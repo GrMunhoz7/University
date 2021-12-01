@@ -1,0 +1,101 @@
+#*
+Model para Avaliacao 1
+Grupo 2 	- 	Gabriel Rodrigues Munhoz
+	 			-	Joao Vitor Batistao
+ *#
+
+using "types";
+ 
+Model Tanque
+
+	PARAMETERS
+	A 					as area;
+	Q 					as heat_rate;
+	Cp 					as cp_mass;
+	rho 					as dens_mass;
+	
+	VARIABLES
+	l 					as length;
+	x_a1			as fraction;
+	x_b1			as fraction;
+	T1				as temperature;
+	V1				as flow_vol;
+	x_a2			as fraction;
+	x_b2			as fraction;
+	T2				as temperature;
+	V2				as flow_vol;
+	x_a				as fraction;
+	x_b				as fraction;
+	T					as temperature;
+	V					as flow_vol;
+	
+	EQUATIONS
+	"Balanco de massa global"
+	diff(l) * A = V1 + V2 - V;
+
+	"Balanco de massa para componente A"
+	diff(x_a) * A * l = V1 * (x_a1 - x_a) + V2 * (x_a2 - x_a);
+	
+	"Balanco de massa para componente B"
+	diff(x_b) * A * l = V1 * (x_b1 - x_b) + V2 * (x_b2 - x_b);
+
+	"Balanco de energia para o tanque"
+	diff(T) * rho * Cp * A * l = (rho * Cp * V1) * (T1 - T) + (rho * Cp * V2) * (T2 - T) + Q;
+
+end
+
+FlowSheet Avaliacao
+
+	DEVICES
+	tanque 			as Tanque;
+	
+	SET
+	tanque.A = 5.983 * 'm^2';
+	tanque.Q = 100000 * 'kW';
+	tanque.rho = 1000 * 'kg/m^3';
+	tanque.Cp = 4.18 * 'kJ/(kg*K)';
+	
+	SPECIFY
+	tanque.T1 = 323 * 'K';
+	tanque.T2 = 293 * 'K';
+	tanque.x_a1 = 0.4;
+	tanque.x_b1 = 0.6;
+	tanque.x_a2 = 1.0;
+	tanque.x_b2 = 0.0;
+	tanque.V = 0.3 * ((tanque.l)^(0.5)) * 'm^3/s';
+	# 1080 m^3/h
+	tanque.V1 = 0.3 * 'm^3/s';
+	# 540 m^3/h
+	tanque.V2 = 0.15 * 'm^3/s';
+	
+	INITIAL
+	tanque.T = 293 * 'K';
+	tanque.l = 2.0 * 'm';
+	tanque.x_a = 1.0;
+	tanque.x_b = 0.0;
+	
+	OPTIONS
+	TimeStep = 1;
+	TimeEnd = 300;
+	TimeUnit = 's';
+
+end
+
+Optimization OtimizacaoDoXb as Avaliacao
+	
+	MAXIMIZE
+	tanque.x_b;
+
+	FREE
+	tanque.V1;	
+	
+	EQUATIONS
+	tanque.l <= 4 * 'm';
+	tanque.l >= 1 * 'm';
+	tanque.T <= 343 * 'K';
+	tanque.T >= 293 * 'K';
+	
+	OPTIONS
+	Dynamic = false;
+	
+end

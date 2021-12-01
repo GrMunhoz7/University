@@ -1,0 +1,12 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{section.0.1}
+\contentsline {section}{\numberline {0.2}Descri\IeC {\c c}\IeC {\~a}o das linhas de produ\IeC {\c c}\IeC {\~a}o}{4}{section.0.2}
+\contentsline {section}{\numberline {0.3}Resultados}{5}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Tempo m\IeC {\'e}dio e confiabilidade}{6}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Tempo normal e padr\IeC {\~a}o}{7}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {0.3.3}Lead time, tempo de ciclo e takt time}{8}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {0.3.4}Capacidade}{9}{subsection.0.3.4}
+\contentsline {section}{\numberline {0.4}Conclus\IeC {\~a}o}{10}{section.0.4}

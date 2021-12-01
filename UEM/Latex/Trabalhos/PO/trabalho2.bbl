@@ -1,0 +1,48 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Almeida 2000]{dealmeida}
+\abntrefinfo{Almeida}{ALMEIDA}{2000}
+{ALMEIDA, A.~T. de. \emph{Processo de decis{\~a}o nas organiza{\c{c}}{\~o}es:
+  construindo modelos de decis{\~a}o multicrit{\'e}rio}. [S.l.]: Editora Atlas
+  SA, 2000.}
+
+\bibitem[Hillier e Lieberman 2013]{hillier2013introduccao}
+\abntrefinfo{Hillier e Lieberman}{HILLIER; LIEBERMAN}{2013}
+{HILLIER, F.~S.; LIEBERMAN, G.~J. \emph{Introdu{\c{c}}{\~a}o {\`a} pesquisa
+  operacional}. [S.l.]: McGraw Hill Brasil, 2013.}
+
+\bibitem[Nogueira 2009]{teoriadosjogos}
+\abntrefinfo{Nogueira}{NOGUEIRA}{2009}
+{NOGUEIRA, F. \emph{Modelagem e Simulação - Teoria dos Jogos}. 2009.
+Dispon{\'\i}vel em: \url{https://www.ufjf.br/epd042/files/2009/02/jogos.pdf}.}
+
+\bibitem[Ragsdale 2014]{modelagem}
+\abntrefinfo{Ragsdale}{RAGSDALE}{2014}
+{RAGSDALE, C. Modelagem de planilha e an{\'a}lise de decis{\~a}o: uma
+  introdu{\c{c}}{\~a}o pr{\'a}tica a business analytics.
+\emph{S{\~a}o Paulo: Cengage Learning}, 2014.}
+
+\bibitem[RODRIGUEZ 2017]{tcc}
+\abntrefinfo{RODRIGUEZ}{RODRIGUEZ}{2017}
+{RODRIGUEZ, J. M.~M.
+\emph{Modelo de decis{\~a}o multicrit{\'e}rio para sele{\c{c}}{\~a}o de
+  fornecedores de equipamentos laboratoriais para pesquisa agropecu{\'a}ria}.
+Disserta\c{c}\~{a}o (Mestrado) --- Universidade Federal de Pernambuco, 2017.}
+
+\bibitem[Taylor et al. 2002]{introduction}
+\abntrefinfo{Taylor et al.}{TAYLOR et al.}{2002}
+{TAYLOR, B.~W. et al. \emph{Introduction to management science}. [S.l.]:
+  Prentice Hall, 2002.}
+
+\bibitem[Valkenhoef e Tervonen 2016]{van}
+\abntrefinfo{Valkenhoef e Tervonen}{VALKENHOEF; TERVONEN}{2016}
+{VALKENHOEF, G. van; TERVONEN, T. Entropy-optimal weight constraint elicitation
+  with additive multi-attribute utility models.
+\emph{Omega}, Elsevier, v.~64, p. 1--12, 2016.}
+
+\end{thebibliography}

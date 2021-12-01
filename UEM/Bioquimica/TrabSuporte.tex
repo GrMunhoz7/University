@@ -1,0 +1,228 @@
+\documentclass[
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+%\usepackage{float}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{lipsum}				% para geração de dummy text
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+\titulo{Comparação de suportes para a enzima Tripsina}
+\autor{Aurélio Bettoni da Silva 107069\\Gabriel R. Munhoz 106802\\João Vítor Batistão 108074}
+\local{Maringá, PR}
+\data{31.10.2021}
+\orientador{}
+\coorientador{}
+\instituicao{%
+  Universidade Estadual de Maringá - UEM
+  \par
+  Departamento de Engenharia de Produção - DEP}
+\tipotrabalho{Tese (Doutorado)}
+\preambulo{}
+
+\definecolor{blue}{RGB}{41,5,195}
+
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+
+\setlength{\parindent}{1.3cm}
+
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+\makeindex
+
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Comparação de suportes na enzima Tripsina}
+\rhead{\thepage}
+
+\AddToShipoutPicture{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+{\transparent{0.1}\includegraphics[scale=1.4]{../../University/Pictures/logoUEM.jpg}    }%
+\vfill}}}
+
+%\graphicspath{{../Pictures}}
+\begin{document}
+
+\begin{minipage}[c][0cm][c]{0cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{../../University/Pictures/uem-modelo-04.png} 
+\end{minipage}
+
+\selectlanguage{brazil}
+
+\frenchspacing 
+
+% \pretextual
+
+\imprimircapa
+
+
+% ---
+% RESUMOS
+% ---
+
+%\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+%\begin{resumo}
+ 
+ 
+% \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+%\end{resumo}
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\section{Introdução}
+\pagestyle{fancy}
+
+As enzimas são proteínas que atuam em diversas reações como catalisadores químicos. Assim, a utilização de enzimas tanto na indústria como até mesmo em corpos orgânicos traz diversos benefícios como a diminuição do tempo de reação e menor custo energético. \cite{nelson2002leninger}
+
+Com o avanço da tecnologia e a capacidade de analisar melhor esses polímeros biológicos verificou-se a existência de imobilização natural das enzimas por meio de interações eletrostáticas. Ou seja, um confinamento físico das enzimas permitindo um aumento da produtividade devido ao aumento da concentração das enzimas. \cite{covizzi2007imobilizaccao}
+
+Após a descoberta dessa imobilização natural foi iniciado o desenvolvimento de imobilizadores artificiais que utilizam de ligações covalentes para encapsular as enzimas e assim conseguir o mesmo efeito das imobilizações naturais. Segundo Cardoso, Moraes e Cass (2009) esse processo de desenvolvimento teve um grande avanço a partir da década de 70, impulsionando assim a utilização de enzimas imobilizadas. \cite{cardoso2009imobilizaccao}
+
+Uma das enzimas que é muito utilizada em sua forma imobilizada é a Tripsina que em sua forma inativa é chamada de tripsinogênio e que tem entre suas principais funções a catálise da hidrólise em regiões C-terminais dos resíduos de lisina e arginina assim como a hidrólise das ligações de éster e amida de alguns substratos sintéticos. \cite{furlani2020imobilizaccao}
+
+Na indústria essa utilização de imobilizadores gerou uma grande mudança, já que com a utilização de enzimas e células imobilizadas os custos diminuíram pois, para se obter os mesmo resultados se tornou necessário uma menor quantidade de insumos e reatores com volumes fixos acabaram tendo um aumento de produtividade.
+
+\newpage
+\section{Revisão Bibliográfica}
+\pagestyle{fancy}
+
+A imobilização como já descrita é a utilização de um suporte para confinar enzimas ou outros elementos biológicos em um espaço confinado. Essa imobilização pode ser natural ou artificial, sendo formada por interações eletrostáticas ou ligações covalentes.
+
+O artigo selecionado para estudo sobre a comparação de suportes é um estudo sobre a enzima Tripsina, uma proteína muito utilizada para digestão de proteínas para estudo do middle-down, uma abordagem de estudo para análises proteômicas.
+
+Assim, para se obter o menor custo e maior produtividade e assertividade ao realizar essa digestão protéica é necessário imobilizar a Tripsina, o estudo em questão de Furlani, Amaral, Oliveira e Cass traz um comparativo de diversos suportes para a Tripsina. Por meio dessa comparação é possível analisar quais são as melhores combinações de suporte para a Tripsina nas condições definidas, para assim obter a melhor produtividade com o menor custo.
+
+O artigo realiza uma análise dos resultados obtidos de 4 outros textos sobre a diferentes suportes e ou formatos de suportes para a tripsina com aplicação em proteólise, são eles:
+
+\begin{enumerate}
+
+\item Bao, H.; Zhang, L.; Chen, G.; J. Chromatogr. A 2013, 1310, 74.
+\item Ge, H.; Bao, H.; Zhang, L.; Chen, G.; Anal. Chim. Acta 2014, 845, 77.
+\item Cao, Y.; Wen, L.; Svec, F.; Tan, T.; Lv, Y.; Chem. Eng. J. 2016, 286, 272.
+\item Naldi, M.; Cernigoj, U.; Strancar, A.; Bartolini, M.; Talanta 2017, 167, 143.
+
+\end{enumerate}
+
+O primeiro realiza um estudo do suporte quitosana na superfície de mini lâmpadas incandescentes, enquanto o segundo se utilizou de óxido de grafeno para preparar um revestimento biocompatível nos canais de microchips de polimetilmetacrilato através de uma solução sol-gel para imobilização covalente da tripsina.
+
+O terceiro artigo traz nanopartículas magnéticas de $Fe_{3}O_{4}$ como suportes para a tripsina, uma delas revestida com ouro e a outra com cobre ($Cu^{2+}$). Por fim, o último artigo utiliza uma coluna preenchida com monolito à base de sílica (tryp-IMER).
+
+Cada um traz resultados diferentes, pois parte de um ponto de vista único. E essa análise traz consigo um conteúdo muito rico para auxiliar na escolha de um suporte para a tripsina. Para facilitar a visualização dos resultados de todos os artigos e ter um padrão no momento de comparação e análise foram escolhidos apenas suportes desses artigos que possuíssem uma superfície de contato adequada, porosidade adequada, não ser um suportes solúvel, estabilidade mecânica e rigidez, alta afinidade com a proteína, possibilidade de reuso, disponibilidade de grupos funcionais reativos e principalmente baixa toxicidade e baixo custo. 
+
+\newpage
+\section{Análise e Resultados}
+\pagestyle{fancy}
+
+Por meio da coleta das informações de cada artigo foi possível realizar um compilado de todos os suportes na tabela \ref{Levantamento das principais estratgias de imobilizao da tripsina utilizadas em abordagens protemicas}. \cite{furlani2020imobilizaccao}
+
+\begin{table}[!h]
+\centering
+\caption{Levantamento das principais estratgias de imobilizao da tripsina utilizadas em abordagens protemicas}
+\label{Levantamento das principais estratgias de imobilizao da tripsina utilizadas em abordagens protemicas}
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|ll|l|l|}
+\hline
+\multirow{2}{*}{\textbf{Suporte}} & \multirow{2}{*}{\textbf{Técnica de imobilização}} & \multicolumn{2}{l|}{\textbf{Tempo de digestão}} & \multirow{2}{*}{\textbf{Proteína avaliada}} & \multirow{2}{*}{\textbf{Cobertura sequencial}} \\ \cline{3-4}
+ &  & \multicolumn{1}{l|}{\textbf{Sol.}} & \textbf{Imob.} &  &  \\ \hline
+Nanofolhas de MoS2 & Covalente & \multicolumn{1}{l|}{12 h} & 5 min & BSAa & 84\% \\ \hline
+Óxido de Grafeno & Covalente & \multicolumn{1}{l|}{12 h} & 1 min & BSAa & 83\% \\ \hline
+Nanopartículas de Fe3O4 modificada com taninos & Covalente & \multicolumn{1}{l|}{18 h} & 1 min & BSAa & 84\% \\ \hline
+Grafeno magnético revestido com glutaraldeído & Covalente & \multicolumn{1}{l|}{12 h} & 2 min & BSAa, Cyt cb e MYOc & 87\%, 87\% e 95\% \\ \hline
+Sílica revestida com glicidil metacrilato (GMA) & Covalente & \multicolumn{1}{l|}{12 h} & 1 min & BSAa & 92\% \\ \hline
+Grafeno magnético revestido com polidopamina & Covalente & \multicolumn{1}{l|}{16 h} & 10 min & Cyt cb e MYOc & 62\% e 83\% \\ \hline
+Partículas magnéticas funcionalizadas com NHSj e EDCk & Covalente & \multicolumn{1}{l|}{4 h} & 2 min & Proteínas de E. coli & 64\% \\ \hline
+Partículas magnéticas revestidas com NHSj e EDCk & Covalente & \multicolumn{1}{l|}{12 h} & 1 min & BSAa & 90\% \\ \hline
+Capilar preenchido com monolito de polímero (GMA)l & Covalente & \multicolumn{1}{l|}{15 h} & 25 min & HSAg, $\beta$-caseina , RNase Bh & 78,2\%, 49,7\% e 80,6\% \\ \hline
+Fibra de vidro recoberta com óxido de grafeno e quitosana & Adsorção iônica & \multicolumn{1}{l|}{12 h} & 10 s & BSAa, MYOc, Cyt cb e Hbd & 49\%, 78\%, 70\% e 71\% \\ \hline
+Capilar preenchido com monolito de polímero (GMAl-co-AAmm-co-MBAn) & Adsorção física & \multicolumn{1}{l|}{24 h} & 50 s & BSAa & 47\% \\ \hline
+\begin{tabular}[c]{@{}l@{}}Coluna preenchido com monolito de polímero\\ (GMAl e EDMAo)\end{tabular} & Covalente & \multicolumn{1}{l|}{24 h} & 88 s & MYOc & - \\ \hline
+Capilar com monolito de sílica & Covalente (quelação entre espaçador-Cu2+-enzima) & \multicolumn{1}{l|}{12 h} & 50 s & BSAa e MYOc & 26\% e 91\% \\ \hline
+\begin{tabular}[c]{@{}l@{}}Ponteira (in-tip) preenchida com monolito de\\ polímero (GMAl e DVBp)\end{tabular} & Adsorção & \multicolumn{1}{l|}{12 h} & 2 min & BSAa, MYOc e a-caseina & 78\%, 89\% e 83\% \\ \hline
+Capilar preenchido com monolito de sílica & Covalente & \multicolumn{1}{l|}{5 h} & 3,5 min & MYOc e BSAa & 90\% e 34\% \\ \hline
+Nanofibras de polímero (PSq e PSMAr) & Ligação cruzada & \multicolumn{1}{l|}{16 h} & 6 h & BSAa & 34\% \\ \hline
+Microesferas de sílica & Covalente & \multicolumn{1}{l|}{12 h} & 5 min & BSAa e Cyt cb & 54\% e 83\% \\ \hline
+Minidisco de monolito de polímero (EDAs) & Covalente & \multicolumn{1}{l|}{24 h} & 10 min & Cyt cb, MYOc, AGPi, OVAe e BSAa & 63\%, 99\%, 45\%, 50\% e 73\% \\ \hline
+Fibra de vidro revestida com sílica & Covalente & \multicolumn{1}{l|}{12 h} & 10 s & BSAa e Cyt cb & 45\% e 77\% \\ \hline
+Fibra de vidro revestida com quitosana & Adsorção iônica & \multicolumn{1}{l|}{12 h} & 5 s & BSAa e LIZe & 40\% e 64\% \\ \hline
+Microesferas de sílica & Covalente & \multicolumn{1}{l|}{-} & 15 s & BSAa e MYOc & 24\% e 80\% \\ \hline
+Nanotubo de Fe3O4 & Ligação Cruzada & \multicolumn{1}{l|}{12 h} & 5 min & BSAa, MYOc e LIZe & 46\%, 81\% e 63\% \\ \hline
+Nanopartículas magnéticas revestidas com amina & Covalente & \multicolumn{1}{l|}{12 h} & 15 s & BSAa, MYOc e Cyt cb & 38\%, 80\% e 76\% \\ \hline
+Microesferas de Fe3O4 & Covalente & \multicolumn{1}{l|}{12 h} & 15 s & Cyt cb & 76\% \\ \hline
+Nanopartículas de Fe3O4 & Covalente & \multicolumn{1}{l|}{12 h} & 10 s & BSAa, Cyt cb e MYOc & 43\%, 83\% e 79\% \\ \hline
+\end{tabular}%
+}
+\end{table}
+
+Ge e colaboradores conseguiram diminuir o tempo de reação de 12h para apenas 5 minutos, o método também consguiu atingir coberturas sequenciais entre 91$\%$ e 52$\%$. Segundo Furlani et al. o método realizado foi simples, eficiente e de baixo custo.
+
+Enquanto Bao e seus colaboradores com sua abordagem atingiram um excelente ambiente enzimático sem autólise e desnaturação das enzimas. Além disso conseguiram ótimas coberturas sequenciais de 95$\%$, 76$\%$, 69$\%$ e 55$\%$ com uma minimação do consumo de reagentes por meio da diminuição do tempo de digestão.
+
+Segundo Sun, o suporte ideal para digestão deve ser hidrofílico e neutro. No experimento realizado por ele e seus colaboradores a digestão da mioglobina foi realizada em apenas 15 minutos com cobertura sequencial de 68,8$\%$ com o revestimento de $Cu^{2+}$, enquanto o revestimento de ouro obteve uma cobertura muito maior de 93,8$\%$.
+
+Por úlltimo o uso da coluna de monolito à base de sílica proporcionou um tempo de digestão de 90 segundos, porém com coberturas baixas, entre 37,5$\%$ e 24,0$\%$. O biorreator contudo, ainda é eficiente segundo Naldi, pois esse ponto negativo relacionado à cobertura sequencial é compensada pelo baixo custo de preparo do mesmo.
+
+\newpage
+\section{Conclusão}
+\pagestyle{fancy}
+
+Portanto, é inquestionável o menor tempo de digestão quando utilizada a tripsina com suportes adequados, eles possibilitam esse menor tempo de ingestão, maior número de peptídeos alcançados e baixos valores de clivagens perdidas. Nesse caso da Tripsina é difícil mensurar quais foram os suportes mais eficientes, já que alguns mesmo possuindo grande cobertura sequencial não conseguiram diminuir tanto o tempo de reação e vice-versa. Assim, é necessário analisar o processo que irá ser realizado e verificar entre os suportes que tiveram melhores tempos quais são aqueles que entram no orçamento e são mais fáceis de serem adquiridos e manuseados. Sempre é necessário alencar que um processo para ser eficiente, deve ser simples e produzir o máximo possível com menor custo. 
+
+Segundo Furlani et al. a automação deve melhorar ainda mais esse processo de escolha dos suportes pois proporcionará uma maior reprodutibilidade dos processos de digestão e um controle melhor de todo o ciclo. Assim é interessante concluir que esses experimentos para escolha de suportes e imobilizadores são essenciais para continuar aumentando a eficiência de processos e diminuindo os seus custos, pois sempre é possível testar algo novo, sendo um novo suporte ou algum modo novo de preparar ou organizar esse suporte com a enzima. Espera-se que novos suportes sejam desenvolvidos e que sejam ainda mais compatíveis com as enzimas e células alvo.
+
+\newpage
+\postextual
+
+\bibliography{referencia}
+
+\end{document}

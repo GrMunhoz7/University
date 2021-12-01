@@ -1,0 +1,311 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{pslatex}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+%\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Oficina\\Trabalho sobre Ajustagem Mecânica}
+\autor{Profº Drº Miguel Ângelo Menezes\\Gabriel Rodrigues Munhoz\\RA 162053541}
+\local{Ilha Solteira, São Paulo}
+\data{Novembro de 2016}
+\instituicao{%
+  Universidade Estadual Paulista  - Unesp
+  \par
+  Faculdade de Engenharia de Ilha Solteira  - FEIS}
+\tipotrabalho{Trabalho científico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Principais processes e instrumentos que são utilizados durante o processo de ajustagem de uma peça.}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Trabalho sobre Ajustagem Mecânica}
+\rhead{\thepage}
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=2]{../../../../Pictures/SA03x.jpg} }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\includegraphics[scale=0.6]{../../../../Pictures/barraunesp-assvisual.png}
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+%\pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\newpage
+
+\section[Introdução]{Introdução}
+\pagestyle{fancy}
+
+O processo de ajustagem é composto de várias atividades e diversos tipos de instrumentos. Dividimos os principais instrumentos em 7 grupos, são eles: medidores, traçadores, comparadores, dispositivos de sujeição, ferramentas manuais, parafusos e roscas, e niveladores. Todos possuem funções específicas e geralmente podem ser encontrados em quase todas as oficinas, exceto alguns que são de uso muito específico. 
+
+\section[Ajustagem de Modo Geral]{Ajustagem de Modo Geral}
+
+A ajustagem mecânica compõe um ramo da engenharia em que zelam, o processo de verificação, medida, traçagem além do próprio processo de usinagem para formação de uma peça com forma definida.	
+
+Existem inúmeros tipos de ferramentas utilizadas durante o trabalho de ajustagem e usinagem de uma peça, as principais se encontram entre os seguintes grupos: 
+
+\begin{center}
+•	Medição e verificação;\\
+•	Traçagem e auxiliares;\\
+•	Controle e comparadores;\\
+•	Dispositivos de sujeição;\\
+•	Ferramentas manuais;\\
+•	Parafusos e roscas;\\
+•	Ajustagem manual.
+\end{center}
+\subsection{Medição e verificação}
+
+Para descobrimos as dimensões de uma determinada peça nós a comparamos com instrumentos de medida, que podem possuir diferentes tipos de unidade e de precisão. Os resultados do processo de medição podem ser diretos ou não, se acaso o instrumento já der a medida assim que utilizado essa medição ocorreu de forma direta, porém, no caso de precisarmos de um instrumento que transfira a medida para outro instrumento, essa medida é chamada de indireta.
+
+Os instrumentos desses processos podem ser divididos em 2 grupos de acordo com a presença ou ausência de graduação. Os primeiros são os de medição direta, nesse grupo se encontram: régua, paquímetro, micrômetro, transferidor, entre outros. Dentro do segundo grupo, chamado de medição indireta, temos principalmente os compassos de articulação central para medidas internas e externas.
+
+\subsection{Traçagem e auxiliares}
+
+A traçagem gira em torno de transferir medidas e localizações para a peça, para que possamos realizar as operações seguindo esses riscos e mantendo a precisão do projeto. É considerado um trabalho lento e por decorrência disso acaba sendo muito caro. Porém, indústrias que produzem muitas peças para baratear esse processo criam bases prontas, a chamada traçagem plana ou bidimensional, e caso a peça necessite de traçagem em profundidade também pode ser utilizada a chamada traçagem no espaço ou tridimensional.
+
+As ferramentas para traçagem giram em torno principalmente de: riscador, réguas de traçagem, esquadros, compassos, cintel e cantoneiras; e existem outros instrumentos que auxiliam no processo como: níveis, mesas de traçagem e lupas ou lentes.
+
+\subsection{Controle e comparadores}
+
+Processo utilizado principalmente quando a fabricação ocorre em grande escala e com isso o número de falhas é maior. O controle baseia-se em simplesmente saber se a peça se enquadra dentro da tolerância de tal produto. São apenas notados erros mais discrepantes e é tolerado uma porcentagem de desvio, ou seja, um valor máximo e mínimo para cada medida da peça.
+
+Nessa parte da ajustagem se encontram os instrumentos: calibres fixos ou ajustáveis, comparadores mecânicos, pneumáticos, óticos ou até mesmo elétricos. Existem inúmeros tipos de calibres e cada um está de acordo com uma certa utilização específica. Podemos listar os que servem para comparar dimensões internas, externas e também os que fazem a tolerância, ou seja, a verificação do tamanho máximo e mínimo de tal peça.
+
+\subsection{Dispositivos de sujeição}
+
+Em tese, são os instrumentos que servem para sustentação e base no manuseio de outros instrumentos. São considerados fixadores e sua principal função é de manter a peça presa durante o trabalho realizado.
+
+Já os dispositivos de sujeição são compostos de: morsa, torno de mão, grampos, blocos em V com grampo e placas.
+
+\subsection{Ferramentas manuais}
+
+São as mais fáceis de se encontrar fora de oficinas, pois boa parte são utilizadas em trabalhos do cotidiano. Porém, mesmo sendo conhecidas não são poucas. Em síntese, esses instrumentos são utilizados em qualquer trabalho feito dentro da oficina, pois, o acabamento de uma peça muitas vezes é realizado manualmente e com isso esses instrumentos são necessários pois resultam em trabalhos demorados, que modificam pouco a peça e com isso dão um acabamento melhor.
+
+As ferramentas manuais mais utilizadas em oficinas e indispensáveis em qualquer trabalho nesses lugares são: martelo, talhadeira, punção, serra, limas, raspadores, alicates, chaves, brocas e outros instrumentos.
+
+\subsection{Parafusos e roscas}
+
+Esses são elementos fundamentais em processos mecânicos, pois transformam o movimento circular a favor de referencial, fazendo com que fixe melhor as peças, ou até transfira movimento de uma peça a outra, como no caso da rosca.
+
+Parafusos são peças compostas por roscas, e estas são resumidamente peças cilíndricas com cortes helicoidais que ao serem rotacionadas se deslocam para dentro ou fora de um certo furo ou tubo com outra rosca interna. Existem inúmeros tipos de parafusos e roscas, mas as principais são divididas quanto ao tipo de filete e ao tamanho do diâmetro. Os filetes podem ser: triangulares, trapezoidais, quadradas ou arredondadas. E quanto ao tamanho podemos separar em dois grandes grupos, as roscas e parafusos métricos, e as mesmas do tipo whitworth. A primeira é medida em milímetro e foi criada no Brasil, enquanto a segunda é dos EUA e é medida em polegadas.
+
+\subsection{Ajustagem manual}
+
+Durante esse processo para verificarmos se a superfície está plana ou não utilizamos réguas e desempenos. E esses instrumentos nada mais são do que comparadores, pois possuem alguma face reta e com isso podemos notar se uma certa peça está nivelada ou não. Essa verificação deve ocorrer em toda a superfície do material e, portanto, é considerada uma etapa lenta, já que exige bastante atenção. A precisão dos desempenos é maior, pois abrange uma área maior e com isso consegue saber se está tudo nivelado ao mesmo tempo, com isso a ocorrência de erros diminui.
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+% \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+  %\item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+  %\item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+\section[Conclusão]{Conclusão}
+\pagestyle{fancy}
+Portanto, podemos notar o quanto é importante e necessária a parte de ajustagem mecânica no ramo de Materias e Processos de Fabricação. O processo de ajustagem engloba apenas uma parte das atividades desse todo, porém é considerada a base para qualquer projeto, já que sempre haverá processos de medição e de comparação para verificação de falhas, além da ocorrência de pequenas falhas que podem somente ser corrigidas manualmente. Por consequência disso, os instrumentos caracterizados como sendo do processo de ajustagem existem em qualquer oficina, podendo ocorrer ausências devido a especificação de cada ferramenta e as peças feitas em determinada oficina. 
+\newpage
+\section[Referências Bibliográficas]{Referências Bibliográficas}
+\pagestyle{fancy}
+
+\textbf{1-} Tecnologia Mecânica, Instrumentos de Trabalho na Bancada  - J. M. Freire
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+\end{document}

@@ -1,0 +1,37 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Ehrlich 1991]{ehrlich1991}
+\abntrefinfo{Ehrlich}{EHRLICH}{1991}
+{EHRLICH, P.~J. \emph{Pesquisa operacional: curso introdut{\'o}rio}. [S.l.]:
+  Atlas, 1991.}
+
+\bibitem[Hillier e Lieberman 2013]{hillier2013introduccao}
+\abntrefinfo{Hillier e Lieberman}{HILLIER; LIEBERMAN}{2013}
+{HILLIER, F.~S.; LIEBERMAN, G.~J. \emph{Introdu{\c{c}}{\~a}o {\`a} pesquisa
+  operacional}. [S.l.]: McGraw Hill Brasil, 2013.}
+
+\bibitem[MILHOMEM et al. 2015]{milhomem2015utilizaccao}
+\abntrefinfo{MILHOMEM et al.}{MILHOMEM et al.}{2015}
+{MILHOMEM, D.~A. et al. Utiliza{\c{c}}{\~a}o da programa{\c{c}}{\~a}o linear e
+  do m{\'e}todo simplex para otimiza{\c{c}}{\~a}o da produ{\c{c}}{\~a}o de
+  p{\~a}es em uma empresa de panifica{\c{c}}{\~a}o.
+\emph{XXXV Encontro Nacional de Engenharia de Produ{\c{c}}{\~a}o: Perspectivas
+  globais para a engenharia de produ{\c{c}}{\~a}o, Fortaleza}, 2015.}
+
+\bibitem[Moretti]{unicamp}
+\abntrefinfo{Moretti}{MORETTI}{}
+{MORETTI, P. \emph{Programação Linear}.
+Dispon{\'\i}vel em: \url{https://www.ime.unicamp.br/~moretti/ms428/aula9.pdf}.}
+
+\bibitem[O Método Simplex]{unesp}
+\abntrefinfo{O\ldots}{O\ldots}{}
+{O Método Simplex.
+Dispon{\'\i}vel em:
+  \url{http://wwwp.fc.unesp.br/~arbalbo/Iniciacao\_Cientifica/simplex/teoria/3\_simplex.pdf}.}
+
+\end{thebibliography}

@@ -1,0 +1,11 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Introdu\IeC {\c c}\IeC {\~a}o}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Metodologia}{3}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Materiais}{3}{subsection.0.2.1}
+\contentsline {subsection}{\numberline {0.2.2}M\IeC {\'e}todo}{3}{subsection.0.2.2}
+\contentsline {section}{\numberline {0.3}Resultados e Discuss\IeC {\~a}o}{4}{section.0.3}
+\contentsline {section}{\numberline {0.4}Conclus\IeC {\~a}o}{6}{section.0.4}
+\vspace {\cftbeforechapterskip }

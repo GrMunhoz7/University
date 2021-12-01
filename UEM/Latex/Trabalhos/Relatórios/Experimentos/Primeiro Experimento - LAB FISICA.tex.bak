@@ -1,0 +1,449 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{pslatex}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+%\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+\renewcommand{\backref}{}
+% Define os textos da citação
+\renewcommand*{\backrefalt}[4]{
+	\ifcase #1 %
+		Nenhuma citação no texto.%
+	\or
+		Citado na página #2.%
+	\else
+		Citado #1 vezes nas páginas #2.%
+	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Laboratório de Física II\\2º Relatório}
+\autor{Gabriel Rodrigues Munhoz\\RA 162053541}
+\local{Ilha Solteira, São Paulo}
+\data{Abril de 2017}
+\instituicao{%
+  Universidade Estadual Paulista  - Unesp
+  \par
+  Faculdade de Engenharia de Ilha Solteira  - FEIS}
+\tipotrabalho{Relatório técnico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Aplicação da Teoria de Erros e Algarismos Significativos em medições feitas com régua e paquímetro, definindo o instrumento mais preciso.}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+%\makeindex
+% ---
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Relatório sobre 1º Experimento}
+\rhead{\thepage}
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=2]{../../../../Pictures/SA03x.jpg} }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\includegraphics[scale=0.6]{../../../../Pictures/barraunesp-assvisual.png}
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+%\imprimirfolhaderosto*
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\newpage
+
+\section[Objetivo]{Objetivo}
+\pagestyle{fancy}
+Determinar as equações do deslocamento, velocidade e aceleração angular de uma esfera rolante num plano inclinado 
+\newpage
+\section[Resumo]{Resumo}
+\pagestyle{fancy}
+O experimento realizado consistiu em determinar equações do deslocamento, velocidade e aceleração para um corpo que se deslocava em um plano inclinado com atrito. Após realizado todos os cálculos verificamos uma diferença de momento de inércia de 272$\%$ e uma diferença de energia mecânica final e inicial de 45$\%$. Os erros foram colocados como sendo causados principalmente pelo atrito e pela velocidade de reação humana na demarcação do tempo, pois foi se utilizado cronômetro manual.
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+% \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+  %\item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+  %\item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+\section[Introdução Teórica]{Introdução Teórica}
+\pagestyle{fancy}
+\subsection[Rolamento]{Rolamento} 
+Para uma melhor analise do movimento de rotação , tomaremos como exemplo  uma roda de bicicleta.
+Quando uma roda move-se sobre uma pista plana, seu centro de massa desloca-se para frente em um movimente de translação. 
+Considere um roda de raio R, rolando sem deslizar em uma superfície plana. Quando a roda gira um ângulo $\theta$, o ponto de contato do aro com a superfície  horizontal se desloca uma distancia s, tal que:
+
+S= R*$\theta$ (1)
+
+O centro de massa da roda deslocou-se a mesma distância, assim a velocidade do centro de massa (Vcm) pode ser escrita da seguinte forma:
+
+Vcm=ds/dt  (2)
+
+A velocidade angular $\omega$ em torno do centro pode ser representada da seguinte forma:
+
+$\omega$= d$\theta$/dt  (3) 
+
+Assim derivando a equação (1) em função do tempo, e adotando que R é uma constante , temos:
+
+Vcm= $\omega$*R  (4)
+
+\subsection[Energia cinética de rolamento]{Energia cinética de rolamento} 
+Para calcular a energia cinética de roda em movimento , considere um  ponto P na roda. A energia cinética é dada por:
+
+K= 1/2 * Ip $\omega^{2}$  (5)
+
+Onde $\omega$ é o modulo da velocidade angular e Ip é o momento de inercia em relação ao ponto P. Pelo teorema de eixos paralelos temos:
+
+Ip= Icm + M * R$^{2}$  (6)
+
+Na qual M e a massa da roda e Icm o momento de inercia  do centro de massa.
+Para uma esfera, o Icm e representado da seguinte forma:
+
+Icm= (2 * M * R$^{2}$)/5  (7)
+
+Assim a energia cinética  pode ser representada da seguinte forma :
+
+K= (M * Vcm + Icm$\omega^{2}$)/2 (8)
+
+% ----------------------------------------------------------
+% PARTE - preparação da pesquisa
+% ----------------------------------------------------------
+\newpage
+\section[Procedimento Experimental]{Procedimento Experimental}
+\pagestyle{fancy}
+\subsection[Materiais]{Materiais}
+Nesse experimento foi usado os seguinte materiais:
+
+-esfera de aço;
+
+-trilho com marcações;
+
+-trena e régua;
+
+-cronômetro;
+
+-paquímetro;
+
+-balança semi-analitica;
+
+\subsection[Método]{Método} 
+Primeiramente o trilho foi dividido em oito partes iguais, cada uma com 10 cm de comprimento. O trilho foi colocado em uma posição inclinada, apoiada em um suporte de madeira e medimos a altura da barra e a distância do suporte de madeira até o fim da barra, e obtivemos o valores de 10 cm e 89,2cm ,respecrivamente. 
+
+Com isso, soubemos que o ângulo de inclinação formado era de $\theta$= 6,4 graus. Em seguida medimos o diâmetro da esfera (d=0,031m) e também a pesamos (M= 0,111kg).
+
+A seguir a esfera foi solta do início  do trilho, e foram feitas, com o auxílio do celular, as medições de tempo da esfera ao se deslocar por cada marcação. Após realizado isso foram feitas as marcações do tempo nos gráficos e calculadas as equações de deslocamento, velocidade e aceleração
+
+% ----------------------------------------------------------
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ----------------------------------------------------------
+
+% ----------------------------------------------------------
+% Parte de revisãod e literatura
+% ----------------------------------------------------------
+\newpage
+\section[Resultados e Discussão]{Resultados e Discussão}
+\pagestyle{fancy}
+A partir do gráfico espaço em função do tempo no papel dilog, obtivemos a coeficiente linear onde o gráfico cortava o eixo das coordenas: 
+
+a=0,38
+ 
+E por meio de cálculos conseguimos o coeficiente angular:
+
+n= (logyf  - logyi) / (logxf  - logxi)
+
+n= (log0,45 - log0,10) / (log1,1 - log0,45)
+
+n= 1,68
+
+Portanto a equação horaria (S x t): 
+
+S= 0,38t$^{1,68}$
+
+Por meio da derivada dessa função obtemos a equação da velocidade:
+
+V=0,64t$^{0,68}$
+
+E a partir da derivada segunda da função horaria obtivemos a equação da aceleração:
+
+a=0,43t$^{-0,32}$
+
+Utilizando a equação (4) adquirimos a equação da velocidade angular:
+
+0,64t$^{0,68}$=$\omega$ * 0,0155
+
+$\omega$= 41,3t$^{0,68}$
+
+E derivando essa equação para encontrarmos a aceleração angular temos:
+
+$\alpha$= 28,1t$^{-0,32}$
+
+Substituindo o valor do tempo no instante B na equação da velocidade angular, temos que:
+
+$\omega$= 41,3 * 1,6$^{0,68}$
+
+$\omega$= 56.8rad/s
+
+Pela formula (7) calculamos o momento de inercia que a esfera deveria apresentar teoricamente:
+
+Icm= (2 * 0,111 * 0,0155$^{2}$)/5
+
+Icm= 1,1 * 10$^{-5}$
+
+Porém, experimentalmente calculamos o momento de inercia através da equação da energia mecânica. Sabendo que a energia mecânica inicial, segundo a teoria, deve ser igual a energia mecânica final, tiramos que:
+
+Em1= Em2
+
+Ep1 + Ec1 = Ep2 + Ec2
+
+M*g*h = K
+
+A partir da formula (8):
+
+K= $\omega^{2}$ (Icm + m*R$^{2}$)/2
+
+M*g*h = $\omega^{2}$ (Icm + mR$^{2}$)/2
+
+0,111 * 9,8 * 0,1 = 56,8$^{2}$ (Icm + 0,111 * 0,0155$^{2}$)/2
+
+Icm = 4,1*10$^{-5}$
+
+Para verificarmos se a energia se conserva calculamos a energia mecânica inicial e a final:
+
+Em1 = Ep1 + Ec1
+
+Em1 = m * g * h
+
+Em1 = 0,111 * 9,8 * 0,1
+
+Em1 = 0,11 J
+
+Em2 = Ep2 + Ec2
+
+Em2 = $\omega^{2}$ (M * R$^{2}$ + Icm )/2
+
+Em2 = 56,8$^{2}$ (0,111 * 0,0155$^{2}$ + 1,1 * 10$^{-5}$) / 2
+
+Em2 = 0,06J
+
+Tabela com Resultados!
+
+Colocar as equações encontradas do deslocamento, velocidade, aceleração linear, velocidade e aceleração angular e comparar valores de momento de inercia e energia mecanica
+A partir dos dados obtidos concluímos que houve uma perda de energia mecânica no sistema e com isso o momento de inercia aumentou. As causas para esse acontecimento foram principalmente o atrito e tempo de reação humana por termos utilizado cronometro manual. E as medidas também podem ser considerados como não exatas.
+% ---
+% ---
+\newpage
+% ---
+\section[Conclusão]{Conclusão}
+\pagestyle{fancy}% ---
+O experimento realizado demonstrou um movimento variável de acordo com as equações:
+
+S= 0,38t$^{1,68}$ 
+
+V= 0,64t$^{0,68}$
+
+a= 0,43t$^{-0,32}$
+
+$\omega$= 41,3t$^{0,68}$
+
+$\alpha$ = 28,1t$^{-0,32}$
+
+E ao compararmos o momento de inercia teórico com o experimental notamos um erro percentual de: 272$\%$
+
+E ao observarmos a conservação na energia vimos uma perde de 0,05J gerando um erro percentual em comparação com a teoria 
+de: 45$\%$
+
+\postextual
+
+% ----------------------------------------------------------
+% Referências bibliográficas
+% ----------------------------------------------------------
+\newpage
+\section[Referências Bibliográficas]{Referências Bibliográficas}
+\pagestyle{fancy}
+
+1) Apostila de Laboratório de Física, 2008
+
+2) Halliday $\&$ Resnick, Fundamentos de Física, vol. 1
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+\end{document}

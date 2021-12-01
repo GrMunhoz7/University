@@ -1,0 +1,21 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Schultz et al. 2013]{schultz2013simulaccao}
+\abntrefinfo{Schultz et al.}{SCHULTZ et al.}{2013}
+{SCHULTZ, G. et al. Simula{\c{c}}{\~a}o do reator qu{\'\i}mico de retromistura
+  no software emso.
+\emph{ENCICLOP{\'E}DIA BIOSFERA}, v.~9, n.~17, 2013.}
+
+\bibitem[Souza, Colpo e Hamm 2020]{souza2020modelagem}
+\abntrefinfo{Souza, Colpo e Hamm}{SOUZA; COLPO; HAMM}{2020}
+{SOUZA, F.~S.; COLPO, B.~A. da S.; HAMM, J. B.~S. Modelagem e
+  simula{\c{c}}{\~a}o de um reator do tipo cstr n{\~a}o isot{\'e}rmico no
+  software emso.
+\emph{REVISTA DE ENGENHARIA E TECNOLOGIA}, v.~12, n.~1, 2020.}
+
+\end{thebibliography}

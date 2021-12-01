@@ -1,0 +1,28 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Introdu\IeC {\c c}\IeC {\~a}o}{3}{section.0.1}
+\contentsline {section}{\numberline {0.2}Vari\IeC {\'a}veis}{4}{section.0.2}
+\contentsline {subsection}{\numberline {0.2.1}Vari\IeC {\'a}veis Qualitativas}{4}{subsection.0.2.1}
+\contentsline {subsubsection}{\numberline {0.2.1.1}Vari\IeC {\'a}veis Qualitativas Nominais}{4}{subsubsection.0.2.1.1}
+\contentsline {subsubsection}{\numberline {0.2.1.2}Vari\IeC {\'a}veis Qualitativas Ordinais}{4}{subsubsection.0.2.1.2}
+\contentsline {subsection}{\numberline {0.2.2}Vari\IeC {\'a}veis Quantitativas}{5}{subsection.0.2.2}
+\contentsline {subsubsection}{\numberline {0.2.2.1}Vari\IeC {\'a}veis Discretas}{5}{subsubsection.0.2.2.1}
+\contentsline {subsubsection}{\numberline {0.2.2.2}Vari\IeC {\'a}veis Cont\IeC {\'\i }nuas}{5}{subsubsection.0.2.2.2}
+\contentsline {section}{\numberline {0.3}Distribui\IeC {\c c}\IeC {\~a}o de Frequ\IeC {\^e}ncia}{6}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Tabela para Vari\IeC {\'a}veis Qualitativas}{6}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Tabela para Vari\IeC {\'a}veis Quantitativos}{6}{subsection.0.3.2}
+\contentsline {subsubsection}{\numberline {0.3.2.1}Tabela para Dados de tipo Quantitativo Discreto}{6}{subsubsection.0.3.2.1}
+\contentsline {subsubsection}{\numberline {0.3.2.2}Tabela para Dados de tipo Quantitativo Cont\IeC {\'\i }nuo}{7}{subsubsection.0.3.2.2}
+\contentsline {section}{\numberline {0.4}Gr\IeC {\'a}ficos}{8}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Gr\IeC {\'a}ficos para Vari\IeC {\'a}veis Qualitativas}{8}{subsection.0.4.1}
+\contentsline {subsubsection}{\numberline {0.4.1.1}Gr\IeC {\'a}fico de Barras}{8}{subsubsection.0.4.1.1}
+\contentsline {subsubsection}{\numberline {0.4.1.2}Gr\IeC {\'a}fico de Pizza}{10}{subsubsection.0.4.1.2}
+\contentsline {subsection}{\numberline {0.4.2}Gr\IeC {\'a}ficos para Vari\IeC {\'a}veis Quantitativas}{11}{subsection.0.4.2}
+\contentsline {subsubsection}{\numberline {0.4.2.1}Histograma}{11}{subsubsection.0.4.2.1}
+\contentsline {subsubsection}{\numberline {0.4.2.2}Pol\IeC {\'\i }gono de Frequ\IeC {\^e}ncia}{11}{subsubsection.0.4.2.2}
+\contentsline {subsubsection}{\numberline {0.4.2.3}BoxPlot}{12}{subsubsection.0.4.2.3}
+\contentsline {section}{\numberline {0.5}Conclus\IeC {\~a}o}{14}{section.0.5}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{15}{section*.3}

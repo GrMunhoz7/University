@@ -1,0 +1,14 @@
+\changetocdepth {4}
+\select@language {brazil}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Objetivo}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Desenvolvimento}{3}{section.0.2}
+\contentsline {section}{\numberline {0.3}Resultados}{6}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Influ\IeC {\^e}ncia do peso do filtro no parafuso 1}{6}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Influ\IeC {\^e}ncia do peso do filtro no parafuso 2}{6}{subsection.0.3.2}
+\contentsline {subsection}{\numberline {0.3.3}Influ\IeC {\^e}ncia do peso do filtro no parafuso 3}{6}{subsection.0.3.3}
+\contentsline {subsection}{\numberline {0.3.4}Influ\IeC {\^e}ncia do peso do filtro no parafuso 4}{7}{subsection.0.3.4}
+\contentsline {section}{\numberline {0.4}Conclus\IeC {\~a}o}{8}{section.0.4}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\uppercase {Refer\^encias}}{9}{section*.2}

@@ -1,0 +1,102 @@
+
+using "types";
+
+Model ModeloTanque
+
+	PARAMETERS
+	Ar 		as area;
+	Cp		as cp_mass;
+	me		as dens_mass;
+	Q 		as heat_rate;
+	
+	VARIABLES
+	L			as length;
+	# Corrente 1
+	xa_1	as fraction;
+	xb_1	as fraction;
+	T_1		as temperature;
+	v_1		as flow_vol;
+	# Corrente 2
+	xa_2	as fraction;
+	xb_2	as fraction;
+	T_2		as temperature;
+	v_2		as flow_vol;
+	# Corrente saida
+	out	xa_s	as fraction;
+	out	xb_s	as fraction;
+	out	T_s		as temperature;
+	out	v_s		as flow_vol;
+	
+	EQUATIONS
+	"BM Global"
+	Ar*diff(L) = v_1 + v_2 - v_s;
+	
+	"BM A"
+	Ar*L*diff(xa_s) = v_1*(xa_1 - xa_s) + v_2*(xa_2 - xa_s);
+	
+	"BM B"
+	Ar*L*diff(xb_s) = v_1*(xb_1 - xb_s) + v_2*(xb_2 - xb_s);
+	
+	"BE Tanque"	
+	me*Cp*Ar*L*diff(T_s) = me*Cp*v_1*(T_1 - T_s) + me*Cp*v_2*(T_2 - T_s) + Q;
+	
+end
+
+FlowSheet Processo
+
+	DEVICES
+	tanque as ModeloTanque;
+	
+	SET
+	tanque.Ar 		=	5.98 * 'm^2';
+	tanque.Cp		=	4.18 * 'kJ/(kg*K)';
+	tanque.me		= 	997 * 'kg/m^3';
+	tanque.Q			=	100000 * 'kW';
+	
+	SPECIFY
+	tanque.xa_1  	=	0.4;
+	tanque.xb_1	=	0.6;
+	tanque.T_1		=	323 * 'K';
+	tanque.v_1		=	1080 * 'm^3/h';
+	tanque.xa_2  	=	1.0;
+	tanque.xb_2	=	0.0;
+	tanque.T_2		=	293 * 'K';
+	tanque.v_2		=	540 * 'm^3/h';
+	tanque.v_s		=	0.3*sqrt(tanque.L)* 'm^3/s';
+	
+	INITIAL
+	tanque.xa_s	=	1.0;
+	tanque.xb_s	=	0.0;
+	tanque.L			=	2 * 'm';
+	tanque.T_s 		=  293 * 'K';
+	
+	OPTIONS
+	TimeStep 	= 0.1;
+	TimeEnd 		= 300;
+	TimeUnit 	= 's';
+	
+end
+
+Optimization Minimizar as Processo
+
+MINIMIZE
+tanque.xa_s;
+
+FREE
+tanque.v_1; 
+
+EQUATIONS
+tanque.L 			<= 4 * 'm';
+tanque.L 			>= 1 * 'm';
+tanque.T_s 		<= 343 * 'K';
+tanque.T_s 		>= 293 * 'K';
+tanque.xa_s 	<= 1.0;
+tanque.xa_s 	>= 0.0;
+tanque.xb_s 	<= 1.0;
+tanque.xb_s	>= 0.0;
+
+OPTIONS
+Dynamic = false;
+#NLPSolver(File = "ipopt_emso");
+
+end

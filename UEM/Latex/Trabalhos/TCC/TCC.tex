@@ -1,0 +1,297 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+%\usepackage{fontspec}
+\usepackage{pslatex}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{float}
+\usepackage{array}
+\usepackage{epstopdf}
+\usepackage{url}
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+%\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+%\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Estatística e Probabilidade\\Trabalho sobre Apresentação de Dados\\Parte 2 - Experimental}
+\autor{Profª Drª Mara Lúcia Martins Lopes\\Caio da Silva Pereira\\Gabriel Rodrigues Munhoz\\Heitor Martins da Silva\\Leandro Suzuki Barboza dos Santos\\Rafael Gomes de Oliveira\\Thiago Rissetti Roquetto}
+\local{Ilha Solteira, São Paulo}
+\data{Setembro de 2017}
+\instituicao{%
+  Universidade Estadual Paulista  - Unesp
+  \par
+  Faculdade de Engenharia de Ilha Solteira  - FEIS}
+\tipotrabalho{Trabalho científico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{"Estatística é método, ciência e arte."}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Trabalho sobre Ajustagem Mecânica}
+\rhead{\thepage}
+
+%\AddToShipoutPicture{
+
+%\put(0,0){
+
+%\parbox[b][\paperheight]{\paperwidth}{%
+
+%\vfill
+
+%\centering
+
+%{\transparent{0.1}\includegraphics[scale=2]{../../../Imagens/SA03x.jpg}  }%
+
+%\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+%\begin{minipage}[c][1.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+%\includegraphics[scale=0.6]{../../../Imagens/barraunesp-assvisual.png} 
+
+%\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+%\pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+\imprimirfolhaderosto*
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\newpage
+
+\chapter*{Agradecimentos:}
+
+Agradeço a Deus, por ter me dado força, sabedoria, paciência e saúde para vencer os desafios diários. Obrigada pelas pessoas que colocou no meu caminho. 
+
+Aos meus pais, que souberam confortar meu cansaço e dar estímulo quando mais precisei em toda a minha vida. Obrigada pelo amor, incentivo e esforço para realizar meus sonhos. Amo vocês. 
+
+À minha irmã Nathalia pela alegria e carinho. Amo você. 
+Agradeço a toda minha família, meus avós, tios, padrinhos e primos, pelos momentos de alegria e incentivo. 
+
+Aos queridos e divertidos amigos da residência Lívia, Murillo, Monique, Vanessa, Indianathan, Natália, Talita, Gabriele, Naiara, Bruna e Fernanda pelos momentos de alegrias, angústias, apuros, ajuda e amizade. Foi muito bom conviver com vocês esses anos!
+
+À professora e orientadora Gisleine pelos ensinamentos, dedicação, apoio, competência e amizade durante toda a realização da residência. Seus ensinamentos estarão presentes por toda a minha vida. 
+
+Aos professores Estela, Silvana, Elza, Walderez, Jorge, Terezinha, Nelly e Roselania. Não tenho palavras para descrever a minha gratidão. 
+
+A todos os colaboradores do Hospital Universitário de Maringá, em especial o Serviço de Farmácia Hospitalar, que sempre estavam dispostos a me auxiliar. 
+
+À Maria dos Anjos por me mostrar que aquele que semeia bondade recebe amor. 
+
+Aos preceptores que tive ao longo da residência pelo conhecimento transmitido, paciência e pelas contribuições para a minha vida profissional; 
+
+Aos membros da banca, Dr. Donadio e Me. Simone por gentilmente aceitarem o convite e pelas contribuições. 
+
+A todos que de qualquer forma colaboraram não só para que este trabalho pudesse ser realizado, como também para que eu me transformasse na pessoa que sou.
+
+
+\section[Objetivo]{Objetivo}
+\pagestyle{fancy}
+
+
+
+\newpage
+\section[Resumo]{Resumo}
+
+
+
+
+\newpage
+\section[Procedimento Experimental]{Procedimento Experimental}
+
+
+
+
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+% \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+  %\item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+  %\item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+
+\section[Resultados e Discussão]{Resultados e Discussão}
+\pagestyle{fancy}
+
+
+
+\newpage
+\section[Conclusão]{Conclusão}
+\pagestyle{fancy}
+
+
+
+
+\end{document}

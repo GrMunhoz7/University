@@ -1,0 +1,480 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+% ---
+% Pacotes básicos 
+% ---
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{lastpage}			% Usado pela Ficha catalográfica
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+% ---
+		
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Trabalho de Pesquisa Operacional\\Teoria dos Jogos, Análise de Decisão e Métodos de Decisão Multicritério}
+\autor{Eduardo Favoretto Vale Bom RA 108139\\Gabriel R. Munhoz RA 106802\\João Vítor Batistão RA 108074}
+\local{Maringá, Brasil}
+\data{Dezembro de 2020}
+\orientador{Juliana Adrian Emidio}
+\coorientador{-}
+\instituicao{%
+  Universidade Estadual de Maringá -- UEM
+  \par
+  Departamento de Engenharia de Produção -- DEP
+  \par
+  Pesquisa Operacional}
+\tipotrabalho{Trabalho acadêmico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Modelo canônico de trabalho monográfico acadêmico em conformidade com
+as normas ABNT apresentado à comunidade de usuários \LaTeX.}
+% ---
+
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=1.4]{imagens_suporte/LogoUEM.pdf.jpg} }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1cm][c]{1cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{imagens_suporte/Logo-UEM-–-Modelo-4-Anexar.png}  
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+% \pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+
+
+% resumo em português
+\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+% ---
+
+
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+% ----------------------------------------------------------
+% Introdução (exemplo de capítulo sem numeração, mas presente no Sumário)
+% ----------------------------------------------------------
+\part{Teoria dos Jogos}
+
+
+\chapter[Introdução]{Introdução}
+
+
+% ----------------------------------------------------------
+A Teoria dos Jogos é uma teoria que se utiliza da matemática, modelando situações estratégicas que visam as melhores escolhas possíveis em uma tomada de decisão. O grande porém dessa teoria é que a decisão de um indivíduo afeta diretamente a escolha dos outros envolvidos na problemática, ou seja, leva em consideração a interação dos agentes de decisão.
+
+Por se tratar de uma situação competitiva (sendo denominada jogos/jogadores), é uma teoria aplicada nas mais diversas situações. Um conflito político entre dois candidatos, uma decisão de pênalti entre um jogador e um goleiro ou até mesmo a confissão de um crime entre dois suspeitos. São todos exemplos de dois indivíduos em uma situação com decisões interdependentes. \cite{hillier2013introduccao}
+
+
+Devemos levar em consideração dois critérios. O primeiro de que ambos os jogadores são racionais. O segundo consiste no entendimento de que os jogadores fazem as escolhas estratégicas com base exclusivamente no próprio bem estar. 
+
+Os jogadores tendo as estratégias escolhidas, temos algumas definições importantes:
+
+\begin{itemize}
+\item \textbf{Jogo estratégico:} uma situação de escolhas de dois indivíduos de decisões interdependentes;
+\item \textbf{Jogador:} um dos indivíduos envolvidos no jogo estratégicos. Tem suas escolhas bem definidas baseada em suas percepções de bem-estar, mas leva em consideração as possíveis escolhas do seu concorrente;
+\item \textbf{Estratégia:} Direcionamentos para do jogador dentro do jogo estratégico;
+\item \textbf{Pagamentos:} ganhos e perdas dos jogadores (payoff);
+\end{itemize}
+
+O jogo, possui um número finito de jogadores, podendo ser representados pela matriz G a seguir:
+
+\begin{equation}
+G = \left\{g_1,g_2,g_3,...,g_n\right\}
+\end{equation}
+
+Cada jogador (gi) pertencentes a matriz G, possui um conjunto, também finitos, de estratégias a serem tomadas para o jogo estratégico S:
+
+\begin{equation}
+Si = \left\{si_1,si_2,si_3,...,si_m\right\}; m \geq 2
+\end{equation}
+
+A solução do jogo é baseada no princípio da “Melhor entre as piores”. O objetivo é escolher a opção de maior payoff dentre todas as levantadas do conjunto Si. A problemática do exemplo que escolhemos, está relacionada a conflitos da atualidade: a disputa pelo “market share” do mercado de vacinas entre duas empresas concorrentes.
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+
+
+% ---
+% Capitulo com exemplos de comandos inseridos de arquivo externo 
+% ---
+\include{abntex2-modelo-include-comandos}
+% ---
+
+% ----------------------------------------------------------
+% PARTE
+% ----------------------------------------------------------
+\chapter{Desenvolvimento}
+
+A teoria dos jogos possui diversos exemplos práticos e em todas as situações os participantes são concorrentes entre si, ou seja, possuem interesses individuais e conflitantes. Os exemplos mais típicos são:
+
+\begin{enumerate}
+\item Campanhas publicitárias para produtos concorrentes;
+\item Planejamento de estratégias de guerra para exércitos inimigos;
+\end{enumerate}
+
+As estratégias variam entre infinitas possibilidades até no mínimo 2, para existir a opção de escolha. No exemplo selecionado, duas companhias estão produzindo vacinas para o coronavírus, empresa A e empresa B. Ambas possuem 3 estratégias cada, sendo elas: \cite{teoriadosjogos}
+
+\begin{itemize}
+\item \textbf{Estratégia 1:} Fazer anúncios em rádios locais
+\item \textbf{Estratégia 2:} Fazer anúncios em jornais locais
+\item \textbf{Estratégia 3:} Fazer anúncios em televisão
+\end{itemize}
+
+Cada empresa possui seu departamento de marketing e diferentes estilos de postagens, rendendo assim diferentes tipos de adesão. Conforme a matriz payoff (\ref{tab}) tem-se uma previsão do que pode ocorrer com a \% de market share da empresa A para cada estratégia.
+
+\begin{figure}[H] \centering 
+\caption{Matriz payoff}
+\includegraphics[scale=1]{../../tabela.png}
+\legend{Fonte: Própria}
+\label{tab}
+\end{figure}
+
+ Para a solução, foi-se usado o princípio “Melhor entre os piores”, a partir de cada estratégia utilizada e dos possíveis resultados obtidos a partir de cada escolha, vamos portanto para as considerações e os possíveis cenários:
+
+\begin{itemize}
+\item No caso da empresa A, caso escolher realizar os anúncios em rádios locais, o pior que pode acontecer seria perder 2\% do Market share para a empresa B;
+\item No caso dessa mesma empresa escolher fazer os anúncios em jornais locais, o pior que aconteceria é ganhar 1\% do Market share da empresa B;
+\item No caso da empresa escolher fazer os anúncios na televisão , no pior dos cenários ela perde 6\% do market share para a empresa B;
+\end{itemize}
+
+O princípio “melhor entre os piores” seleciona o menor número de cada estratégia e assim supõe que isso iria acontecer.
+
+Consequentemente, a melhor opção para a empresa A é a estratégia 2 (Fazer anúncios em jornais locais), já que na pior das hipóteses, a empresa ganharia 1\% de market share da empresa B, ou seja,o Payoff da empresa seria desses mesmos 1\%.
+
+Como a solução garante que nenhuma está em busca da melhor solução, se B escolher as estratégias B1 ou B2, vai perder 2\% e 3\% para A, respectivamente. Da mesma forma, A não quer escolher as outras duas estratégias, já que tem a possibilidade de perder 2\% de market share para a sua concorrente. \cite{teoriadosjogos}
+
+\part{Análise de Decisão}
+
+\chapter{Introdução}
+
+Para explicar sobre o método de análise, primeiro precisamos entender algumas definições de decisão. Envolve a administração de resultados incertos, quanto maior os insumos para a tomada de decisão, mais assertiva ela será. É sempre bom lembrar que um processo de decisão bem estruturado não garante a escolha certa, mas aumenta as chances de ir pelo melhor caminho. \cite{introduction}
+
+A decisão pode ocorrer em 3 situações diferentes: sob ambientes de incertezas, sob ambientes de risco e sob ambiente de certezas.
+	
+A tomada de decisão envolve múltiplas alternativas disponíveis, e cada escolha gera uma consequência. O processo de estruturação é baseado em três principais pilares:
+
+\begin{itemize}
+\item Estratégias alternativas: quais os possíveis planos de ação para atingir diversas alternativas distintas;
+\item Consequência das alternativas: cada alternativa gera uma série de consequências e resultados o que chamamos de payoffs;
+\item Estados da natureza: tal pilar tem como base possíveis acontecimentos após a tomada de decisão do indivíduo, ou seja, acontecimentos em que o decisor não tem controle;
+\end{itemize}
+
+Para cada tipo de situação (certeza, incerteza e risco) temos metodologias diferentes para a tomada de decisão, por isso antes de iniciar a estruturação do processo de decisão, analise a natureza do ambiente. \cite{introduction}
+
+\chapter{Desenvolvimento}
+
+Na análise de decisão existem três tipos, como explicitado acima. Mais especificamente no caso da decisão tomada sob incerteza, o ambiente de decisão não contém as probabilidades de ocorrência dos estados de natureza, no entanto identifica-se os futuros cenários pertinentes, como no exemplo a seguir:
+	
+Uma determinada empresa de consultoria deve tomar uma decisão de comprar um terreno, comprar uma sala comercial ou investir em ações e continuar no aluguel. Já os estados de natureza são: Quando as condições econômicas estão favoráveis ou quando estão desfavoráveis. \cite{introduction}
+
+Tornando esses dados para o método de análise de decisão:
+
+\begin{itemize}
+\item Decisões:
+\begin{enumerate}
+\item Comprar terreno (a1)
+\item Comprar sala comercial (a2)
+\item Investir em ações (a3)
+\end{enumerate}
+\item Estados da Natureza:
+\begin{enumerate}
+\item Condições econômicas favoráveis (S1)
+\item Condições econômicas desfavoráveis (S2)
+\end{enumerate}
+\end{itemize}
+
+\begin{figure}[H] \centering 
+\caption{Matriz de Decisões e Estados da Natureza}
+\includegraphics[scale=1]{../../tab4.png}
+\legend{Fonte: \cite{modelagem} }
+\label{tab4}
+\end{figure}
+
+Como a última alternativa : Investir em ações(a3) é visivelmente a pior de todas e portanto dominada pelas outras, podemos excluí-la; (Regra da dominância)
+
+Para as outras alternativas, a regra da dominância não se faz possível, portanto é usado as regras de decisão:
+
+\begin{enumerate}
+\item Maximin (Otimista)
+\item Maximin (Pessimista)
+\item Regra de igual possibilidade (La Place)
+\end{enumerate}
+
+\textbf{Para a primeira regra de decisão:}
+
+Para cada alternativa escolhe-se o valor máximo, com isso:
+
+\begin{figure}[H] \centering 
+\caption{Matriz de Decisões e Estados da Natureza}
+\includegraphics[scale=1]{../../tab5.png}
+\legend{Fonte: \cite{modelagem}}
+\label{tab5}
+\end{figure}
+
+Portanto, a alternativa de comprar terreno (a1) prevalece.
+
+\textbf{Para a segunda regra de decisão:}
+
+Para cada alternativa escolhe-se o valor mínimo, com isso:
+
+\begin{figure}[H] \centering 
+\caption{Matriz de Decisões e Estados da Natureza}
+\includegraphics[scale=1]{../../tab6.png}
+\legend{Fonte: \cite{modelagem}}
+\label{tab6}
+\end{figure}
+
+Portanto, a alternativa de comprar sala comercial(a2) prevalece.
+
+\textbf{Para a terceira regra de decisão:}
+
+Assume-se que todos os eventos tem a mesma possibilidade de acontecer:
+
+\begin{figure}[H] \centering 
+\caption{Matriz de Decisões e Estados da Natureza}
+\includegraphics[scale=1]{../../tab7.png}
+\legend{Fonte: \cite{modelagem}}
+\label{tab7}
+\end{figure}
+
+Assim, (a1 = 32,5) e (a2 = 30), a alternativa de comprar terreno (a1) prevalece. \cite{modelagem}
+
+
+\part{Modelo de Decisão Multicritério}
+
+\chapter{Introdução}
+
+O modelo de decisão multicritério tem como foco a resolução e otimização da decisão de problemas com diversos critérios que são dependentes e/ou relacionados, tanto positiva quanto negativamente. O método possui uma abordagem quantitativa e possibilita a ordenação e classificação dos melhores parâmetros para decisão da solução. \cite{dealmeida}
+
+Existem muitos métodos para aplicação do modelo de decisão multicritério, alguns deles são:
+
+\begin{itemize}
+\item AHP 
+\item TOPSIS 
+\item Fuzzy-TOPSIS 
+\item PROMETHEE 
+\item ELECTRE
+\end{itemize}
+
+Um aspecto muito importante no modelo multicritério é a escolha de pesos para os atributos, esses pesos atribuídos determinam os tradeoffs entre os valores de cada critério, transformando um atributo em algo mais relevante enquanto outro perde sua notoriedade. \cite{van}
+
+No método AHP, por exemplo, são definidos vários decisores que selecionam pesos para cada critério, e a partir da importância de cada decisor é retirada uma média para que assim, possam ser atribuídos a cada critério o peso mais próximo da necessidade e prioridade da empresa ou problema em questão.
+
+Conforme são informados os valores para diversos critérios e os pesos para os mesmos, o próprio método escolhido faz as contas referentes ao modelo de decisão multicritério e consegue classificar todas as soluções para o problema em uma lista de prioridade.
+
+
+\chapter{Desenvolvimento}
+
+Com isso, um estudo se utilizou do modelo de decisão multicritério para selecionar fornecedores para laboratórios de pesquisa agropecuária. O problema em questão é focado em padronizar a avaliação por meio de diferentes critérios para que assim possa ser escolhido o melhor fornecedor para os laboratórios, aumentando a eficiência e a qualidade de diversos processos. \cite{tcc}
+
+A partir do mapeamento do processo de escolha dos fornecedores e dos produtos foram mensurados 3 cenários para aplicações do modelo de decisão multicritério. Cada cenário consistia em diferentes grupos de equipamentos laboratoriais com faixas de preço distintas. \cite{tcc}
+
+A construção do modelo de decisão multicritério foi realizada com base no procedimento da figura \ref{fig1}.
+
+\begin{figure}[H] \centering 
+\caption{Procedimento para resolução de um problema de decisão}
+\includegraphics[scale=1]{../../fig1.png}
+\legend{Fonte: \cite{dealmeida}}
+\label{fig1}
+\end{figure}
+
+Após todas as etapas concluídas, foram listados os critérios (\ref{fig2}) para o modelo de decisão e verificou-se ao longo do processo que conjuntos de decisores indicaram para critérios específicos, sendo eles, o preço e a capacidade técnica dos equipamentos (\ref{fig3}). Assim foi possível por meio do modelo de decisão multicritério priorizar fornecedores que possuíam menor preço e cujos equipamentos tivessem maior capacidade técnica.
+
+\begin{figure}[H] \centering 
+\caption{Critérios utilizados}
+\includegraphics[scale=1]{../../fig2.png}
+\legend{Fonte: \cite{tcc}}
+\label{fig2}
+\end{figure}
+
+\begin{figure}[H] \centering 
+\caption{Apresentação dos resultados}
+\includegraphics[scale=1]{../../fig3.png}
+\legend{Fonte: \cite{tcc}}
+\label{fig3}
+\end{figure}
+
+
+%-------------------------------------------------------------------------------------
+
+
+\chapter*{Conclusão}
+\addcontentsline{toc}{chapter}{CONCLUSÃO}
+
+Os métodos para análises de decisão transformam opiniões e desejos subjetivos em algo técnico e mais próximo da necessidade real da empresa, ou problema. A principal vantagem na utilização de um modelo para tomada de decisão é a mudança de aspectos qualitativos em quantitativos, aptos a comparações e classificações. Desse modo, facilita e otimiza a capacidade de priorização de uma certa solução e até mesmo encontrar a solução que abrange todas as características que foram listadas como importantes por seus decisores.
+
+	Considerando os benefícios de aplicação de cada um dos tópicos, podemos evidenciar que na teoria dos jogos existe um aumento da competitividade do negócio, já na análise de decisão tem-se um maior embasamento para decisões internas por fim no modelo de decisão multicritério auxilia na análise de decisões mais complexas, principalmente na análise de fornecedores e sistemas de informação.
+
+
+ 
+
+
+\bibliography{referencias2}
+
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+% ----------------------------------------------------------
+% Apêndices
+% ----------------------------------------------------------
+
+
+
+%---------------------------------------------------------------------
+% INDICE REMISSIVO
+%---------------------------------------------------------------------
+\phantompart
+\printindex
+%---------------------------------------------------------------------
+
+\end{document}

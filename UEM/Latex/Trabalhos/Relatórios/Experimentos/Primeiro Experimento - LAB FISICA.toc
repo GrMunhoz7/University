@@ -1,0 +1,16 @@
+\changetocdepth {4}
+\select@language {brazil}
+\select@language {brazil}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {section}{\numberline {0.1}Objetivo}{2}{section.0.1}
+\contentsline {section}{\numberline {0.2}Resumo}{3}{section.0.2}
+\contentsline {section}{\numberline {0.3}Introdu\IeC {\c c}\IeC {\~a}o Te\IeC {\'o}rica}{4}{section.0.3}
+\contentsline {subsection}{\numberline {0.3.1}Rolamento}{4}{subsection.0.3.1}
+\contentsline {subsection}{\numberline {0.3.2}Energia cin\IeC {\'e}tica de rolamento}{4}{subsection.0.3.2}
+\contentsline {section}{\numberline {0.4}Procedimento Experimental}{5}{section.0.4}
+\contentsline {subsection}{\numberline {0.4.1}Materiais}{5}{subsection.0.4.1}
+\contentsline {subsection}{\numberline {0.4.2}M\IeC {\'e}todo}{5}{subsection.0.4.2}
+\contentsline {section}{\numberline {0.5}Resultados e Discuss\IeC {\~a}o}{6}{section.0.5}
+\contentsline {section}{\numberline {0.6}Conclus\IeC {\~a}o}{8}{section.0.6}
+\vspace {\cftbeforechapterskip }
+\contentsline {section}{\numberline {0.7}Refer\IeC {\^e}ncias Bibliogr\IeC {\'a}ficas}{9}{section.0.7}

@@ -1,0 +1,162 @@
+Unhandled exception: page fault on read access to 0x00000000 in 64-bit code (0x00000000004b4803).
+Register dump:
+ rip:00000000004b4803 rsp:000000000032d940 rbp:000000000032d9c0 eflags:00010246 (  R- --  I  Z- -P- )
+ rax:0000000000000000 rbx:0000000000000000 rcx:000000000032da70 rdx:0000000000000000
+ rsi:0000000000000202 rdi:00000000000100ae  r8:0000000000bc55e0  r9:00000000057261a0 r10:0000000000000000
+ r11:0000000000000246 r12:000000000066c68a r13:0000000000000000 r14:00000000000a0024 r15:0000000000000202
+Stack dump:
+0x000000000032d940:  000000000032da70 000000000032dcf0
+0x000000000032d950:  0000000000000028 0000000001190108
+0x000000000032d960:  000000000032da50 000000007bc5311a
+0x000000000032d970:  000000007bc7563a 0000000001190000
+0x000000000032d980:  0000000005616018 0000000001190000
+0x000000000032d990:  0000000005616030 0000000001190138
+0x000000000032d9a0:  0000000000000000 0000000000000000
+0x000000000032d9b0:  0000000000000000 0000000000000000
+0x000000000032d9c0:  0000000000000000 0000000000000000
+0x000000000032d9d0:  0000000000000000 0000000000000000
+0x000000000032d9e0:  0000000000000000 0000000000000000
+0x000000000032d9f0:  0000000000000000 0000000000000000
+Backtrace:
+=>0 0x00000000004b4803 EntryPoint+0xb3333() in emso (0x000000000032d9c0)
+  1 0x000000000049c5ee EntryPoint+0x9b11d() in emso (0x000000000032e450)
+  2 0x000000000049b800 EntryPoint+0x9a32f() in emso (0x000000000032e560)
+  3 0x000000000049cc7c EntryPoint+0x9b7ab() in emso (0x000000000032e700)
+  4 0x0000000000457319 EntryPoint+0x55e48() in emso (0x000000000032e9c0)
+  5 0x000000000042be4e EntryPoint+0x2a97d() in emso (0x000000000032ea30)
+  6 0x000000000042b355 EntryPoint+0x29e84() in emso (0x000000000032eb10)
+  7 0x000000000042b6f9 EntryPoint+0x2a228() in emso (0x000000000032ebb0)
+  8 0x0000000000424d0b EntryPoint+0x2383a() in emso (0x000000000032ed00)
+  9 0x00000000006e21ed EntryPoint+0x2e0d1c() in emso (0x000000000032ed90)
+  10 0x00000000006db19a EntryPoint+0x2d9cc9() in emso (0x000000000032ed90)
+  11 0x00000000006daab7 EntryPoint+0x2d95e6() in emso (0x000000000032edd0)
+  12 0x000000000066e1d5 EntryPoint+0x26cd04() in emso (0x000000000032ee60)
+  13 0x000000000066c6d0 EntryPoint+0x26b1ff() in emso (0x000000000032ef50)
+  14 0x00007f456f435ff1 EditWndProcA+0xab0() in user32 (0x000000000032f078)
+  15 0x00007f456f438434 EditWndProcA+0x2ef3() in user32 (0x00000000000100ae)
+  16 0x00007f456f3e5ee8 DispatchMessageA+0xf7() in user32 (0x000000000032f280)
+  17 0x0000000000669f2e EntryPoint+0x268a5d() in emso (0x000000000032f2b0)
+  18 0x000000000066a376 EntryPoint+0x268ea5() in emso (0x000000000032f310)
+  19 0x000000000066a0a2 EntryPoint+0x268bd1() in emso (0x000000000032f3a0)
+  20 0x0000000000417214 EntryPoint+0x15d43() in emso (0x000000000032f410)
+  21 0x0000000000417c27 EntryPoint+0x16756() in emso (0x000000000032f900)
+  22 0x00000000004013e8 EntryPoint+0xffffffffffffffff() in emso (0x0000000001191470)
+  23 0x00000000004014eb EntryPoint+0x1a() in emso (0x000000000032ffd0)
+  24 0x000000007b45c2cb __wine_start_process+0x42a() in kernel32 (0x000000000032ffd0)
+0x00000000004b4803 EntryPoint+0xb3333 in emso: movq	(%rax),%rdx
+Modules:
+Module	Address					Debug info	Name (78 modules)
+PE	          400000-         107f000	Export          emso
+PE	        65ac0000-        65c54000	Deferred        vrpp
+ELF	        7b000000-        7b0e2000	Deferred        kernelbase<elf>
+  \-PE	        7b010000-        7b0e2000	\               kernelbase
+ELF	        7b400000-        7b68c000	Dwarf           kernel32<elf>
+  \-PE	        7b420000-        7b68c000	\               kernel32
+ELF	        7bc00000-        7befb000	Deferred        ntdll<elf>
+  \-PE	        7bc20000-        7befb000	\               ntdll
+ELF	        7c000000-        7c005000	Deferred        <wine-loader>
+ELF	    7f456d9f5000-    7f456d9fd000	Deferred        libxfixes.so.3
+ELF	    7f456d9fd000-    7f456da0a000	Deferred        libxcursor.so.1
+ELF	    7f456da0a000-    7f456da1c000	Deferred        libxi.so.6
+ELF	    7f456da1c000-    7f456da21000	Deferred        libxcomposite.so.1
+ELF	    7f456da21000-    7f456da2e000	Deferred        libxrandr.so.2
+ELF	    7f456da2e000-    7f456dc38000	Deferred        libxrender.so.1
+ELF	    7f456dc38000-    7f456dc3f000	Deferred        libxxf86vm.so.1
+ELF	    7f456dc3f000-    7f456dc44000	Deferred        libxinerama.so.1
+ELF	    7f456dc44000-    7f456dcd0000	Deferred        setupapi<elf>
+  \-PE	    7f456dc50000-    7f456dcd0000	\               setupapi
+ELF	    7f456dcd0000-    7f456dcea000	Deferred        libbsd.so.0
+ELF	    7f456dcea000-    7f456dcf2000	Deferred        libxdmcp.so.6
+ELF	    7f456dcf2000-    7f456dcf8000	Deferred        libxau.so.6
+ELF	    7f456dcf8000-    7f456dd22000	Deferred        libxcb.so.1
+ELF	    7f456dd22000-    7f456de5f000	Deferred        libx11.so.6
+ELF	    7f456de5f000-    7f456de74000	Deferred        libxext.so.6
+ELF	    7f456de8f000-    7f456df58000	Deferred        winex11<elf>
+  \-PE	    7f456dea0000-    7f456df58000	\               winex11
+ELF	    7f456df58000-    7f456df7e000	Deferred        imm32<elf>
+  \-PE	    7f456df60000-    7f456df7e000	\               imm32
+ELF	    7f456e462000-    7f456e46b000	Deferred        libuuid.so.1
+ELF	    7f456e46b000-    7f456e499000	Deferred        libexpat.so.1
+ELF	    7f456e499000-    7f456e4e0000	Deferred        libfontconfig.so.1
+ELF	    7f456e4e0000-    7f456e4fc000	Deferred        libz.so.1
+ELF	    7f456e4fc000-    7f456e534000	Deferred        libpng16.so.16
+ELF	    7f456e534000-    7f456e5f3000	Deferred        libfreetype.so.6
+ELF	    7f456e5f3000-    7f456e5fc000	Deferred        libnss_dns.so.2
+ELF	    7f456e5fc000-    7f456e618000	Deferred        libresolv.so.2
+ELF	    7f456e618000-    7f456e61e000	Deferred        libnss_mdns4_minimal.so.2
+ELF	    7f456e639000-    7f456e66d000	Deferred        iphlpapi<elf>
+  \-PE	    7f456e640000-    7f456e66d000	\               iphlpapi
+ELF	    7f456e66d000-    7f456e68a000	Deferred        wsock32<elf>
+  \-PE	    7f456e670000-    7f456e68a000	\               wsock32
+ELF	    7f456e68a000-    7f456e6cf000	Deferred        ws2_32<elf>
+  \-PE	    7f456e690000-    7f456e6cf000	\               ws2_32
+ELF	    7f456e6cf000-    7f456e6ff000	Deferred        msacm32<elf>
+  \-PE	    7f456e6e0000-    7f456e6ff000	\               msacm32
+ELF	    7f456e6ff000-    7f456e7c8000	Deferred        winmm<elf>
+  \-PE	    7f456e710000-    7f456e7c8000	\               winmm
+ELF	    7f456e7c8000-    7f456e7ee000	Deferred        shcore<elf>
+  \-PE	    7f456e7d0000-    7f456e7ee000	\               shcore
+ELF	    7f456e7ee000-    7f456e856000	Deferred        shlwapi<elf>
+  \-PE	    7f456e800000-    7f456e856000	\               shlwapi
+ELF	    7f456e856000-    7f456f2b0000	Deferred        shell32<elf>
+  \-PE	    7f456e870000-    7f456f2b0000	\               shell32
+ELF	    7f456f2b0000-    7f456f348000	Deferred        rpcrt4<elf>
+  \-PE	    7f456f2c0000-    7f456f348000	\               rpcrt4
+ELF	    7f456f348000-    7f456f5e4000	Dwarf           user32<elf>
+  \-PE	    7f456f370000-    7f456f5e4000	\               user32
+ELF	    7f456f5e4000-    7f456f758000	Deferred        ole32<elf>
+  \-PE	    7f456f610000-    7f456f758000	\               ole32
+ELF	    7f456f758000-    7f456f84f000	Deferred        msvcrt<elf>
+  \-PE	    7f456f780000-    7f456f84f000	\               msvcrt
+ELF	    7f456f84f000-    7f456fa07000	Deferred        gdi32<elf>
+  \-PE	    7f456f870000-    7f456fa07000	\               gdi32
+ELF	    7f456fb07000-    7f456fba5000	Deferred        advapi32<elf>
+  \-PE	    7f456fb20000-    7f456fba5000	\               advapi32
+ELF	    7f456fba5000-    7f456fbb9000	Deferred        libnss_files.so.2
+ELF	    7f4570cb3000-    7f4570cdc000	Deferred        liblzma.so.5
+ELF	    7f4570cdc000-    7f4570cf7000	Deferred        libgcc_s.so.1
+ELF	    7f4570cf7000-    7f4570e46000	Deferred        libm.so.6
+ELF	    7f4570e46000-    7f4570e63000	Deferred        libunwind.so.8
+ELF	    7f4570e65000-    7f4570e6b000	Deferred        libdl.so.2
+ELF	    7f4570e6b000-    7f457105d000	Deferred        libc.so.6
+ELF	    7f457105d000-    7f4571080000	Deferred        libpthread.so.0
+ELF	    7f4571083000-    7f457109b000	Deferred        version<elf>
+  \-PE	    7f4571090000-    7f457109b000	\               version
+ELF	    7f457109b000-    7f457123e000	Dwarf           libwine.so.1
+ELF	    7f4571240000-    7f4571270000	Deferred        ld-linux-x86-64.so.2
+Threads:
+process  tid      prio (all id:s are in hex)
+0000000e services.exe
+	0000000f    0
+	00000010    0
+	00000013    0
+	0000001a    0
+	00000023    0
+00000011 plugplay.exe
+	00000012    0
+	00000016    0
+	00000017    0
+00000018 winedevice.exe
+	00000019    0
+	0000001b    0
+	0000001c    0
+	0000001d    0
+	00000020    0
+0000001e explorer.exe
+	0000001f    0
+	00000027    0
+	00000028    0
+	00000029    0
+00000021 winedevice.exe
+	00000022    0
+	00000024    0
+	00000025    0
+	00000026    0
+0000002a (D) C:\Program Files (x86)\EMSO\bin\emso.exe
+	0000002b    0 <==
+System information:
+    Wine build: wine-5.0.3 (Ubuntu 5.0.3-3+zorin2)
+    Platform: x86_64
+    Version: Windows 10
+    Host system: Linux
+    Host version: 5.11.0-34-generic

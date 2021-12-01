@@ -1,0 +1,34 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Cardoso, Moraes e Cass 2009]{cardoso2009imobilizaccao}
+\abntrefinfo{Cardoso, Moraes e Cass}{CARDOSO; MORAES; CASS}{2009}
+{CARDOSO, C.~L.; MORAES, M. C.~d.; CASS, Q.~B. Imobiliza{\c{c}}{\~a}o de
+  enzimas em suportes cromatogr{\'a}ficos: uma ferramenta na busca por
+  subst{\^a}ncias bioativas.
+\emph{Qu{\'\i}mica Nova}, SciELO Brasil, v.~32, p. 175--187, 2009.}
+
+\bibitem[Covizzi et al. 2007]{covizzi2007imobilizaccao}
+\abntrefinfo{Covizzi et al.}{COVIZZI et al.}{2007}
+{COVIZZI, L.~G. et al. Imobiliza{\c{c}}{\~a}o de c{\'e}lulas microbianas e suas
+  aplica{\c{c}}{\~o}es biotecnol{\'o}gicas.
+\emph{Semina: Ci{\^e}ncias Exatas e Tecnol{\'o}gicas}, v.~28, n.~2, p.
+  143--160, 2007.}
+
+\bibitem[Furlani et al. 2020]{furlani2020imobilizaccao}
+\abntrefinfo{Furlani et al.}{FURLANI et al.}{2020}
+{FURLANI, I.~L. et al. Imobiliza{\c{c}}{\~a}o enzim{\'a}tica: conceito e
+  efeitos na prote{\'o}lise.
+\emph{Qu{\'\i}mica Nova}, SciELO Brasil, v.~43, p. 463--473, 2020.}
+
+\bibitem[Nelson e Cox 2002]{nelson2002leninger}
+\abntrefinfo{Nelson e Cox}{NELSON; COX}{2002}
+{NELSON, D.~L.; COX, M.~M. Leninger princ{\'\i}pios de bioqu{\'\i}mica. In:
+  \emph{Leninger princ{\'\i}pios de bioqu{\'\i}mica}. [S.l.: s.n.], 2002. p.
+  975--975.}
+
+\end{thebibliography}

@@ -1,0 +1,389 @@
+\documentclass[
+	% -- opções da classe memoir --
+	12pt,				% tamanho da fonte
+	%openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	% -- opções da classe abntex2 --
+	%chapter=TITLE,		% títulos de capítulos convertidos em letras maiúsculas
+	%section=TITLE,		% títulos de seções convertidos em letras maiúsculas
+	%subsection=TITLE,	% títulos de subseções convertidos em letras maiúsculas
+	%subsubsection=TITLE,% títulos de subsubseções convertidos em letras maiúsculas
+	% -- opções do pacote babel --
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil,				% o último idioma é o principal do documento
+	]{abntex2}
+
+
+% ---
+% PACOTES
+% ---
+
+% ---
+% Pacotes fundamentais 
+% ---
+\usepackage{pslatex}			% Usa a fonte Latin Modern
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{float}
+% ---
+
+% ---
+% Pacotes adicionais, usados no anexo do modelo de folha de identificação
+% ---
+\usepackage{multicol}
+\usepackage{multirow}
+% ---
+	
+% ---
+% Pacotes adicionais, usados apenas no âmbito do Modelo Canônico do abnteX2
+% ---
+%\usepackage{lipsum}				% para geração de dummy text
+% ---
+
+% ---
+% Pacotes de citações
+% ---
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+%\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+
+% --- 
+% CONFIGURAÇÕES DE PACOTES
+% --- 
+
+% ---
+% Configurações do pacote backref
+% Usado sem a opção hyperpageref de backref
+%\renewcommand{\backrefpagesname}{Citado na(s) página(s):~}
+% Texto padrão antes do número das páginas
+%\renewcommand{\backref}{}
+% Define os textos da citação
+%\renewcommand*{\backrefalt}[4]{
+%	\ifcase #1 %
+%		Nenhuma citação no texto.%
+%	\or
+%		Citado na página #2.%
+%	\else
+%		Citado #1 vezes nas páginas #2.%
+%	\fi}%
+% ---
+
+% ---
+% Informações de dados para CAPA e FOLHA DE ROSTO
+% ---
+\titulo{Estática\\Trabalho sobre Modelo de Vinculação e Reações de Apoio em Suporte}
+\autor{Profº Drº Marcio Antonio Bazani\\Bruno Ferro RA: 142054151\\Felipe Perroni Chaim RA: 162054921\\Gabriel Rodrigues Munhoz RA: 162053541\\Jadiel Oliveira Costa RA: 162053681\\Juan Terenciani Batista RA: 162053738\\Matheus de Franca Farias RA: 162054904}
+\local{Ilha Solteira, São Paulo}
+\data{Setembro de 2017}
+\instituicao{%
+  Universidade Estadual Paulista  - Unesp
+  \par
+  Faculdade de Engenharia de Ilha Solteira  - FEIS}
+\tipotrabalho{Trabalho científico}
+% O preambulo deve conter o tipo do trabalho, o objetivo, 
+% o nome da instituição e a área de concentração 
+\preambulo{Estudo de um suporte de ar condicionado com seu respectivo modelo de vinculação e reações de apoio existentes.}
+% ---
+
+% ---
+% Configurações de aparência do PDF final
+
+% alterando o aspecto da cor azul
+\definecolor{blue}{RGB}{41,5,195}
+
+% informações do PDF
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+		pdftitle={\@title}, 
+		pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	    pdfcreator={LaTeX with abnTeX2},
+		pdfkeywords={abnt}{latex}{abntex}{abntex2}{relatório técnico}, 
+		colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=blue,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+		urlcolor=blue,
+		bookmarksdepth=4
+}
+\makeatother
+% --- 
+
+% --- 
+% Espaçamentos entre linhas e parágrafos 
+% --- 
+
+% O tamanho do parágrafo é dado por:
+\setlength{\parindent}{1.3cm}
+
+% Controle do espaçamento entre um parágrafo e outro:
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+% ---
+% compila o indice
+% ---
+\makeindex
+% ---
+\usepackage{fancyhdr}
+\fancyhead{}
+\fancyfoot{}
+\lhead{Trabalho sobre Modelo de Vinculação e Reações de Apoio em Suporte}
+\rhead{\thepage}
+
+\AddToShipoutPicture{
+
+\put(0,0){
+
+\parbox[b][\paperheight]{\paperwidth}{%
+
+\vfill
+
+\centering
+
+{\transparent{0.1}\includegraphics[scale=2]{../../Imagens/SA03x.jpg} }%
+
+\vfill}}}
+% ----
+% Início do documento
+% ----
+\begin{document}
+
+\begin{minipage}[c][1.5cm][c]{3cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\includegraphics[scale=0.6]{../../Imagens/barraunesp-assvisual.png}
+
+\end{minipage}
+
+% Seleciona o idioma do documento (conforme pacotes do babel)
+%\selectlanguage{english}
+\selectlanguage{brazil}
+
+% Retira espaço extra obsoleto entre as frases.
+\frenchspacing 
+
+% ----------------------------------------------------------
+% ELEMENTOS PRÉ-TEXTUAIS
+% ----------------------------------------------------------
+%\pretextual
+
+% ---
+% Capa
+% ---
+\imprimircapa
+% ---
+
+% ---
+% Folha de rosto
+% (o * indica que haverá a ficha bibliográfica)
+% ---
+%\imprimirfolhaderosto*
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\newpage
+
+\section[Objetivo]{Objetivo}
+\pagestyle{fancy}
+
+Analisar as forças de vínculo atuantes em um suporte de filtro de água utilizando diagrama de corpo livre e conceitos de equilíbrio.
+
+\newpage
+\section[Desenvolvimento]{Desenvolvimento}
+
+Diversos equipamento precisam ser fixados na parede, como ventiladores, suportes de televisão e ares-condicionados entre outros. Para tal fixação, um aparato simples de metal, muitas vezes, é suficiente. Este trabalho estuda o momento $(torque)$ causado por forças externas em um apoio de filtro de água para bebedouro. \cite{hibbeler2005estatica}
+
+A força externa atuante em nosso sistema é a força Peso do filtro, assumiremos que a massa M de tal filtro é de 200kg, pois há uma capacidade de 180l de água e mais motor e lataria.
+ 
+A representação do suporte do filtro se dá pela \textbf{Figura 1}:
+
+\begin{figure}[H]
+\center
+\caption{Representação do suporte.}
+\includegraphics[scale=0.5]{../../Imagens/Latex/imagem1.jpg} 
+
+\end{figure}
+
+Segue abaixo a representação do filtro, na \textbf{Figura 2}:
+
+\begin{figure}[H]
+\center
+\caption{Representação do filtro.}
+\includegraphics[scale=0.5]{../../Imagens/Latex/imagem2.jpg}  
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\caption{Representação do sistema.}
+\includegraphics[scale=0.5]{../../Imagens/Latex/imagem3.jpg} 
+
+\end{figure}
+
+Por fim, seguem nas \textbf{Figuras 4, 5 e 6} a cotação das peças do sistema:
+
+\begin{figure}[H]
+\center
+\caption{Cotação da vista lateral.}
+\includegraphics[scale=0.5]{../../Imagens/Latex/imagem4.jpg} 
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\caption{Cotação da vista frontal.}
+\includegraphics[scale=0.5]{../../Imagens/Latex/imagem5.jpg} 
+
+\end{figure}
+
+\begin{figure}[H]
+\center
+\caption{Cotação da vista superior.}
+\includegraphics[scale=0.35]{../../Imagens/Latex/imagem6.jpg} 
+
+\end{figure}
+
+
+% ---
+% inserir lista de ilustrações
+% ---
+%\pdfbookmark[0]{\listfigurename}{lof}
+%\listoffigures*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de tabelas
+% ---
+%\pdfbookmark[0]{\listtablename}{lot}
+%\listoftables*
+%\cleardoublepage
+% ---
+
+% ---
+% inserir lista de abreviaturas e siglas
+% ---
+%\begin{siglas}
+% \item[ABNT] Associação Brasileira de Normas Técnicas
+%  \item[abnTeX] ABsurdas Normas para TeX
+%\end{siglas}
+% ---
+
+% ---
+% inserir lista de símbolos
+% ---
+%\begin{simbolos}
+  %\item[$ \Gamma $] Letra grega Gama
+  %\item[$ \Lambda $] Lambda
+  %\item[$ \zeta $] Letra grega minúscula zeta
+  %\item[$ \in $] Pertence
+%\end{simbolos}
+% ---
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\newpage
+\section[Resultados]{Resultados}
+\pagestyle{fancy}
+
+Atribuiremos a Origem do nosso sistema de coordenadas ao ponto 1, que coincide com o parafuso 1. Desta forma, a posição dos parafusos e do centro de massa do filtro ficam da seguinte forma:
+
+\begin{itemize}
+
+\item Parafuso 1: $(0\widehat{i}+ 0\widehat{j} + 0 \widehat{k})$ m
+\item Parafuso 2: $(0,390\widehat{k})$ m
+\item Parafuso 3: $(-0,620\widehat{i})$ m
+\item Parafuso 4: $(-0,620\widehat{i} + 0,390\widehat{k})$ m
+\item Centro de massa do filtro: $(-0,310\widehat{i} + 0,250\widehat{j} + 0,705\widehat{k})$ m
+
+\end{itemize}
+
+Quando a linha de ação da força peso não passa pelo parafuso, este sofre um momento de torção junto com a carga da força. Neste trabalho, analisaremos cada parafuso individualmente, como se toda a força fosse aplicada apenas nele e consideraremos a gravidade como sendo $g=9,8\frac{m}{s^{2}}$. \cite{hibbeler2005estatica}
+
+\subsection{Influência do peso do filtro no parafuso 1}
+
+$\vec{F}$ = $(-1960\widehat{k})$ N
+
+$\vec{r_{1}}$ = $(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$ m
+
+$\vec{M_{1}}$ = $[(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$  x  $(-1960\widehat{k})]$ = $(-522,34\widehat{i}$ – $651,7\widehat{j})$ N.m
+
+M  = 835,196 N.m
+
+
+\subsection{Influência do peso do filtro no parafuso 2}
+
+$\vec{F}$ = $(-1960\widehat{k})$ N
+
+$\vec{r_{1}}$ = $(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$ m
+
+$\vec{M_{1}}$ = $[(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$  x  $(-1960\widehat{k})]$ = $(-522,34\widehat{i}$ – $651,7\widehat{j})$ N.m
+
+M  = 835,196 N.m
+
+\subsection{Influência do peso do filtro no parafuso 3}
+
+$\vec{F}$ = $(-1960\widehat{k})$ N
+
+$\vec{r_{1}}$ = $(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$ m
+
+$\vec{M_{1}}$ = $[(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$  x  $(-1960\widehat{k})]$ = $(-522,34\widehat{i}$ – $651,7\widehat{j})$ N.m
+
+M  = 835,196 N.m
+
+\subsection{Influência do peso do filtro no parafuso 4}
+
+$\vec{F}$ = $(-1960\widehat{k})$ N
+
+$\vec{r_{1}}$ = $(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$ m
+
+$\vec{M_{1}}$ = $[(-0,3325\widehat{i}$ + $0,265\widehat{j}$ + $0,885\widehat{k})$  x  $(-1960\widehat{k})]$ = $(-522,34\widehat{i}$ – $651,7\widehat{j})$ N.m
+
+M  = 835,196 N.m
+
+Pelo fato de os parafusos estarem a uma mesma distância da linha de ação da força atuante (força peso), pelo princípio de transmissibilidade, o módulo do momento causado em cada parafuso tem o mesmo valor. Isso é percebido ao se ver que o módulo de cada componente do momento em cada parafuso é igual. O princípio da transmissibilidade é descrito da seguinte forma:
+
+\begin{figure}[H]
+\center
+\caption{Cotação da vista superior.}
+\includegraphics[scale=1]{../../Imagens/Latex/imagem7.jpg}  
+
+\end{figure}
+
+\begin{center}
+$\vec{F}\bullet\vec{r_{a}} = \vec{F}\bullet\vec{r_{b}}$
+\end{center}
+
+O sistema não pode ser mais simplificado, pois há apenas uma força atuante, a qual seria a própria resultante.
+
+\newpage
+\section[Conclusão]{Conclusão}
+\pagestyle{fancy}
+
+Ao final dos cálculos, concluímos que o princípio de transmissibilidade é válido, que um sistema em que há apenas uma força externa atuando não pode ser ainda mais simplificado e que o momento gerado é suportado em cada um dos parafusos do suporte. O módulo do momento em cada um dos parafusos é de 835,196 N.m. 
+
+\newpage
+
+\bibliographystyle{ieeetr}
+\bibliography{REFE}
+% ----------------------------------------------------------
+% Glossário
+% ----------------------------------------------------------
+%
+% Consulte o manual da classe abntex2 para orientações sobre o glossário.
+%
+%\glossary
+
+\end{document}
