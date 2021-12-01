@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.9.20)  20 SEP 2021 18:09
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.5)  27 NOV 2021 18:18
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -501,36 +501,73 @@ File: babel.def 2020/02/14 3.40 Babel common definitions
 Package babel Info: \l@canadian = using hyphenrules for english
 (babel)             (\language0) on input line 102.
 Package babel Info: \l@australian = using hyphenrules for ukenglish
-(babel)             (\language4) on input line 105.
+(babel)             (\language37) on input line 105.
 Package babel Info: \l@newzealand = using hyphenrules for ukenglish
-(babel)             (\language4) on input line 108.
+(babel)             (\language37) on input line 108.
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-french/french.ldf
+Language: french 2020/01/30 v3.5g French support from the babel system
+Package babel Info: \l@acadian = using hyphenrules for french
+(babel)             (\language66) on input line 91.
+Package babel Info: \l@canadien = using hyphenrules for french
+(babel)             (\language66) on input line 92.
+\FB@nonchar=\count308
+Package babel Info: Making : an active character on input line 419.
+Package babel Info: Making ; an active character on input line 420.
+Package babel Info: Making ! an active character on input line 421.
+Package babel Info: Making ? an active character on input line 422.
+\FBguill@level=\count309
+\FBold@everypar=\toks23
+\FB@Mht=\dimen184
+\mc@charclass=\count310
+\mc@charfam=\count311
+\mc@charslot=\count312
+\std@mcc=\count313
+\dec@mcc=\count314
+\c@FBcaption@count=\count315
+\listindentFB=\dimen185
+\descindentFB=\dimen186
+\labelindentFB=\dimen187
+\labelwidthFB=\dimen188
+\leftmarginFB=\dimen189
+\parindentFFN=\dimen190
+\FBfnindent=\dimen191
+)
+(/usr/share/texlive/texmf-dist/tex/generic/babel-spanish/spanish.ldf
+Language: spanish.ldf 2016/03/03 v5.0p Spanish support from the babel system
+\es@quottoks=\toks24
+\es@quotdepth=\count316
+Package babel Info: Making " an active character on input line 561.
+Package babel Info: Making . an active character on input line 662.
+Package babel Info: Making < an active character on input line 707.
+Package babel Info: Making > an active character on input line 707.
 )
 (/usr/share/texlive/texmf-dist/tex/generic/babel-portuges/portuges.ldf
 Language: portuges 2008/03/18 v1.2q Portuguese support from the babel system
 Package babel Info: \l@brazil = using hyphenrules for portuguese
-(babel)             (\language3) on input line 113.
-Package babel Info: Making " an active character on input line 145.
+(babel)             (\language38) on input line 113.
 ))
+(/usr/share/texlive/texmf-dist/tex/latex/carlisle/scalefnt.sty)
 (/usr/share/texlive/texmf-dist/tex/latex/enumitem/enumitem.sty
 Package: enumitem 2019/06/20 v3.9 Customized lists
 \labelindent=\skip192
-\enit@outerparindent=\dimen184
-\enit@toks=\toks23
+\enit@outerparindent=\dimen192
+\enit@toks=\toks25
 \enit@inbox=\box50
-\enit@count@id=\count308
-\enitdp@description=\count309
+\enit@count@id=\count317
+\enitdp@description=\count318
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/calc.sty
 Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
-\calc@Acount=\count310
-\calc@Bcount=\count311
-\calc@Adimen=\dimen185
-\calc@Bdimen=\dimen186
+\calc@Acount=\count319
+\calc@Bcount=\count320
+\calc@Adimen=\dimen193
+\calc@Bdimen=\dimen194
 \calc@Askip=\skip193
 \calc@Bskip=\skip194
 LaTeX Info: Redefining \setlength on input line 80.
 LaTeX Info: Redefining \addtolength on input line 81.
-\calc@Ccount=\count312
+\calc@Ccount=\count321
 \calc@Cskip=\skip195
 )
 
@@ -553,17 +590,17 @@ Sidefoothsep and sidefootwidth: 7pt and 92pt
 Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
 ******************************************************
 
-\c@abntex@bookmarkcounter=\count313
+\c@abntex@bookmarkcounter=\count322
 \cftlastnumwidth=\skip196
 \chapternamenumlength=\skip197
 \ABNTEXcitacaorecuo=\skip198
-\c@alineasi=\count314
-\c@alineasii=\count315
-\enitdp@alineas=\count316
-\c@subalineasi=\count317
-\enitdp@subalineas=\count318
-\c@incisosi=\count319
-\enitdp@incisos=\count320
+\c@alineasi=\count323
+\c@alineasii=\count324
+\enitdp@alineas=\count325
+\c@subalineasi=\count326
+\enitdp@subalineas=\count327
+\c@incisosi=\count328
+\enitdp@incisos=\count329
 \ABNTEXsignwidth=\skip256
 \ABNTEXsignthickness=\skip257
 \ABNTEXsignskip=\skip258
@@ -612,8 +649,8 @@ File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/base/inputenc.sty
 Package: inputenc 2018/08/11 v1.3c Input encoding file
-\inpenc@prehook=\toks24
-\inpenc@posthook=\toks25
+\inpenc@prehook=\toks26
+\inpenc@posthook=\toks27
 )
 (/usr/share/texlive/texmf-dist/tex/latex/tools/indentfirst.sty
 Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
@@ -643,17 +680,17 @@ File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 105.
 )
-\Gin@req@height=\dimen187
-\Gin@req@width=\dimen188
+\Gin@req@height=\dimen195
+\Gin@req@width=\dimen196
 )
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype.sty
 Package: microtype 2019/11/18 v2.7d Micro-typographical refinements (RS)
-\MT@toks=\toks26
-\MT@count=\count321
+\MT@toks=\toks28
+\MT@count=\count330
 LaTeX Info: Redefining \textls on input line 790.
-\MT@outer@kern=\dimen189
+\MT@outer@kern=\dimen197
 LaTeX Info: Redefining \textmicrotypecontext on input line 1354.
-\MT@listname@count=\count322
+\MT@listname@count=\count331
 
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/microtype-pdftex.def
 File: microtype-pdftex.def 2019/11/18 v2.7d Definitions specific to pdftex (RS)
@@ -676,19 +713,19 @@ Package: eso-pic 2018/04/12 v2.0h eso-pic (RN)
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amscls/amsthm.sty
 Package: amsthm 2017/10/31 v2.20.4
-\thm@style=\toks27
-\thm@bodyfont=\toks28
-\thm@headfont=\toks29
-\thm@notefont=\toks30
-\thm@headpunct=\toks31
+\thm@style=\toks29
+\thm@bodyfont=\toks30
+\thm@headfont=\toks31
+\thm@notefont=\toks32
+\thm@headpunct=\toks33
 \thm@preskip=\skip260
 \thm@postskip=\skip261
 \thm@headsep=\skip262
-\dth@everypar=\toks32
+\dth@everypar=\toks34
 )
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/amsfonts.sty
 Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
-\@emptytoks=\toks33
+\@emptytoks=\toks35
 \symAMSa=\mathgroup4
 \symAMSb=\mathgroup5
 LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
@@ -701,15 +738,15 @@ Package: expl3 2020-02-14 L3 programming layer (loader)
 
 (/usr/share/texlive/texmf-dist/tex/latex/l3backend/l3backend-pdfmode.def
 File: l3backend-pdfmode.def 2020-02-03 L3 backend support: PDF mode
-\l__kernel_color_stack_int=\count323
+\l__kernel_color_stack_int=\count332
 \l__pdf_internal_box=\box51
 ))
 (/usr/share/texlive/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
 Package: xparse 2020-02-14 L3 Experimental document command parser
-\l__xparse_current_arg_int=\count324
-\g__xparse_grabber_int=\count325
-\l__xparse_m_args_int=\count326
-\l__xparse_v_nesting_int=\count327
+\l__xparse_current_arg_int=\count333
+\g__xparse_grabber_int=\count334
+\l__xparse_m_args_int=\count335
+\l__xparse_v_nesting_int=\count336
 )
 Package: lipsum 2019/01/02 v2.2 150 paragraphs of Lorem Ipsum dummy text
 
@@ -725,8 +762,8 @@ Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
 (/usr/share/texlive/texmf-dist/tex/latex/abntex2/abntex2abrev.sty)
 \minimumbiblabelwidth=\skip263
 \ABCIauxlen=\skip264
-\c@ABCIaux=\count328
-\c@ABCImax=\count329
+\c@ABCIaux=\count337
+\c@ABCImax=\count338
 
 (/usr/share/texlive/texmf-dist/tex/generic/iftex/ifpdf.sty
 Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
@@ -740,12 +777,12 @@ Package: relsize 2013/03/29 ver 4.1
 \biblabelsep=\skip265
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks34
+\ABCItoken=\toks36
 )
 Package color Info: Redefining color blue on input line 52.
 Package hyperref Info: Option `colorlinks' set `true' on input line 68.
-\c@quadro=\count330
-\c@loqdepth=\count331
+\c@quadro=\count339
+\c@loqdepth=\count340
 \cftbeforequadroskip=\skip266
 \cftquadroindent=\skip267
 \cftquadronumwidth=\skip268
@@ -784,7 +821,7 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count332
+\c@section@level=\count341
 )
 Redoing nameref's sectioning
 Redoing nameref's label
@@ -792,21 +829,24 @@ LaTeX Info: Redefining \nameref on input line 104.
 LaTeX Info: Redefining \ref on input line 104.
 LaTeX Info: Redefining \pageref on input line 104.
 LaTeX Info: Redefining \nameref on input line 104.
+LaTeX Info: Redefining \degres on input line 104.
+LaTeX Info: Redefining \dots on input line 104.
+LaTeX Info: Redefining \up on input line 104.
 \myptabbox=\box53
 \myptabboxwidth=\skip269
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count333
-\scratchdimen=\dimen190
+\scratchcounter=\count342
+\scratchdimen=\dimen198
 \scratchbox=\box54
-\nofMPsegments=\count334
-\nofMParguments=\count335
-\everyMPshowfont=\toks35
-\MPscratchCnt=\count336
-\MPscratchDim=\dimen191
-\MPnumerator=\count337
-\makeMPintoPDFobject=\count338
-\everyMPtoPDFconversion=\toks36
+\nofMPsegments=\count343
+\nofMParguments=\count344
+\everyMPshowfont=\toks37
+\MPscratchCnt=\count345
+\MPscratchDim=\dimen256
+\MPnumerator=\count346
+\makeMPintoPDFobject=\count347
+\everyMPtoPDFconversion=\toks38
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
@@ -1653,13 +1693,13 @@ Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 406.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 406.
  ) 
 Here is how much of TeX's memory you used:
- 13898 strings out of 483122
- 219216 string characters out of 5964496
- 703770 words of memory out of 5000000
- 28485 multiletter control sequences out of 15000+600000
+ 14971 strings out of 481239
+ 235618 string characters out of 5920377
+ 728719 words of memory out of 5000000
+ 29786 multiletter control sequences out of 15000+600000
  607622 words of font info for 101 fonts, out of 8000000 for 9000
- 38 hyphenation exceptions out of 8191
- 42i,14n,43p,377b,508s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 1141 hyphenation exceptions out of 8191
+ 42i,14n,43p,377b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-mathit.enc}{/usr/s
 hare/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/texmf/fonts/type1/public/lm
