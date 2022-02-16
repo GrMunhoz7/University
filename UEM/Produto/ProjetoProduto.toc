@@ -1,0 +1,72 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contextualização do Tema}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{3}{subsection.1.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Planejamento Estratégico de Produtos}}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Definir escopo da revisão do PEN}{4}{section.2.1}%
+\contentsline {section}{\numberline {2.2}Planejar atividades para a revisão do PEN}{4}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Consolidar informações sobre tecnologia e mercado}{4}{section.2.3}%
+\contentsline {section}{\numberline {2.4}Revisar o PEN}{4}{section.2.4}%
+\contentsline {section}{\numberline {2.5}Analisar o portfólio de produtos da empresa}{4}{section.2.5}%
+\contentsline {section}{\numberline {2.6}Propor mudanças no portfólio de produtos}{4}{section.2.6}%
+\contentsline {section}{\numberline {2.7}Verificar a viabilidade do portfólio de produtos}{4}{section.2.7}%
+\contentsline {section}{\numberline {2.8}Decidir o início do planejamento de um dos produtos do portfólio}{5}{section.2.8}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Planejamento do Projeto}}{6}{chapter.3}%
+\contentsline {section}{\numberline {3.1}Definir interessados do projeto}{6}{section.3.1}%
+\contentsline {section}{\numberline {3.2}Definir escopo do produto}{6}{section.3.2}%
+\contentsline {section}{\numberline {3.3}Definir escopo do projeto}{6}{section.3.3}%
+\contentsline {section}{\numberline {3.4}Detalhar o escopo do projeto}{6}{section.3.4}%
+\contentsline {section}{\numberline {3.5}Adaptar o modelo de referência}{6}{section.3.5}%
+\contentsline {section}{\numberline {3.6}Definir atividades e sequência}{6}{section.3.6}%
+\contentsline {section}{\numberline {3.7}Preparar cronograma}{6}{section.3.7}%
+\contentsline {section}{\numberline {3.8}Avaliar riscos}{6}{section.3.8}%
+\contentsline {section}{\numberline {3.9}Preparar orçamento do projeto}{6}{section.3.9}%
+\contentsline {section}{\numberline {3.10}Analisar a viabilidade econômica do projeto}{6}{section.3.10}%
+\contentsline {section}{\numberline {3.11}Definir indicadores de desempenho}{6}{section.3.11}%
+\contentsline {section}{\numberline {3.12}Definir plano de comunicação}{6}{section.3.12}%
+\contentsline {section}{\numberline {3.13}Planejar e preparar aquisições}{6}{section.3.13}%
+\contentsline {section}{\numberline {3.14}Preparar plano de projeto}{6}{section.3.14}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Projeto Informacional}}{7}{chapter.4}%
+\contentsline {section}{\numberline {4.1}Revisar e atualizar o escopo do produto}{7}{section.4.1}%
+\contentsline {section}{\numberline {4.2}Detalhar ciclo de vida do produto e definir seus clientes}{7}{section.4.2}%
+\contentsline {section}{\numberline {4.3}Identificar os requisitos dos clientes do produto}{7}{section.4.3}%
+\contentsline {section}{\numberline {4.4}Definir os requisitos do produto}{7}{section.4.4}%
+\contentsline {section}{\numberline {4.5}Definir especificações-meta do produto}{7}{section.4.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto Conceitual}}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelar funcionalmente}{8}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Desenvolver princípios de soluções para as funções}{8}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Desenvolver alternativas de solução}{8}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Definir arquitetura}{8}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Analisar SSCs}{8}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Definir ergonomia e estética}{8}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Definir parcerias de co-desenvolvimento}{8}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Definir plano macro de processo}{8}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Selecionar concepções alternativas}{8}{section.5.9}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Projeto Detalhado}}{9}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Criar e detalhar itens e documentos}{9}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Decidir fazer ou comprar SSCs}{9}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Desenvolver fornecedores}{9}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Planejar processo de fabricação e montagem}{9}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Projetar recursos de fabricação}{9}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Avaliar itens e documentos}{9}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Otimizar produto e processo}{9}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Criar material de suporte do produto}{9}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Projetar embalagem}{9}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Planejar fim de vida de produto}{9}{section.6.10}%
+\contentsline {section}{\numberline {6.11}Testar e homologar produto}{9}{section.6.11}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Prototipagem}}{10}{chapter.7}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{11}{section*.4}%

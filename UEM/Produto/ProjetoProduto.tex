@@ -1,0 +1,346 @@
+\documentclass[
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{lipsum}				% para geração de dummy text
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{xcolor}
+\usepackage{scalefnt}
+
+\usepackage[font=small]{caption}     %% make caption in normal size
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtabu}{\footnotesize}{}{}   %% change all longtabu content to foot note size
+
+\definecolor{verde}{rgb}{0,0.5,0}
+\usepackage{listings}
+\lstset{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{verde},
+  commentstyle=\color{red},
+  extendedchars=true,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  backgroundcolor=\color{green!10},
+  breakautoindent=true,
+  captionpos=b,
+  xleftmargin=0pt,
+}
+
+
+\titulo{Processo Agroindustrial de Processamento de Cacau}
+\autor{Caio Henrique Silva Souza 99131\\Eduardo Favoretto Vale Bom 108139\\Gabriel Rodrigues Munhoz 106802\\João Vítor Batistão 108074}
+\local{Maringá, PR}
+\data{01.02.2022}
+\orientador{}
+\coorientador{}
+\instituicao{%
+  Universidade Estadual de Maringá - UEM
+  \par
+  Departamento de Engenharia de Produção - DEP}
+\tipotrabalho{Tese (Doutorado)}
+\preambulo{}
+
+\definecolor{blue}{RGB}{41,5,195}
+
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+	colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+
+\setlength{\parindent}{1.3cm}
+
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+\makeindex
+
+%\usepackage{fancyhdr}
+%\fancyhead{}
+%\fancyfoot{}
+%\lhead{Processo Agroindustrial de Processamento de Cacau}
+%\rhead{Processo Agroindustrial de Processamento de Cacau}
+
+\AddToShipoutPicture{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+{\transparent{0.1}\includegraphics[scale=1.4]{../../Pictures/logoUEM.jpg}    }%
+\vfill}}}
+
+
+
+%\graphicspath{{../Pictures}}
+\begin{document}
+
+\begin{minipage}[c][0cm][c]{0cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{../../Pictures/uem-modelo-04.png}  
+\end{minipage}
+
+\selectlanguage{brazil}
+
+\frenchspacing 
+
+% \pretextual
+
+\imprimircapa
+
+
+% ---
+% RESUMOS
+% ---
+
+%\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+%\begin{resumo}
+ 
+ 
+% \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+%\end{resumo}
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\chapter{Introdução}
+%\pagestyle{fancy}
+
+\section{Contextualização do Tema}
+
+O cacau é um fruto da espécie \textit{Theobroma cacao L.} que possui origem na região amazônica e seu uso, segundo arqueólogos equatorianos e franceses, já era realizado há cerca de 5.500 anos pelos povos amazônicos \cite{2}. No entanto, foi no século XVII que acabou se tornando um produto agrícola e cultivado em diferentes locais da América do Sul e Central devido a disseminação do cultivo pelos espanhóis, e posteriormente se expandindo aos poucos pelo mundo. \cite{1} 
+
+Existem 6 principais produtos a partir do fruto de cacau: mel, polpa, nibs, chocolate, manteiga e cacau em pó, além da própria amêndoa do cacau e casca que também pode ser comercializada de uma forma menos processada. A maior parte desses produtos são voltados para o setor alimentício, no entanto é possível verificar aplicações também no setor cosmético e no setor de geração de energia. \cite{5}
+
+Com mais da metade da produção nacional, 62$\%$, o sul da Bahia é a principal região produtora de cacau, seguida pela região norte do Brasil com 34$\%$ e o restante da produção, 4$\%$, espalhada pelo país \cite{1}. O Brasil é o 7º maior produtor do mundo e segundo o Instituto Brasileiro de Geografia Estatística (IBGE) o Brasil produziu em torno de 310 mil tonaledas. \cite{3} 
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Estudar o processamento de cacau na agroindústria, mais especificamente a produção de chocolate, abrangendo desde a parte normativa do setor, até o entendimento do mercado do produto em questão e as análises técnicas dos processos.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+\item Estudar o mercado, normas regulatórias, oportunidades e desafios do setor.
+\item Realizar o mapeamento dos processos de uma produção de chocolate desde o recebimento do fruto até a embalagem, estoque e distribuição do produto final.
+\item Calcular os balanços de massa e energia que são inerentes ao processo de produção.
+\end{itemize}
+
+\newpage
+\chapter{Planejamento Estratégico de Produtos}
+%\pagestyle{fancy}
+
+\section{Definir escopo da revisão do PEN}
+
+Nesta atividade do Item “Planejamento estratégico de Produtos”, visto que
+não temos uma empresa “real” para o desenvolvimento do produto, portanto,
+ela não possui um planejamento estratégico, é preciso definir algumas
+questões. Assim, nessa atividade devem ser definidos pelo menos:
+Missão
+Visão
+Valores
+Segmento de mercado
+Alguns objetivos e metas a serem alcançadas a longo prazo pela empresa
+(estratégias).
+No mínimo três ideias de produtos para seu portfólio (cada um terá uma
+minuta breve, mas somente um será desenvolvido).
+
+
+\section{Planejar atividades para a revisão do PEN}
+
+Apresentar o planejamento de como se dará as próximas atividades do Item.
+
+\section{Consolidar informações sobre tecnologia e mercado}
+
+
+
+
+\section{Revisar o PEN}
+
+
+Nesta atividade poderá ser revisto o que foi definido no Item 2.1 pela equipe
+com as informações obtidas na atividade 2.3. Apresentando, então, as
+possíveis alterações ou a manutenção do que foi previamente definido.
+
+Nesta atividade os produtos definidos na atividade 2.1 podem ser analisados
+baseados em técnicas que utilizam critérios relacionados a estratégia da
+empresa.
+
+\section{Analisar o portfólio de produtos da empresa}
+
+\section{Propor mudanças no portfólio de produtos}
+
+\section{Verificar a viabilidade do portfólio de produtos}
+
+Aqui fica dispensada a atividade de “Avaliar a viabilidade econômica do
+portfólio de projetos”.
+
+\section{Decidir o início do planejamento de um dos produtos do portfólio}
+
+\newpage
+\chapter{Planejamento do Projeto}
+%\pagestyle{fancy}
+
+\section{Definir interessados do projeto}
+
+\section{Definir escopo do produto}
+
+\section{Definir escopo do projeto}
+
+\section{Detalhar o escopo do projeto}
+
+\section{Adaptar o modelo de referência}
+
+\section{Definir atividades e sequência}
+
+\section{Preparar cronograma}
+
+\section{Avaliar riscos}
+
+\section{Preparar orçamento do projeto}
+
+\section{Analisar a viabilidade econômica do projeto}
+
+\section{Definir indicadores de desempenho}
+
+\section{Definir plano de comunicação}
+
+\section{Planejar e preparar aquisições}
+
+\section{Preparar plano de projeto}
+
+
+\newpage
+\chapter{Projeto Informacional}
+%\pagestyle{fancy}
+
+\section{Revisar e atualizar o escopo do produto}
+
+\section{Detalhar ciclo de vida do produto e definir seus clientes}
+
+\section{Identificar os requisitos dos clientes do produto}
+
+\section{Definir os requisitos do produto}
+
+\section{Definir especificações-meta do produto}
+
+
+\newpage
+\chapter{Projeto Conceitual}
+%\pagestyle{fancy}
+
+\section{Modelar funcionalmente}
+
+\section{Desenvolver princípios de soluções para as funções}
+
+\section{Desenvolver alternativas de solução}
+
+\section{Definir arquitetura}
+
+\section{Analisar SSCs}
+
+\section{Definir ergonomia e estética}
+
+\section{Definir parcerias de co-desenvolvimento}
+
+\section{Definir plano macro de processo}
+
+\section{Selecionar concepções alternativas}
+
+
+\newpage
+\chapter{Projeto Detalhado}
+%\pagestyle{fancy}
+
+\section{Criar e detalhar itens e documentos}
+
+\section{Decidir fazer ou comprar SSCs}
+
+\section{Desenvolver fornecedores}
+
+\section{Planejar processo de fabricação e montagem}
+
+\section{Projetar recursos de fabricação}
+
+\section{Avaliar itens e documentos}
+
+\section{Otimizar produto e processo}
+
+\section{Criar material de suporte do produto}
+
+\section{Projetar embalagem}
+
+\section{Planejar fim de vida de produto}
+
+\section{Testar e homologar produto}
+
+
+\newpage
+\chapter{Prototipagem}
+%\pagestyle{fancy}
+
+
+\newpage
+\postextual
+
+\bibliography{referencias}
+
+%\begin{anexosenv}
+
+%\chapter{Código utilizado no software EMSO}
+
+%\begin{lstlisting}
+%\end{lstlisting}
+
+%\end{anexosenv}
+
+\end{document}

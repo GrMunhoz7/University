@@ -1,0 +1,96 @@
+This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ProjetoCacau.aux
+The style file: abntex2-alf.bst
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 6000 items from 3000.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Warning--entry type for "0" isn't style-file defined
+--line 1 of file referencias.bib
+Warning--entry type for "1" isn't style-file defined
+--line 10 of file referencias.bib
+Warning--entry type for "2" isn't style-file defined
+--line 18 of file referencias.bib
+Warning--entry type for "3" isn't style-file defined
+--line 26 of file referencias.bib
+Warning--entry type for "4" isn't style-file defined
+--line 35 of file referencias.bib
+Warning--entry type for "5" isn't style-file defined
+--line 44 of file referencias.bib
+Warning--entry type for "6" isn't style-file defined
+--line 53 of file referencias.bib
+Warning--entry type for "8" isn't style-file defined
+--line 68 of file referencias.bib
+Warning--entry type for "9" isn't style-file defined
+--line 77 of file referencias.bib
+Warning--entry type for "forbes" isn't style-file defined
+--line 86 of file referencias.bib
+Warning--entry type for "fatsecret" isn't style-file defined
+--line 95 of file referencias.bib
+Warning--entry type for "dengo" isn't style-file defined
+--line 263 of file referencias.bib
+Warning--entry type for "xpeed" isn't style-file defined
+--line 272 of file referencias.bib
+Warning--entry type for "unimed" isn't style-file defined
+--line 281 of file referencias.bib
+Warning--entry type for "saude" isn't style-file defined
+--line 290 of file referencias.bib
+Reallocated singl_function (elt_size=4) to 100 items from 50.
+Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
+Reallocated global_strs (elt_size=200001) to 20 items from 10.
+Reallocated glb_str_end (elt_size=4) to 20 items from 10.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 27 entries,
+            6714 wiz_defined-function locations,
+            1306 strings with 13632 characters,
+and the built_in function-call counts, 57395 in all, are:
+= -- 7799
+> -- 408
+< -- 2172
++ -- 2352
+- -- 135
+* -- 3209
+:= -- 6852
+add.period$ -- 126
+call.type$ -- 27
+change.case$ -- 174
+chr.to.int$ -- 30
+cite$ -- 26
+duplicate$ -- 7218
+empty$ -- 1446
+format.name$ -- 622
+if$ -- 10370
+int.to.chr$ -- 0
+int.to.str$ -- 0
+missing$ -- 428
+newline$ -- 147
+num.names$ -- 130
+pop$ -- 586
+preamble$ -- 1
+purify$ -- 82
+quote$ -- 0
+skip$ -- 7271
+stack$ -- 1
+substring$ -- 2698
+swap$ -- 2456
+text.length$ -- 27
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 185
+width$ -- 0
+write$ -- 417
+(There were 15 warnings)
