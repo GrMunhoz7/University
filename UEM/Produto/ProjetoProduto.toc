@@ -40,6 +40,47 @@
 \contentsline {section}{\numberline {4.4}Definir os requisitos do produto}{29}{section.4.4}%
 \contentsline {section}{\numberline {4.5}Definir especificações-meta do produto}{29}{section.4.5}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+<<<<<<< HEAD
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto Conceitual}}{32}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelar funcionalmente}{32}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Desenvolver princípios de soluções para as funções}{33}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Desenvolver alternativas de solução}{33}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Definir arquitetura}{33}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Analisar SSCs}{34}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Definir ergonomia e estética}{35}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Definir parcerias de co-desenvolvimento}{35}{section.5.7}%
+=======
+<<<<<<< HEAD
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto Conceitual}}{8}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Modelar funcionalmente}{8}{section.5.1}%
+\contentsline {section}{\numberline {5.2}Desenvolver princípios de soluções para as funções}{8}{section.5.2}%
+\contentsline {section}{\numberline {5.3}Desenvolver alternativas de solução}{8}{section.5.3}%
+\contentsline {section}{\numberline {5.4}Definir arquitetura}{8}{section.5.4}%
+\contentsline {section}{\numberline {5.5}Analisar SSCs}{8}{section.5.5}%
+\contentsline {section}{\numberline {5.6}Definir ergonomia e estética}{8}{section.5.6}%
+\contentsline {section}{\numberline {5.7}Definir parcerias de co-desenvolvimento}{8}{section.5.7}%
+\contentsline {section}{\numberline {5.8}Definir plano macro de processo}{8}{section.5.8}%
+\contentsline {section}{\numberline {5.9}Selecionar concepções alternativas}{8}{section.5.9}%
+>>>>>>> 2428725220ac865e51b23f28ef3236605f1d61ba
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Projeto Detalhado}}{36}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Criar e detalhar itens e documentos}{36}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Decidir fazer ou comprar SSCs}{37}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Planejar processo de fabricação e montagem}{37}{section.6.3}%
+\contentsline {section}{\numberline {6.4}Projetar recursos de fabricação}{38}{section.6.4}%
+\contentsline {section}{\numberline {6.5}Avaliar itens e documentos}{39}{section.6.5}%
+\contentsline {section}{\numberline {6.6}Otimizar produto e processo}{39}{section.6.6}%
+\contentsline {section}{\numberline {6.7}Criar material de suporte do produto}{39}{section.6.7}%
+\contentsline {section}{\numberline {6.8}Projetar embalagem}{40}{section.6.8}%
+\contentsline {section}{\numberline {6.9}Planejar fim de vida de produto}{41}{section.6.9}%
+\contentsline {section}{\numberline {6.10}Testar e homologar produto}{42}{section.6.10}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+<<<<<<< HEAD
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{43}{section*.44}%
+=======
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{11}{section*.4}%
+=======
 \contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Projeto Conceitual}}{32}{chapter.5}%
 \contentsline {section}{\numberline {5.1}Modelar funcionalmente}{32}{section.5.1}%
 \contentsline {section}{\numberline {5.2}Desenvolver princípios de soluções para as funções}{33}{section.5.2}%
@@ -63,3 +104,5 @@
 \vspace {\cftbeforechapterskip }
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{43}{section*.44}%
+>>>>>>> 1f22df0... tentando ajeitar tudo
+>>>>>>> 2428725220ac865e51b23f28ef3236605f1d61ba
