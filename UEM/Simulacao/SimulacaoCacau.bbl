@@ -1,0 +1,85 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Educaca 2019]{modelagem}
+\abntrefinfo{Educaca}{EDUCACA}{2019}
+{EDUCACA, M. da. \emph{Princípios da Modelagem}. 2019.
+Dispon{\'\i}vel em:
+  \url{https://modelagemdaeducaca.wixsite.com/unifei/post/princ\%C3\%ADpios-de-modelagem}.
+  Acesso em: 08.04.2022.}
+
+\bibitem[Engenharia et al. 2013]{bateman}
+\abntrefinfo{Engenharia et al.}{ENGENHARIA et al.}{2013}
+{ENGENHARIA, B. et al. \emph{Simula{\c{c}}{\~a}o De Sistemas: Aprimorando
+  Processos de Log{\'\i}stica, Servi{\c{c}}os e Manufatura}. [S.l.]: Elsevier
+  Brasil, 2013. v.~1.}
+
+\bibitem[Esposito et al. 2009]{ESPOSITO}
+\abntrefinfo{Esposito et al.}{ESPOSITO et al.}{2009}
+{ESPOSITO, E. et al. Virtual enterprise in sme networks.
+\emph{Piccola Impresa/Small business}, n.~3, 2009.}
+
+\bibitem[FlexSim 2022]{flexsim}
+\abntrefinfo{FlexSim}{FLEXSIM}{2022}
+{FLEXSIM. \emph{OVERVIEW OF THE FLEXSIM USER INTERFACE}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://docs.flexsim.com/en/22.1/FlexSimUI/OverviewUserInterface/OverviewUserInterface.html}.
+  Acesso em: 11.04.2022.}
+
+\bibitem[Hansen 2016]{hansen}
+\abntrefinfo{Hansen}{HANSEN}{2016}
+{HANSEN, D. \emph{Cultura do Cacau}. 2016.
+Dispon{\'\i}vel em:
+  \url{http://www.uesc.br/projetos/consciencia/arquivos/cultura\_cacau.pdf}.
+  Acesso em: 11.04.2022.}
+
+\bibitem[ICCO 2021]{Icco}
+\abntrefinfo{ICCO}{ICCO}{2021}
+{ICCO, I. C.~O. \emph{Data on Production and Grindings of Cocoa Beans}. 2021.
+Dispon{\'\i}vel em: \url{https://www.icco.org/statistics/\#production}. Acesso
+  em: 11.04.2022.}
+
+\bibitem[J{\'U}NIOR et al. 2015]{junior}
+\abntrefinfo{J{\'U}NIOR et al.}{J{\'U}NIOR et al.}{2015}
+{J{\'U}NIOR, E.~S. et al. Aplica{\c{c}}{\~a}o de simula{\c{c}}{\~a}o,
+  planejamento de experimentos e otimiza{\c{c}}{\~a}o na gest{\~a}o da
+  din{\^a}mica operacional de uma unidade b{\'a}sica de sa{\'u}de.
+\emph{Revista ESPACIOS| Vol. 36 (N{\textordmasculine} 11) A{\~n}o 2015}, 2015.}
+
+\bibitem[Miyagi 2006]{Miyagi}
+\abntrefinfo{Miyagi}{MIYAGI}{2006}
+{MIYAGI, P.~E. Introdu{\c{c}}{\~a}o a simula{\c{c}}{\~a}o discreta.
+\emph{S{\~a}o Paulo: USP}, 2006.}
+
+\bibitem[Popovics e Monostori 2016]{popovics}
+\abntrefinfo{Popovics e Monostori}{POPOVICS; MONOSTORI}{2016}
+{POPOVICS, G.; MONOSTORI, L. An approach to determine simulation model
+  complexity.
+\emph{Procedia CIRP}, Elsevier, v.~52, p. 257--261, 2016.}
+
+\bibitem[SENAR 2018]{senar}
+\abntrefinfo{SENAR}{SENAR}{2018}
+{SENAR, S.~N. de A.~R. \emph{Coleção Senar - Cacau: produção, manejo e
+  colheita}. 2018.
+Dispon{\'\i}vel em:
+  \url{https://www.gov.br/agricultura/pt-br/assuntos/ceplac/arquivos/cartilhas-senar/215-cacau-producao-manejo-colheita.pdf/view}.
+  Acesso em: 11.04.2022.}
+
+\bibitem[Unesco 2016]{unesco}
+\abntrefinfo{Unesco}{UNESCO}{2016}
+{UNESCO. \emph{Mayo Chinchipe - Marañón archaeological landscape}. 2016.
+Dispon{\'\i}vel em: \url{https://whc.unesco.org/en/tentativelists/6091/}.
+  Acesso em: 11.04.2022.}
+
+\bibitem[Wang et al. 2016]{wang}
+\abntrefinfo{Wang et al.}{WANG et al.}{2016}
+{WANG, Y.-C. et al. A simulation analysis of part launching and order
+  collection decisions for a flexible manufacturing system.
+\emph{Simulation Modelling Practice and Theory}, Elsevier, v.~69, p. 80--91,
+  2016.}
+
+\end{thebibliography}

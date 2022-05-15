@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.5)  29 NOV 2021 16:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.5)  7 MAR 2022 11:52
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -955,14 +955,35 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 \c@lstlisting=\count357
-<../../University/Pictures/uem-modelo-04.png, id=4, 804.606pt x 110.3322pt>
-File: ../../University/Pictures/uem-modelo-04.png Graphic file (type png)
-<use ../../University/Pictures/uem-modelo-04.png>
-Package pdftex.def Info: ../../University/Pictures/uem-modelo-04.png  used on i
-nput line 108.
-(pdftex.def)             Requested size: 362.06935pt x 49.64902pt.
 
-Overfull \hbox (362.06935pt too wide) in paragraph at lines 108--109
+
+LaTeX Warning: File `../../University/Pictures/uem-modelo-04.png' not found on 
+input line 108.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/uem-modelo-04.png' 
+not found: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.108 ...../University/Pictures/uem-modelo-04.png}
+                                                  
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 1
+08.
+(/usr/share/texmf/tex/latex/lm/t1lmtt.fd
+File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmtt' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+
+Overfull \hbox (32.52127pt too wide) in paragraph at lines 108--109
  [][] 
  []
 
@@ -1023,36 +1044,48 @@ Package microtype Info: Loading generic protrusion settings for font family
 (microtype)             `lmss' (encoding: T1).
 (microtype)             For optimal results, create family-specific settings.
 (microtype)             See the microtype manual for details.
-<../../University/Pictures/logoUEM.jpg, id=6, 578.16pt x 622.4856pt>
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 117.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
 
-[1
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 117.
 
-{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map} <../../University/Pictures/
-LogoUEM.jpg> <../../University/Pictures/uem-modelo-04.png>]
-(./TrabalhoFinal.toc)pdfTeX warning (ext4): destination with the same identifie
-r (name{page.1}) has been already used, duplicate ignored
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.117 \imprimircapa
+                   
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+[1{/var/lib/texmf/fonts/map/pdftex/updmap/pdftex.map}
+
+] (./TrabalhoFinal.toc)pdfTeX warning (ext4): destination with the same identif
+ier (name{page.1}) has been already used, duplicate ignored
 <to be read again> 
                    \relax 
 l.137 \cleardoublepage
                       
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 137.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 137.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.137 \cleardoublepage
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [1
 
@@ -1063,39 +1096,55 @@ LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
  (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 174.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 174.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.174 \item T
+             rabalho: Energia que é transferida através da superfície dev...
+
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [2
 
 
 ]
-<exemplo.png, id=62, 326.21875pt x 308.15125pt>
+<exemplo.png, id=59, 326.21875pt x 308.15125pt>
 File: exemplo.png Graphic file (type png)
 <use exemplo.png>
 Package pdftex.def Info: exemplo.png  used on input line 186.
 (pdftex.def)             Requested size: 163.10896pt x 154.07524pt.
-<exemplocodigo.png, id=64, 968.61874pt x 686.565pt>
+<exemplocodigo.png, id=61, 968.61874pt x 686.565pt>
 File: exemplocodigo.png Graphic file (type png)
 <use exemplocodigo.png>
 Package pdftex.def Info: exemplocodigo.png  used on input line 195.
 (pdftex.def)             Requested size: 387.44063pt x 274.62112pt.
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 199.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 199.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.199 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [3pdfTeX warning (ext4): destination with the same identifier (name{figure.1.1}
 ) has been already used, duplicate ignored
@@ -1104,25 +1153,33 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
                                                   \fi \fi 
 l.199 
        <./exemplo.png>]
-<exemplo1.png, id=71, 1254.6875pt x 427.5975pt>
+<exemplo1.png, id=68, 1254.6875pt x 427.5975pt>
 File: exemplo1.png Graphic file (type png)
 <use exemplo1.png>
 Package pdftex.def Info: exemplo1.png  used on input line 204.
 (pdftex.def)             Requested size: 376.40915pt x 128.28023pt.
-<exemplo2.png, id=72, 1239.63126pt x 428.60126pt>
+<exemplo2.png, id=69, 1239.63126pt x 428.60126pt>
 File: exemplo2.png Graphic file (type png)
 <use exemplo2.png>
 Package pdftex.def Info: exemplo2.png  used on input line 211.
 (pdftex.def)             Requested size: 371.89224pt x 128.58136pt.
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 215.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 215.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.215 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [4pdfTeX warning (ext4): destination with the same identifier (name{figure.1.2}
 ) has been already used, duplicate ignored
@@ -1137,15 +1194,22 @@ l.215
                                                   \fi \fi 
 l.215 
        <./exemplocodigo.png> <./exemplo1.png>]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 239.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 239.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.239 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [5pdfTeX warning (ext4): destination with the same identifier (name{figure.1.4}
 ) has been already used, duplicate ignored
@@ -1154,42 +1218,64 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
                                                   \fi \fi 
 l.239 
        <./exemplo2.png>]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 260.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 260.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.260 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [6]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 263.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 263.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.263 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [7]
-<1a.png, id=101, 359.3425pt x 348.30125pt>
+<1a.png, id=98, 359.3425pt x 348.30125pt>
 File: 1a.png Graphic file (type png)
 <use 1a.png>
 Package pdftex.def Info: 1a.png  used on input line 271.
 (pdftex.def)             Requested size: 215.60715pt x 208.98236pt.
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 293.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 293.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.293 \begin{equation}
+                      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [8
 
@@ -1200,65 +1286,94 @@ has been already used, duplicate ignored
                                                   \fi \fi 
 l.293 \begin{equation}
                        <./1a.png>]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 349.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 349.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.349 \end{equation}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [9]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 395.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 395.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.395 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [10]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 441.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 441.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.441 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [11
 
 ]
-<Plot2D (7).png, id=149, 1033.8625pt x 420.57124pt>
+<Plot2D (7).png, id=146, 1033.8625pt x 420.57124pt>
 File: Plot2D (7).png Graphic file (type png)
 <use Plot2D (7).png>
 Package pdftex.def Info: Plot2D (7).png  used on input line 446.
 (pdftex.def)             Requested size: 413.53767pt x 168.22551pt.
-<Plot2D (6).png, id=150, 1033.8625pt x 420.57124pt>
+<Plot2D (6).png, id=148, 1033.8625pt x 420.57124pt>
 File: Plot2D (6).png Graphic file (type png)
 <use Plot2D (6).png>
 Package pdftex.def Info: Plot2D (6).png  used on input line 453.
 (pdftex.def)             Requested size: 413.53767pt x 168.22551pt.
-<Plot2D (8).png, id=151, 1033.8625pt x 420.57124pt>
+<Plot2D (8).png, id=149, 1033.8625pt x 420.57124pt>
 File: Plot2D (8).png Graphic file (type png)
 <use Plot2D (8).png>
 Package pdftex.def Info: Plot2D (8).png  used on input line 460.
 (pdftex.def)             Requested size: 413.53767pt x 168.22551pt.
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 464.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 464.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.464 
+      
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [12pdfTeX warning (ext4): destination with the same identifier (name{table.3.1}
 ) has been already used, duplicate ignored
@@ -1279,15 +1394,22 @@ l.464
                                                   \fi \fi 
 l.464 
        <./Plot2D (7).png> <./Plot2D (6).png>]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 471.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 471.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.471 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [13pdfTeX warning (ext4): destination with the same identifier (name{figure.3.8
 }) has been already used, duplicate ignored
@@ -1296,28 +1418,42 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
                                                   \fi \fi 
 l.471 \newpage
                <./Plot2D (8).png>]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 487.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 487.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.487 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [14
 
 ]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 511.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 511.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.511 \newpage
+              
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [15
 
@@ -1328,61 +1464,80 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 bibitemlist
 )
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 518.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 518.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.518 \chapter
+              {Código utilizado no software EMSO}
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [16
 
 ]
-LaTeX Font Info:    Trying to load font information for T1+lmtt on input line 5
-20.
- (/usr/share/texmf/tex/latex/lm/t1lmtt.fd
-File: t1lmtt.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-Package microtype Info: Loading generic protrusion settings for font family
-(microtype)             `lmtt' (encoding: T1).
-(microtype)             For optimal results, create family-specific settings.
-(microtype)             See the microtype manual for details.
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 556.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 556.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.556 	"
+        Balanco de energia para o tanque"
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [17
 
 ]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 598.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 598.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.598 Optimization 
+                   OtimizacaoDoXb as Avaliacao
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [18]
-File: ../../University/Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../University/Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../University/Pictures/logoUEM.jpg  used on input l
-ine 619.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
+LaTeX Warning: File `../../University/Pictures/logoUEM.jpg' not found on input 
+line 619.
+
+
+! Package pdftex.def Error: File `../../University/Pictures/logoUEM.jpg' not fo
+und: using draft setting.
+
+See the pdftex.def package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.619 \end{document}
+                    
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
 
 [19]
 \tf@toc=\write6
@@ -1398,13 +1553,13 @@ Package rerunfilecheck Info: File `TrabalhoFinal.brf' has not changed.
 Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 619.
  ) 
 Here is how much of TeX's memory you used:
- 17639 strings out of 481239
- 271272 string characters out of 5920377
+ 17674 strings out of 481239
+ 272269 string characters out of 5920377
  970883 words of memory out of 5000000
- 32314 multiletter control sequences out of 15000+600000
- 589022 words of font info for 102 fonts, out of 8000000 for 9000
+ 32336 multiletter control sequences out of 15000+600000
+ 589340 words of font info for 103 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,60p,660b,2110s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 52i,14n,60p,660b,2109s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
 ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
 /texmf/fonts/enc/dvips/lm/lm-mathex.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm
@@ -1416,11 +1571,12 @@ r/share/texmf/fonts/type1/public/lm/lmr8.pfb></usr/share/texmf/fonts/type1/publ
 ic/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share
 /texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm
 /lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb></usr/share/te
-xmf/fonts/type1/public/lm/lmtt10.pfb>
-Output written on TrabalhoFinal.pdf (20 pages, 947713 bytes).
+xmf/fonts/type1/public/lm/lmtt10.pfb></usr/share/texmf/fonts/type1/public/lm/lm
+tt12.pfb>
+Output written on TrabalhoFinal.pdf (20 pages, 813781 bytes).
 PDF statistics:
- 430 PDF objects out of 1000 (max. 8388607)
- 378 compressed objects within 4 object streams
+ 431 PDF objects out of 1000 (max. 8388607)
+ 381 compressed objects within 4 object streams
  168 named destinations out of 1000 (max. 500000)
- 22187 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 22689 words of extra memory for PDF output out of 24883 (max. 10000000)
 

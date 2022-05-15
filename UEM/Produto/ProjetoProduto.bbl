@@ -5,4 +5,52 @@
 \providecommand{\abntbstabout}[1]{}
 \abntbstabout{v-1.9.7 }
 
+\bibitem[ABcomm 2022]{abcomm}
+\abntrefinfo{ABcomm}{ABCOMM}{2022}
+{ABCOMM, A.~B. de C.~E. \emph{Tendências do mercado pet para 2022}. 2022.
+Dispon{\'\i}vel em:
+  \url{https://rnpet.com.br/mercado-pet/tendencias-do-mercado-pet-para-2022/\#:~:text=Setor\%20deve\%20crescer\%20em\%20torno,ultrapasse\%20os\%20R\%24\%2046\%20bilh\%C3\%B5es.}
+  Acesso em: 03.03.2022.}
+
+\bibitem[ABINPET 2021]{abinpet}
+\abntrefinfo{ABINPET}{ABINPET}{2021}
+{ABINPET, I. P.~B. \emph{Tendências do mercado pet}. 2021.
+Dispon{\'\i}vel em: \url{http://institutopetbrasil.com/}. Acesso em:
+  03.03.2022.}
+
+\bibitem[Amaral et al. 2017]{rozenfeld}
+\abntrefinfo{Amaral et al.}{AMARAL et al.}{2017}
+{AMARAL, D.~C. et al. \emph{Gest{\~a}o de desenvolvimento de produtos}. [S.l.]:
+  Saraiva Educa{\c{c}}ao SA, 2017.}
+
+\bibitem[COMAC 2021]{comac}
+\abntrefinfo{COMAC}{COMAC}{2021}
+{COMAC, C. de~Animais~de C. \emph{Apresentação Radar 2021}. 2021.
+Dispon{\'\i}vel em: \url{https://www.comacvet.org.br/mercado/}. Acesso em:
+  03.03.2022.}
+
+\bibitem[FGV 2020]{fgv}
+\abntrefinfo{FGV}{FGV}{2020}
+{FGV, F. G.~V. \emph{População de cães e gatos no Brasil pode crescer 26%
+  até 2030}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://correiojuquery.com.br/populacao-de-caes-e-gatos-no-brasil-pode-crescer-26-ate-2030/}.
+  Acesso em: 03.03.2022.}
+
+\bibitem[Folha 2016]{folha}
+\abntrefinfo{Folha}{FOLHA}{2016}
+{FOLHA, F. de S.~P. \emph{Mercado ecologicamente correto enfrenta custo alto de
+  matérias primas}. 2016.
+Dispon{\'\i}vel em:
+  \url{https://www1.folha.uol.com.br/mercado/2016/09/1816199-mercado-ecologicamente-correto-enfrenta-custo-alto-de-materias-primas.shtml}.
+  Acesso em: 03.03.2022.}
+
+\bibitem[Gitel 2020]{noticia}
+\abntrefinfo{Gitel}{GITEL}{2020}
+{GITEL, M. \emph{Número de compradores de produtos sustentáveis cresce
+  55$\%$}. 2020.
+Dispon{\'\i}vel em:
+  \url{https://www.noticiasustentavel.com.br/compradores-produtos-sustentaveis/}.
+  Acesso em: 03.03.2022.}
+
 \end{thebibliography}

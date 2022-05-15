@@ -172,7 +172,7 @@ Estudar o processamento de cacau na agroindústria, mais especificamente a produ
 
 \begin{itemize}
 \item Estudar o mercado, normas regulatórias, oportunidades e desafios do setor.
-\item Realizar o mapeamento dos processos de uma produção de chocolate desde o recebimento do fruto até a embalagem, estoque e distribuição do produto final.
+\item Realizar o mapeamento dos processos de uma produção de chocolate desde o recebimento da amêndoa até a embalagem, estoque e distribuição do produto final.
 \item Calcular os balanços de massa e energia que são inerentes ao processo de produção.
 \end{itemize}
 
@@ -336,7 +336,7 @@ Mas pode-se elencar os benefícios por tipo de chocolate, o chocolate ao leite, 
 
 O chocolate meio amargo e amargo são ótimos na circulação sanguínea, aumentam o colesterol bom, além de ser muito rico em alguns nutrientes, tais como o magnésio, ferro e selênio. O consumo moderado diário deste tipo de chocolate aumenta o metabolismo e reduz o apetite. \cite{saude}
 	
-Já o chocolate é o chocolate que tem menos gordura hidrogenada e por isso é o menos calórico.
+Já o chocolate ao leite é o produto que tem menos gordura hidrogenada e por isso é o menos calórico.
 	
 Por fim, o chocolate branco tem uma característica principal de ter menos cafeina na sua composição e por oferecer mais energia ao corpo. \cite{saude}
 
@@ -522,9 +522,9 @@ Essa parte é de demasiada importância para que a empresa não tenha problemas 
 \begin{figure}[H]
 \begin{center}
 \caption{Fluxograma do processamento do cacau}
-\includegraphics[scale=0.28]{../../Pictures/processocacau.jpg} 
+\includegraphics[scale=0.59]{../../Pictures/cacaoprocess.png} 
 \label{fig1}
-\legend{Fonte: \cite{0}}
+\legend{Fonte: \cite{Sucden}}
 \end{center}
 \end{figure}
 
@@ -535,27 +535,485 @@ O processamento do cacau é dividido em 11 fases majoritárias \cite{3}, são es
 \item Fermentação: O processo de fermentação demora entre 36 a 72 horas e é um processo complexo e pouco entendido, mas está sendo desvendado com a tecnologia.
 \item Secagem: Após a fermentação é necessário reduzir a humidade do cacau de aproximadamente 55$\%$ para 7,5$\%$, e para isso o cacau é deixado em plataformas de concreto para a secagem.
 \item Torrefação: A torrefação varia de empresa para empresa e de região para região, pois está muito ligado ao tipo de saber desejado para aquele chocolate produzido, portanto não há um certo ou errado quando se fala do processo de torrefação.
-\item Descasque: Separação da casca do grão propriamente dito.
 \item Trituramento: Acontece a tritura desses grãos já separados
-\item Alcalinização: Com o objetivo também de modificar o cheio e o gosto do chocolate, o processo consiste em misturar o cacau com uma solução aquosa alcalina específica e possivelmente colocando pressão no sistema ou até mesmo aumentando a temperatura.
+\item Descasque: Separação da casca do grão propriamente dito.
+\item Refino e conchagem: Com o objetivo também de modificar o cheio e o gosto do chocolate, o processo consiste em colocar pressão sobre o chocoalte com aumento de temperatura para emulsificar e arejar o chocolate.
 \item Prensagem de licor: Adiciona-se pressão em um sistema com licor de cacau quente e o output é um bolo de cacau.
 \item Moagem: Obtenção do licor propriamente dito a partir da prensagem
 \item Manteiga de cacau: Outro material obtido a partir da prensagem.
-\item Fabricação do chocolate: Processo de fabricação do chocolate.
+\item Fabricação do chocolate: Processo de fabricação do chocolate que consiste na temperagem, moldagem, resfriamento e desmoldagem.
 \end{enumerate}
 
+\section{Fluxo de produção projetado}
+
+Na maioria das empresa o cacau é recebido em amêndoas após o processo de fermentação e secagem, devido a eficiência e facilidade no transporte desse tipo de carga. Por isso, o processo estudado nesse trabalho irá utilizar esse tipo de matéria-prima, e também diferentemente dos processos majoritários citados acima, a linha de produção usada nesse trabalho não realiza a prensagem, moagem do líquor e nem a obtenção de manteiga de cacau, focando apenas na produção de barras de chocolate de 3 tipos: chocolate amargo 70$\%$, chocolate meio amargo 50$\%$ e chocolate ao leite. Dessa forma o processo segue o seguinte fluxo:
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fluxograma do processamento de cacau da linha de produção projetada}
+\includegraphics[scale=0.34]{../../Pictures/fluxo1.jpeg} 
+\label{figfluxo}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+Desse modo, a primeira etapa do processo como já citado é o recebimento das amêndoas, nessa fase ocorre a conferência do produto e sua respectiva nota fiscal e o descarregamento dos sacos de amêndoa do caminhão no estoque primário destinado à matéria-prima. Em seguida é realizada a classificação, essa etapa é de grande importância para que a qualidade dos produtos sempre estejam de acordo com o padrão da empresa, com isso são realizados testes sensoriais e medições de indicadores para destinação correta de cada qualidade de amêndoa.
+
+Após classificadas, as amêndoas seguem para a torrefação que acontece em torradores industriais à 110ºC durante 25 a 30 minutos, por meio dessa atividade as sementes perdem aproximadamente 5$\%$ de água e seus aromas são intensificados. Já torradas, as amêndoas são trituradas em moedores industriais para tornar possível a separação do nibs da casca e facilitar o refino do cacau. Assim, a próxima etapa é realizada é a separação das cascas, nessa parte é utilizado um descascador que retira em torno de 12$\%$ da massa das amêndoas que é referente as cascas. Essas cascas retiradas são descartadas e o processo segue apenas com o nibs do cacau.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Separação da casca do cacau do nibs}
+\includegraphics[scale=3]{../../Pictures/nibs1.jpg} 
+\label{figtemp}
+\legend{Fonte: \cite{nibs}}
+\end{center}
+\end{figure}
+
+O próximo processo na linha de produção é o refino e conchagem desse nibs do cacau, essas duas atividades são realizadas na máquina melanger (Figura \ref{figmelanger}) e durante a primeira etapa de refino são adicionados os outros ingredientes da receita que a linha está fazendo. No caso da receita de chocolate amargo 70$\%$ é adicionado 30$\%$ de açúcar refinado, na receita de chocolate meio-amargo 50$\%$ são adicionados 15$\%$ de manteiga de cacau e 35$\%$ de açúcar refinado, já o chocolate ao leite possui a adição de 25$\%$ de manteiga de cacau, 25$\%$ de leite em pó integral e 30$\%$ de açúcar refinado. Nas composições dos produtos não há a adição de conservantes e emulsificantes. Essa etapa dura em torno de 48 horas e nela o chocolate é aquecido a uma temperatura de 50ºC e pressionado contra os rolos de pedra da máquina a uma pressão de 4 bar. E a etapa de conchagem, que ocorre em sequência, consiste na manutenção dessas configurações por mais 24 até 48 horas, sem adição de mais nenhum ingrediente. Em conjunto, essas atividades realizam a mistura, agitação, emulsificação e arejamento do chocolate, além de refinar partículas maiores de açúcar e retirar a acidez e o amargor indesejado do produto. \cite{lindt} 
+
+\begin{figure}[H]
+\begin{center}
+\caption{Máquina melanger em funcionamento}
+\includegraphics[scale=0.35]{../../Pictures/melanger.jpeg} 
+\label{figmelanger}
+\legend{Fonte: \cite{melanger}}
+\end{center}
+\end{figure}
+
+Após a etapa de refino e conchagem existem 3 atividades que são opcionais e serão realizadas na linha de produção apenas para chocolates amargos de edições limitadas. Esses 3 processos são: a cristalização, maturação e derretimento. O chocolate ao sair da máquina melanger já refinado pode seguir diretamente para a temperadeira onde será realizada a temperagem do produto, no entanto em casos especiais é interessante antes de realizar essa atividade reservar o chocolate, a cristalização é um processo natural do produto que ao entrar em contato com a temperatura ambiente se solidifica devido a cristalização da manteiga de cacau presente na mistura. Após essa fase é possível reservar o chocolate em salas com temperatura de até 29ºC para que ele possa maturar durante o período de 2 meses até 1 ano, esse processo intensifica os sabores e traz ao produto um maior equilíbrio no paladar. Por ser tão demorado o processo, apenas parte do que será produzido por mês da linha de produção de chocolate amargo passará por ele. Depois dessa maturação esse chocolate é derretido em temperaturas controladas e passa pela temperadeira assim como os outros.
+
+Na temperadeira ocorre a temperagem do chocolate, que consiste no aumento da temperatura da mistura até 40ºC - 46ºC e o resfriamento lento até 27ºC a 29ºC, a imagem \ref{figtemp} mostra essa variação lenta de temperatura e as fases da temperagem. Por causa disso, o chocolate de entrada deve estar por volta de 32ºC até 35ºC para que possa ocorrer esse aquecimento e também o resfriamento de forma controlada, assim antes de adicionar o chocolate à temperadeira, é necessário reservá-lo durante um curto período após ele sair da melanger ou da derretedeira para que ele possa resfriar, porém sem cristalizar. Esse processo é de extrema importância para a aparência e textura do produto final e também para que o processo de desmolde ocorra sem problemas, nessa etapa os cristais da manteiga de cacau se organizam de maneira mais estável devido o resfriamento lento, e fazem com que o produto final fique crocante à temperatura ambiente (\textit{snap}), tenha brilho e contraia quando esfriado para que consiga se soltar do molde, além de muitas outras características.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Gráfico da temperatura durante o processo de temperagem}
+\includegraphics[scale=0.7]{../../Pictures/graficotemperagem.png} 
+\label{figtemp}
+\legend{Fonte: \cite{temp}}
+\end{center}
+\end{figure}
+
+Com o chocolate já temperado ocorre o processo de moldagem por meio de uma dosadora e uma mesa vibratória que retira as bolhas de ar de dentro da mistura e esparrama o chocolate por todo o molde. Esse produto então é encaminhado para um túnel de resfriamento para que o chocolate se solidifique de maneira mais rápida e possa ser desmoldado com facilidade que é a etapa seguinte. Após a desmoldagem, que consiste na separação do molde que será limpo e reutilizado posteriormente da barra de chocolate, ocorre por último a embalagem desse chocolate em embalagens primárias, secundárias e terciárias para o transporte final desse produto diretamente para revendedores ou centros de distribuição.
+
+Os detalhes de maquinário, temperaturas, tempos de processamento e perdas de cada processo podem ser encontrados na tabela \ref{table6}. As temperaturas com a notação (a) se referem à temperatura ambiente e os tempos de processamento são apenas aproximações feitas de acordo com as capacidades produtivas de algumas máquinas pesquisadas. Além disso, como dito anteriormente os processos de cristalização e maturação ocorrem de maneira natural e não são necessárias máquinas, apenas recipientes e locais adequados para armazenamento.
+
+{\fontsize{7.7}{10}\selectfont
+\begin{center}
+\begin{longtable}[c]{|
+>{\columncolor[HTML]{EFEFEF}}l |c|c|cc|c|}
+\caption{Informações de maquinários, temperaturas, tempos e perdas de cada etapa do processo}
+\label{table6}\\
+\hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}} &
+  \cellcolor[HTML]{EFEFEF} &
+  \cellcolor[HTML]{EFEFEF} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{EFEFEF}\textbf{Temperaturas (ºC)}} &
+  \cellcolor[HTML]{EFEFEF} \\ \cline{4-5}
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Etapas}}} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Máquina}} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Tempo (h)}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}\textbf{Entrada}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Saída} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Perdas}} \\ \hline
+\endhead
+%
+\textbf{1. Classificação} &
+  - &
+  0,20 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{2. Torrefação} &
+  Torrador industrial &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  110 &
+  5\% \\ \hline
+\textbf{3. Moagem} &
+  Moedor industrial &
+  0,20 &
+  \multicolumn{1}{c|}{110} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{4. Descasque} &
+  Descascador de amêndoas &
+  0,20 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  12\% \\ \hline
+\textbf{5. Refino + Conchagem} &
+  Melanger &
+  96,00 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  50 &
+  4\% \\ \hline
+\textbf{6. Cristalização} &
+  - &
+  0,50 &
+  \multicolumn{1}{c|}{50} &
+  25 - 29 (a) &
+  1\% \\ \hline
+\textbf{7. Maturação} &
+  - &
+  \multicolumn{1}{l|}{1440,00 - 8760,00} &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{8. Derretimento} &
+  Derretedeira de chocolate &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  42 &
+  2\% \\ \hline
+\textbf{9. Temperagem} &
+  Temperadeira &
+  0,35 &
+  \multicolumn{1}{c|}{35} &
+  28 &
+  2\% \\ \hline
+\textbf{10. Moldagem} &
+  Dosadora + Mesa vibratória &
+  0,35 &
+  \multicolumn{1}{c|}{28} &
+  25 - 29 (a) &
+  1\% \\ \hline
+\textbf{11. Resfriamento} &
+  Túnel de resfriamento &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  12 &
+  0\% \\ \hline
+\textbf{12. Desmolde} &
+  - &
+  0,35 &
+  \multicolumn{1}{c|}{12} &
+  20 &
+  1\% \\ \hline
+\textbf{13. Embalagem} &
+  Embaladora &
+  0,50 &
+  \multicolumn{1}{c|}{20} &
+  20 &
+  1\% \\ \hline
+\end{longtable}
+\centering \footnotesize{Fonte: Autoria própria}
+\end{center}
+}
+
+{\fontsize{7}{10}\selectfont
+\begin{center}
+\begin{longtable}[c]{|
+>{\columncolor[HTML]{EFEFEF}}c |c|c|c|c|c|c|}
+\caption{Maquinário detalhado}
+\label{maquina}\\
+\hline
+\textbf{Máquina} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Dimensões\\ (AxLxP) (m)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Potência\\ (kW)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Capacidade} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Material} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Setup\\ (min)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Especificações} \\ \hline
+\endhead
+%
+\textbf{Torrador industrial} &
+  1,8 x 1,4 x 1,4 &
+  8,0 &
+  5,0 (kg) &
+  - &
+  15 &
+  - \\ \hline
+\textbf{Moedor industrial} &
+   &
+   &
+   &
+   &
+   &
+   \\ \cline{1-1}
+\textbf{Descascador de amêndoas} &
+  \multirow{-2}{*}{1,3 x 0,8 x 1,3} &
+  \multirow{-2}{*}{2,2} &
+  \multirow{-2}{*}{10 (kg)} &
+  \multirow{-2}{*}{Inox} &
+  \multirow{-2}{*}{90} &
+  \multirow{-2}{*}{400 kg/h} \\ \hline
+\textbf{Melanger*} &
+  1,2 x 0,7 x 0,7 &
+  0,75 &
+  20,0 (kg) &
+  \begin{tabular}[c]{@{}c@{}}Inox 304 e \\ Granito Cinza\end{tabular} &
+  30 &
+  - \\ \hline
+\textbf{Compressor de ar} &
+  0,3 x 0,6 x 0,6 &
+  1,5 &
+  25,0 (l) &
+  - &
+  - &
+  - \\ \hline
+\textbf{Derretedeira de chocolate} &
+  0,7 x 0,6 x 0,4 &
+  7,5 &
+  50,0 (kg) &
+  Inox 304 &
+  60 &
+  - \\ \hline
+\textbf{Temperadeira} &
+  0,7 x 0,5 x 0,6 &
+  2,9 &
+  5,0 (kg) &
+  Inox 304 &
+  60 &
+  5 kg a cada 8min \\ \hline
+\textbf{Dosadora (Ø30)} &
+  1,5 x 1,1 x 1,4 &
+  0,02 &
+  40,0 (l) &
+  Inox &
+  60 &
+  \begin{tabular}[c]{@{}c@{}}8 pistões - 50g/pistão\\ 20 ciclos/min\end{tabular} \\ \hline
+\textbf{Mesa vibratória*} &
+  0,7 x 1,1 x 0,6 &
+  0,2 &
+  - &
+  Inox 304 &
+  10 &
+  - \\ \hline
+\textbf{Túnel de resfriamento} &
+  1,2 x 0,6 x 9,0 &
+  5,4 &
+  - &
+  Inox 304 &
+  20 &
+  - \\ \hline
+\textbf{Embaladora} &
+  3,3 x 2,9 x 1,4 &
+  3,1 &
+  - &
+  - &
+  20 &
+  350 pacotes/min \\ \hline
+\end{longtable}
+*Máquinas que utilizam Compressor de ar \\
+\centering \footnotesize{Fonte: Autoria própria}
+\end{center}
+}
+
+
+\section{Resíduos da produção}
+
+Como a indústria de chocolates apresenta resíduos com grande quantidade de matéria
+orgânica faz-se necessário um tratamento prévio para seu descarte correto, uma vez que
+elevado conteúdo de matéria orgânica pode causar uma diminuição do oxigênio dissolvido
+nos rios, com aumento da concentração de microrganismos heterotróficos e,
+consequentemente, a elevação da demanda bioquímica de oxigênio. Isso pode gerar uma
+modificação da classe do rio, o que é indesejável.
+
+A indústria da alimentação no Brasil e no mundo vem demonstrando claros esforços
+para tornar-se mais sustentável. Desde a Conferência Rio-92, o setor tem se engajado nos
+debates internacionais sobre desenvolvimento sustentável e se esforçado para desenhar e
+adotar as melhores práticas \cite{CNI}.
+ 
+A gestão de resíduos em todo o ciclo de vida de um produto está mudando de patamar
+no Brasil com a aprovação da Política Nacional de Resíduos Sólidos. Antes mesmo da
+aprovação da Política Nacional de Resíduos, no entanto, as empresas do setor vinham
+aplicando tecnologias e políticas para reaproveitar os resíduos dos processos produtivos e as embalagens finais usadas de seus produtos \cite{CNI}.
+ 
+De modo geral, podemos dividir os resíduos da indústria de chocolates em três classes:
+
+\begin{itemize}
+\item Efluentes líquidos,
+\item Resíduos sólidos,
+\item Resíduos pós-consumo.
+\end{itemize}
+
+\subsection{Tratamento dos efluentes}
+
+Os efluentes líquidos consistem basicamente por resíduos de limpeza e esgoto
+sanitário da empresa em geral. Por ser de pequeno porte, o destino dos efluentes líquidos é a
+rede de esgoto pública sem um tratamento prévio específico.
+Para ser lançada novamente a bacia hídrica, no entanto, faz-se necessário um
+tratamento pela instituição responsável. Nesse caso, como o efluente apresenta origem
+industrial torna-se indispensável um tratamento biológico devido às altas concentrações de
+matéria orgânica e nutrientes.
+
+O tratamento biológico de resíduos emprega a ação conjunta de espécies diferentes de
+microrganismos em biorreatores, que operados sob determinadas condições resulta na
+estabilização dos mesmos. Em geral, os diferentes tipos de microrganismos nos processos
+biológicos de tratamento atuam conjuntamente, formando uma verdadeira cadeia alimentar
+com interações nutricionais facultativas e obrigatórias.
+
+\subsection{Tratamento dos resíduos sólidos}
+
+Os resíduos sólidos da indústria se dividem basicamente em produtos que serão
+reprocessados, dejetos destinados aos aterros sanitários e de resíduos sólidos industriais e
+materiais para reciclagem.
+
+Em situações onde variáveis de processo estão fora de controle ou há a quebra da barra
+antes da distribuição duas medidas podem ser tomadas: ou ocorre o reprocesso da massa de
+chocolate, adicionando-se no máximo à razão de 10$\%$ do chocolate reprocessado sobre o
+produto em linha; ou ainda o destino final da massa torna-se a venda para fabricação de
+chocolate granulado e coberturas.
+
+Os resíduos sólidos dos setores distintos da área produtiva são enviados para aterros
+sanitários, por se tratarem de resíduos não perigosos segundo a classificação da norma
+10004/2004 da ABNT \cite{ABNT}. Esses aterros são utilizados para a disposição de
+resíduos sólidos urbanos no solo, sem causar danos à saúde pública e ao meio ambiente,
+minimizando os impactos ambientais. Nesse caso, os resíduos são confinados na menor área
+possível, reduzindo-os ao menor volume permissível, cobrindo-os com uma cama de terra
+quando necessário. Esse método deve conter todos os elementos de proteção ambiental
+\cite{FEAM}.
+
+De acordo com a Resolução CONAMA n° 313/2002, o resíduo sólido industrial é todo
+resíduo que resulte de atividades industriais e que se encontre nos estados sólido, semi sólido,
+gasoso – quando contido, e líquido – cujas particularidades tornem inviável o seu lançamento
+na rede pública de esgoto ou em corpos d’água, ou exijam para isso soluções técnicas ou
+economicamente inviáveis em face da melhor tecnologia disponível \cite{PNRS}. Assim, os
+resíduos sólidos da área produtiva são encaminhados para empresas terceirizadas que realizam
+o descarte adequado.
+
+Os materiais e embalagens danificadas que podem ser reciclados são separados e
+recolhidos por empresas terceirizadas, sendo enviados para a reciclagem. Isso ocorre porque a
+reciclagem de resíduos sólidos é uma alternativa viável para propiciar à preservação de
+recursos naturais, a economia de energia, a redução da área que demanda o aterro sanitário, a
+geração de emprego e renda, assim como a conscientização da população para questões
+ambientais \cite{Ole}.
+
+\subsection{Tratamento dos resíduos pós-consumo}
+
+Existe uma preocupação em garantir um destino para as embalagens dos chocolates
+em barra após o consumo. Para isso, ocorre a reciclagem do material polimérico, onde a
+estrutura do material residual é alterada, de modo que os subprodutos resultantes possam ser
+usados para outros fins que não a produção do material original, uma vez que em indústria de
+alimentos não se pode utilizar materiais reciclados \cite{oliveira}.
 
 \newpage
 \chapter{Balanço de Massa}
 %\pagestyle{fancy}
 
+O balanço de massa é crucial para a análise de um novo processo, bem como um já existente. Esse cálculo consiste em uma igualdade entre toda a massa que entra no sistema e a massa que sai, como mostrado na equação \ref{eq1}, onde \textit{e$_{i}$} são as entradas de massa no sistema e \textit{s$_{j}$} são as saídas. 
+
+\begin{equation}
+\sum\limits_{i=1}^{n}e_{i}=\sum\limits_{j=1}^{n}s_{j}
+\label{eq1}
+\end{equation}
+
+O entendimento do processo de produção é fundamental para o dimensionamento desses materiais que entram no sistema, e também para quantificar as perdas que acontecem em cada etapa. Assim, foi criado um fluxograma mais completo que abrange também as saídas e entradas de materiais em cada fase.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fluxograma para Balanço de Massa}
+\includegraphics[scale=0.34]{../../Pictures/fluxo2.jpeg} 
+\label{fluxo2}
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+Parte das perdas de massa que ocorrem são planejadas. Essas perdas consistem na retirada da água das amêndoas, na etapa de torrefação, e na separação da casca que ocorre após o processo de moagem. E o restante das perdas ocorrem devido a falhas no processo produtivo, muitas vezes falhas humanas ou limitações das próprias máquinas que impossibilitam o aproveitamento completo de todo o material que é passado por ela. Essas perdas foram estimadas entre 1$\%$ e 4$\%$, dependendo da complexidade da máquina e da interferência humana no processo. 
+
+Além disso, no fluxograma da imagem \ref{fluxo2}, o valor de B1 varia conforme a receita que está sendo feita na linha de produção. Para a receita de chocolate amargo esse valor corresponde apenas ao açúcar que é adicionado, enquanto na receita de chocolate meio amargo o B1 representa a solução de açúcar e manteiga de cacau que é adicionada. E por fim, na receita de chocolate ao leite esse valor corresponde a uma mistura de açúcar, leite e manteiga de cacau.
+
+Nas figuras a seguir se encontram os balanços de massa das 3 receitas produzidas na linha, todas utilizaram como base uma entrada de 100kg de amêndoas de cacau (Entrada 1). A imagem \ref{bm1} se baseia na receita de 70$\%$ líquor de cacau 30$\%$ açúcar, a imagem \ref{bm2} utiliza como base a receita de 50$\%$ líquor de cacau, 35$\%$ açúcar e 15$\%$ manteiga de cacau, e a imagem \ref{bm3} representa a receita de chocolate ao leite composta por 20$\%$ líquor de cacau, 25$\%$ manteiga de cacau, 25$\%$ leite integral e 30$\%$ açúcar. Nas tabelas, a Entrada 2 representa o açúcar, a Entrada 3 a manteiga de cacau e a Entrada 4 o leite integral, a perda e a saída foram calculados em quilogramas (kg).
+
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Massa - Chocolate Amargo 70\%}
+\includegraphics[scale=0.46]{../../Pictures/bm1.png} 
+\label{bm1}
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Massa - Chocolate Meio Amargo 50\%}
+\includegraphics[scale=0.53]{../../Pictures/bm2.png} 
+\label{bm2}
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Massa - Chocolate ao Leite}
+\includegraphics[scale=0.53]{../../Pictures/bm3.png} 
+\label{bm3}
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
 \newpage
 \chapter{Balanço de Energia}
 %\pagestyle{fancy}
 
+O Balanço de energia é essencial para a estruturação e mapeamento de rotas produtivas. Para a realização do balanço de energia do sistema consideramos a 1ª lei da Termodinâmica, ou seja, a energia total transferida para o sistema é a variação de suas energias internas. Dessa forma, seguindo o fluxograma do processo e considerando as perdas calculadas no balanço de massa, foi realizado o balanço de energia do sistema e produção de chocolate para os três tipos de produtos finais (chocolate amargo, meio amargo e ao leite).
+
+Tanto o balanço de massa quanto o balanço de energia possuem fundamental relevância em um processo industrial, ambos garantem uma segurança em relação ao mapeamento e estrutura de todo o projeto, além de compilar dados essenciais para averiguação de alterações nos resultados da produção.  Além de constar um embasamento teórico e técnico da rota de produção. 
+
+Energia é a capacidade de um sistema de realizar trabalho ou gerar calor, e ela pode ser transferida em um sistema aberto ou fechado. Todos os processos industriais estão associados a alterações energéticas sob as mais variadas formas:
+
+\begin{itemize}
+\item Processo com reação química: (endotérmico e exotérmico).
+\item Processo de combustão: energia interna do combustível é utilizada para geração de calor (fornos, caldeiras), ou para produção de trabalho (motores e turbinas).
+\item Bombas e Compressores: fornece trabalho para acelerar ou comprimir fluidos.
+\item Trocadores de Calor: transfere-se calor de um fluido quente para um fluido frio.
+\end{itemize}
+
+A produção de chocolate através do cacau consiste em 13 etapas de processos industriais. Dentre eles os processos de: torrefação, moagem, refino cristalização, derretimento, temperagem, resfriamento e desmolde; apresentam trocas de energia.
+ 
+No sistema analisado foram identificadas alterações energéticas através de compressores (refrigerador usado no processo de resfriamento) e trocadores de calor nos processos de torrefação (troca de calor e perda de umidade da amêndoa e o torrador), moagem (resfriamento da amêndoa na transição de um processo para outro), refino (aumento da temperatura dos ingredientes em temperatura ambiente até 50°C), cristalização (resfriamento da amêndoa na transição de um processo para outro), derretimento (aumento da temperatura do chocolate e derretimento), temperagem (resfriamento do chocolate com a troca com o ambiente) e por fim nos processos de resfriamento (diminuição da temperatura do chocolate e trabalho realizado pelo compressor do refrigerador) e desmolde (troca de calor com o ambiente na transição de um processo para outro). Processos de reação química com o derretimento da sacarose foram desconsiderados para esse estudo.
+
+As tabelas abaixo mostram os valores encontrados para o balanço de energia dos três tipos de chocolates, considerando a entrada de 1kg de amêndoa no início do processos e todos os valores de energia em kcal/kg.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Energia - Chocolate Amargo}
+\includegraphics[scale=0.5]{../../Pictures/amargo.jpg} 
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Energia - Chocolate Meio Amargo}
+\includegraphics[scale=0.5]{../../Pictures/meio amargo.jpg} 
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balanço de Energia - Chocolate Ao Leite}
+\includegraphics[scale=0.5]{../../Pictures/ao leite.jpg} 
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+
+Além dos cálculos realizados com as diferenças de temperatura de cada estágio, foram realizados os cálculos de energia consumida no túnel de resfriamento, pois nele ocorre a retirada de energia do chocolate por meio da troca de calor com uma solução de amõnia no equipamento de forma indireta. Dessa forma foi possível verificar se o equipamento possuia capacidade suficiente para realizar o resfriamento e dimensionar de forma muito mais precisa o gasto energético.
+
+Para esses cálculos foram utilizadas: a tabela de propriedades na saturação e o diagrama de p-h da amônia, que se encontram nos Anexos A e B, respectivamente. Nos cálculos foram estipulados os valores de 0°C no evaporador e 40°C na saída do condensador para a solução de amônia e uma eficiência de 75$\%$.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fluxograma de um refrigerador}
+\includegraphics[scale=1]{../../Pictures/esquema.png} 
+\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+Dessa forma, foi possível verificar que o túnel de resfriamento consome 33,13 kcal para resfriar 1 kg de chocolate, independente do tipo. Como a empresa está dimensionada para produzir por volta de 115 kg/h de chocolate, a energia consumida no túnel de resfriamento gira em torno de 3827,17 kcal/h, ou seja, 4,45 kW. Portanto, foi possível verificar que o túnel de resfriamento consegue suprir toda a demanda da fábrica e que o consumo de energia é um pouco abaixo da potência máxima do equipamento.
+
+
 \newpage
 \chapter{Conclusão}
 %\pagestyle{fancy}
+
+No decorrer deste estudo sobre o processamento de cacau verificou-se a importância dos cálculos de balanço de massa e balanço de energia para dimensionamento da linha de produção. Já que dessa forma é possível analisar a capacidade da linha de produção por meio das perdas que acontecem no sistema, o gasto energético de todos os equipamentos e também o dimensionamento correto do maquinário igual como ocorreu com o túnel de resfriamento da linha de produção deste trabalho.
+
+Além disso, foi possível analisar o mercado, as normas e leis regulamentadoras do setor do chocolate e entender todo o processo de produção desse produto, o que ocasionou em um grande aprendizado sobre o setor e sobre o dimensionamento de uma fábrica. Ademais, foi realizado um estudo acerca dos resíduos e foram calculados todas as perdas que ocorrem na produção e toda a energia que é consumida na linha de fabricação do chocolate.
 
 
 \newpage
@@ -563,13 +1021,31 @@ O processamento do cacau é dividido em 11 fases majoritárias \cite{3}, são es
 
 \bibliography{referencias}
 
-%\begin{anexosenv}
+\begin{anexosenv}
 
-%\chapter{Código utilizado no software EMSO}
+\chapter{Propriedades na Saturação - REFRIGERANTE R-717 (AMÔNIA)}
+
+\begin{figure}[H]
+\begin{center}
+%\caption{Balanço de Energia - Chocolate Ao Leite}
+\includegraphics[scale=1.1]{../../Pictures/tabelaamonia.png} 
+%\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
+
+\chapter{Diagrama p-h - REFRIGERANTE R-717 (AMÔNIA)}
+
+\begin{figure}[H]
+\begin{center}
+%\caption{Balanço de Energia - Chocolate Ao Leite}
+\includegraphics[scale=1.12]{../../Pictures/graficoamonia.png} 
+%\legend{Fonte: Autoria Própria}
+\end{center}
+\end{figure}
 
 %\begin{lstlisting}
 %\end{lstlisting}
 
-%\end{anexosenv}
+\end{anexosenv}
 
 \end{document}

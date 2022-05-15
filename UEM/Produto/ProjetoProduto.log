@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.5)  15 FEB 2022 22:40
+This is pdfTeX, Version 3.14159265-2.6-1.40.20 (TeX Live 2019/Debian) (preloaded format=pdflatex 2021.10.5)  2 MAY 2022 09:39
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -834,6 +834,9 @@ LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
 \ABCItoken=\toks40
 )
+(/usr/share/texlive/texmf-dist/tex/latex/subfig/subfig.sty
+Package: subfig 2005/06/28 ver: 1.3 subfig package
+
 
 Class memoir Warning: For the caption package to function properly with memoir,
  we will now reset\caption and friends to kernel defaults and then let the capt
@@ -864,73 +867,126 @@ Package caption Info: longtable package is loaded.
 (/usr/share/texlive/texmf-dist/tex/latex/caption/ltcaption.sty
 Package: ltcaption 2018/08/26 v1.4a longtable captions (AR)
 ))
+\c@KVtest=\count349
+\sf@farskip=\skip273
+\sf@captopadj=\dimen264
+\sf@capskip=\skip274
+\sf@nearskip=\skip275
+\c@subfigure=\count350
+\c@subfigure@save=\count351
+\c@subtable=\count352
+\c@subtable@save=\count353
+\sf@top=\skip276
+\sf@bottom=\skip277
+)
+(/usr/share/texlive/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
 (/usr/share/texlive/texmf-dist/tex/latex/etoolbox/etoolbox.sty
 Package: etoolbox 2019/09/21 v2.5h e-TeX tools for LaTeX (JAW)
-\etb@tempcnta=\count349
+\etb@tempcnta=\count354
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.sty
-\lst@mode=\count350
+\lst@mode=\count355
 \lst@gtempboxa=\box58
 \lst@token=\toks41
-\lst@length=\count351
-\lst@currlwidth=\dimen264
-\lst@column=\count352
-\lst@pos=\count353
-\lst@lostspace=\dimen265
-\lst@width=\dimen266
-\lst@newlines=\count354
-\lst@lineno=\count355
-\lst@maxwidth=\dimen267
+\lst@length=\count356
+\lst@currlwidth=\dimen265
+\lst@column=\count357
+\lst@pos=\count358
+\lst@lostspace=\dimen266
+\lst@width=\dimen267
+\lst@newlines=\count359
+\lst@lineno=\count360
+\lst@maxwidth=\dimen268
 
 (/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
 File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-\c@lstnumber=\count356
-\lst@skipnumbers=\count357
+\c@lstnumber=\count361
+\lst@skipnumbers=\count362
 \lst@framebox=\box59
 )
 (/usr/share/texlive/texmf-dist/tex/latex/listings/listings.cfg
 File: listings.cfg 2019/09/10 1.8c listings configuration
 ))
 Package: listings 2019/09/10 1.8c (Carsten Heinz)
-
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstlang1.sty
-File: lstlang1.sty 2019/09/10 1.8c listings language file
-)
-(/usr/share/texlive/texmf-dist/tex/latex/listings/lstmisc.sty
-File: lstmisc.sty 2019/09/10 1.8c (Carsten Heinz)
-)
-Package hyperref Info: Option `colorlinks' set `true' on input line 86.
+Package hyperref Info: Option `colorlinks' set `true' on input line 87.
 \ProjetoProduto@idxfile=\write4
 \openout4 = `ProjetoProduto.idx'.
 
 
 Writing index file ProjetoProduto.idx 
-(./ProjetoProduto.aux)
+(./ProjetoProduto.aux
+
+LaTeX Warning: Label `tableproduto3' multiply defined.
+
+
+LaTeX Warning: Label `tableproduto3' multiply defined.
+
+
+LaTeX Warning: Label `tableproduto3' multiply defined.
+
+
+LaTeX Warning: Label `tableproduto3' multiply defined.
+
+
+LaTeX Warning: Label `tableproduto3' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+
+LaTeX Warning: Label `figetapas' multiply defined.
+
+)
 \openout1 = `ProjetoProduto.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 112.
+LaTeX Font Info:    ... okay on input line 112.
 \AtBeginShipoutBox=\box60
-Package hyperref Info: Link coloring ON on input line 111.
-
-(/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
+Package hyperref Info: Link coloring ON on input line 112.
+ (/usr/share/texlive/texmf-dist/tex/latex/hyperref/nameref.sty
 Package: nameref 2019/09/16 v2.46 Cross-referencing by name of section
 
 (/usr/share/texlive/texmf-dist/tex/latex/refcount/refcount.sty
@@ -939,31 +995,31 @@ Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
 (/usr/share/texlive/texmf-dist/tex/generic/gettitlestring/gettitlestring.sty
 Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
-\c@section@level=\count358
+\c@section@level=\count363
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 111.
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
-LaTeX Info: Redefining \degres on input line 111.
-LaTeX Info: Redefining \dots on input line 111.
-LaTeX Info: Redefining \up on input line 111.
+LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \ref on input line 112.
+LaTeX Info: Redefining \pageref on input line 112.
+LaTeX Info: Redefining \nameref on input line 112.
+LaTeX Info: Redefining \degres on input line 112.
+LaTeX Info: Redefining \dots on input line 112.
+LaTeX Info: Redefining \up on input line 112.
 \myptabbox=\box61
-\myptabboxwidth=\skip273
+\myptabboxwidth=\skip278
 (/usr/share/texlive/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
 [Loading MPS to PDF converter (version 2006.09.02).]
-\scratchcounter=\count359
-\scratchdimen=\dimen268
+\scratchcounter=\count364
+\scratchdimen=\dimen269
 \scratchbox=\box62
-\nofMPsegments=\count360
-\nofMParguments=\count361
+\nofMPsegments=\count365
+\nofMParguments=\count366
 \everyMPshowfont=\toks42
-\MPscratchCnt=\count362
-\MPscratchDim=\dimen269
-\MPnumerator=\count363
-\makeMPintoPDFobject=\count364
+\MPscratchCnt=\count367
+\MPscratchDim=\dimen270
+\MPnumerator=\count368
+\makeMPintoPDFobject=\count369
 \everyMPtoPDFconversion=\toks43
 ) (/usr/share/texlive/texmf-dist/tex/latex/epstopdf-pkg/epstopdf-base.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
@@ -974,14 +1030,14 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
 e
 ))
-LaTeX Info: Redefining \microtypecontext on input line 111.
+LaTeX Info: Redefining \microtypecontext on input line 112.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `basictext'.
-LaTeX Info: Redefining \showhyphens on input line 111.
+LaTeX Info: Redefining \showhyphens on input line 112.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -991,50 +1047,51 @@ File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman
 (RS)
 )
 Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: subfig package v1.3 is loaded.
 Package caption Info: listings package is loaded.
 Package caption Info: End \AtBeginDocument code.
-\c@lstlisting=\count365
+\c@lstlisting=\count370
 <../../Pictures/uem-modelo-04.png, id=4, 804.606pt x 110.3322pt>
 File: ../../Pictures/uem-modelo-04.png Graphic file (type png)
 <use ../../Pictures/uem-modelo-04.png>
 Package pdftex.def Info: ../../Pictures/uem-modelo-04.png  used on input line 1
-17.
+18.
 (pdftex.def)             Requested size: 362.06935pt x 49.64902pt.
 
-Overfull \hbox (362.06935pt too wide) in paragraph at lines 117--118
+Overfull \hbox (362.06935pt too wide) in paragraph at lines 118--119
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-18.
+19.
 (/usr/share/texmf/tex/latex/lm/ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-18.
+19.
 
 (/usr/share/texmf/tex/latex/lm/omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-118.
+119.
 
 (/usr/share/texmf/tex/latex/lm/omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-118.
+119.
 
 (/usr/share/texmf/tex/latex/lm/omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 118.
+(Font)              <12> on input line 119.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 118.
+(Font)              <8> on input line 119.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 118.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 118
+(Font)              <6> on input line 119.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 119
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsa.fd
@@ -1043,7 +1100,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (/usr/share/texlive/texmf-dist/tex/latex/microtype/mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 118
+LaTeX Font Info:    Trying to load font information for U+msb on input line 119
 .
 
 (/usr/share/texlive/texmf-dist/tex/latex/amsfonts/umsb.fd
@@ -1053,7 +1110,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-26.
+27.
 
 (/usr/share/texmf/tex/latex/lm/t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1065,7 +1122,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../../Pictures/logoUEM.jpg, id=6, 578.16pt x 622.4856pt>
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 126.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 127.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1080,11 +1137,11 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 uplicate ignored
 <to be read again> 
                    \relax 
-l.43 ...icações-meta do produto}{7}{section.4.5}
+l.44 ...1}Modelar funcionalmente}{32}{section.5.1}
                                                   %
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 43.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 44.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1097,7 +1154,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 ])
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 146.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 147.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1105,29 +1162,9 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [2]
-
-LaTeX Warning: Citation `2' on page 3 undefined on input line 158.
-
-
-LaTeX Warning: Citation `1' on page 3 undefined on input line 158.
-
-
-LaTeX Warning: Citation `5' on page 3 undefined on input line 160.
-
-
-LaTeX Warning: Citation `1' on page 3 undefined on input line 162.
-
-LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-62.
-(/usr/share/texmf/tex/latex/lm/ts1lmr.fd
-File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
-)
-
-LaTeX Warning: Citation `3' on page 3 undefined on input line 162.
-
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 178.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 172.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1138,138 +1175,794 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 
 ]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 229.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[4
-
-]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 229.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[5]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 262.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[6
-
-]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 277.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[7
-
-]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 300.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[8
-
-]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 327.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[9
-
-]
-File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
-<use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 332.
-(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
-
-Overfull \hbox (211.91061pt too wide) has occurred while \output is active
- [][] 
- []
-
-[10
-
-] (./ProjetoProduto.bbl
-bibitemlist
-
-LaTeX Warning: Empty `thebibliography' environment on input line 8.
-
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+85.
+ (/usr/share/texmf/tex/latex/lm/ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 346.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 190.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[11
+[4]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 225.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[5
+
+]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03-12 
+at 21.10.19.jpeg, id=158, 784.9325pt x 593.21625pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-0
+3-12 at 21.10.19.jpeg Graphic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03
+-12 at 21.10.19.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Wh
+atsApp Image 2022-03-12 at 21.10.19.jpeg  used on input line 246.
+(pdftex.def)             Requested size: 431.7142pt x 326.26994pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 251.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[6]
+<../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-31.pdf_1-1024x576.
+jpg, id=183, 770.88pt x 433.62pt>
+File: ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-31.pdf_1-1024
+x576.jpg Graphic file (type jpg)
+<use ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-31.pdf_1-1024x
+576.jpg>
+Package pdftex.def Info: ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imp
+rensa-31.pdf_1-1024x576.jpg  used on input line 262.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+<../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-32.pdf_1-1024x576.
+jpg, id=184, 770.88pt x 433.62pt>
+File: ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-32.pdf_1-1024
+x576.jpg Graphic file (type jpg)
+<use ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-32.pdf_1-1024x
+576.jpg>
+Package pdftex.def Info: ../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imp
+rensa-32.pdf_1-1024x576.jpg  used on input line 267.
+(pdftex.def)             Requested size: 423.98532pt x 238.49173pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 271.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[7 </home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03-
+12 at 21.10.19.jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202029-1024x579.png,
+ id=199, 770.88pt x 435.87843pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202029-1024x579
+.png Graphic file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202029-1024x579.
+png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Ra
+dar-202029-1024x579.png  used on input line 280.
+(pdftex.def)             Requested size: 423.98532pt x 239.73387pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202030-1024x578.png,
+ id=200, 770.88pt x 435.12563pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202030-1024x578
+.png Graphic file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202030-1024x578.
+png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Ra
+dar-202030-1024x578.png  used on input line 285.
+(pdftex.def)             Requested size: 423.98532pt x 239.31982pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 289.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[8 <../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-31.pdf_1-1024x5
+76.jpg> <../../Pictures/Apresentacao-Radar-2021-Coletiva-de-Imprensa-32.pdf_1-1
+024x576.jpg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 293.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[9 </home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202029-1024x579.p
+ng> </home/grmunhoz/Documents/Munhoz/University/Pictures/Radar-202030-1024x578.
+png>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 320.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[10]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 341.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[11]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 363.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[12]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 366.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[13]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/ScreenShot03.13.png, id=25
+0, 633.11531pt x 140.77594pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/ScreenShot03.13.png G
+raphic file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/ScreenShot03.13.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Sc
+reenShot03.13.png  used on input line 390.
+(pdftex.def)             Requested size: 443.17769pt x 98.54247pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 398.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[14
+
+ </home/grmunhoz/Documents/Munhoz/University/Pictures/ScreenShot03.13.png (PNG 
+copy)>]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10> on input line 412.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 412.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 412.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 438.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 447.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[15]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 487.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[16]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 508.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[17]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download (3).jpeg, id=274,
+ 289.08pt x 342.27875pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download (3).jpeg Gra
+phic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download (3).jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload (3).jpeg  used on input line 523.
+(pdftex.def)             Requested size: 144.53964pt x 171.13895pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download (1).jpeg, id=275,
+ 381.425pt x 123.46124pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download (1).jpeg Gra
+phic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download (1).jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload (1).jpeg  used on input line 534.
+(pdftex.def)             Requested size: 190.71202pt x 61.73045pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 538.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[18 </home/grmunhoz/Documents/Munhoz/University/Pictures/download (3).jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download.jpeg, id=282, 882
+.29625pt x 404.51125pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download.jpeg Graphic
+ file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload.jpeg  used on input line 545.
+(pdftex.def)             Requested size: 352.91225pt x 161.80162pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download (2).jpeg, id=283,
+ 459.7175pt x 433.62pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download (2).jpeg Gra
+phic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download (2).jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload (2).jpeg  used on input line 555.
+(pdftex.def)             Requested size: 183.88373pt x 173.44492pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download (4).jpeg, id=284,
+ 408.52625pt x 157.58875pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download (4).jpeg Gra
+phic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download (4).jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload (4).jpeg  used on input line 565.
+(pdftex.def)             Requested size: 204.26262pt x 78.79417pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 568.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[19 </home/grmunhoz/Documents/Munhoz/University/Pictures/download (1).jpeg> </h
+ome/grmunhoz/Documents/Munhoz/University/Pictures/download.jpeg> </home/grmunho
+z/Documents/Munhoz/University/Pictures/download (2).jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03-13 
+at 16.43.44.jpeg, id=292, 516.93124pt x 405.515pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-0
+3-13 at 16.43.44.jpeg Graphic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03
+-13 at 16.43.44.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Wh
+atsApp Image 2022-03-13 at 16.43.44.jpeg  used on input line 577.
+(pdftex.def)             Requested size: 258.46498pt x 202.75699pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/download (6).jpeg, id=293,
+ 328.22626pt x 164.615pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/download (6).jpeg Gra
+phic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/download (6).jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/do
+wnload (6).jpeg  used on input line 592.
+(pdftex.def)             Requested size: 164.11272pt x 82.3073pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 596.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[20 </home/grmunhoz/Documents/Munhoz/University/Pictures/download (4).jpeg> </h
+ome/grmunhoz/Documents/Munhoz/University/Pictures/WhatsApp Image 2022-03-13 at 
+16.43.44.jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/VPL.jpeg, id=300, 718.685p
+t x 354.32375pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/VPL.jpeg Graphic file
+ (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/VPL.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/VP
+L.jpeg  used on input line 604.
+(pdftex.def)             Requested size: 359.34161pt x 177.16144pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/vplgrafico.jpeg, id=301, 1
+284.8pt x 359.3425pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/vplgrafico.jpeg Graph
+ic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/vplgrafico.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/vp
+lgrafico.jpeg  used on input line 612.
+(pdftex.def)             Requested size: 449.68674pt x 125.77174pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 616.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[21 </home/grmunhoz/Documents/Munhoz/University/Pictures/download (6).jpeg> </h
+ome/grmunhoz/Documents/Munhoz/University/Pictures/VPL.jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/tir.jpeg, id=309, 984.6787
+6pt x 342.27875pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/tir.jpeg Graphic file
+ (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/tir.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/ti
+r.jpeg  used on input line 622.
+(pdftex.def)             Requested size: 423.40361pt x 147.17699pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/payback.jpeg, id=310, 990.
+70125pt x 372.39125pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/payback.jpeg Graphic 
+file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/payback.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/pa
+yback.jpeg  used on input line 632.
+(pdftex.def)             Requested size: 425.99324pt x 160.1251pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 636.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[22 </home/grmunhoz/Documents/Munhoz/University/Pictures/vplgrafico.jpeg> </hom
+e/grmunhoz/Documents/Munhoz/University/Pictures/TIR.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 659.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[23 </home/grmunhoz/Documents/Munhoz/University/Pictures/PAYBACK.jpeg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/3.14 - Project Charter.jpe
+g, id=322, 1284.8pt x 478.78876pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/3.14 - Project Charte
+r.jpeg Graphic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/3.14 - Project Charter
+.jpeg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/3.
+14 - Project Charter.jpeg  used on input line 694.
+(pdftex.def)             Requested size: 462.52765pt x 172.36382pt.
+
+Overfull \hbox (7.52765pt too wide) in paragraph at lines 694--696
+ [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 700.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[24]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 701.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[25 </home/grmunhoz/Documents/Munhoz/University/Pictures/3.14 - Project Charter
+.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 742.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[26
+
+]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/etapas.JPG, id=341, 640.39
+25pt x 66.2475pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/etapas.JPG Graphic fi
+le (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/etapas.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/et
+apas.JPG  used on input line 756.
+(pdftex.def)             Requested size: 448.27168pt x 46.37292pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/ciclo.JPG, id=342, 252.443
+13pt x 219.82124pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/ciclo.JPG Graphic fil
+e (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/ciclo.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/ci
+clo.JPG  used on input line 769.
+(pdftex.def)             Requested size: 252.4425pt x 219.8207pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 774.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[27 </home/grmunhoz/Documents/Munhoz/University/Pictures/etapas.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/req. cliente.JPG, id=349, 
+287.57437pt x 183.68625pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/req. cliente.JPG Grap
+hic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/req. cliente.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/re
+q. cliente.JPG  used on input line 793.
+(pdftex.def)             Requested size: 258.81454pt x 165.31607pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 796.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[28 </home/grmunhoz/Documents/Munhoz/University/Pictures/ciclo.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/req. produto.JPG, id=355, 
+163.10938pt x 108.405pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/req. produto.JPG Grap
+hic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/req. produto.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/re
+q. produto.JPG  used on input line 807.
+(pdftex.def)             Requested size: 146.79706pt x 97.56358pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 816.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[29 </home/grmunhoz/Documents/Munhoz/University/Pictures/req. cliente.JPG> </ho
+me/grmunhoz/Documents/Munhoz/University/Pictures/req. produto.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/IM.JPG, id=362, 206.7725pt
+ x 135.00438pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/IM.JPG Graphic file (
+type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/IM.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/IM
+.JPG  used on input line 824.
+(pdftex.def)             Requested size: 206.77199pt x 135.00403pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/Importancia.JPG, id=363, 3
+24.71312pt x 110.4125pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/Importancia.JPG Graph
+ic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/Importancia.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/Im
+portancia.JPG  used on input line 842.
+(pdftex.def)             Requested size: 324.71233pt x 110.41222pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 846.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[30 </home/grmunhoz/Documents/Munhoz/University/Pictures/IM.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/especificacoes.JPG, id=370
+, 324.21124pt x 108.405pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/especificacoes.JPG Gr
+aphic file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/especificacoes.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/es
+pecificacoes.JPG  used on input line 856.
+(pdftex.def)             Requested size: 324.21045pt x 108.40472pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 861.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[31 </home/grmunhoz/Documents/Munhoz/University/Pictures/Importancia.JPG> </hom
+e/grmunhoz/Documents/Munhoz/University/Pictures/especificacoes.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/agua.png, id=377, 766.3631
+3pt x 289.08pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/agua.png Graphic file
+ (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/agua.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/ag
+ua.png  used on input line 872.
+(pdftex.def)             Requested size: 229.9107pt x 86.72466pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/fluxo.png, id=378, 944.026
+87pt x 330.48468pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/fluxo.png Graphic fil
+e (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/fluxo.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/fl
+uxo.png  used on input line 883.
+(pdftex.def)             Requested size: 472.01228pt x 165.24193pt.
+
+Overfull \hbox (17.01228pt too wide) in paragraph at lines 883--885
+ [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 893.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[32
+
+ </home/grmunhoz/Documents/Munhoz/University/Pictures/agua.png (PNG copy)> </ho
+me/grmunhoz/Documents/Munhoz/University/Pictures/fluxo.png (PNG copy)>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/alternativas.png, id=385, 
+678.28406pt x 130.23656pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/alternativas.png Grap
+hic file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/alternativas.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/al
+ternativas.png  used on input line 902.
+(pdftex.def)             Requested size: 440.87941pt x 84.65276pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/funcao.png, id=386, 677.53
+125pt x 133.24782pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/funcao.png Graphic fi
+le (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/funcao.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/fu
+ncao.png  used on input line 915.
+(pdftex.def)             Requested size: 440.39009pt x 86.61005pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 923.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[33 </home/grmunhoz/Documents/Munhoz/University/Pictures/alternativas.png (PNG 
+copy)> </home/grmunhoz/Documents/Munhoz/University/Pictures/funcao.png (PNG cop
+y)>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/draft2.1.png, id=393, 352.
+31625pt x 478.03593pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/draft2.1.png Graphic 
+file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/draft2.1.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/dr
+aft2.1.png  used on input line 931.
+(pdftex.def)             Requested size: 246.61969pt x 334.62286pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 941.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[34 </home/grmunhoz/Documents/Munhoz/University/Pictures/draft2.1.png (PNG copy
+)>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 960.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[35]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/arvore.png, id=403, 373.39
+5pt x 414.79968pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/arvore.png Graphic fi
+le (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/arvore.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/ar
+vore.png  used on input line 983.
+(pdftex.def)             Requested size: 224.03873pt x 248.88173pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 990.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[36
+
+ </home/grmunhoz/Documents/Munhoz/University/Pictures/arvore.png (PNG copy)>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/processo.png, id=410, 861.
+2175pt x 178.41656pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/processo.png Graphic 
+file (type png)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/processo.png>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/pr
+ocesso.png  used on input line 1020.
+(pdftex.def)             Requested size: 430.6077pt x 89.20805pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1025.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[37]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/plastico.jpg, id=415, 803.
+0pt x 602.25pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/plastico.jpg Graphic 
+file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/plastico.jpg>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/pl
+astico.jpg  used on input line 1049.
+(pdftex.def)             Requested size: 240.90186pt x 180.67639pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1054.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[38 </home/grmunhoz/Documents/Munhoz/University/Pictures/processo.png (PNG copy
+)>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1074.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[39 </home/grmunhoz/Documents/Munhoz/University/Pictures/plastico.jpg>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/embalagem.JPG, id=427, 313
+.17pt x 221.82875pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/embalagem.JPG Graphic
+ file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/embalagem.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/em
+balagem.JPG  used on input line 1091.
+(pdftex.def)             Requested size: 219.21748pt x 155.27905pt.
+</home/grmunhoz/Documents/Munhoz/University/Pictures/bio pack.JPG, id=428, 346.
+79562pt x 324.71312pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/bio pack.JPG Graphic 
+file (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/bio pack.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/bi
+o pack.JPG  used on input line 1100.
+(pdftex.def)             Requested size: 173.39738pt x 162.35616pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1105.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[40 </home/grmunhoz/Documents/Munhoz/University/Pictures/embalagem.JPG>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1125.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[41 </home/grmunhoz/Documents/Munhoz/University/Pictures/bio pack.JPG>]
+</home/grmunhoz/Documents/Munhoz/University/Pictures/lixeira.JPG, id=439, 587.1
+9376pt x 587.19376pt>
+File: /home/grmunhoz/Documents/Munhoz/University/Pictures/lixeira.JPG Graphic f
+ile (type jpg)
+<use /home/grmunhoz/Documents/Munhoz/University/Pictures/lixeira.JPG>
+Package pdftex.def Info: /home/grmunhoz/Documents/Munhoz/University/Pictures/li
+xeira.JPG  used on input line 1129.
+(pdftex.def)             Requested size: 176.15948pt x 176.15948pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1146.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[42 </home/grmunhoz/Documents/Munhoz/University/Pictures/lixeira.jpg>]
+(./ProjetoProduto.bbl
+bibitemlist
+)
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1165.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[43
 
 ]
 \tf@toc=\write5
 \openout5 = `ProjetoProduto.toc'.
 
-Package atveryend Info: Empty hook `BeforeClearDocument' on input line 346.
-Package atveryend Info: Empty hook `AfterLastShipout' on input line 346.
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 1165.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 1165.
  (./ProjetoProduto.aux)
-Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 346.
-Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 346.
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 1165.
+Package atveryend Info: Empty hook `AtEndAfterFileList' on input line 1165.
 
 
-LaTeX Warning: There were undefined references.
+LaTeX Warning: There were multiply-defined labels.
 
-Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 346.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 1165.
  ) 
 Here is how much of TeX's memory you used:
- 18138 strings out of 481239
- 283483 string characters out of 5920377
- 905737 words of memory out of 5000000
- 32947 multiletter control sequences out of 15000+600000
- 588215 words of font info for 83 fonts, out of 8000000 for 9000
+ 18738 strings out of 481239
+ 302333 string characters out of 5920377
+ 755229 words of memory out of 5000000
+ 33341 multiletter control sequences out of 15000+600000
+ 616414 words of font info for 141 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 42i,15n,60p,994b,557s stack positions out of 5000i,500n,10000p,200000b,80000s
+ 50i,15n,49p,994b,605s stack positions out of 5000i,500n,10000p,200000b,80000s
 {/usr/share/texmf/fonts/enc/dvips/lm/lm-ec.enc}{/usr/share/texmf/fonts/enc/dv
-ips/lm/lm-ts1.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}</usr/share/te
-xmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/fonts/type1/public/lm/lm
-r10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pfb></usr/share/texmf/fon
-ts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/type1/public/lm/lmri12.pf
-b></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></usr/share/texmf/fonts/ty
-pe1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on ProjetoProduto.pdf (12 pages, 357024 bytes).
+ips/lm/lm-mathsy.enc}{/usr/share/texmf/fonts/enc/dvips/lm/lm-rm.enc}{/usr/share
+/texmf/fonts/enc/dvips/lm/lm-ts1.enc}</usr/share/texmf/fonts/type1/public/lm/lm
+bx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmbx12.pfb></usr/share/texmf/f
+onts/type1/public/lm/lmr10.pfb></usr/share/texmf/fonts/type1/public/lm/lmr12.pf
+b></usr/share/texmf/fonts/type1/public/lm/lmri10.pfb></usr/share/texmf/fonts/ty
+pe1/public/lm/lmri12.pfb></usr/share/texmf/fonts/type1/public/lm/lmss12.pfb></u
+sr/share/texmf/fonts/type1/public/lm/lmss17.pfb></usr/share/texmf/fonts/type1/p
+ublic/lm/lmssbx10.pfb></usr/share/texmf/fonts/type1/public/lm/lmsy10.pfb>
+Output written on ProjetoProduto.pdf (44 pages, 2901977 bytes).
 PDF statistics:
- 423 PDF objects out of 1000 (max. 8388607)
- 394 compressed objects within 4 object streams
- 75 named destinations out of 1000 (max. 500000)
- 21483 words of extra memory for PDF output out of 24883 (max. 10000000)
+ 704 PDF objects out of 1000 (max. 8388607)
+ 595 compressed objects within 6 object streams
+ 162 named destinations out of 1000 (max. 500000)
+ 29807 words of extra memory for PDF output out of 29859 (max. 10000000)
 

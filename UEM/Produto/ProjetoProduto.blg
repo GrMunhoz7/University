@@ -1,11 +1,6 @@
 This is BibTeX, Version 0.99d (TeX Live 2019/Debian)
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
 The top-level auxiliary file: ProjetoProduto.aux
-I couldn't open database file referencias.bib
----line 176 of file ProjetoProduto.aux
- : \bibdata{abntex2-options,referencias
- :                                     }
-I'm skipping whatever remains of this command
 The style file: abntex2-alf.bst
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
@@ -17,10 +12,19 @@ Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated wiz_functions (elt_size=4) to 9000 items from 6000.
 Database file #1: abntex2-options.bib
-Warning--I didn't find a database entry for "2"
-Warning--I didn't find a database entry for "1"
-Warning--I didn't find a database entry for "5"
-Warning--I didn't find a database entry for "3"
+Database file #2: referencia.bib
+Warning--entry type for "abinpet" isn't style-file defined
+--line 1 of file referencia.bib
+Warning--entry type for "abcomm" isn't style-file defined
+--line 17 of file referencia.bib
+Warning--entry type for "fgv" isn't style-file defined
+--line 26 of file referencia.bib
+Warning--entry type for "folha" isn't style-file defined
+--line 35 of file referencia.bib
+Warning--entry type for "noticia" isn't style-file defined
+--line 44 of file referencia.bib
+Warning--entry type for "comac" isn't style-file defined
+--line 53 of file referencia.bib
 Reallocated singl_function (elt_size=4) to 100 items from 50.
 Reallocated glb_str_ptr (elt_size=4) to 20 items from 10.
 Reallocated global_strs (elt_size=200001) to 20 items from 10.
@@ -30,45 +34,45 @@ Reallocated glb_str_end (elt_size=4) to 20 items from 10.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 1 entry,
+You've used 8 entries,
             6714 wiz_defined-function locations,
-            1197 strings with 9343 characters,
-and the built_in function-call counts, 891 in all, are:
-= -- 192
-> -- 0
-< -- 0
-+ -- 46
-- -- 0
-* -- 36
-:= -- 175
-add.period$ -- 0
-call.type$ -- 1
-change.case$ -- 3
-chr.to.int$ -- 1
-cite$ -- 0
-duplicate$ -- 3
-empty$ -- 40
-format.name$ -- 0
-if$ -- 204
+            1231 strings with 10669 characters,
+and the built_in function-call counts, 15240 in all, are:
+= -- 2094
+> -- 131
+< -- 521
++ -- 613
+- -- 42
+* -- 845
+:= -- 1877
+add.period$ -- 33
+call.type$ -- 8
+change.case$ -- 52
+chr.to.int$ -- 8
+cite$ -- 7
+duplicate$ -- 1757
+empty$ -- 452
+format.name$ -- 199
+if$ -- 2860
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 10
-newline$ -- 8
-num.names$ -- 0
-pop$ -- 28
+missing$ -- 126
+newline$ -- 42
+num.names$ -- 35
+pop$ -- 183
 preamble$ -- 1
-purify$ -- 3
+purify$ -- 26
 quote$ -- 0
-skip$ -- 80
+skip$ -- 1862
 stack$ -- 1
-substring$ -- 49
-swap$ -- 0
-text.length$ -- 0
+substring$ -- 694
+swap$ -- 603
+text.length$ -- 6
 text.prefix$ -- 0
 top$ -- 0
 type$ -- 0
 warning$ -- 0
-while$ -- 2
+while$ -- 50
 width$ -- 0
-write$ -- 8
-(There was 1 error message)
+write$ -- 112
+(There were 6 warnings)
