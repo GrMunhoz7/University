@@ -1,0 +1,201 @@
+\documentclass[
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{lipsum}				% para geração de dummy text
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{xcolor}
+\usepackage{scalefnt}
+
+\usepackage[font=small]{caption}     %% make caption in normal size
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtabu}{\footnotesize}{}{}   %% change all longtabu content to foot note size
+
+\definecolor{verde}{rgb}{0,0.5,0}
+\usepackage{listings}
+\lstset{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{verde},
+  commentstyle=\color{red},
+  extendedchars=true,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  backgroundcolor=\color{green!10},
+  breakautoindent=true,
+  captionpos=b,
+  xleftmargin=0pt,
+}
+
+
+\titulo{Definição da Estratégia Logística de uma Fábrica de Chocolate Localizada em Minas Gerais}
+\autor{Caio Henrique Silva Souza 99131\\Eduardo Favoretto Vale Bom 108139\\Gabriel Rodrigues Munhoz 106802\\João Vítor Batistão 108074}
+\local{Maringá, PR}
+\data{11.04.2022}
+\orientador{}
+\coorientador{}
+\instituicao{%
+  Universidade Estadual de Maringá - UEM
+  \par
+  Departamento de Engenharia de Produção - DEP}
+\tipotrabalho{Tese (Doutorado)}
+\preambulo{}
+
+\definecolor{blue}{RGB}{41,5,195}
+
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+	colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=black,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+
+\setlength{\parindent}{1.3cm}
+
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+\makeindex
+
+%\usepackage{fancyhdr}
+%\fancyhead{}
+%\fancyfoot{}
+%\lhead{Processo Agroindustrial de Processamento de Cacau}
+%\rhead{Processo Agroindustrial de Processamento de Cacau}
+
+\AddToShipoutPicture{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+{\transparent{0.1}\includegraphics[scale=1.4]{../../Pictures/logoUEM.jpg}    }%
+\vfill}}}
+
+
+
+%\graphicspath{{../Pictures}}
+\begin{document}
+
+\begin{minipage}[c][0cm][c]{0cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{../../Pictures/uem-modelo-04.png}  
+\end{minipage}
+
+\selectlanguage{brazil}
+
+\frenchspacing 
+
+% \pretextual
+
+\imprimircapa
+
+
+% ---
+% RESUMOS
+% ---
+
+%\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+%\begin{resumo}
+ 
+ 
+% \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+%\end{resumo}
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\chapter{Introdução}
+%\pagestyle{fancy}
+
+
+
+\section{Objetivo Geral}
+
+O objetivo geral deste trabalho é achar a solução do melhor layout do sistema produtivo de uma fábrica de chocolate, atingindo a demanda de 20 toneladas por mês e conferir a representatividade dessas mudanças por intermédio de um modelo de simulação para identificação de atividades críticas e otimização desses sistemas.
+
+
+%\newpage
+\chapter{Revisão Bibliográfica}
+%\pagestyle{fancy}
+
+
+
+%\newpage
+\chapter{Metodologia}
+%\pagestyle{fancy}
+
+Para fins de estudo sobre o tema de modelagem e simulação, o presente trabalho terá como foco uma pesquisa exploratória. A empresa utilizada para a prática do trabalho é fictícia, contudo foi projetada de forma realista e a complexidade de maquinários e processos são comparáveis com os de empresas reais do mesmo ramo. 
+
+
+\chapter{Resultados e Discussões}
+
+
+
+%\newpage
+\chapter{Conclusão}
+%\pagestyle{fancy}
+
+
+
+
+\newpage
+\postextual
+
+\bibliography{referencias}
+
+%\begin{anexosenv}
+
+%\chapter{Código utilizado no software EMSO}
+
+%\begin{lstlisting}
+%\end{lstlisting}
+
+%\end{anexosenv}
+
+\end{document}

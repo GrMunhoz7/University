@@ -1,0 +1,1108 @@
+\documentclass[
+	12pt,				% tamanho da fonte
+	openright,			% capítulos começam em pág ímpar (insere página vazia caso preciso)
+	oneside,			% para impressão em recto e verso. Oposto a oneside
+	a4paper,			% tamanho do papel. 
+	english,			% idioma adicional para hifenização
+	french,				% idioma adicional para hifenização
+	spanish,			% idioma adicional para hifenização
+	brazil				% o último idioma é o principal do documento
+	]{abntex2}
+
+\usepackage{lmodern}			% Usa a fonte Latin Modern			
+\usepackage[T1]{fontenc}		% Selecao de codigos de fonte.
+\usepackage[utf8]{inputenc}		% Codificacao do documento (conversão automática dos acentos)
+\usepackage{indentfirst}		% Indenta o primeiro parágrafo de cada seção.
+\usepackage{color}				% Controle das cores
+\usepackage{graphicx}			% Inclusão de gráficos
+\usepackage{microtype} 			% para melhorias de justificação
+\usepackage{transparent}
+\usepackage{eso-pic}
+\usepackage{amsthm,amsfonts}
+\usepackage{float}
+\usepackage{multirow}
+\usepackage[table,xcdraw]{xcolor}
+\usepackage{longtable}
+\usepackage{lipsum}				% para geração de dummy text
+%\usepackage[brazilian,hyperpageref]{backref}	 % Paginas com as citações na bibl
+\usepackage[alf]{abntex2cite}	% Citações padrão ABNT
+\usepackage{xcolor}
+\usepackage{scalefnt}
+
+\usepackage[font=small]{caption}     %% make caption in normal size
+\usepackage{etoolbox}
+\AtBeginEnvironment{longtabu}{\footnotesize}{}{}   %% change all longtabu content to foot note size
+
+\definecolor{verde}{rgb}{0,0.5,0}
+\usepackage{listings}
+\lstset{
+  language=C++,
+  basicstyle=\ttfamily\small,
+  keywordstyle=\color{blue},
+  stringstyle=\color{verde},
+  commentstyle=\color{red},
+  extendedchars=true,
+  showspaces=false,
+  showstringspaces=false,
+  numbers=left,
+  numberstyle=\tiny,
+  breaklines=true,
+  backgroundcolor=\color{green!10},
+  breakautoindent=true,
+  captionpos=b,
+  xleftmargin=0pt,
+}
+
+
+\titulo{Projeto de Instalações Industriais\\Agroindústria de Processamento de Cacau}
+\autor{Caio Henrique Silva Souza 99131\\Eduardo Favoretto Vale Bom 108139\\Flávio Fernandes Filho 89993\\Gabriel Rodrigues Munhoz 106802\\Guilherme Benetti Martini 107613\\João Vítor Batistão 108074}
+\local{Maringá, PR}
+\data{09.05.2022}
+\orientador{}
+\coorientador{}
+\instituicao{%
+  Universidade Estadual de Maringá - UEM
+  \par
+  Departamento de Engenharia de Produção - DEP}
+\tipotrabalho{Tese (Doutorado)}
+\preambulo{}
+
+\definecolor{blue}{RGB}{41,5,195}
+
+\makeatletter
+\hypersetup{
+     	%pagebackref=true,
+	pdftitle={\@title}, 
+	pdfauthor={\@author},
+    	pdfsubject={\imprimirpreambulo},
+	pdfcreator={LaTeX with abnTeX2},
+	pdfkeywords={abnt}{latex}{abntex}{abntex2}{trabalho acadêmico}, 
+	colorlinks=true,       		% false: boxed links; true: colored links
+    	linkcolor=black,          	% color of internal links
+    	citecolor=blue,        		% color of links to bibliography
+    	filecolor=magenta,      		% color of file links
+	urlcolor=blue,
+	bookmarksdepth=4
+}
+
+\setlength{\parindent}{1.3cm}
+
+\setlength{\parskip}{0.2cm}  % tente também \onelineskip
+
+\makeindex
+
+%\usepackage{fancyhdr}
+%\fancyhead{}
+%\fancyfoot{}
+%\lhead{Processo Agroindustrial de Processamento de Cacau}
+%\rhead{Processo Agroindustrial de Processamento de Cacau}
+
+\AddToShipoutPicture{
+\put(0,0){
+\parbox[b][\paperheight]{\paperwidth}{%
+\vfill
+\centering
+{\transparent{0.1}\includegraphics[scale=1.4]{../../Pictures/logoUEM.jpg}    }%
+\vfill}}}
+
+
+
+%\graphicspath{{../Pictures}}
+\begin{document}
+
+\begin{minipage}[c][0cm][c]{0cm} % a primeira minipágina tem uma altura de 1.5cm e uma largura de 3cm.
+
+\centering
+
+\includegraphics[scale=0.45]{../../Pictures/uem-modelo-04.png}  
+\end{minipage}
+
+\selectlanguage{brazil}
+
+\frenchspacing 
+
+% \pretextual
+
+\imprimircapa
+
+
+% ---
+% RESUMOS
+% ---
+
+%\setlength{\absparsep}{18pt} % ajusta o espaçamento dos parágrafos do resumo
+%\begin{resumo}
+ 
+ 
+% \textbf{Palavras-chave}: latex. abntex. editoração de texto.
+%\end{resumo}
+
+
+% ---
+% inserir o sumario
+% ---
+\pdfbookmark[0]{\contentsname}{toc}
+\tableofcontents*
+\cleardoublepage
+
+% ----------------------------------------------------------
+% ELEMENTOS TEXTUAIS
+% ----------------------------------------------------------
+\textual
+
+\chapter{Introdução}
+%\pagestyle{fancy}
+
+\section{Contextualização do Tema}
+
+O cacau é um fruto da espécie \textit{Theobroma cacao L.} que possui origem na região amazônica e seu uso, segundo arqueólogos equatorianos e franceses, já era realizado há cerca de 5.500 anos pelos povos amazônicos \cite{2}. No entanto, foi no século XVII que acabou se tornando um produto agrícola e cultivado em diferentes locais da América do Sul e Central devido a disseminação do cultivo pelos espanhóis, e posteriormente se expandindo aos poucos pelo mundo. \cite{1} 
+
+Existem 6 principais produtos a partir do fruto de cacau: mel, polpa, nibs, chocolate, manteiga e cacau em pó, além da própria amêndoa do cacau e casca que também pode ser comercializada de uma forma menos processada. A maior parte desses produtos são voltados para o setor alimentício, no entanto é possível verificar aplicações também no setor cosmético e no setor de geração de energia. \cite{5}
+
+Com mais da metade da produção nacional, 62$\%$, o sul da Bahia é a principal região produtora de cacau, seguida pela região norte do Brasil com 34$\%$ e o restante da produção, 4$\%$, espalhada pelo país \cite{1}. O Brasil é o 7º maior produtor do mundo e segundo o Instituto Brasileiro de Geografia Estatística (IBGE) o Brasil produziu em torno de 310 mil tonaledas. \cite{3} 
+
+
+\section{Objetivos}
+
+\subsection{Objetivo Geral}
+
+Projetar uma empresa de processamento de cacau desde a localização, estrutura de produção e layout para atender certa demanda projetada.
+
+\subsection{Objetivos Específicos}
+
+\begin{itemize}
+\item Estudar o mercado, normas regulatórias, oportunidades e desafios do setor.
+\item Estruturar projeto de empresa com definição de marca e produtos.
+\item Calcular e dimensionar a linha de produção de acordo com previsão de demanda projetada.
+\item Definir localização, layout e estrutura industrial.
+\end{itemize}
+
+\newpage
+\chapter{Revisão Bibliográfica}
+%\pagestyle{fancy}
+
+%Este trabalho tem como foco um estudo de caso, que foi pautado em alguns processos estudados, são eles:
+%Modelagem matemática, Simulação, Otimização e Controle de processos. Esses processos foram utilizados para melhor entendimento do funcionamento de um tanque de agitação que realiza a mistura de água com uma solução aquosa de hidróxido de sódio. 
+
+%Para o desenvolvimento desse estudo, é de extrema importância entender minimamente o processo que será modelado, para que assim seja possível uma implementação prática que resulte em um resultado efetivamente assertivo e o mais próximo do real possível. Caso não exista o entendimento do tema proposto, a realização da modelagem matemática, da simulação do processo e por consequência a análise dos dados e a obtenção de otimizações fica totalmente imprecisa. 
+
+\section{Histórico}
+
+\subsection{História Mundial}
+
+A árvore do cacau que se chama cacaueiro encontrou excelentes condições para o cultivo no território que hoje é conhecido como México há mais de 3.000 anos. Quem habitava o local naquela época era a civilização dos Olmecas, mas após o desaparecimento de tal civilização, os Maias que foram para essa área e utilizavam o cacau para produção de bebidas amplamente utilizadas em rituais. \cite{7}
+
+Farrow (2005) comenta que 600 a.c. os próprios Maias implementaram as primeiras plantações de cacau em Yucatan e na Guatemala. \cite{7}
+
+O chocolate era uma amplamente consumido por vários povos pré-colombianos, Maias, Incas e Astecas produziam amplamente, porém os incas chegaram ao nível de produzir em escala a ponto de ser suficiente para toda população, já com os Maias e Astecas só a nobreza tinha tal privilégio. 
+
+\subsection{Chegada do cacau na Europa}
+
+No ano de 1502, com a chegada de Cristóvão Colombo nas américas, houve o primeiro contato europeu com o cacau, quando um chefe asteca presenteou os marinheiros de Cristóvão com a bebida. No entanto era uma bebida amarga e picante e o europeu não deu a mínima importância. \cite{7}
+
+O produto foi realmente trazido para a Europa quando o Espanhol Hernando Cortez chegou no México com o intuito de conquistar as terras, porém o povo Asteca os recebeu com cordialidade por acreditarem ser uma reencarnação. Com isso, foi possível a troca e o conhecimento das tradições dos astecas pelos Espanhóis e o cacau/chocolate. Tal especiaria foi levada para a europa e amplamente explorado para fins comerciais e entre os dois povos. \cite{7}
+
+Neste momento, o chocolate era altamente utilizado pela nobreza juntamente com mel para amenizar o amargor. Tal bebida era extremamente utilizada pela realeza e nobreza, sendo uma das principais bebidas e mais utilizadas na região, porém somente na Espanha.
+
+Em meados de 1615 o casamento entre o françes Luís XIII com a infanta Espanhola confirmou a adoção do produto também na França que passou a fazer parte da corte.
+
+\subsection{Cacau no Brasil}
+
+No Brasil a chegada do cacau se deu no século XVIII na Bahia e com o clima propício para a produção do cacaueiro a região rapidamente se tornou produtora do cacau, produzindo mais de 300 mil toneladas ao ano. \cite{1} \cite{7}
+
+Segundo Lima, 2008 outros estados como o Pará e Rondônia são produtores de cacau até os dias atuais.
+
+Segundo os dados do último Censo Agropecuário (2017), Há mais de 93 mil estabelecimentos produtores de cacau no País, sendo 69 mil na Bahia (74$\%$ do total) e 18 mil no Pará (19$\%$). Em 2019 o Brasil já alcançava a marca de mais de 250 mil toneladas produzidas como consta na figura \ref{fig2}. \cite{7}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Desempenho do Brasil em 2019 na atividade agrícola do cacau}
+\includegraphics[scale=0.8]{../../Pictures/tabela.png} 
+\label{fig2}
+\legend{Fonte: \cite{8}}
+\end{center}
+\end{figure}
+
+No Brasil o cultivo gera mais de 269 mil empregos diretos.
+
+Segundo os dados do Ministério da Agricultura, a lavoura da amêndoa gerou R$\$$ 3,8 bilhões de valor bruto da produção agrícola (VBPA) em 2020, segundo os dados do Ministério da Agricultura, Pecuária e Abastecimento (MAPA). Os estados do Pará e da Bahia representaram 94$\%$ desse total. \cite{8}
+
+\subsection{Dados Atuais}
+
+A produção global de cacau atual é de aproximadamente 4.84M de toneladas, sendo a o continente africano o líder da produção 	com um market share de 76,1$\%$. \cite{8}
+
+O Brasil é o sétimo maior produtor de cacau do mundo, sendo uma produção anual de 259.425 toneladas.
+
+Segundo os dados do último Censo Agropecuário (2017), Há mais de 93 mil estabelecimentos produtores de cacau no País, sendo 69 mil na Bahia (74$\%$ do total) e 18 mil no Pará (19$\%$). \cite{8}
+
+No Brasil o cultivo gera mais de 269 mil empregos diretos.
+
+Segundo os dados do Ministério da Agricultura, a lavoura da amêndoa gerou R$\$$ 3,8 bilhões de valor bruto da produção agrícola (VBPA) em 2020, segundo os dados do Ministério da Agricultura, Pecuária e Abastecimento (MAPA). Os estados do Pará e da Bahia representaram 94$\%$ desse total. \cite{8}
+
+
+\subsection{Avanços do processamento}
+
+Antigamente o cacau era um privilégio da nobreza, porém atualmente com o avanço da tecnologia no processamento, o cacau se tornou amplamente utilizado pelo mundo todo. \cite{9}
+
+Técnicas como a Conchagem (os ingredientes refinados recebem mais adição de gordura e emulsificante, formando uma massa fluida) e os maquinários possibilitaram a expansão da produção do chocolate. \cite{9}
+
+\section{Matéria-prima}
+
+O presente estudo tem como foco entender o processo de fabricação de chocolate através do cacau como matéria-prima. Analisando alguns dados sobre o cacau no mundo e no Brasil é possível afirmar que esse setor é muito promissor.
+
+Atualmente a lavoura ocupa uma área de 617,5 mil hectares no País, e produz cerca de 310,5 mil toneladas, segundo o Instituto Brasileiro de Geografia e Estatística (IBGE). A maior área de plantio está na Bahia, com 440 mil hectares, 71,2$\%$ da área de cacau no País, o Pará é o maior produtor, com 146,4 mil toneladas numa área de 149,8 mil hectares. A produção baiana, por sua vez, é de 106 mil toneladas. Juntos somam 93$\%$ da produção nacional. \cite{6}
+
+Uma das causas da grande produção dessa matéria-prima no país é o ambiente favorável, o cacaueiro (\textit{Theobroma cacao}) é uma frutífera tropical, originada da região amazônica.
+
+Em relação aos métodos de produção do cacau foram identificados seis técnicas diferentes, e variações em dois desses métodos (Tabela \ref{table1}). Esses métodos apresentam uma gradação entre o plantio completamente exposto ao sol (corte e queima) até aquele contendo um sombreamento denso (cabruca). A categoria ‘outros métodos’ reúne os de menor relevância em termos de área cultivada e, por isso, não foi incluída na Tabela \ref{table1}. Esses seis métodos são descritos a seguir em seus respectivos contextos históricos, o que permite compreender sua origem e tentativa de diferenciação em relação às práticas correntes no momento da nova propositura. Assim, apresentam-se subdivididos em dois grandes períodos, caracterizados como o início de implantação da cacauicultura e o período de sua expansão e intensificação. \cite{10}
+
+{\fontsize{5.8}{8}\selectfont
+\begin{center}
+\begin{longtable}[c]{c|c|c|c|c}
+\caption{Principais métodos de implantação e manejo dos cacauais, seus procedimentos, vantagens e desvantagens.}
+\label{table1}\\
+\hline
+\rowcolor[HTML]{EFEFEF} 
+\textbf{\begin{tabular}[c]{@{}c@{}}Método \\ e suas variações\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Período provável \\ de implantação \\ do método\end{tabular}} &
+  \textbf{\begin{tabular}[c]{@{}c@{}}Procedimentos\\ efetuados\end{tabular}} &
+  \textbf{Vantagens} &
+  \textbf{Desvantagens} \\ \hline
+\endhead
+%
+Corte e queima &
+  1746 &
+  \begin{tabular}[c]{@{}c@{}}Corte de toda a vegetação\\ nativa, seguido da queima.\\ As sementes de cacau eram\\ plantadas diretamente no\\ campo sob a sombra de cultivos\\ temporários, como mandioca\\ e milho. Após a colheita, as\\ plantas de cacau eram mantidas\\ sem o sombreamento até que\\ surgissem árvores espontâneas\\ na área. Após sete a dez anos, o\\ sombreamento era removido e a\\ plantação, mantida a pleno sol\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Elevada \\ produtividade\\ nos primeiros \\ anos\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Destruição das substâncias\\ húmicas do solo; estresse\\ das jovens plantas de cacau\\ sem o sombreamento;\\ vigorosa emergência\\ de plantas espontâneas;\\ elevada demanda de\\ mão de obra; rápido\\ envelhecimento da\\ plantação\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Corte sem\\ queimada\\ (Variação do\\ método corte e\\ queima)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Primeiras décadas\\ de 1900\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Os mesmos procedimentos\\ do método de corte e queima\\ eram efetuados, com exceção\\ da queimada da vegetação\\ derrubada\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Conservação\\ de substâncias\\ húmicas do solo\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}A vegetação cortada\\ deixada no solo \\ atrapalhava a movimentação \\ dos trabalhadores\end{tabular} \\ \hline
+Cabruca tradicional &
+  \begin{tabular}[c]{@{}c@{}}Primeiras décadas\\ de 1900\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Corte da vegetação herbácea\\ e do estrato intermediário.\\ Raleamento da vegetação do\\ dossel dominante, poupando-se\\ do corte as árvores de maior\\ porte, com copa alta e folhagem\\ pouco densa. Na fase adulta\\ dos cacaueiros, raleava-se o\\ sombreamento por meio de\\ anelamento das árvores\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Conservação\\ de substâncias\\ húmicas do solo;\\ controle de plantas\\ espontâneas; rápido\\ desenvolvimento\\ dos cacaueiros;\\ conservação da\\ sociobiodiversidade;\\ economia em mão\\ de obra\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Queda de folhas, galhos\\ e árvores mortas sobre\\ os cacaueiros, podendo\\ danificá-los; baixa\\ produtividade\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Cabruca mantida\\ apenas no\\ sombreamento\\ provisório\\ (Variação do\\ método cabruca\\ tradicional)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Primeiras décadas\\ de 1900\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Os mesmos procedimentos\\ do método cabruca tradicional\\ eram efetuados para a\\ formação do sombreamento. O\\ sombreamento era removido\\ após alguns anos do plantio dos\\ cacaueiros, ainda durante a fase\\ juvenil\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Conservação de\\ substâncias húmicas\\ do solo durante a fase\\ juvenil dos cacaueiros;\\ maior produtividade\\ dos cacaueiros\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Estresse das jovens\\ plantas de cacau sem o\\ sombreamento; rápido\\ envelhecimento da\\ plantação\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Intermediário\\ entre corte e\\ queima e cabruca\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Primeiras décadas\\ de 1900\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Derrubava-se a mata, poupando\\ do corte um número menor de\\ árvores em relação ao método\\ cabruca\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Fornecia\\ imediatamente o\\ sombreamento\\ definitivo, sem a\\ necessidade de\\ raleamentos futuros\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Queda de galhos mais\\ frequente em relação ao\\ que ocorre com a cabruca,\\ pois as árvores isoladas\\ eram menos resistentes ao\\ vento\end{tabular} \\ \hline
+Derruba total &
+  1964 &
+  \begin{tabular}[c]{@{}c@{}}Roçagem da vegetação rasteira\\ e de toda a vegetação arbórea\\ nativa. Após 30-60 dias, efetuava-se \\ a queima da vegetação abatida.\\ Plantio de mudas de bananeira\\ para formação do sombreamento\\ provisório e de mudas de espécies\\ do gênero Erythrina para formação\\ do sombreamento definitivo,\\ com espaçamento de 24 x 24 m\\ (densidade de 25-30 árvores de\\ sombra por hectare)\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Elevada produtividade\\ nos primeiros anos de\\ cultivo\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Envelhecimento precoce\\ das plantações; entrada\\ em produção tardia; maior\\ custo de implantação\\ (quatro vezes mais caro em\\ comparação ao método\\ cabruca tradicional)\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Cabruca\\ tecnicamente\\ formada\end{tabular} &
+  1978 &
+  \begin{tabular}[c]{@{}c@{}}Execução das operações culturais\\ de acordo com os mesmos\\ critérios recomendados para\\ o método derruba total, com\\ exceção do preparo da área e do\\ raleamento do sombreamento.\\ A densidade do sombreamento\\ definitivo é de 25-30 árvores de\\ sombra por hectare\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Reduzida demanda\\ em capital, mão\\ de obra para a\\ implantação do\\ cacaual (economia\\ de 30\%) e tempo\\ na formação do\\ cacaual\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Queda de árvores\\ mortas e galhos sobre\\ os cacaueiros devido ao\\ raleamento\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}c@{}}Consórcio \\ cacau-seringueira\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Década de \\ 1980\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Plantio de cacaueiros nas\\ entrelinhas das seringueiras,\\ originalmente estabelecidas no\\ espaçamento de 7 x 3 m, com\\ densidade de aproximadamente\\ 450 cacaueiros por hectare\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}As receitas econômicas\\ provenientes\\ da heveicultura\\ complementam as \\ receitas provenientes \\ da venda das \\ amêndoas de cacau\end{tabular} &
+  \begin{tabular}[c]{@{}c@{}}Manejo das copas das\\ seringueiras de difícil\\ execução e custo elevado.\\ Pode haver sombreamento\\ excessivo para os\\ cacaueiros\end{tabular}
+\end{longtable}
+\centering \footnotesize{Fonte: \cite{10}}
+\end{center}
+}
+
+\section{Produto}
+
+\subsection{Importância Nutricional}
+Segundo a Unimed \cite{unimed}, alguns benefícios podem ser elencados quando se fala do chocolate e esses são:
+
+\begin{itemize}
+\item O chocolate proporciona uma grande sensação de bem-estar
+\item O consumo moderado de chocolate melhora o fluxo arterial 
+\item Seu alto poder hidratante torna-o queridinho também no setor estético
+\item Contribui para a saúde cerebral, reduzindo danos de acidente vascular cerebral
+\item Reduz o estresse e alivia dores 
+\item Melhora a saúde do coração
+\item Estimula o sistema nervoso central
+\item Diminui a sensação arterial
+\item Protege a pele do sol
+\item Diminui a fome
+\end{itemize}
+
+Mas pode-se elencar os benefícios por tipo de chocolate, o chocolate ao leite, chocolate meio amargo e amargo e chocolate branco.
+
+O chocolate meio amargo e amargo são ótimos na circulação sanguínea, aumentam o colesterol bom, além de ser muito rico em alguns nutrientes, tais como o magnésio, ferro e selênio. O consumo moderado diário deste tipo de chocolate aumenta o metabolismo e reduz o apetite. \cite{saude}
+	
+Já o chocolate ao leite é o produto que tem menos gordura hidrogenada e por isso é o menos calórico.
+	
+Por fim, o chocolate branco tem uma característica principal de ter menos cafeina na sua composição e por oferecer mais energia ao corpo. \cite{saude}
+
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{
+>{\columncolor[HTML]{EFEFEF}}l |l|l}
+\caption{Informações nutricionais do chocolate ao leite - 25g}
+\label{table3}\\
+\textbf{} & \cellcolor[HTML]{EFEFEF}\textbf{Quantidade por porção} & \cellcolor[HTML]{EFEFEF}\textbf{\% Valor diário} \\ \hline
+\endhead
+%
+\textbf{Valor energético}   & 134 kcal  & 26,8 \% \\ \hline
+\textbf{Carboidrato}        & 15 g      & 20,0 \%   \\ \hline
+\textbf{Proteína}           & 1,2 g     & 6,4 \%  \\ \hline
+\textbf{Gorduras totais}    & 7,7 g    & 56,0 \%   \\ \hline
+\textbf{Gorduras saturadas} & 4,4 g    & 80,0 \%   \\ \hline
+\textbf{Sódio}              & 11 mg     & 1,8 \% \\ \hline
+\textbf{Colesterol}                  & 5,36 mg  &   0,9 \%  \\ \hline
+\textbf{Fibra alimentar}             & 0,7 g     & 11,2 \% \\ \hline
+\textbf{Cálcio}                      & 44,64 mg & 17,8 \% \\ \hline
+\textbf{Ferro}                       & 0,36 mg   & 7,9 \% 
+\end{longtable}
+\begin{center}
+\footnotesize{Fonte: \cite{fatsecret}}
+\end{center} 
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{
+>{\columncolor[HTML]{EFEFEF}}l |l|l}
+\caption{Informações nutricionais do chocolate meio amargo - 25g}
+\label{table4}\\
+\textbf{}                 & \cellcolor[HTML]{EFEFEF}\textbf{Quantidade por porção} & \cellcolor[HTML]{EFEFEF}\textbf{\% Valor diário} \\ \hline
+\endhead
+%
+\textbf{Valor energético} & \cellcolor[HTML]{FFFFFF}131 kcal                       & \cellcolor[HTML]{FFFFFF}7\%                      \\ \hline
+\textbf{Carboidrato}        & 14 g  & 5,0 \%  \\ \hline
+\textbf{Proteína}           & 2 g   & 4,0 \%  \\ \hline
+\textbf{Gorduras totais}    & 8,3 g & 15,0 \% \\ \hline
+\textbf{Gorduras saturadas} & 5,4 g & 24,0 \% \\ \hline
+\textbf{Sódio}              & 12 mg & 1,0 \%  \\ \hline
+\textbf{Gorduras trans}              & 0 mg  &   -    \\ \hline
+\textbf{Fibra Alimentar}             & 2 g   & 6,0 \%  \\ \hline
+\textbf{Cálcio}                      & 35 mg & 4,0 \%  \\ \hline
+\end{longtable}
+\begin{center}
+\footnotesize{Fonte: \cite{fatsecret}}
+\end{center} 
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{
+>{\columncolor[HTML]{EFEFEF}}l |l|l}
+\caption{Informações nutricionais do chocolate amargo - 25g}
+\label{table5}\\
+\textbf{}        & \cellcolor[HTML]{EFEFEF}\textbf{Quantidade por porção} & \cellcolor[HTML]{EFEFEF}\textbf{\% Valor diário} \\ \hline
+\endhead
+%
+\textbf{Valor energético} & \cellcolor[HTML]{FFFFFF}131 kcal              & \cellcolor[HTML]{FFFFFF}7\%             \\ \hline
+\textbf{Carboidrato}              & 13 g    & 4,0 \%   \\ \hline
+\textbf{Proteína}                 & 2 g     & 3,0 \%   \\ \hline
+\textbf{Gorduras totais}          & 9,2 g   & 17,0 \%  \\ \hline
+\textbf{Gorduras saturadas}       & 5,8 g   & 26,0 \%  \\ \hline
+\textbf{Sódio}                    & 5 mg    & 0,4 \% \\ \hline
+\textbf{Gorduras trans}  & 0 mg    &    -    \\ \hline
+\textbf{Fibra Alimentar} & 3 g     & 9,0 \%   \\ \hline
+\textbf{Cálcio}          & 12,5 mg & 8,0 \%   \\ \hline
+\end{longtable}
+\begin{center}
+\footnotesize{Fonte: \cite{fatsecret}}
+\end{center} 
+
+\subsection{Importância Ambiental}
+
+A produção do cacau vem se tornando cada vez mais ESG com o tempo, dados da ONU dizem que houve um aumento de 8$\%$ na produção sustentável dos grãos de cacau entre 2017 e 2018, ou seja, a produção sustentável saiu de  36$\%$ em 2017 para 44$\%$ em 2018. \cite{xpeed}
+
+Ao mesmo tempo, a indústria do chocolate também vem aumentando o direcionamento ESG com o tempo. Com as certificações de qualidade atualizadas, é possível saber qual produtor e fabricante tem um pensamento e uma produção sustentável ou não, com a ISO 9001:2015 é fácil realizar essa diferenciação. \cite{dengo}
+
+\subsection{Importância Cultural}
+
+A importância cultural do cacau se resume em 3 tópicos, são eles: o econômico, o histórico e o local.
+
+Sobre a história do cacau, já foi abordado acima na introdução.
+
+Sobre a importância de localização: O cacaueiro é uma planta nativa das bacias do rio Amazonas e rio Orinoco e tem a sua origem nas américas central e do sul. Para muitos povos havia até uma importância religiosa, como os Astecas. \cite{1}
+
+Os próprios índios torravam e trituravam o fruto entre pedras para produzir um tipo de bebida típica, além disso, no Brasil, os maiores produtores do cacau estão localizados principalmente na Bahia e Pará, foi na Bahia que o cacau foi levado em meados do século XVIII. \cite{7}
+
+Sobre a economia do cacau: No Brasil, o cacau é produzido em sua maioria em larga escala, sendo médios e grandes produtores. A concentração da produção se encontra principalmente na Bahia, Pará, Rondônia e Espírito Santo pelas características climáticas principalmente. No entanto, historicamente já passou por várias crises causando a redução da produção interna. \cite{8}
+
+\newpage
+\chapter{Mercado}
+%\pagestyle{fancy}
+
+Segundo a Associação Brasileira da Indústria de Chocolates, Amendoim e Balas (ABICAB). o brasileiro consumiu em 2020 11 bilhões de reais em chocolate, um crescimento de 1,5$\%$ comparado ao ano anterior. O presidente da associação, Ubiracy Fonseca, defende que a indústria de chocolates apresentou resultados muito consistentes para um ano tão atípico como foi 2020, e que os indicadores desse mercado apresentam potencial significativo para o crescimento do consumo interno e externo do setor. \cite{4}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Balança comercial de vendas de chocolates do Brasil em milhões de dolares}
+\includegraphics[scale=0.4]{../../Pictures/fig2.jpeg} 
+\label{figmercado}
+\legend{Fonte: \cite{4}}
+\end{center}
+\end{figure}
+
+Analisando os números da KPMG, é possível concluir que a balança comercial do mercado de chocolate no brasil opera no negativo, ou seja, para que seja suprida a necessidade de chocolate no nosso país, foi importado 13 milhões de dólares a mais do que os valores de nossa exportação. Isso se dá pela falta de transformação da matéria prima em produto acabado levando em consideração que o país é o sétimo maior produtor de cacau do mundo. Esse número ainda é o menor dos últimos 5 anos, o que mostra que nossa indústria está em ascensão. \cite{forbes}
+
+O chocolate ainda está presente em 82,6$\%$ dos lares brasileiros, um aumento de 9$\%$ percentuais comparado ao ano anterior. O avanço no consumo dos lares, juntamente com a grande necessidade de importação, resultou no aumento da produção de chocolate no último ano. \cite{4}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Gráfico comparativo entre produção, exportação e importação em volume}
+\includegraphics[scale=0.4]{../../Pictures/fig1.jpeg} 
+\label{figmercado2}
+\legend{Fonte: \cite{4}}
+\end{center}
+\end{figure}
+
+\newpage
+\chapter{Normas e Leis Regulamentadoras}
+%\pagestyle{fancy}
+
+O setor alimentício possui leis e normas bem definidas e detalhadas pela Agência Nacional de Vigilância Sanitária (Anvisa). Essa organização, segundo artigo 8º da Lei n. 9782/99 \cite{anvisa9782}, deve: “regulamentar, controlar e fiscalizar os produtos e serviços que envolvam risco à saúde pública”. Então será principalmente por meio dela que a empresa deve se informar para que esteja condizente com a legislação e normas vigentes. 
+
+A principal preocupação desse setor é com relação às condições higiênicos-sanitárias, pois engloba todo o processo de fabricação, desde o recebimento das matérias-primas até o transporte final do produto acabado. Logo, a empresa deve se atentar principalmente à PORTARIA Nº 326 postada em 1997 \cite{anvisa326} que menciona o seguinte objetivo: “O presente Regulamento estabelece os requisitos gerais (essenciais) de higiene e de boas práticas de fabricação para alimentos produzidos/fabricados para o consumo humano.” 
+
+Além disso, é importante estar de acordo com a legislação e os projetos de lei que existem para criação do produto, para planejar sua composição e marca e que consiga atender a todos os requisitos e possa ser comercializado sem problemas. Nesse sentido, os produtos que serão comercializados pela empresa são: chocolate amargo, chocolate meio-amargo e chocolate ao leite que devem obedecer a RESOLUÇÃO DE DIRETORIA COLEGIADA - RDC N° 264, de 2005 \cite{anvisa264}. Contudo, já existe o Projeto de Lei n° 1769, de 2019 \cite{anvisa1769} que pode influenciar nos requisitos relacionados à composição do chocolate.  
+
+Por fim, ainda existem os requisitos relacionados ao modo como o produto será embalado e detalhes que necessitam estar nos rótulos de cada produto. Segundo a RESOLUÇÃO DE DIRETORIA COLEGIADA - RDC Nº 91, de 2001 \cite{anvisa91}, as embalagens, da mesma forma que os equipamentos que entram em contato com alguma parte do produto, devem manter o alimento protegido de fatores externos e não podem interferir ou mudar suas características. Existe uma classificação de embalagens de acordo com o tipo de material que é utilizado, e cada um deles possui um regulamento específico. Os rótulos, no entanto precisam estar de acordo com a RESOLUÇÃO DE DIRETORIA COLEGIADA – RDC Nº 259, de 2002 \cite{anvisa259} e RDC Nº 360, de 2003 \cite{anvisa360}, no quesito de informações obrigatórias que devem constar nos rótulos. Também é importante acompanhar a nova RDC Nº 429, de 2020 \cite{anvisa429}, que já está entrando em vigência e também a RDC N° 26, de 2015 \cite{anvisa26}, que torna obrigatória a lista em destaque dos ingredientes alergênicos.     
+
+Essa parte é de demasiada importância para que a empresa não tenha problemas na comercialização dos produtos fabricados e também consiga manter a qualidade das operações durante todo o processo produtivo para que o produto chegue ao cliente com alta qualidade. Por isso é interessante que a empresa, além de seguir os requisitos técnicos e regulamentações, consiga também atender às boas práticas, garantindo por meio disso uma qualidade ainda mais elevada.
+
+{\fontsize{8.8}{12}\selectfont
+\begin{center}
+% Please add the following required packages to your document preamble:
+% \usepackage[table,xcdraw]{xcolor}
+% If you use beamer only pass "xcolor=table" option, i.e. \documentclass[xcolor=table]{beamer}
+% \usepackage{longtable}
+% Note: It may be necessary to compile the document several times to get a multi-page table to line up properly
+\begin{longtable}[c]{
+>{\columncolor[HTML]{EFEFEF}}l |lll}
+\caption{Principais regulamentações para chocolate amargo, meio-amargo e ao leite}
+\label{table2}\\
+\cline{2-4}
+\textbf{} &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}\textbf{Chocolate amargo}} &
+  \multicolumn{1}{l|}{\cellcolor[HTML]{EFEFEF}\textbf{Chocolate meio-amargo}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Chocolate ao leite} \\ \hline
+\endhead
+%
+\textbf{\begin{tabular}[c]{@{}l@{}}Características \\ do produto\end{tabular}} &
+  \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}De acordo com o projeto \\ de lei Projeto de Lei \\ 1769/2019 é definido \\ que “chocolate amargo: \\ chocolate contendo o \\ mínimo de 35\% de \\ sólidos totais de cacau, \\ dos quais ao menos \\ 18\% devem ser de \\ matéria gorda de cacau, \\ proveniente da manteiga \\ de cacaue da massa de \\ cacau e outros \\ ingredientes, e 14\% devem \\ ser de sólidos totais de cacau \\ isenta de gordura”.\end{tabular}} &
+  \multicolumn{1}{l|}{\begin{tabular}[c]{@{}l@{}}De acordo com o projeto \\ de lei Projeto de Lei \\ 1769/2019 é definido \\ que “chocolate meio \\ amargo: chocolate \\ contendo o mínimo de \\ 35\% de sólidos totais \\ de cacau, dos quais ao \\ menos 18\% devem ser \\ de matéria gorda de \\ cacau, proveniente da \\ manteiga de cacau e da \\ massa de cacau e outros \\ ingredientes, e 14\% devem \\ ser de sólidos totais de \\ cacau isenta de gordura”.\end{tabular}} &
+  \begin{tabular}[c]{@{}l@{}}De acordo com o projeto \\ de lei Projeto de Lei \\ 1769/2019  é definido \\ que “chocolate ao leite: \\ chocolate contendo \\ o mínimo de 27\% de \\ sólidos totais de cacau \\ e outros ingredientes, \\ e o mínimo de 14\% de \\ sólidos totais de leite \\ oriundo da evaporação \\ parcial ou total de leite \\ inteiro, de leite parcial \\ ou totalmente desnatado, \\ de nata parcial ou totalmente \\ desidratada, de manteiga \\ ou de matéria gorda láctea \\ e outros derivados de leite”.\end{tabular} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Especificações \\ de equipamentos\end{tabular}} &
+  \multicolumn{3}{l}{\begin{tabular}[c]{@{}l@{}}De acordo com as definições do PORTARIA Nº 326, DE 30 DE JULHO \\ DE 1997 da Agência Nacional de Vigilância Sanitária – ANVISA - \\ “4.5.2 Equipamentos e recipientes: Os equipamentos e os recipientes que são utilizados\\  nos diversos processos produtivos não devem constituir um risco à saúde. \\ Os recipientes que são reutilizáveis devem ser fabricados de material que permita \\ a limpeza e desinfeção completa. Uma vez usados com matérias tóxicas não devem \\ ser utilizados posteriormente para alimentos ou ingredientes alimentares sem que \\ sofram desinfeção”\end{tabular}} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Especificações \\ de armazenagem\end{tabular}} &
+  \multicolumn{3}{l}{\begin{tabular}[c]{@{}l@{}}De acordo com as definições do PORTARIA Nº 326, DE 30 DE JULHO \\ DE 1997 da Agência Nacional de Vigilância Sanitária – ANVISA - \\ “3.3. Armazenamento: é o conjunto de atividades e requisitos para se \\ obter uma correta conservação de matéria-prima, insumos e produtos acabados. ”\end{tabular}} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Especificações \\ de rótulo\end{tabular}} &
+  \multicolumn{3}{l}{\begin{tabular}[c]{@{}l@{}}RESOLUÇÃO DA DIRETORIA COLEGIADA - RDC Nº 429, DE 8 DE OUTUBRO\\ DE 2020 da Agência Nacional de Vigilância Sanitária – ANVISA   \\ que Dispõe sobre a rotulagem nutricional dos alimentos embalados.\\ RESOLUÇÃO DE DIRETORIA COLEGIADA – RDC Nº 259, DE 20 DE SETEMBRO \\ DE 2002 da Agência Nacional de Vigilância Sanitária – ANVISA  \\ que visa compatibilizar as normas com base nos instrumentos harmonizados no Mercosul.\end{tabular}} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Especificações \\ de embalagem\end{tabular}} &
+  \multicolumn{3}{l}{\begin{tabular}[c]{@{}l@{}}De acordo com as definições do PORTARIA Nº 326, DE 30 DE JULHO DE 1997 \\ da Agência Nacional de Vigilância Sanitária – ANVISA - \\ “3.11 Material de Embalagem: todos os recipientes como latas, garrafas, caixas \\ de papelão, outras caixas, sacos ou materiais para envolver ou cobrir, \\ tais como papel laminado, películas, plástico, papel encerado e tela”\\ De acordo com as definições do RDC Nº 91, DE 11 DE MAIO DE 2001 da Agência \\ Nacional de Vigilância Sanitária – ANVISA - “3.1.As embalagens \\ e equipamentos que estejam em contato direto com alimentos devem ser fabricados \\ em conformidade com as boas práticas de fabricação para que, nas condições normais \\ ou previsíveis de emprego, não produzam migração para os alimentos de componentes \\ indesejáveis, tóxicos ou contaminantes em quantidades tais que superem os limites \\ máximos estabelecidos de migração total ou específica(...)”\end{tabular}} \\ \hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Especificações \\ de transporte\end{tabular}} &
+  \multicolumn{3}{l}{\begin{tabular}[c]{@{}l@{}}De acordo com as definições do PORTARIA Nº 326, DE 30 DE JULHO DE 1997 \\ da Agência Nacional de Vigilância Sanitária – ANVISA - “4.7.1 \\ Meios de transporte: Os meios de transporte de alimentos colhidos, transformados \\ ou semi-processados dos locais de produção ou armazenamento devem ser \\ adequados para o fim a que se destinam e construídos de materiais que permitam \\ o controle da conservação, da limpeza, desinfeção e desinfestação fácil e completa”\end{tabular}}
+\end{longtable}
+\end{center}
+}
+
+
+\newpage
+\chapter{Processo de Produção}
+%\pagestyle{fancy}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fluxograma do processamento do cacau}
+\includegraphics[scale=0.59]{../../Pictures/cacaoprocess.png} 
+\label{fig1}
+\legend{Fonte: \cite{Sucden}}
+\end{center}
+\end{figure}
+
+O processamento do cacau é dividido em 11 fases majoritárias \cite{3}, são essas:
+
+\begin{enumerate}
+\item Colheita/Limpeza: O cacau é retirado cuidadosamente com uma faca para evitar qualquer injúria, após essa colheita cuidadosa acontece a limpeza do interior do cacau.
+\item Fermentação: O processo de fermentação demora entre 36 a 72 horas e é um processo complexo e pouco entendido, mas está sendo desvendado com a tecnologia.
+\item Secagem: Após a fermentação é necessário reduzir a humidade do cacau de aproximadamente 55$\%$ para 7,5$\%$, e para isso o cacau é deixado em plataformas de concreto para a secagem.
+\item Torrefação: A torrefação varia de empresa para empresa e de região para região, pois está muito ligado ao tipo de saber desejado para aquele chocolate produzido, portanto não há um certo ou errado quando se fala do processo de torrefação.
+\item Trituramento: Acontece a tritura desses grãos já separados
+\item Descasque: Separação da casca do grão propriamente dito.
+\item Refino e conchagem: Com o objetivo também de modificar o cheio e o gosto do chocolate, o processo consiste em colocar pressão sobre o chocoalte com aumento de temperatura para emulsificar e arejar o chocolate.
+\item Prensagem de licor: Adiciona-se pressão em um sistema com licor de cacau quente e o output é um bolo de cacau.
+\item Moagem: Obtenção do licor propriamente dito a partir da prensagem
+\item Manteiga de cacau: Outro material obtido a partir da prensagem.
+\item Fabricação do chocolate: Processo de fabricação do chocolate que consiste na temperagem, moldagem, resfriamento e desmoldagem.
+\end{enumerate}
+
+\section{Fluxo de produção projetado}
+
+Na maioria das empresa o cacau é recebido em amêndoas após o processo de fermentação e secagem, devido a eficiência e facilidade no transporte desse tipo de carga. Por isso, o processo estudado nesse trabalho irá utilizar esse tipo de matéria-prima, e também diferentemente dos processos majoritários citados acima, a linha de produção usada nesse trabalho não realiza a prensagem, moagem do líquor e nem a obtenção de manteiga de cacau, focando apenas na produção de barras de chocolate de 3 tipos: chocolate amargo 70$\%$, chocolate meio amargo 50$\%$ e chocolate ao leite. Dessa forma o processo segue o seguinte fluxo:
+
+\begin{figure}[H]
+\begin{center}
+\caption{Fluxograma do processamento de cacau da linha de produção projetada}
+\includegraphics[scale=0.34]{../../Pictures/fluxo1.jpeg} 
+\label{figfluxo}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+Desse modo, a primeira etapa do processo como já citado é o recebimento das amêndoas, nessa fase ocorre a conferência do produto e sua respectiva nota fiscal e o descarregamento dos sacos de amêndoa do caminhão no estoque primário destinado à matéria-prima. Em seguida é realizada a classificação, essa etapa é de grande importância para que a qualidade dos produtos sempre estejam de acordo com o padrão da empresa, com isso são realizados testes sensoriais e medições de indicadores para destinação correta de cada qualidade de amêndoa.
+
+Após classificadas, as amêndoas seguem para a torrefação que acontece em torradores industriais à 110ºC durante 25 a 30 minutos, por meio dessa atividade as sementes perdem aproximadamente 5$\%$ de água e seus aromas são intensificados. Já torradas, as amêndoas são trituradas em moedores industriais para tornar possível a separação do nibs da casca e facilitar o refino do cacau. Assim, a próxima etapa é realizada é a separação das cascas, nessa parte é utilizado um descascador que retira em torno de 12$\%$ da massa das amêndoas que é referente as cascas. Essas cascas retiradas são descartadas e o processo segue apenas com o nibs do cacau.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Separação da casca do cacau do nibs}
+\includegraphics[scale=3]{../../Pictures/nibs1.jpg} 
+\label{figtemp}
+\legend{Fonte: \cite{nibs}}
+\end{center}
+\end{figure}
+
+O próximo processo na linha de produção é o refino e conchagem desse nibs do cacau, essas duas atividades são realizadas na máquina melanger (Figura \ref{figmelanger}) e durante a primeira etapa de refino são adicionados os outros ingredientes da receita que a linha está fazendo. No caso da receita de chocolate amargo 70$\%$ é adicionado 30$\%$ de açúcar refinado, na receita de chocolate meio-amargo 50$\%$ são adicionados 15$\%$ de manteiga de cacau e 35$\%$ de açúcar refinado, já o chocolate ao leite possui a adição de 25$\%$ de manteiga de cacau, 25$\%$ de leite em pó integral e 30$\%$ de açúcar refinado. Nas composições dos produtos não há a adição de conservantes e emulsificantes. Essa etapa dura em torno de 24 horas e nela o chocolate é aquecido a uma temperatura de 50ºC e pressionado contra os rolos de pedra da máquina a uma pressão de 4 bar. E a etapa de conchagem, que ocorre em sequência, consiste na manutenção dessas configurações por mais 24 até 48 horas, sem adição de mais nenhum ingrediente. Em conjunto, essas atividades realizam a mistura, agitação, emulsificação e arejamento do chocolate, além de refinar partículas maiores de açúcar e retirar a acidez e o amargor indesejado do produto. \cite{lindt} 
+
+\begin{figure}[H]
+\begin{center}
+\caption{Máquina melanger em funcionamento}
+\includegraphics[scale=0.35]{../../Pictures/melanger.jpeg} 
+\label{figmelanger}
+\legend{Fonte: \cite{melanger}}
+\end{center}
+\end{figure}
+
+Após a etapa de refino e conchagem existem 3 atividades que são opcionais e serão realizadas na linha de produção apenas para chocolates amargos de edições limitadas. Esses 3 processos são: a cristalização, maturação e derretimento. O chocolate ao sair da máquina melanger já refinado pode seguir diretamente para a temperadeira onde será realizada a temperagem do produto, no entanto em casos especiais é interessante antes de realizar essa atividade reservar o chocolate, a cristalização é um processo natural do produto que ao entrar em contato com a temperatura ambiente se solidifica devido a cristalização da manteiga de cacau presente na mistura. Após essa fase é possível reservar o chocolate em salas com temperatura de até 29ºC para que ele possa maturar durante o período de 2 meses até 1 ano, esse processo intensifica os sabores e traz ao produto um maior equilíbrio no paladar. Por ser tão demorado o processo, apenas parte do que será produzido por mês da linha de produção de chocolate amargo passará por ele. Depois dessa maturação esse chocolate é derretido em temperaturas controladas e passa pela temperadeira assim como os outros.
+
+Na temperadeira ocorre a temperagem do chocolate, que consiste no aumento da temperatura da mistura até 40ºC - 46ºC e o resfriamento lento até 27ºC a 29ºC, a imagem \ref{figtemp} mostra essa variação lenta de temperatura e as fases da temperagem. Por causa disso, o chocolate de entrada deve estar por volta de 32ºC até 35ºC para que possa ocorrer esse aquecimento e também o resfriamento de forma controlada, assim antes de adicionar o chocolate à temperadeira, é necessário reservá-lo durante um curto período após ele sair da melanger ou da derretedeira para que ele possa resfriar, porém sem cristalizar. Esse processo é de extrema importância para a aparência e textura do produto final e também para que o processo de desmolde ocorra sem problemas, nessa etapa os cristais da manteiga de cacau se organizam de maneira mais estável devido o resfriamento lento, e fazem com que o produto final fique crocante à temperatura ambiente (\textit{snap}), tenha brilho e contraia quando esfriado para que consiga se soltar do molde, além de muitas outras características.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Gráfico da temperatura durante o processo de temperagem}
+\includegraphics[scale=0.7]{../../Pictures/graficotemperagem.png} 
+\label{figtemp}
+\legend{Fonte: \cite{temp}}
+\end{center}
+\end{figure}
+
+Com o chocolate já temperado ocorre o processo de moldagem por meio de uma dosadora e uma mesa vibratória que retira as bolhas de ar de dentro da mistura e esparrama o chocolate por todo o molde. Esse produto então é encaminhado para um túnel de resfriamento para que o chocolate se solidifique de maneira mais rápida e possa ser desmoldado com facilidade que é a etapa seguinte. Após a desmoldagem, que consiste na separação do molde que será limpo e reutilizado posteriormente da barra de chocolate, ocorre por último a embalagem desse chocolate em embalagens primárias, secundárias e terciárias para o transporte final desse produto diretamente para revendedores ou centros de distribuição.
+
+Os detalhes de maquinário, temperaturas, tempos de processamento e perdas de cada processo podem ser encontrados na tabela \ref{table6}. As temperaturas com a notação (a) se referem à temperatura ambiente e os tempos de processamento são apenas aproximações feitas de acordo com as capacidades produtivas de algumas máquinas pesquisadas. Além disso, como dito anteriormente os processos de cristalização e maturação ocorrem de maneira natural e não são necessárias máquinas, apenas recipientes e locais adequados para armazenamento.
+
+{\fontsize{7.7}{10}\selectfont
+\begin{center}
+\begin{longtable}[c]{|
+>{\columncolor[HTML]{EFEFEF}}l |c|c|cc|c|}
+\caption{Informações de maquinários, temperaturas, tempos e perdas de cada etapa do processo}
+\label{table6}\\
+\hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{EFEFEF}} &
+  \cellcolor[HTML]{EFEFEF} &
+  \cellcolor[HTML]{EFEFEF} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{EFEFEF}\textbf{Temperaturas (ºC)}} &
+  \cellcolor[HTML]{EFEFEF} \\ \cline{4-5}
+\multicolumn{1}{|c|}{\multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Etapas}}} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Máquina}} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Tempo (h)}} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{EFEFEF}\textbf{Entrada}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Saída} &
+  \multirow{-2}{*}{\cellcolor[HTML]{EFEFEF}\textbf{Perdas}} \\ \hline
+\endhead
+%
+\textbf{1. Classificação} &
+  - &
+  0,20 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{2. Torrefação} &
+  Torrador industrial &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  110 &
+  5\% \\ \hline
+\textbf{3. Moagem} &
+  Moedor industrial &
+  0,40 &
+  \multicolumn{1}{c|}{110} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{4. Descasque} &
+  Descascador de amêndoas &
+  0,40 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  12\% \\ \hline
+\textbf{5. Refino + Conchagem} &
+  Melanger &
+  48,00 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  50 &
+  4\% \\ \hline
+\textbf{6. Cristalização} &
+  - &
+  0,50 &
+  \multicolumn{1}{c|}{50} &
+  25 - 29 (a) &
+  1\% \\ \hline
+\textbf{7. Maturação} &
+  - &
+  \multicolumn{1}{l|}{1440,00 - 8760,00} &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  25 - 29 (a) &
+  2\% \\ \hline
+\textbf{8. Derretimento} &
+  Derretedeira de chocolate &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  42 &
+  2\% \\ \hline
+\textbf{9. Temperagem} &
+  Temperadeira &
+  0,35 &
+  \multicolumn{1}{c|}{35} &
+  28 &
+  2\% \\ \hline
+\textbf{10. Moldagem} &
+  Dosadora + Mesa vibratória &
+  0,35 &
+  \multicolumn{1}{c|}{28} &
+  25 - 29 (a) &
+  1\% \\ \hline
+\textbf{11. Resfriamento} &
+  Túnel de resfriamento &
+  0,50 &
+  \multicolumn{1}{c|}{25 - 29 (a)} &
+  12 &
+  0\% \\ \hline
+\textbf{12. Desmolde} &
+  - &
+  0,35 &
+  \multicolumn{1}{c|}{12} &
+  20 &
+  1\% \\ \hline
+\textbf{13. Embalagem} &
+  Embaladora &
+  0,50 &
+  \multicolumn{1}{c|}{20} &
+  20 &
+  1\% \\ \hline
+\end{longtable}
+\centering \footnotesize{Fonte: Autoria própria}
+\end{center}
+}
+
+{\fontsize{7}{10}\selectfont
+\begin{center}
+\begin{longtable}[c]{|
+>{\columncolor[HTML]{EFEFEF}}c |c|c|c|c|c|c|}
+\caption{Maquinário detalhado}
+\label{maquina}\\
+\hline
+\textbf{Máquina} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Dimensões\\ (AxLxP) (m)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Potência\\ (kW)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Capacidade} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Material} &
+  \cellcolor[HTML]{EFEFEF}\textbf{\begin{tabular}[c]{@{}c@{}}Setup\\ (min)\end{tabular}} &
+  \cellcolor[HTML]{EFEFEF}\textbf{Especificações} \\ \hline
+\endhead
+%
+\textbf{Torrador industrial} &
+  1,8 x 1,4 x 1,4 &
+  8,0 &
+  10,0 (kg) &
+  - &
+  15 &
+  - \\ \hline
+\textbf{Moedor industrial} &
+   &
+   &
+   &
+   &
+   &
+   \\ \cline{1-1}
+\textbf{Descascador de amêndoas} &
+  \multirow{-2}{*}{1,3 x 0,8 x 1,3} &
+  \multirow{-2}{*}{2,2} &
+  \multirow{-2}{*}{10 (kg)} &
+  \multirow{-2}{*}{Inox} &
+  \multirow{-2}{*}{90} &
+  \multirow{-2}{*}{400 kg/h} \\ \hline
+\textbf{Melanger*} &
+  1,2 x 0,7 x 0,7 &
+  0,75 &
+  100,0 (kg) &
+  \begin{tabular}[c]{@{}c@{}}Inox 304 e \\ Granito Cinza\end{tabular} &
+  30 &
+  - \\ \hline
+\textbf{Compressor de ar} &
+  0,3 x 0,6 x 0,6 &
+  1,5 &
+  25,0 (l) &
+  - &
+  - &
+  - \\ \hline
+\textbf{Derretedeira de chocolate} &
+  0,7 x 0,6 x 0,4 &
+  7,5 &
+  50,0 (kg) &
+  Inox 304 &
+  60 &
+  - \\ \hline
+\textbf{Temperadeira} &
+  0,7 x 0,5 x 0,6 &
+  2,9 &
+  100,0 (kg) &
+  Inox 304 &
+  60 &
+  5 kg a cada 8min \\ \hline
+\textbf{Dosadora (Ø30)} &
+  1,5 x 1,1 x 1,4 &
+  0,02 &
+  100,0 (l) &
+  Inox &
+  60 &
+  \begin{tabular}[c]{@{}c@{}}8 pistões - 50g/pistão\\ 20 ciclos/min\end{tabular} \\ \hline
+\textbf{Mesa vibratória*} &
+  0,7 x 1,1 x 0,6 &
+  0,2 &
+  - &
+  Inox 304 &
+  10 &
+  - \\ \hline
+\textbf{Túnel de resfriamento} &
+  1,2 x 0,6 x 9,0 &
+  5,4 &
+  - &
+  Inox 304 &
+  20 &
+  - \\ \hline
+\textbf{Embaladora} &
+  3,3 x 2,9 x 1,4 &
+  3,1 &
+  - &
+  - &
+  20 &
+  350 pacotes/min \\ \hline
+\end{longtable}
+*Máquinas que utilizam Compressor de ar \\
+\centering \footnotesize{Fonte: Autoria própria}
+\end{center}
+}
+
+\newpage
+\chapter{Definição da empresa}
+%\pagestyle{fancy}
+
+A empresa definida para o trabalho é uma fábrica de chocolates que tem foco na produção de chocolate amargo 70$\%$.
+
+\section{Marca}
+
+A empresa projetada possui o nome social de “Showcolate” e foi desenhado um logotipo provisório que pode ser visualizado na imagem \ref{logo}. A indústria que foi planejada possui foco no mercado de chocolates especiais, tendo como principal produto o chocolate amargo 70$\%$. 
+
+\begin{figure}[H]
+\begin{center}
+\caption{Logotipo}
+\includegraphics[scale=0.5]{/home/grmunhoz/Documents/Munhoz/University/Pictures/logo-removebg-preview.png} 
+\label{logo}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+A visão da Showcolate é alcançar o topo da qualidade e comercialização no mercado brasileiro de chocolates especiais com alto teor de cacau em 5 anos. E a missão da empresa é transformar a produção de chocolate em um processo mais sustentável e saudável para os consumidores, buscando os melhores sabores e desenvolvendo o mercado consumidor. Para isso, a companhia definiu os seguintes valores:
+
+\begin{itemize}
+\item Qualidade superior;
+\item Sustentabilidade;
+\item Respeito com os colaboradores e clientes.
+\end{itemize}
+
+O organograma da empresa foi definido com base na estruturação de 6 principais diretorias: Recursos Humanos, Produção, Administração, Negócios, Marketing e Financeiro. As seguintes divisões do organograma podem ser identificados na imagem \ref{orga}. 
+
+\begin{figure}[H]
+\begin{center}
+\caption{Organograma da empresa}
+\includegraphics[scale=0.4]{/home/grmunhoz/Documents/Munhoz/University/Pictures/organograma.png} 
+\label{orga}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+\section{Produtos}
+
+A empresa como já mencionado possui foco no mercado de chocolates especiais, e a linha de produção foi dimensionada para produzir 4 receitas de chocolates:
+
+\begin{itemize}
+\item Amargo (70$\%$ líquor de cacau, 30$\%$ açúcar), 
+\item Meio-amargo (50$\%$ líquor de cacau, 35$\%$ açúcar, 15$\%$ manteiga de cacau), 
+\item Ao leite (20$\%$ líquor de cacau, 25$\%$ manteiga de cacau, 25$\%$ leite em pó integral, 30$\%$ açúcar) e 
+\item Maturado (70$\%$ líquor de cacau, 30$\%$ açúcar).
+\end{itemize}
+
+Todos os chocolates são produzidos em moldes de 80g e o chocolate mais especial produzido na fábrica é a receita de chocolate maturado. Esse chocolate, após o refino, é estocado durante um período de 2 meses a 1 ano para intensificação dos sabores.
+
+\section{Demanda prevista}
+
+A demanda mensal prevista para a fábrica foi de 20 toneladas. Esse valor foi calculado com base na captação de 0,05$\%$ do \textit{market share} de consumo de chocolates do Brasil que é de 511 mil toneladas ao ano. O chocolate está presente em 82$\%$ dos lares brasileiros como já mencionado, no entanto, apenas 7$\%$ do mercado total corresponde a chocolates especiais. E a previsão é que esse percentual aumente com o passar dos anos, fazendo com que a empresa consiga expandir seu \textit{market share} conforme a marca vai se estabelecendo no mercado. 
+
+A empresa vai produzir de forma empurrada, ou seja, será feita uma produção fixa mensalmente que vai ser dimensionada de acordo com a previsão de demanda já calculada. Além disso, foram definidos percentuais diferentes de produção, 50$\%$ do chocolate produzido será do tipo Amargo 70$\%$, Meio amargo 25$\%$, Ao leite 20$\%$ e o Maturado 5$\%$.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Demanda por tipo de produto}
+\includegraphics[scale=1]{/home/grmunhoz/Documents/Munhoz/University/Pictures/demanda.png} 
+\label{loca}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+\newpage
+\chapter{Localização}
+%\pagestyle{fancy}
+
+A definição de um ponto específico para a operação se encontrar é uma decisão de extrema importância para qualquer negócio ou empresa, uma vez que pode definir o sucesso ou insucesso da empresa por diversos fatores. Por isso, para o desenvolvimento deste estudo foram utilizados métodos quantitativos e qualitativos para este fim.
+
+Os dois métodos utilizado foram:
+
+\begin{enumerate}
+\item Método dos momentos;
+\item Método da ponderação qualitativa.
+\end{enumerate}
+
+Tais métodos foram utilizados estrategicamente pela complementaridade entre os dois, o primeiro exigia uma análise mais quantitativa utilizando coordenadas e localizações precisas ou pouco aproximadas, já o  segundo se refere a uma análise mais quantitativa, colocando peses relativos para as localidades segundo critérios pré-acordados e que fazem sentido para o tipo de nicho especificado.
+
+\section{Método dos momentos}
+
+Para o primeiro estudo, foram segmentadas as localizações dos principais fornecedores, adquirindo os seguintes resultados:
+
+\begin{figure}[H]
+\begin{center}
+\caption{Localizações}
+\includegraphics[scale=0.5]{/home/grmunhoz/Documents/Munhoz/University/Pictures/tabela1.png} 
+\label{loca}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+Com a definição dessas localidades geográficas, foi possível encontrar as distâncias em km entre as cidades, sendo as seguintes:
+
+\begin{itemize}
+\item AB 703km  
+\item AD 932km
+\item AC 449km
+\item BC 1018km
+\item BD 343km
+\item CD 1179km
+\end{itemize}
+
+A partir desses dados, torna-se possível então realizar o cálculo do momento. É importante lembrar que o menor momento é aquele que deve ser escolhido, por representar a melhor localização possível dentre as segmentadas.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Momentos das localizações}
+\includegraphics[scale=0.6]{/home/grmunhoz/Documents/Munhoz/University/Pictures/tabela3.png} 
+\label{loca}
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+Para realizar o cálculo dos momentos é necessário saber o custo do transporte/km, a distância entre as duas cidades.
+	
+Portanto, com os resultados obtidos é possível concluir que a melhor localização segundo o primeiro método é a localização A: 
+
+\begin{center}
+\textbf{Fralía Cacau Brasil | Área Rural de Gralhos, São Gonçalo do Rio Abaixo - MG, 35935-000}
+\end{center}
+
+\section{Método da ponderação qualitativa}
+
+Já no segundo método, os cálculos tem uma base qualitativa, ou seja, por meio do conhecimento dos envolvidos, são elencados pesos para os critérios levantados e a partir disso é feito o cálculo da melhor localidade. Os critérios levantados foram os seguintes:
+
+\begin{itemize}
+\item Custo do local;
+\item Impostos locais;
+\item Disponibilidade de MO;
+\item Acesso à auto-estradas;
+\item Potencial de expansão.
+\end{itemize}
+
+Esses critérios levantados foram validados com especialistas na área, portanto confirmou-se a autenticidade e a veracidade da importância desses mesmos.
+	
+O próximo passo para o método é elencar pesos para cada localidade seguindo cada critério, e o resultado foi o seguinte:
+
+\begin{longtable}[c]{|
+>{\columncolor[HTML]{D9D9D9}}c |c|cc|cc|cc|}
+\caption{Critérios e notas }
+\label{tabela 5}\\
+\hline
+Critérios &
+  \cellcolor[HTML]{D9D9D9}Peso - Relativo &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}São Paulo} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}Espirito Santo} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}Minas gerais} \\ \hline
+\endhead
+%
+Custo do local         & 50 & \multicolumn{1}{c|}{2} & 100 & \multicolumn{1}{c|}{3} & 150 & \multicolumn{1}{c|}{4} & 200 \\ \hline
+Impostos locais        & 40 & \multicolumn{1}{c|}{4} & 160 & \multicolumn{1}{c|}{3} & 120 & \multicolumn{1}{c|}{3} & 120 \\ \hline
+Disponibilidade de MO  & 40 & \multicolumn{1}{c|}{5} & 200 & \multicolumn{1}{c|}{2} & 80  & \multicolumn{1}{c|}{3} & 120 \\ \hline
+Acesso à auto-estradas & 10 & \multicolumn{1}{c|}{5} & 50  & \multicolumn{1}{c|}{3} & 30  & \multicolumn{1}{c|}{2} & 20  \\ \hline
+Potencial de expansão  & 20 & \multicolumn{1}{c|}{2} & 40  & \multicolumn{1}{c|}{4} & 80  & \multicolumn{1}{c|}{4} & 80  \\ \hline
+\end{longtable}
+
+O resultado é a soma da segunda coluna de cada localidade, sendo o seguinte:
+
+\begin{longtable}[c]{cccc|cc|cc|}
+\caption{Critérios e notas compilados}
+\label{tabela 5}\\
+\hline
+\rowcolor[HTML]{D9D9D9} 
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Critérios} &
+  \multicolumn{1}{c|}{\cellcolor[HTML]{D9D9D9}Peso - Relativo} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}São Paulo} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}Espirito Santo} &
+  \multicolumn{2}{c|}{\cellcolor[HTML]{D9D9D9}Minas gerais} \\ \hline
+\endhead
+%
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Custo do local} &
+  \multicolumn{1}{c|}{50} &
+  \multicolumn{1}{c|}{2} &
+  100 &
+  \multicolumn{1}{c|}{3} &
+  150 &
+  \multicolumn{1}{c|}{4} &
+  200 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Impostos locais} &
+  \multicolumn{1}{c|}{40} &
+  \multicolumn{1}{c|}{4} &
+  160 &
+  \multicolumn{1}{c|}{3} &
+  120 &
+  \multicolumn{1}{c|}{3} &
+  120 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Disponibilidade de MO} &
+  \multicolumn{1}{c|}{40} &
+  \multicolumn{1}{c|}{5} &
+  200 &
+  \multicolumn{1}{c|}{2} &
+  80 &
+  \multicolumn{1}{c|}{3} &
+  120 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Acesso à auto-estradas} &
+  \multicolumn{1}{c|}{10} &
+  \multicolumn{1}{c|}{5} &
+  50 &
+  \multicolumn{1}{c|}{3} &
+  30 &
+  \multicolumn{1}{c|}{2} &
+  20 \\ \hline
+\multicolumn{1}{|c|}{\cellcolor[HTML]{D9D9D9}Potencial de expansão} &
+  \multicolumn{1}{c|}{20} &
+  \multicolumn{1}{c|}{2} &
+  40 &
+  \multicolumn{1}{c|}{4} &
+  80 &
+  \multicolumn{1}{c|}{4} &
+  80 \\ \hline
+\multicolumn{1}{l}{} &
+  \multicolumn{1}{l}{} &
+  \multicolumn{1}{l|}{} &
+  \cellcolor[HTML]{A0D9AF}550 &
+  \multicolumn{1}{l|}{} &
+  \cellcolor[HTML]{EFEFEF}460 &
+  \multicolumn{1}{l|}{} &
+  \cellcolor[HTML]{EFEFEF}540 \\ \cline{4-4} \cline{6-6} \cline{8-8} 
+\end{longtable}
+
+Portanto, a partir dos dados acima é possível concluir que os dois melhores estados para se definir a localização da empresa são São Paulo e Minas Gerais.
+
+Por fim, foi escolhido o estado de Minas Gerais para comportar a empresa, uma vez que ambos os métodos coincidem como sendo o escolhido, mesmo que no segundo método o melhor estado seja SP, MG perde por muito pouco.
+
+\newpage
+\chapter{Capacidade produtiva}
+%\pagestyle{fancy}
+
+\section{Dimensionamento da Capacidade}
+
+A indústria decidiu atuar 7 dias por semana 8h por dia, para que fosse possível o controle das máquinas Melanger de forma contínua, já que o chocolate precisa permanecer nela durante 48h. Com as perdas e os setups planejados listados na tabela \ref{table6} foi possível calcular os graus de disponibilidade e utilização que resultaram em 33,33$\%$ e 56,46$\%$ respectivamente. Ambos os valores foram aceitos como normais para uma agroindústria, visto que a manutenção e limpeza das máquinas deve ocorrer de forma muito frequente. E para dimensionamento da capacidade realizada foi utilizado um índice de eficiência de 95$\%$, o que resultou em uma capacidade realizada de aproximadamente 30,04h por semana.
+
+A empresa foi projetada para produzir 20 toneladas de chocolate por mês. Dessa forma foi necessário desenvolver o layout da fábrica para um galpão de 800m² para que todo o maquinário pudesse ser comportado de forma segura. O layout projetado foi realizado no software FlexSim e para a produção da quantidade almejada foram utilizados os seguintes valores de máquinas e colaboradores:
+
+\begin{figure}[H]
+\begin{center}
+\caption{Dimensionamento dos máquinas}
+\includegraphics[scale=0.9]{/home/grmunhoz/Documents/Munhoz/University/UEM/Simulacao/Maquinario.png} 
+\legend{Fonte: Autoria própria}
+\label{maq}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Dimensionamento dos colaboradores}
+\includegraphics[scale=1]{/home/grmunhoz/Documents/Munhoz/University/UEM/Simulacao/Colaboradores.png} 
+\legend{Fonte: Autoria própria}
+\end{center}
+\end{figure}
+
+Na imagem \ref{maq} foram dimensionadas as capacidades específicas para o atendimento da demanda projetada, contudo as máquinas utilizadas possuem uma capacidade maior para que mesmo com um aumento na demanda a fábrica ainda consiga atender sem precisar alterar o maquinário, nessa imagem os tempos estão na unidade de horas. As capacidades reais foram listadas na tabela \ref{maquina}. As temperadeiras possuem uma capacidade menor do que a listada na imagem \ref{maq}, pois elas são máquinas contínuas, ou seja, enquanto um chocolate está entrando há chocolate saindo da máquina ja temperado, e mesmo com uma capacidade menor ela consegue atender a demanda de 200kg chocolate.
+
+\section{Layout}
+
+E utilizando o software para otimizações de layout foi definido o melhor layout como sendo o da imagem \ref{lay}. Na imagem \ref{lay2} é possível verificar a divisão das máquinas de forma mais clara, assim como a lozalicação dos colaboradores. O processo de desmoldagem ocorre na própria esteira por meio de vibração e torção dos moldes de forma automática, logo não foi adicionado como um processo nos layouts e nem na tabela de máquinas anteriormente mostrada.
+
+Nesse layout foi dimensionados apenas 9 colaboradores para trabalhar com contato direto com o maquinário, contudo ainda seriam necessários mais operadores para gestão e auxílio nos demais departamentos além do setor de produção. Além dos 6 diretores que representam todos os departamentos ainda seriam necessários de 6 a 9 colaboradores para atuar nos setores listados no organograma da empresa. Totalizando 21 a 24 funcionários, já que a maior parte do maquinário da fábrica é automatizado e são necessárias apenas checagens rápidas de indicadores.
+
+\begin{figure}[H]
+\begin{center}
+\caption{Layout para galpão de 800m²}
+\includegraphics[scale=0.6]{/home/grmunhoz/Documents/Munhoz/University/UEM/Simulacao/Layout2.1.png} 
+\legend{Fonte: Autoria própria}
+\label{lay}
+\end{center}
+\end{figure}
+
+\begin{figure}[H]
+\begin{center}
+\caption{Layout para galpão de 800m² com especificações}
+\includegraphics[scale=0.4]{/home/grmunhoz/Documents/Munhoz/University/UEM/Simulacao/Layout2.2.png} 
+\legend{Fonte: Autoria própria}
+\label{lay2}
+\end{center}
+\end{figure}
+
+
+\newpage
+\chapter{Conclusão}
+%\pagestyle{fancy}
+
+Através da elaboração do projeto foi possível integrar conhecimentos de engenharia de produção aprendidos em diversas disciplinas ao longo do curso, além da contribuição dos participantes do grupo com conhecimentos extracurriculares, adquiridos através dos estágios, projetos de pesquisa ou projetos de extensão.
+
+Em relação a viabilidade do projeto apresentado conclui-se que o mercado se mostra muito favorável tendo em vista os números apresentados sobre a demanda de chocolate no Brasil e seu crescimento nos últimos anos, além do déficit de produção nacional de chocolate em relação a demanda e da grande disponibilidade da principal matéria-prima (cacau) em nosso território.
+
+Olhando para o processo desenvolvido também podemos dizer que é viável, levando em conta que os dimensionamentos propostos (de mão de obra e matéria-prima) além do layout, são capazes de suprir a demanda esperada e assim atender os objetivos propostos pela visão da empresa. Por fim financeiramente o projeto atende as expectativas se comparado a empresas do mesmo ramo, baseando-se em um processo enxuto e otimizado, capaz de produzir um produto de qualidade com preço final menor que os comumente importados.
+
+\newpage
+\postextual
+
+\bibliography{referencias}
+
+%\begin{anexosenv}
+
+%\chapter{Código utilizado no software EMSO}
+
+%\begin{lstlisting}
+%\end{lstlisting}
+
+%\end{anexosenv}
+
+\end{document}

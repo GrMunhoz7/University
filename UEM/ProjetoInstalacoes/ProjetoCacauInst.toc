@@ -1,0 +1,48 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}
+\babel@toc {brazil}{}
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contextualização do Tema}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{3}{subsection.1.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Revisão Bibliográfica}}{4}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Histórico}{4}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}História Mundial}{4}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Chegada do cacau na Europa}{4}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Cacau no Brasil}{5}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Dados Atuais}{6}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Avanços do processamento}{6}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Matéria-prima}{6}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Produto}{8}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Importância Nutricional}{8}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Importância Ambiental}{10}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Importância Cultural}{11}{subsection.2.3.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Mercado}}{12}{chapter.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Normas e Leis Regulamentadoras}}{14}{chapter.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Processo de Produção}}{17}{chapter.5}%
+\contentsline {section}{\numberline {5.1}Fluxo de produção projetado}{18}{section.5.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Definição da empresa}}{23}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Marca}{23}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Produtos}{24}{section.6.2}%
+\contentsline {section}{\numberline {6.3}Demanda prevista}{24}{section.6.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Localização}}{26}{chapter.7}%
+\contentsline {section}{\numberline {7.1}Método dos momentos}{26}{section.7.1}%
+\contentsline {section}{\numberline {7.2}Método da ponderação qualitativa}{27}{section.7.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Capacidade produtiva}}{29}{chapter.8}%
+\contentsline {section}{\numberline {8.1}Dimensionamento da Capacidade}{29}{section.8.1}%
+\contentsline {section}{\numberline {8.2}Layout}{30}{section.8.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Conclusão}}{32}{chapter.9}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{33}{section*.21}%
