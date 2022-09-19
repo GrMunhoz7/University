@@ -4,13 +4,17 @@
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Segmentação da Marca}}{2}{chapter.1}%
-\cftinsert {AAA}
-\renewcommand *{\cftappendixname }{ANEXO \space }
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
-\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Propriedades na Saturação - REFRIGERANTE R-717 (AMÔNIA)}}{3}{appendix.anexochapback.1}%
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Análise de Concorrentes}}{4}{chapter.2}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Análise Ambiental e Interna}}{8}{chapter.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Oferta e Demanda}}{13}{chapter.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Estudo do Processo Produtivo}}{16}{chapter.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Localização}}{19}{chapter.6}%
+\contentsline {section}{\numberline {6.1}Método dos momentos}{19}{section.6.1}%
+\contentsline {section}{\numberline {6.2}Método da ponderação qualitativa}{20}{section.6.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\cftinsert {A}
-\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Diagrama p-h - REFRIGERANTE R-717 (AMÔNIA)}}{4}{appendix.anexochapback.2}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{24}{section*.22}%

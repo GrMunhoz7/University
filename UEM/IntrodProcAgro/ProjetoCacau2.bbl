@@ -1,0 +1,28 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[ABICAB 2022]{4}
+\abntrefinfo{ABICAB}{ABICAB}{2022}
+{ABICAB. \emph{Associação Brasileira da Indústria de Chocolates, Amendoim e
+  Balas}. 2022.
+Dispon{\'\i}vel em: \url{http://www.abicab.org.br/}. Acesso em: 09.02.2022.}
+
+\bibitem[Chocolatear 2021]{c2-1}
+\abntrefinfo{Chocolatear}{CHOCOLATEAR}{2021}
+{CHOCOLATEAR, E. \emph{Chocolate, mercado que cresce}. 2021.
+Dispon{\'\i}vel em:
+  \url{https://castelliescolachocolataria.com.br/blog/chocolate--mercado-que-cresce\#:~:text=O\%20consumo\%20de\%20chocolates\%20finos,do\%20total\%20produzido\%20no\%20pa\%C3\%ADs}.
+  Acesso em: 02.09.2022.}
+
+\bibitem[SEBRAE 2017]{c2-2}
+\abntrefinfo{SEBRAE}{SEBRAE}{2017}
+{SEBRAE. \emph{ESTUDO DE MERCADO CHOCOLATES GOURMET}. 2017.
+Dispon{\'\i}vel em:
+  \url{https://www.sebrae.com.br/Sebrae/Portal\%20Sebrae/UFs/BA/Anexos/Chocolate\%20gourmet\%20na\%20Bahia.pdf}.
+  Acesso em: 02.09.2022.}
+
+\end{thebibliography}
