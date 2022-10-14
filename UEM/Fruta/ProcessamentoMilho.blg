@@ -1,6 +1,6 @@
 This is BibTeX, Version 0.99d
 Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
-The top-level auxiliary file: ProjetoCacau2.aux
+The top-level auxiliary file: ProcessamentoMilho.aux
 Reallocating 'name_of_file' (item size: 1) to 16 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
 Reallocating 'name_of_file' (item size: 1) to 12 items.
@@ -16,16 +16,6 @@ Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'wiz_functions' (item size: 4) to 9000 items.
 Database file #1: abntex2-options.bib
 Database file #2: referencias.bib
-Warning--entry type for "c2-1" isn't style-file defined
---line 1 of file referencias.bib
-Warning--entry type for "c2-2" isn't style-file defined
---line 10 of file referencias.bib
-Warning--entry type for "ABNT" isn't style-file defined
---line 43 of file referencias.bib
-Warning--entry type for "FEAM" isn't style-file defined
---line 52 of file referencias.bib
-Warning--entry type for "4" isn't style-file defined
---line 149 of file referencias.bib
 Reallocating 'singl_function' (item size: 4) to 100 items.
 Reallocating 'glb_str_end' (item size: 4) to 20 items.
 Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
@@ -35,45 +25,44 @@ Reallocating 'global_strs' (item size: 1) to 4000000 items.
 | Em caso de dúvidas ou problemas com este estilo procure |
 | http://www.abntex.net.br/                               |
 +---------------------------------------------------------+
-You've used 6 entries,
+You've used 9 entries,
             6714 wiz_defined-function locations,
-            1225 strings with 10334 characters,
-and the built_in function-call counts, 12950 in all, are:
-= -- 1855
-> -- 75
-< -- 478
-+ -- 549
-- -- 25
-* -- 699
-:= -- 1581
+            1238 strings with 10872 characters,
+and the built_in function-call counts, 6148 in all, are:
+= -- 532
+> -- 191
+< -- 5
++ -- 114
+- -- 60
+* -- 407
+:= -- 918
 add.period$ -- 25
-call.type$ -- 6
-change.case$ -- 33
-chr.to.int$ -- 6
-cite$ -- 5
-duplicate$ -- 1562
-empty$ -- 330
-format.name$ -- 115
-if$ -- 2372
+call.type$ -- 9
+change.case$ -- 74
+chr.to.int$ -- 12
+cite$ -- 8
+duplicate$ -- 275
+empty$ -- 454
+format.name$ -- 279
+if$ -- 1407
 int.to.chr$ -- 0
 int.to.str$ -- 0
-missing$ -- 90
-newline$ -- 33
-num.names$ -- 25
-pop$ -- 140
+missing$ -- 144
+newline$ -- 48
+num.names$ -- 40
+pop$ -- 198
 preamble$ -- 1
-purify$ -- 18
+purify$ -- 31
 quote$ -- 0
-skip$ -- 1652
+skip$ -- 370
 stack$ -- 1
-substring$ -- 616
-swap$ -- 533
-text.length$ -- 5
+substring$ -- 250
+swap$ -- 106
+text.length$ -- 4
 text.prefix$ -- 0
 top$ -- 0
-type$ -- 0
+type$ -- 3
 warning$ -- 0
-while$ -- 37
+while$ -- 56
 width$ -- 0
-write$ -- 83
-(There were 5 warnings)
+write$ -- 126

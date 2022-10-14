@@ -1,0 +1,58 @@
+\providecommand{\abntreprintinfo}[1]{%
+ \citeonline{#1}}
+\setlength{\labelsep}{0pt}\begin{thebibliography}{}
+\providecommand{\abntrefinfo}[3]{}
+\providecommand{\abntbstabout}[1]{}
+\abntbstabout{v-1.9.7 }
+
+\bibitem[Freitas 2012]{freitas2012desenvolvimento}
+\abntrefinfo{Freitas}{FREITAS}{2012}
+{FREITAS, A. C.~d. Desenvolvimento de novas tecnologias para produ{\c{c}}{\~a}o
+  de xarope de glicose a partir do amido.
+Universidade Estadual Paulista (Unesp), 2012.}
+
+\bibitem[Geraldi 2010]{geraldi2010estudo}
+\abntrefinfo{Geraldi}{GERALDI}{2010}
+{GERALDI, C. A.~Q. Estudo para a implementa{\c{c}}{\~a}o de uma planta de
+  produ{\c{c}}{\~a}o de amido de milho.
+Universidade Estadual de Maring{\'a}, 2010.}
+
+\bibitem[PAES 2006]{paes2006aspectos}
+\abntrefinfo{PAES}{PAES}{2006}
+{PAES, M. C.~D. Aspectos f{\'\i}sicos, qu{\'\i}micos e tecnol{\'o}gicos do
+  gr{\~a}o de milho.
+Sete Lagoas: Embrapa Milho e Sorgo, 2006., 2006.}
+
+\bibitem[Peixoto 2017]{peixoto2017avaliaccao}
+\abntrefinfo{Peixoto}{PEIXOTO}{2017}
+{PEIXOTO, E.~C.
+\emph{Avalia{\c{c}}{\~a}o do uso industrial de enzimas na diminui{\c{c}}{\~a}o
+  do tempo de macera{\c{c}}{\~a}o na moagem do milho por via {\'u}mida}.
+Tese (Doutorado) --- Universidade de S{\~a}o Paulo, 2017.}
+
+\bibitem[Queiroz e Filho 2010]{queiroz2010processo}
+\abntrefinfo{Queiroz e Filho}{QUEIROZ; FILHO}{2010}
+{QUEIROZ, V.; FILHO, I. P. Processo de produ{\c{c}}{\~a}o de conserva caseira
+  de minimilho.
+Sete Lagoas: Embrapa Milho e Sorgo, 2010., 2010.}
+
+\bibitem[REGITANO-DARCE, Spoto e Castellucci 2015]{regitano2015processamento}
+\abntrefinfo{REGITANO-DARCE, Spoto e Castellucci}{REGITANO-DARCE; SPOTO;
+  CASTELLUCCI}{2015}
+{REGITANO-DARCE, M. A.~B.; SPOTO, M. H.~F.; CASTELLUCCI, A. C.~L. Processamento
+  e industrializa{\c{c}}{\~a}o do milho para alimenta{\c{c}}{\~a}o humana.
+\emph{Vis{\~a}o Agr{\'\i}cola, Piracicaba}, n.~13, p. 138--140, 2015.}
+
+\bibitem[Silva e Silva 2019]{da2019analise}
+\abntrefinfo{Silva e Silva}{SILVA; SILVA}{2019}
+{SILVA, A.~T. da; SILVA, M. da. An{\'a}lise do processo de produ{\c{c}}{\~a}o
+  do amido de milho. In:  \emph{Simp{\'o}sio de Engenharia de
+  Produ{\c{c}}{\~a}o}. [S.l.: s.n.], 2019.}
+
+\bibitem[Strazzi 2015]{strazzi2015derivados}
+\abntrefinfo{Strazzi}{STRAZZI}{2015}
+{STRAZZI, S. Derivados do milho s{\~a}o usados em mais de 150 diferentes
+  produtos industriais.
+\emph{Revista Vis{\~a}o Agr{\'\i}cola--USP/ESALQ}, v.~13, p. 146--150, 2015.}
+
+\end{thebibliography}

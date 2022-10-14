@@ -16,5 +16,13 @@
 \contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Localização}}{19}{chapter.6}%
 \contentsline {section}{\numberline {6.1}Método dos momentos}{19}{section.6.1}%
 \contentsline {section}{\numberline {6.2}Método da ponderação qualitativa}{20}{section.6.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Layout}}{24}{chapter.7}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Qualidade}}{26}{chapter.8}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Tratamento de Efluentes}}{28}{chapter.9}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {10}\MakeTextUppercase {Análise Financeira}}{30}{chapter.10}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{24}{section*.22}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{35}{section*.31}%
