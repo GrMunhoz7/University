@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.3)  13 OCT 2022 23:42
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.3)  21 OCT 2022 22:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -735,6 +735,13 @@ Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
 \ESO@tempdima=\dimen258
 \ESO@tempdimb=\dimen259
 )
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
 Package: amsthm 2020/05/29 v2.20.6
 \thm@style=\toks31
@@ -764,12 +771,24 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks39
 \@floatcapt=\box58
 )
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks40
+\SOUL@lasttoken=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@spaceskip=\skip262
+\SOUL@ttwidth=\dimen260
+\SOUL@uldp=\dimen261
+\SOUL@ulht=\dimen262
+)
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
 Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
-\multirow@colwidth=\skip262
+\multirow@colwidth=\skip263
 \multirow@cntb=\count349
-\multirow@dima=\skip263
-\bigstrutjot=\dimen260
+\multirow@dima=\skip264
+\bigstrutjot=\dimen263
 )
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
@@ -780,8 +799,8 @@ File: color.cfg 2016/01/02 v1.6 sample color configuration
 Package xcolor Info: Driver file: pdftex.def on input line 227.
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
 Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
-\everycr=\toks40
-\minrowclearance=\skip264
+\everycr=\toks45
+\minrowclearance=\skip265
 )
 LaTeX Info: Redefining \color on input line 711.
 \rownum=\count350
@@ -796,12 +815,12 @@ Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
 ) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
 Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
-\LTleft=\skip265
-\LTright=\skip266
-\LTpre=\skip267
-\LTpost=\skip268
+\LTleft=\skip266
+\LTright=\skip267
+\LTpre=\skip268
+\LTpost=\skip269
 \LTchunksize=\count351
-\LTcapwidth=\dimen261
+\LTcapwidth=\dimen264
 \LT@head=\box59
 \LT@firsthead=\box60
 \LT@foot=\box61
@@ -811,7 +830,7 @@ Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
 \LT@rows=\count353
 \c@LT@tables=\count354
 \c@LT@chunks=\count355
-\LT@p@ftn=\toks41
+\LT@p@ftn=\toks46
 )
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
@@ -839,8 +858,8 @@ Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.st
 y)
-\minimumbiblabelwidth=\skip269
-\ABCIauxlen=\skip270
+\minimumbiblabelwidth=\skip270
+\ABCIauxlen=\skip271
 \c@ABCIaux=\count360
 \c@ABCImax=\count361
  (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
@@ -852,24 +871,24 @@ Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
 Package: relsize 2013/03/29 ver 4.1
 )
-\biblabelsep=\skip271
+\biblabelsep=\skip272
 LaTeX Info: Redefining \newblock on input line 591.
 LaTeX Info: Redefining \cite on input line 618.
-\ABCItoken=\toks42
+\ABCItoken=\toks47
 )
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
 Package: caption 2022/03/01 v3.6b Customizing captions (AR)
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
 Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
-\caption@tempdima=\dimen262
-\captionmargin=\dimen263
-\caption@leftmargin=\dimen264
-\caption@rightmargin=\dimen265
-\caption@width=\dimen266
-\caption@indent=\dimen267
-\caption@parindent=\dimen268
-\caption@hangindent=\dimen269
+\caption@tempdima=\dimen265
+\captionmargin=\dimen266
+\caption@leftmargin=\dimen267
+\caption@rightmargin=\dimen268
+\caption@width=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
 Package caption Info: memoir document class detected.
 Package caption Info: french babel package is loaded.
 
@@ -881,8 +900,8 @@ e memoir document class (AR)
 \c@caption@flags=\count362
 \c@continuedfloat=\count363
 Package caption Info: changepage package is loaded.
-\caption@adjustwidth@hsize=\dimen270
-\caption@adjustwidth@linewidth=\dimen271
+\caption@adjustwidth@hsize=\dimen273
+\caption@adjustwidth@linewidth=\dimen274
 Package caption Info: float package is loaded.
 Package caption Info: hyperref package is loaded.
 Package caption Info: longtable package is loaded.
@@ -893,16 +912,16 @@ Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
 y
 \lst@mode=\count364
 \lst@gtempboxa=\box65
-\lst@token=\toks43
+\lst@token=\toks48
 \lst@length=\count365
-\lst@currlwidth=\dimen272
+\lst@currlwidth=\dimen275
 \lst@column=\count366
 \lst@pos=\count367
-\lst@lostspace=\dimen273
-\lst@width=\dimen274
+\lst@lostspace=\dimen276
+\lst@width=\dimen277
 \lst@newlines=\count368
 \lst@lineno=\count369
-\lst@maxwidth=\dimen275
+\lst@maxwidth=\dimen278
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
@@ -923,7 +942,7 @@ File: lstlang1.sty 2020/03/24 1.8d listings language file
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
 )
-Package hyperref Info: Option `colorlinks' set `true' on input line 86.
+Package hyperref Info: Option `colorlinks' set `true' on input line 88.
 \ProjetoCacau2@idxfile=\write4
 \openout4 = `ProjetoCacau2.idx'.
 
@@ -951,28 +970,31 @@ LaTeX Warning: Label `-' multiply defined.
 
 LaTeX Warning: Label `-' multiply defined.
 
+
+LaTeX Warning: Label `-' multiply defined.
+
 )
 \openout1 = `ProjetoCacau2.aux'.
 
-LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 111.
-LaTeX Font Info:    ... okay on input line 111.
-Package hyperref Info: Link coloring ON on input line 111.
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package hyperref Info: Link coloring ON on input line 113.
  (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
 Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
 
@@ -987,29 +1009,29 @@ Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
 )
 Redoing nameref's sectioning
 Redoing nameref's label
-LaTeX Info: Redefining \nameref on input line 111.
-LaTeX Info: Redefining \ref on input line 111.
-LaTeX Info: Redefining \pageref on input line 111.
-LaTeX Info: Redefining \nameref on input line 111.
-LaTeX Info: Redefining \degres on input line 111.
-LaTeX Info: Redefining \up on input line 111.
+LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \degres on input line 113.
+LaTeX Info: Redefining \up on input line 113.
 \myptabbox=\box67
-\myptabboxwidth=\skip272
+\myptabboxwidth=\skip273
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count373
-\scratchdimen=\dimen276
+\scratchdimen=\dimen279
 \scratchbox=\box68
 \nofMPsegments=\count374
 \nofMParguments=\count375
-\everyMPshowfont=\toks44
+\everyMPshowfont=\toks49
 \MPscratchCnt=\count376
-\MPscratchDim=\dimen277
+\MPscratchDim=\dimen280
 \MPnumerator=\count377
 \makeMPintoPDFobject=\count378
-\everyMPtoPDFconversion=\toks45
+\everyMPtoPDFconversion=\toks50
 )
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
@@ -1021,18 +1043,18 @@ Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
-LaTeX Info: Redefining \microtypecontext on input line 111.
-Package microtype Info: Applying patch `item' on input line 111.
-Package microtype Info: Applying patch `toc' on input line 111.
-Package microtype Info: Applying patch `eqnum' on input line 111.
-Package microtype Info: Applying patch `footnote' on input line 111.
+LaTeX Info: Redefining \microtypecontext on input line 113.
+Package microtype Info: Applying patch `item' on input line 113.
+Package microtype Info: Applying patch `toc' on input line 113.
+Package microtype Info: Applying patch `eqnum' on input line 113.
+Package microtype Info: Applying patch `footnote' on input line 113.
 Package microtype Info: Generating PDF output.
 Package microtype Info: Character protrusion enabled (level 2).
 Package microtype Info: Using default protrusion set `alltext'.
 Package microtype Info: Automatic font expansion enabled (level 2),
 (microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
 Package microtype Info: Using default expansion set `alltext-nott'.
-LaTeX Info: Redefining \showhyphens on input line 111.
+LaTeX Info: Redefining \showhyphens on input line 113.
 Package microtype Info: No adjustment of tracking.
 Package microtype Info: No adjustment of interword spacing.
 Package microtype Info: No adjustment of character kerning.
@@ -1049,43 +1071,43 @@ Package caption Info: End \AtBeginDocument code.
 File: ../../Pictures/uem-modelo-04.png Graphic file (type png)
 <use ../../Pictures/uem-modelo-04.png>
 Package pdftex.def Info: ../../Pictures/uem-modelo-04.png  used on input line 1
-17.
+19.
 (pdftex.def)             Requested size: 362.06935pt x 49.64902pt.
 
-Overfull \hbox (362.06935pt too wide) in paragraph at lines 117--118
+Overfull \hbox (362.06935pt too wide) in paragraph at lines 119--120
  [][] 
  []
 
 LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
-18.
+20.
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
 File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
-18.
+20.
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
 File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
-118.
+120.
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
 File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
-118.
+120.
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
 File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <12> on input line 118.
+(Font)              <12> on input line 120.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <8> on input line 118.
+(Font)              <8> on input line 120.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <6> on input line 118.
-LaTeX Font Info:    Trying to load font information for U+msa on input line 118
+(Font)              <6> on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
 .
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
@@ -1094,7 +1116,7 @@ File: umsa.fd 2013/01/14 v3.01 AMS symbols A
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
 File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
 )
-LaTeX Font Info:    Trying to load font information for U+msb on input line 118
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
 .
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
@@ -1104,7 +1126,7 @@ File: umsb.fd 2013/01/14 v3.01 AMS symbols B
 File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
 )
 LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
-26.
+28.
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
 File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
@@ -1116,7 +1138,7 @@ Package microtype Info: Loading generic protrusion settings for font family
 <../../Pictures/logoUEM.jpg, id=5, 578.16pt x 622.4856pt>
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 126.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 128.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1131,11 +1153,11 @@ pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has
 been already used, duplicate ignored
 <to be read again> 
                    \relax 
-l.146 \cleardoublepage
+l.148 \cleardoublepage
                       
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 146.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 148.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1146,14 +1168,14 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 
 ]
-<logoShow.jpeg, id=47, 562.1pt x 108.405pt>
+<logoShow.jpeg, id=61, 562.1pt x 108.405pt>
 File: logoShow.jpeg Graphic file (type jpg)
 <use logoShow.jpeg>
-Package pdftex.def Info: logoShow.jpeg  used on input line 1031.
+Package pdftex.def Info: logoShow.jpeg  used on input line 1033.
 (pdftex.def)             Requested size: 281.04932pt x 54.20236pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1070.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1072.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1166,7 +1188,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  <./logoShow.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1073.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1075.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1174,20 +1196,20 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [3]
-<WhatsApp Image 2022-08-19 at 19.04.28.jpeg, id=62, 748.7975pt x 315.1775pt>
+<WhatsApp Image 2022-08-19 at 19.04.28.jpeg, id=76, 748.7975pt x 315.1775pt>
 File: WhatsApp Image 2022-08-19 at 19.04.28.jpeg Graphic file (type jpg)
 <use WhatsApp Image 2022-08-19 at 19.04.28.jpeg>
 Package pdftex.def Info: WhatsApp Image 2022-08-19 at 19.04.28.jpeg  used on in
-put line 1080.
+put line 1082.
 (pdftex.def)             Requested size: 374.39783pt x 157.58836pt.
-<concorrentes.jpeg, id=63, 537.00626pt x 386.44376pt>
+<concorrentes.jpeg, id=77, 537.00626pt x 386.44376pt>
 File: concorrentes.jpeg Graphic file (type jpg)
 <use concorrentes.jpeg>
-Package pdftex.def Info: concorrentes.jpeg  used on input line 1094.
+Package pdftex.def Info: concorrentes.jpeg  used on input line 1096.
 (pdftex.def)             Requested size: 214.79869pt x 154.57475pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1098.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1100.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1198,14 +1220,14 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
  <./WhatsApp Image 2022-08-19 at 19.04.28.jpeg>]
 LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
-100.
+102.
 
 (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
 File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
 )
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1115.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1117.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1213,20 +1235,20 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [5 <./concorrentes.jpeg>]
-<concorrentes2.jpeg, id=76, 1284.8pt x 406.51875pt>
+<concorrentes2.jpeg, id=90, 1284.8pt x 406.51875pt>
 File: concorrentes2.jpeg Graphic file (type jpg)
 <use concorrentes2.jpeg>
-Package pdftex.def Info: concorrentes2.jpeg  used on input line 1135.
+Package pdftex.def Info: concorrentes2.jpeg  used on input line 1137.
 (pdftex.def)             Requested size: 385.44298pt x 121.95656pt.
-<WhatsApp Image 2022-08-19 at 18.59.03.jpeg, id=77, 697.60625pt x 405.515pt>
+<WhatsApp Image 2022-08-19 at 18.59.03.jpeg, id=91, 697.60625pt x 405.515pt>
 File: WhatsApp Image 2022-08-19 at 18.59.03.jpeg Graphic file (type jpg)
 <use WhatsApp Image 2022-08-19 at 18.59.03.jpeg>
 Package pdftex.def Info: WhatsApp Image 2022-08-19 at 18.59.03.jpeg  used on in
-put line 1143.
+put line 1145.
 (pdftex.def)             Requested size: 348.80226pt x 202.75699pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1147.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1149.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1236,7 +1258,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [6 <./concorrentes2.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1148.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1150.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1246,7 +1268,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [7 <./WhatsApp Image 2022-08-19 at 18.59.03.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1161.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1163.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1256,15 +1278,15 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [8
 
 ]
-<WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg, id=93, 1204.5pt x 803.0pt>
+<WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg, id=107, 1204.5pt x 803.0pt>
 File: WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg Graphic file (type jpg)
 <use WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg>
 Package pdftex.def Info: WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg  used o
-n input line 1173.
+n input line 1175.
 (pdftex.def)             Requested size: 240.89574pt x 160.59715pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1180.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1182.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1274,7 +1296,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [9 <./WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1202.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1204.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1284,7 +1306,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [10]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1217.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1219.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1294,7 +1316,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [11]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1220.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1222.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1302,17 +1324,17 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [12]
-<../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg, id=118
+<../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg, id=132
 , 606.265pt x 361.35pt>
 File: ../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg Gr
 aphic file (type jpg)
 <use ../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-02 
-at 19.02.32.jpeg  used on input line 1243.
+at 19.02.32.jpeg  used on input line 1245.
 (pdftex.def)             Requested size: 303.13176pt x 180.67456pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1247.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1249.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1323,30 +1345,30 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 ]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <7> on input line 1258.
+(Font)              <7> on input line 1260.
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <5> on input line 1258.
+(Font)              <5> on input line 1260.
 
-Overfull \hbox (14.78352pt too wide) in alignment at lines 1253--1264
+Overfull \hbox (14.78352pt too wide) in alignment at lines 1255--1266
  [] [] [] [] [] [] [] 
  []
 
 
-Overfull \hbox (14.78352pt too wide) in alignment at lines 1264--1343
+Overfull \hbox (14.78352pt too wide) in alignment at lines 1266--1345
  [] [] [] [] [] [] [] 
  []
 
-<../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg, id=126, 527.9725pt 
+<../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg, id=140, 527.9725pt 
 x 213.79875pt>
 File: ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg Graphic file (t
 ype jpg)
 <use ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg>
 Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.j
-peg  used on input line 1352.
+peg  used on input line 1354.
 (pdftex.def)             Requested size: 263.9856pt x 106.89911pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1356.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1358.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1356,7 +1378,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [14 <../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1390.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1392.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1364,15 +1386,15 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [15 <../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg>]
-<../../../../../../Downloads/1.jpeg, id=141, 294.09875pt x 258.9675pt>
+<../../../../../../Downloads/1.jpeg, id=155, 294.09875pt x 258.9675pt>
 File: ../../../../../../Downloads/1.jpeg Graphic file (type jpg)
 <use ../../../../../../Downloads/1.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/1.jpeg  used on input line
- 1397.
+ 1399.
 (pdftex.def)             Requested size: 235.27931pt x 207.17426pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1414.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1416.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1382,23 +1404,23 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [16
 
  <../../../../../../Downloads/1.jpeg>]
-<../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg, id=147, 439.6425pt 
+<../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg, id=161, 439.6425pt 
 x 304.13625pt>
 File: ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg Graphic file (t
 ype jpg)
 <use ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg>
 Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.j
-peg  used on input line 1421.
+peg  used on input line 1423.
 (pdftex.def)             Requested size: 351.71446pt x 243.30933pt.
-<../../../../../../Downloads/2.jpeg, id=148, 331.2375pt x 148.555pt>
+<../../../../../../Downloads/2.jpeg, id=162, 331.2375pt x 148.555pt>
 File: ../../../../../../Downloads/2.jpeg Graphic file (type jpg)
 <use ../../../../../../Downloads/2.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/2.jpeg  used on input line
- 1431.
+ 1433.
 (pdftex.def)             Requested size: 264.99034pt x 118.84415pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1437.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1439.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1407,21 +1429,21 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 [17 <../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg> <../../../../..
 /../Downloads/2.jpeg>]
-<../../../../../../Downloads/3.jpeg, id=155, 323.2075pt x 262.9825pt>
+<../../../../../../Downloads/3.jpeg, id=169, 323.2075pt x 262.9825pt>
 File: ../../../../../../Downloads/3.jpeg Graphic file (type jpg)
 <use ../../../../../../Downloads/3.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/3.jpeg  used on input line
- 1441.
+ 1443.
 (pdftex.def)             Requested size: 258.56635pt x 210.38626pt.
-<../../../../../../Downloads/4.jpeg, id=156, 289.08pt x 108.405pt>
+<../../../../../../Downloads/4.jpeg, id=170, 289.08pt x 108.405pt>
 File: ../../../../../../Downloads/4.jpeg Graphic file (type jpg)
 <use ../../../../../../Downloads/4.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/4.jpeg  used on input line
- 1451.
+ 1453.
 (pdftex.def)             Requested size: 231.2643pt x 86.7241pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1457.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1459.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1429,19 +1451,19 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [18 <../../../../../../Downloads/3.jpeg> <../../../../../../Downloads/4.jpeg>]
-<../../Pictures/tabela1.png, id=164, 950.55125pt x 120.45pt>
+<../../Pictures/tabela1.png, id=178, 950.55125pt x 120.45pt>
 File: ../../Pictures/tabela1.png Graphic file (type png)
 <use ../../Pictures/tabela1.png>
-Package pdftex.def Info: ../../Pictures/tabela1.png  used on input line 1478.
+Package pdftex.def Info: ../../Pictures/tabela1.png  used on input line 1480.
 (pdftex.def)             Requested size: 475.27446pt x 60.22484pt.
 
-Overfull \hbox (20.27446pt too wide) in paragraph at lines 1478--1480
+Overfull \hbox (20.27446pt too wide) in paragraph at lines 1480--1482
  [] 
  []
 
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1491.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1493.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1451,14 +1473,14 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [19
 
  <../../Pictures/tabela1.png>]
-<../../Pictures/tabela3.png, id=172, 549.05125pt x 268.00125pt>
+<../../Pictures/tabela3.png, id=186, 549.05125pt x 268.00125pt>
 File: ../../Pictures/tabela3.png Graphic file (type png)
 <use ../../Pictures/tabela3.png>
-Package pdftex.def Info: ../../Pictures/tabela3.png  used on input line 1500.
+Package pdftex.def Info: ../../Pictures/tabela3.png  used on input line 1502.
 (pdftex.def)             Requested size: 329.43329pt x 160.80197pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1522.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1524.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1468,7 +1490,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [20 <../../Pictures/tabela3.png>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1619.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1621.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1476,25 +1498,25 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [21]
-<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg, id=184
+<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg, id=198
 , 850.17625pt x 615.29875pt>
 File: ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg Gr
 aphic file (type jpg)
 <use ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-17 
-at 14.15.05.jpeg  used on input line 1625.
+at 14.15.05.jpeg  used on input line 1627.
 (pdftex.def)             Requested size: 340.06447pt x 246.11513pt.
-<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg, id=186
+<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg, id=200
 , 1081.03876pt x 963.6pt>
 File: ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg Gr
 aphic file (type jpg)
 <use ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg>
 Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-17 
-at 14.37.23.jpeg  used on input line 1637.
+at 14.37.23.jpeg  used on input line 1639.
 (pdftex.def)             Requested size: 324.31413pt x 289.08223pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1642.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1644.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1504,7 +1526,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [22 <../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1643.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1645.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1512,25 +1534,25 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  []
 
 [23 <../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg>]
-<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg, id=199, 922.44624pt
+<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg, id=213, 922.44624pt
  x 472.76625pt>
 File: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg Graphic file (t
 ype jpg)
 <use ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg>
 Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.j
-peg  used on input line 1654.
+peg  used on input line 1656.
 (pdftex.def)             Requested size: 368.97195pt x 189.10315pt.
-<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg, id=200, 1284.8p
+<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg, id=214, 1284.8p
 t x 655.44875pt>
 File: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg Graphic fil
 e (type jpg)
 <use ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg>
 Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (
-1).jpeg  used on input line 1663.
+1).jpeg  used on input line 1665.
 (pdftex.def)             Requested size: 385.44298pt x 196.63614pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1668.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1670.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1542,7 +1564,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  <../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1669.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1671.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1552,7 +1574,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [25 <../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg>]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1685.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1687.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1564,7 +1586,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 ]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1687.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1689.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1574,7 +1596,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [27]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1711.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1713.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1586,7 +1608,7 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 ]
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1727.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1729.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1595,20 +1617,20 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 
 [29]
 LaTeX Font Info:    External font `lmex10' loaded for size
-(Font)              <10.95> on input line 1735.
-<1.jpeg, id=240, 860.21375pt x 325.215pt>
+(Font)              <10.95> on input line 1737.
+<1.jpeg, id=254, 860.21375pt x 325.215pt>
 File: 1.jpeg Graphic file (type jpg)
 <use 1.jpeg>
-Package pdftex.def Info: 1.jpeg  used on input line 1736.
+Package pdftex.def Info: 1.jpeg  used on input line 1738.
 (pdftex.def)             Requested size: 430.10582pt x 162.6071pt.
-<2.jpeg, id=241, 785.93625pt x 166.6225pt>
+<2.jpeg, id=255, 785.93625pt x 166.6225pt>
 File: 2.jpeg Graphic file (type jpg)
 <use 2.jpeg>
-Package pdftex.def Info: 2.jpeg  used on input line 1749.
+Package pdftex.def Info: 2.jpeg  used on input line 1751.
 (pdftex.def)             Requested size: 432.26627pt x 91.64265pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1754.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1756.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
@@ -1618,66 +1640,258 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
 [30
 
  <./1.jpeg>]
-<3.jpeg, id=251, 785.93625pt x 105.39375pt>
+<3.jpeg, id=265, 785.93625pt x 105.39375pt>
 File: 3.jpeg Graphic file (type jpg)
 <use 3.jpeg>
-Package pdftex.def Info: 3.jpeg  used on input line 1760.
+Package pdftex.def Info: 3.jpeg  used on input line 1762.
 (pdftex.def)             Requested size: 432.26627pt x 57.96672pt.
-<4.jpeg, id=252, 717.68124pt x 322.20375pt>
+<4.jpeg, id=266, 717.68124pt x 322.20375pt>
 File: 4.jpeg Graphic file (type jpg)
 <use 4.jpeg>
-Package pdftex.def Info: 4.jpeg  used on input line 1771.
+Package pdftex.def Info: 4.jpeg  used on input line 1776.
 (pdftex.def)             Requested size: 430.61206pt x 193.32373pt.
-<5.jpeg, id=253, 696.6025pt x 420.57124pt>
-File: 5.jpeg Graphic file (type jpg)
-<use 5.jpeg>
-Package pdftex.def Info: 5.jpeg  used on input line 1783.
-(pdftex.def)             Requested size: 417.96472pt x 252.3447pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1788.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1781.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[31 <./2.jpeg> <./3.jpeg> <./4.jpeg>]
-<6.jpeg, id=261, 670.505pt x 617.30624pt>
-File: 6.jpeg Graphic file (type jpg)
-<use 6.jpeg>
-Package pdftex.def Info: 6.jpeg  used on input line 1794.
-(pdftex.def)             Requested size: 469.35031pt x 432.11142pt.
+[31 <./2.jpeg> <./3.jpeg>]
+<5.jpeg, id=282, 696.6025pt x 420.57124pt>
+File: 5.jpeg Graphic file (type jpg)
+<use 5.jpeg>
+Package pdftex.def Info: 5.jpeg  used on input line 1789.
+(pdftex.def)             Requested size: 417.96472pt x 252.3447pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1794.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
-Overfull \hbox (14.35031pt too wide) in paragraph at lines 1794--1796
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[32 <./4.jpeg>]
+<a1.jpeg, id=289, 670.505pt x 586.19pt>
+File: a1.jpeg Graphic file (type jpg)
+<use a1.jpeg>
+Package pdftex.def Info: a1.jpeg  used on input line 1806.
+(pdftex.def)             Requested size: 469.35031pt x 410.3302pt.
+
+Overfull \hbox (14.35031pt too wide) in paragraph at lines 1806--1808
  [] 
  []
 
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1799.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1811.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[32 <./5.jpeg>]
-<7.jpeg, id=267, 889.3225pt x 344.28625pt>
-File: 7.jpeg Graphic file (type jpg)
-<use 7.jpeg>
-Package pdftex.def Info: 7.jpeg  used on input line 1805.
-(pdftex.def)             Requested size: 444.66016pt x 172.1427pt.
+[33 <./5.jpeg>]
+<a2.jpeg, id=295, 888.31876pt x 344.28625pt>
+File: a2.jpeg Graphic file (type jpg)
+<use a2.jpeg>
+Package pdftex.def Info: a2.jpeg  used on input line 1821.
+(pdftex.def)             Requested size: 355.32121pt x 137.71205pt.
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1810.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1826.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[33 <./6.jpeg>] (ProjetoCacau2.bbl
+[34 <./a1.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1831.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[35 <./a2.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1833.
+
+<a3.jpeg, id=310, 1284.8pt x 456.70625pt>
+File: a3.jpeg Graphic file (type jpg)
+<use a3.jpeg>
+Package pdftex.def Info: a3.jpeg  used on input line 1836.
+(pdftex.def)             Requested size: 642.39844pt x 228.35255pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1842.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[36 <./a3.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1846.
+
+<a4.jpeg, id=316, 1284.8pt x 456.70625pt>
+File: a4.jpeg Graphic file (type jpg)
+<use a4.jpeg>
+Package pdftex.def Info: a4.jpeg  used on input line 1849.
+(pdftex.def)             Requested size: 642.39844pt x 228.35255pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1855.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[37 <./a4.jpeg>]
+<a5.jpeg, id=321, 303.1325pt x 171.64125pt>
+File: a5.jpeg Graphic file (type jpg)
+<use a5.jpeg>
+Package pdftex.def Info: a5.jpeg  used on input line 1866.
+(pdftex.def)             Requested size: 151.56587pt x 85.8204pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1876.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[38
+
+
+
+
+ <./a5.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1878.
+
+<a6.jpeg, id=331, 1113.15875pt x 288.07625pt>
+File: a6.jpeg Graphic file (type jpg)
+<use a6.jpeg>
+Package pdftex.def Info: a6.jpeg  used on input line 1881.
+(pdftex.def)             Requested size: 667.90042pt x 172.84708pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1887.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[39 <./a6.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1891.
+
+<a8.jpeg, id=336, 892.33376pt x 609.27625pt>
+File: a8.jpeg Graphic file (type jpg)
+<use a8.jpeg>
+Package pdftex.def Info: a8.jpeg  used on input line 1894.
+(pdftex.def)             Requested size: 624.62938pt x 426.49046pt.
+
+LaTeX Warning: Float too large for page by 30.73761pt on input line 1898.
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1900.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[40 <./a8.jpeg>]
+<a10.png, id=342, 860.21375pt x 468.75125pt>
+File: a10.png Graphic file (type png)
+<use a10.png>
+Package pdftex.def Info: a10.png  used on input line 1911.
+(pdftex.def)             Requested size: 301.07932pt x 164.06538pt.
+<a11.png, id=343, 860.21375pt x 468.75125pt>
+File: a11.png Graphic file (type png)
+<use a11.png>
+Package pdftex.def Info: a11.png  used on input line 1920.
+(pdftex.def)             Requested size: 301.07932pt x 164.06538pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1926.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[41
+
+
+
+
+ <./a10.png> <./a11.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1928.
+
+<a9.jpeg, id=353, 1209.51875pt x 329.23pt>
+File: a9.jpeg Graphic file (type jpg)
+<use a9.jpeg>
+Package pdftex.def Info: a9.jpeg  used on input line 1931.
+(pdftex.def)             Requested size: 665.23738pt x 181.07706pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1937.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[42 <./a9.jpeg>]
+<a12.png, id=360, 855.195pt x 468.75125pt>
+File: a12.png Graphic file (type png)
+<use a12.png>
+Package pdftex.def Info: a12.png  used on input line 1946.
+(pdftex.def)             Requested size: 239.45297pt x 131.24945pt.
+<a13.png, id=362, 867.24pt x 537.00626pt>
+File: a13.png Graphic file (type png)
+<use a13.png>
+Package pdftex.def Info: a13.png  used on input line 1960.
+(pdftex.def)             Requested size: 260.17401pt x 161.10312pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1968.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[43
+
+
+ <./a12.png> <./a13.png>]
+<a11.jpeg, id=372, 445.665pt x 532.99126pt>
+File: a11.jpeg Graphic file (type jpg)
+<use a11.jpeg>
+Package pdftex.def Info: a11.jpeg  used on input line 1977.
+(pdftex.def)             Requested size: 311.96336pt x 373.09134pt.
+ (ProjetoCacau2.bbl
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
 Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 3.
@@ -1687,19 +1901,19 @@ Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[34 <./7.jpeg>]
+[44 <./a11.jpeg>]
 bibitemlist
 )
 File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
 <use ../../Pictures/logoUEM.jpg>
-Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1848.
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2015.
 (pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
 
 Overfull \hbox (211.91061pt too wide) has occurred while \output is active
  [][] 
  []
 
-[35
+[45
 
 ]
 \tf@toc=\write5
@@ -1711,13 +1925,13 @@ LaTeX Warning: There were multiply-defined labels.
 
  ) 
 Here is how much of TeX's memory you used:
- 22441 strings out of 478582
- 372247 string characters out of 2844345
- 1011865 words of memory out of 3000000
- 39972 multiletter control sequences out of 15000+600000
- 552624 words of font info for 176 fonts, out of 8000000 for 9000
+ 22812 strings out of 478582
+ 377859 string characters out of 2844345
+ 1015900 words of memory out of 3000000
+ 40287 multiletter control sequences out of 15000+600000
+ 553198 words of font info for 180 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 75i,16n,77p,1348b,522s stack positions out of 10000i,1000n,20000p,200000b,80000s
+ 75i,16n,77p,1573b,522s stack positions out of 10000i,1000n,20000p,200000b,80000s
 {C:/Users/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C
 :/Users/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Us
 ers/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}<C:/Users
@@ -1731,9 +1945,9 @@ n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/grmu
 n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/grmu
 n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/grmu
 n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
-Output written on ProjetoCacau2.pdf (36 pages, 2072768 bytes).
+Output written on ProjetoCacau2.pdf (46 pages, 3303045 bytes).
 PDF statistics:
- 407 PDF objects out of 1000 (max. 8388607)
- 90 named destinations out of 1000 (max. 500000)
- 47357 words of extra memory for PDF output out of 51595 (max. 10000000)
+ 536 PDF objects out of 1000 (max. 8388607)
+ 118 named destinations out of 1000 (max. 500000)
+ 47468 words of extra memory for PDF output out of 51595 (max. 10000000)
 

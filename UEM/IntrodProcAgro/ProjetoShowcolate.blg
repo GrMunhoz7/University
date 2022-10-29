@@ -1,0 +1,159 @@
+This is BibTeX, Version 0.99d
+Capacity: max_strings=200000, hash_size=200000, hash_prime=170003
+The top-level auxiliary file: ProjetoShowcolate.aux
+Reallocating 'name_of_file' (item size: 1) to 16 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+Reallocating 'name_of_file' (item size: 1) to 12 items.
+The style file: abntex2-alf.bst
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 6000 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'wiz_functions' (item size: 4) to 9000 items.
+Database file #1: abntex2-options.bib
+Database file #2: referencias.bib
+Warning--entry type for "ene" isn't style-file defined
+--line 46 of file referencias.bib
+Warning--entry type for "agua" isn't style-file defined
+--line 55 of file referencias.bib
+Warning--entry type for "galpao" isn't style-file defined
+--line 65 of file referencias.bib
+Warning--entry type for "sala1" isn't style-file defined
+--line 74 of file referencias.bib
+Warning--entry type for "encargos" isn't style-file defined
+--line 83 of file referencias.bib
+Warning--entry type for "sala2" isn't style-file defined
+--line 92 of file referencias.bib
+Warning--entry type for "i1" isn't style-file defined
+--line 101 of file referencias.bib
+Warning--entry type for "i2" isn't style-file defined
+--line 110 of file referencias.bib
+Warning--entry type for "i3" isn't style-file defined
+--line 119 of file referencias.bib
+Warning--entry type for "i4" isn't style-file defined
+--line 128 of file referencias.bib
+Warning--entry type for "i5" isn't style-file defined
+--line 137 of file referencias.bib
+Warning--entry type for "m1" isn't style-file defined
+--line 146 of file referencias.bib
+Warning--entry type for "m2" isn't style-file defined
+--line 155 of file referencias.bib
+Warning--entry type for "m3" isn't style-file defined
+--line 164 of file referencias.bib
+Warning--entry type for "m4" isn't style-file defined
+--line 173 of file referencias.bib
+Warning--entry type for "m5" isn't style-file defined
+--line 182 of file referencias.bib
+Warning--entry type for "m6" isn't style-file defined
+--line 191 of file referencias.bib
+Warning--entry type for "m7" isn't style-file defined
+--line 200 of file referencias.bib
+Warning--entry type for "m8" isn't style-file defined
+--line 209 of file referencias.bib
+Warning--entry type for "m9" isn't style-file defined
+--line 218 of file referencias.bib
+Warning--entry type for "c2-1" isn't style-file defined
+--line 234 of file referencias.bib
+Warning--entry type for "c2-2" isn't style-file defined
+--line 243 of file referencias.bib
+Warning--entry type for "PNRS" isn't style-file defined
+--line 267 of file referencias.bib
+Warning--entry type for "ABNT" isn't style-file defined
+--line 276 of file referencias.bib
+Warning--entry type for "FEAM" isn't style-file defined
+--line 285 of file referencias.bib
+Warning--entry type for "CNI" isn't style-file defined
+--line 294 of file referencias.bib
+Warning--entry type for "melanger" isn't style-file defined
+--line 312 of file referencias.bib
+Warning--entry type for "nibs" isn't style-file defined
+--line 321 of file referencias.bib
+Warning--entry type for "temp" isn't style-file defined
+--line 330 of file referencias.bib
+Warning--entry type for "Sucden" isn't style-file defined
+--line 339 of file referencias.bib
+Warning--entry type for "lindt" isn't style-file defined
+--line 348 of file referencias.bib
+Warning--entry type for "1" isn't style-file defined
+--line 357 of file referencias.bib
+Warning--entry type for "2" isn't style-file defined
+--line 365 of file referencias.bib
+Warning--entry type for "3" isn't style-file defined
+--line 373 of file referencias.bib
+Warning--entry type for "4" isn't style-file defined
+--line 382 of file referencias.bib
+Warning--entry type for "5" isn't style-file defined
+--line 391 of file referencias.bib
+Warning--entry type for "6" isn't style-file defined
+--line 400 of file referencias.bib
+Warning--entry type for "8" isn't style-file defined
+--line 415 of file referencias.bib
+Warning--entry type for "9" isn't style-file defined
+--line 424 of file referencias.bib
+Warning--entry type for "forbes" isn't style-file defined
+--line 433 of file referencias.bib
+Warning--entry type for "fatsecret" isn't style-file defined
+--line 442 of file referencias.bib
+Warning--entry type for "dengo" isn't style-file defined
+--line 610 of file referencias.bib
+Warning--entry type for "xpeed" isn't style-file defined
+--line 619 of file referencias.bib
+Warning--entry type for "unimed" isn't style-file defined
+--line 628 of file referencias.bib
+Warning--entry type for "saude" isn't style-file defined
+--line 637 of file referencias.bib
+Reallocating 'singl_function' (item size: 4) to 100 items.
+Reallocating 'glb_str_end' (item size: 4) to 20 items.
+Reallocating 'glb_str_ptr' (item size: 4) to 20 items.
+Reallocating 'global_strs' (item size: 1) to 4000000 items.
++---------------------------------------------------------+
+| Estilo bibliográfico abntex2-alf.bst versão v-1.9.7           |
+| Em caso de dúvidas ou problemas com este estilo procure |
+| http://www.abntex.net.br/                               |
++---------------------------------------------------------+
+You've used 59 entries,
+            6714 wiz_defined-function locations,
+            1446 strings with 18918 characters,
+and the built_in function-call counts, 139033 in all, are:
+= -- 19138
+> -- 888
+< -- 5468
++ -- 5810
+- -- 295
+* -- 7685
+:= -- 16311
+add.period$ -- 282
+call.type$ -- 59
+change.case$ -- 367
+chr.to.int$ -- 60
+cite$ -- 58
+duplicate$ -- 17923
+empty$ -- 3294
+format.name$ -- 1358
+if$ -- 24931
+int.to.chr$ -- 2
+int.to.str$ -- 0
+missing$ -- 943
+newline$ -- 306
+num.names$ -- 290
+pop$ -- 1273
+preamble$ -- 1
+purify$ -- 178
+quote$ -- 0
+skip$ -- 18081
+stack$ -- 1
+substring$ -- 6568
+swap$ -- 6104
+text.length$ -- 57
+text.prefix$ -- 0
+top$ -- 0
+type$ -- 0
+warning$ -- 0
+while$ -- 407
+width$ -- 0
+write$ -- 895
+(There were 45 warnings)

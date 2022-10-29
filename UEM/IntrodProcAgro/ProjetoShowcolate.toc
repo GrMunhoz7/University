@@ -1,0 +1,82 @@
+\changetocdepth {4}
+\babel@toc {brazil}{}\relax 
+\babel@toc {brazil}{}\relax 
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {1}\MakeTextUppercase {Introdução}}{3}{chapter.1}%
+\contentsline {section}{\numberline {1.1}Contextualização do Tema}{3}{section.1.1}%
+\contentsline {section}{\numberline {1.2}Objetivos}{3}{section.1.2}%
+\contentsline {subsection}{\numberline {1.2.1}Objetivo Geral}{3}{subsection.1.2.1}%
+\contentsline {subsection}{\numberline {1.2.2}Objetivos Específicos}{3}{subsection.1.2.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {2}\MakeTextUppercase {Revisão Bibliográfica}}{5}{chapter.2}%
+\contentsline {section}{\numberline {2.1}Histórico}{5}{section.2.1}%
+\contentsline {subsection}{\numberline {2.1.1}História Mundial}{5}{subsection.2.1.1}%
+\contentsline {subsection}{\numberline {2.1.2}Chegada do cacau na Europa}{5}{subsection.2.1.2}%
+\contentsline {subsection}{\numberline {2.1.3}Cacau no Brasil}{6}{subsection.2.1.3}%
+\contentsline {subsection}{\numberline {2.1.4}Dados Atuais}{7}{subsection.2.1.4}%
+\contentsline {subsection}{\numberline {2.1.5}Avanços do processamento}{7}{subsection.2.1.5}%
+\contentsline {section}{\numberline {2.2}Matéria-prima}{7}{section.2.2}%
+\contentsline {section}{\numberline {2.3}Produto}{9}{section.2.3}%
+\contentsline {subsection}{\numberline {2.3.1}Importância Nutricional}{9}{subsection.2.3.1}%
+\contentsline {subsection}{\numberline {2.3.2}Importância Ambiental}{11}{subsection.2.3.2}%
+\contentsline {subsection}{\numberline {2.3.3}Importância Cultural}{11}{subsection.2.3.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {3}\MakeTextUppercase {Mercado}}{13}{chapter.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {4}\MakeTextUppercase {Segmentação da Marca}}{15}{chapter.4}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {5}\MakeTextUppercase {Análise Ambiental e Interna}}{17}{chapter.5}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {6}\MakeTextUppercase {Qualidade}}{22}{chapter.6}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {7}\MakeTextUppercase {Análise de Concorrentes}}{24}{chapter.7}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {8}\MakeTextUppercase {Normas e Leis Regulamentadoras}}{28}{chapter.8}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Processo de Produção}}{31}{chapter.9}%
+\contentsline {section}{\numberline {9.1}Fluxo de produção projetado}{32}{section.9.1}%
+\contentsline {section}{\numberline {9.2}Resíduos da produção}{35}{section.9.2}%
+\contentsline {subsection}{\numberline {9.2.1}Tratamento dos efluentes}{36}{subsection.9.2.1}%
+\contentsline {subsection}{\numberline {9.2.2}Tratamento dos resíduos sólidos}{36}{subsection.9.2.2}%
+\contentsline {subsection}{\numberline {9.2.3}Tratamento dos resíduos pós-consumo}{37}{subsection.9.2.3}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {10}\MakeTextUppercase {Balanço de Massa}}{38}{chapter.10}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {11}\MakeTextUppercase {Balanço de Energia}}{41}{chapter.11}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {12}\MakeTextUppercase {Oferta e Demanda}}{44}{chapter.12}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {13}\MakeTextUppercase {Estudo do Processo Produtivo}}{47}{chapter.13}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {14}\MakeTextUppercase {Localização}}{50}{chapter.14}%
+\contentsline {section}{\numberline {14.1}Método dos momentos}{50}{section.14.1}%
+\contentsline {section}{\numberline {14.2}Método da ponderação qualitativa}{51}{section.14.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {15}\MakeTextUppercase {Layout}}{55}{chapter.15}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {16}\MakeTextUppercase {Tratamento de Efluentes}}{57}{chapter.16}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {17}\MakeTextUppercase {Análise Financeira}}{59}{chapter.17}%
+\contentsline {section}{\numberline {17.1}Investimento}{62}{section.17.1}%
+\contentsline {section}{\numberline {17.2}Custeio}{63}{section.17.2}%
+\contentsline {section}{\numberline {17.3}Financiamento}{64}{section.17.3}%
+\contentsline {section}{\numberline {17.4}Demonstração de Resultados}{67}{section.17.4}%
+\contentsline {section}{\numberline {17.5}Cronograma Financeiro e Indicadores}{70}{section.17.5}%
+\contentsline {subsection}{\numberline {17.5.1}Payback}{72}{subsection.17.5.1}%
+\contentsline {subsection}{\numberline {17.5.2}Ponto de Equilíbrio}{72}{subsection.17.5.2}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\contentsline {chapter}{\chapternumberline {18}\MakeTextUppercase {Conclusão}}{75}{chapter.18}%
+\vspace {\cftbeforechapterskip }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{76}{section*.60}%
+\cftinsert {AAA}
+\renewcommand *{\cftappendixname }{ANEXO \space }
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {A}\MakeTextUppercase {Propriedades na Saturação - REFRIGERANTE R-717 (AMÔNIA)}}{81}{appendix.anexochapback.1}%
+\setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
+\setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
+\cftinsert {A}
+\contentsline {appendix}{\chapternumberline {B}\MakeTextUppercase {Diagrama p-h - REFRIGERANTE R-717 (AMÔNIA)}}{82}{appendix.anexochapback.2}%

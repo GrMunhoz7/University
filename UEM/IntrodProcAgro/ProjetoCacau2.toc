@@ -24,5 +24,12 @@
 \contentsline {chapter}{\chapternumberline {9}\MakeTextUppercase {Tratamento de Efluentes}}{28}{chapter.9}%
 \setlength {\cftchapterindent }{0em} \setlength {\cftchapternumwidth }{\cftlastnumwidth }
 \contentsline {chapter}{\chapternumberline {10}\MakeTextUppercase {Análise Financeira}}{30}{chapter.10}%
+\contentsline {section}{\numberline {10.1}Investimento}{33}{section.10.1}%
+\contentsline {section}{\numberline {10.2}Custeio}{34}{section.10.2}%
+\contentsline {section}{\numberline {10.3}Financiamento}{35}{section.10.3}%
+\contentsline {section}{\numberline {10.4}Demonstração de Resultados}{38}{section.10.4}%
+\contentsline {section}{\numberline {10.5}Cronograma Financeiro e Indicadores}{41}{section.10.5}%
+\contentsline {subsection}{\numberline {10.5.1}Payback}{43}{subsection.10.5.1}%
+\contentsline {subsection}{\numberline {10.5.2}Ponto de Equilíbrio}{43}{subsection.10.5.2}%
 \setlength {\cftchapterindent }{\cftlastnumwidth } \setlength {\cftchapternumwidth }{2em}
-\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{35}{section*.31}%
+\contentsline {chapter}{\MakeTextUppercase {Refer\^encias}}{45}{section*.42}%

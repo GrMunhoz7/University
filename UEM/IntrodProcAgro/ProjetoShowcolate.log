@@ -1,0 +1,2547 @@
+This is pdfTeX, Version 3.141592653-2.6-1.40.24 (MiKTeX 22.3) (preloaded format=pdflatex 2022.6.3)  28 OCT 2022 21:26
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**./ProjetoShowcolate.tex
+(ProjetoShowcolate.tex
+LaTeX2e <2021-11-15> patch level 1
+L3 programming layer <2022-02-24>
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2.cls
+Document Class: abntex2 2018/11/24 v-1.9.7 abnTeX2
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+Package: ifthen 2020/11/24 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memoir.cls
+Document Class: memoir 2022/07/29 v3.7r configurable book, report, article docu
+ment class
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
+\etb@tempcnta=\count185
+)
+\onelineskip=\skip47
+\lxvchars=\skip48
+\xlvchars=\skip49
+\@memcnta=\count186
+\c@@memmarkcntra=\count187
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+Package: iftex 2022/02/03 v1.0f TeX engine tests
+)
+\stockheight=\skip50
+\stockwidth=\skip51
+\trimtop=\skip52
+\trimedge=\skip53
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/memoir\mem12.clo
+File: mem12.clo 2022/07/29 v0.5 memoir class 12pt size option
+)
+\binding=\skip54
+\spinemargin=\skip55
+\foremargin=\skip56
+\uppermargin=\skip57
+\lowermargin=\skip58
+\headdrop=\skip59
+\normalrulethickness=\skip60
+\mem@maxheadheight=\skip61
+\mem@maxfootheight=\skip62
+\headwidth=\skip63
+\c@storedpagenumber=\count188
+\memPD=\dimen138
+\m@mabparskip=\skip64
+\thanksmarkwidth=\skip65
+\thanksmarksep=\skip66
+\droptitle=\skip67
+\c@book=\count189
+\c@part=\count190
+\c@chapter=\count191
+\c@section=\count192
+\c@subsection=\count193
+\c@subsubsection=\count194
+\c@paragraph=\count195
+\c@subparagraph=\count196
+\beforechapskip=\skip68
+\midchapskip=\skip69
+\afterchapskip=\skip70
+\chapindent=\skip71
+\bottomsectionskip=\skip72
+\secindent=\skip73
+\beforesecskip=\skip74
+\aftersecskip=\skip75
+\subsecindent=\skip76
+\beforesubsecskip=\skip77
+\aftersubsecskip=\skip78
+\subsubsecindent=\skip79
+\beforesubsubsecskip=\skip80
+\aftersubsubsecskip=\skip81
+\paraindent=\skip82
+\beforeparaskip=\skip83
+\afterparaskip=\skip84
+\subparaindent=\skip85
+\beforesubparaskip=\skip86
+\aftersubparaskip=\skip87
+\pfbreakskip=\skip88
+\c@@ppsavesec=\count197
+\c@@ppsaveapp=\count198
+\ragrparindent=\dimen139
+\everylistparindent=\dimen140
+\parsepi=\skip89
+\topsepi=\skip90
+\itemsepi=\skip91
+\parsepii=\skip92
+\topsepii=\skip93
+\topsepiii=\skip94
+\itemsepii=\skip95
+\itemsepiii=\skip96
+\partopsepii=\skip97
+\partopsepiii=\skip98
+\m@msavetopsep=\skip99
+\m@msavepartopsep=\skip100
+\@enLab=\toks16
+\abstitleskip=\skip101
+\absleftindent=\skip102
+\abs@leftindent=\dimen141
+\absrightindent=\skip103
+\absparindent=\skip104
+\absparsep=\skip105
+\c@vslineno=\count199
+\c@poemline=\count266
+\c@modulo@vs=\count267
+\c@memfvsline=\count268
+\vleftskip=\skip106
+\vrightskip=\skip107
+\stanzaskip=\skip108
+\versewidth=\skip109
+\vgap=\skip110
+\vindent=\skip111
+\vleftmargin=\dimen142
+\c@verse=\count269
+\c@chrsinstr=\count270
+\beforepoemtitleskip=\skip112
+\afterpoemtitleskip=\skip113
+\c@poem=\count271
+\beforePoemTitleskip=\skip114
+\midPoemTitleskip=\skip115
+\afterPoemTitleskip=\skip116
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\array.sty
+Package: array 2021/10/04 v2.5f Tabular extension package (FMi)
+\col@sep=\dimen143
+\ar@mcellbox=\box50
+\extrarowheight=\dimen144
+\NC@list=\toks17
+\extratabsurround=\skip117
+\backup@length=\skip118
+\ar@cellbox=\box51
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\dcolumn.sty
+Package: dcolumn 2014/10/28 v1.06 decimal alignment package (DPC)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\delarray.sty
+Package: delarray 2014/10/28 v1.01 array delimiter package (DPC)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\tabularx.sty
+Package: tabularx 2020/01/15 v2.11c `tabularx' package (DPC)
+\TX@col@width=\dimen145
+\TX@old@table=\dimen146
+\TX@old@col=\dimen147
+\TX@target=\dimen148
+\TX@delta=\dimen149
+\TX@cols=\count272
+\TX@ftn=\toks18
+)
+\heavyrulewidth=\dimen150
+\lightrulewidth=\dimen151
+\cmidrulewidth=\dimen152
+\belowrulesep=\dimen153
+\belowbottomsep=\dimen154
+\aboverulesep=\dimen155
+\abovetopsep=\dimen156
+\cmidrulesep=\dimen157
+\cmidrulekern=\dimen158
+\defaultaddspace=\dimen159
+\@cmidla=\count273
+\@cmidlb=\count274
+\@aboverulesep=\dimen160
+\@belowrulesep=\dimen161
+\@thisruleclass=\count275
+\@lastruleclass=\count276
+\@thisrulewidth=\dimen162
+\ctableftskip=\skip119
+\ctabrightskip=\skip120
+\abovecolumnspenalty=\count277
+\@linestogo=\count278
+\@cellstogo=\count279
+\@cellsincolumn=\count280
+\crtok=\toks19
+\@mincolumnwidth=\dimen163
+\c@newflo@tctr=\count281
+\mem@margin@floatbox=\box52
+\@contcwidth=\skip121
+\@contindw=\skip122
+\abovecaptionskip=\skip123
+\belowcaptionskip=\skip124
+\subfloattopskip=\skip125
+\subfloatcapskip=\skip126
+\subfloatcaptopadj=\skip127
+\subfloatbottomskip=\skip128
+\subfloatlabelskip=\skip129
+\subfloatcapmargin=\dimen164
+\c@@contsubnum=\count282
+\m@mscap@capbox=\box53
+\m@mscap@fbox=\box54
+\sidecapsep=\dimen165
+\sidecapwidth=\dimen166
+\m@m@tempdima=\dimen167
+\m@mscapraise=\dimen168
+\sidecapraise=\dimen169
+\m@mscapmainwidth=\dimen170
+\m@mscaplkern=\dimen171
+\beforeepigraphskip=\skip130
+\afterepigraphskip=\skip131
+\epigraphwidth=\skip132
+\epigraphrule=\skip133
+LaTeX Info: Redefining \em on input line 7655.
+LaTeX Info: Redefining \emph on input line 7663.
+\tocentryskip=\skip134
+\tocbaseline=\skip135
+\cftparskip=\skip136
+\cftbeforebookskip=\skip137
+\cftbookindent=\dimen172
+\cftbooknumwidth=\dimen173
+\cftbeforepartskip=\skip138
+\cftpartindent=\skip139
+\cftpartnumwidth=\skip140
+\cftbeforechapterskip=\skip141
+\cftchapterindent=\skip142
+\cftchapternumwidth=\skip143
+\cftbeforesectionskip=\skip144
+\cftsectionindent=\skip145
+\cftsectionnumwidth=\skip146
+\cftbeforesubsectionskip=\skip147
+\cftsubsectionindent=\skip148
+\cftsubsectionnumwidth=\skip149
+\cftbeforesubsubsectionskip=\skip150
+\cftsubsubsectionindent=\skip151
+\cftsubsubsectionnumwidth=\skip152
+\cftbeforeparagraphskip=\skip153
+\cftparagraphindent=\skip154
+\cftparagraphnumwidth=\skip155
+\cftbeforesubparagraphskip=\skip156
+\cftsubparagraphindent=\skip157
+\cftsubparagraphnumwidth=\skip158
+\prechapterprecisshift=\dimen174
+\c@maxsecnumdepth=\count283
+\bibindent=\dimen175
+\bibitemsep=\skip159
+\indexcolsep=\skip160
+\indexrule=\skip161
+\indexmarkstyle=\toks20
+\@indexbox=\insert252
+\glossarycolsep=\dimen176
+\glossaryrule=\dimen177
+\sideparvshift=\skip162
+\sideins=\insert251
+\sidebartopsep=\skip163
+\sidebarhsep=\skip164
+\sidebarvsep=\skip165
+\sidebarwidth=\skip166
+\footmarkwidth=\skip167
+\footmarksep=\skip168
+\footparindent=\skip169
+\footinsdim=\skip170
+\footinsv@r=\insert250
+\@mpfootinsv@r=\insert249
+\m@m@k=\count284
+\m@m@h=\dimen178
+\m@mipn@skip=\skip171
+\sidefootins=\insert248
+\sidefootadjust=\skip172
+\sidefootheight=\skip173
+\sidefoothsep=\skip174
+\sidefootvsep=\skip175
+\sidefootwidth=\skip176
+\m@mdownsf=\skip177
+\c@sidefootnote=\count285
+\sidefootmarkwidth=\skip178
+\sidefootmarksep=\skip179
+\sidefootparindent=\skip180
+\c@pagenote=\count286
+\c@pagenoteshadow=\count287
+\mem@pn@lastkern=\skip181
+\every@verbatim=\toks21
+\afterevery@verbatim=\toks22
+\verbatim@line=\toks23
+\tab@position=\count288
+\verbatim@in@stream=\read2
+\verbatimindent=\skip182
+\verbatim@out=\write3
+\bvboxsep=\skip183
+\c@memfbvline=\count289
+\c@bvlinectr=\count290
+\bvnumlength=\skip184
+\fb@frw=\dimen179
+\fb@frh=\dimen180
+\FrameRule=\dimen181
+\FrameSep=\dimen182
+\c@cp@cntr=\count291
+\c@ism@mctr=\count292
+\c@xsm@mctr=\count293
+\c@csm@mctr=\count294
+\c@ksm@mctr=\count295
+\c@xksm@mctr=\count296
+\c@cksm@mctr=\count297
+\c@msm@mctr=\count298
+\c@xmsm@mctr=\count299
+\c@cmsm@mctr=\count300
+\c@bsm@mctr=\count301
+\c@workm@mctr=\count302
+\c@sheetsequence=\count303
+\c@lastsheet=\count304
+\c@lastpage=\count305
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/textcase\textcase.sty
+Package: textcase 2022/07/10 v1.03 Text only upper/lower case changing (DPC)
+)
+\c@figure=\count306
+\c@lofdepth=\count307
+\cftbeforefigureskip=\skip185
+\cftfigureindent=\skip186
+\cftfigurenumwidth=\skip187
+\c@table=\count308
+\c@lotdepth=\count309
+\cftbeforetableskip=\skip188
+\cfttableindent=\skip189
+\cfttablenumwidth=\skip190
+Package abstract [2008/07/23] emulated by memoir.
+Package appendix [2008/07/23] emulated by memoir.
+Package booktabs [2016/05/16] emulated by memoir.
+Package ccaption [2008/07/23] emulated by memoir.
+Package changepage [2008/07/23] emulated by memoir.
+Package chngcntr [2008/07/23] emulated by memoir.
+Package chngpage [2008/07/23] emulated by memoir.
+Package crop emulated by memoir.
+Package enumerate [2008/07/23] emulated by memoir.
+Package epigraph [2008/07/23] emulated by memoir.
+Package ifmtarg [2008/07/23] emulated by memoir.
+Package index [2008/07/23] emulated by memoir.
+Package makeidx [2008/07/23] emulated by memoir.
+Package moreverb [2008/07/23] emulated by memoir.
+Package needspace [2008/07/23] emulated by memoir.
+Package newfile [2008/07/23] emulated by memoir.
+Package nextpage [2008/07/23] emulated by memoir.
+Package pagenote [2008/07/23] emulated by memoir.
+Package parskip [2008/07/23] emulated by memoir.
+Package patchcmd [2008/07/23] emulated by memoir.
+Package setspace [2008/07/23] emulated by memoir.
+Package shortvrb [2008/07/23] emulated by memoir.
+Package showidx [2008/07/23] emulated by memoir.
+Package titleref [2008/07/23] emulated by memoir.
+Package titling [2008/07/23] emulated by memoir.
+Package tocbibind [2008/07/23] emulated by memoir.
+Package tocloft [2008/07/23] emulated by memoir.
+Package tocvsec2 [2008/07/23] emulated by memoir.
+Package verbatim [2008/07/23] emulated by memoir.
+Package verse [2008/07/23] emulated by memoir.
+) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hyperref.sty
+Package: hyperref 2022-02-21 v7.00n Hypertext links for LaTeX
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+.sty
+Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
+)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+ty
+Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
+)
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks24
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/kvsetkeys\kvsetkeys.s
+ty
+Package: kvsetkeys 2019/12/15 v1.18 Key value parser (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/kvdefinekeys\kvdefine
+keys.sty
+Package: kvdefinekeys 2019-12-19 v1.6 Define keys (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/pdfescape\pdfescape.s
+ty
+Package: pdfescape 2019/12/09 v1.15 Implements pdfTeX's escape features (HO)
+) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hycolor\hycolor.sty
+Package: hycolor 2020-01-27 v1.10 Color options for hyperref/bookmark (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/letltxmacro\letltxmacro
+.sty
+Package: letltxmacro 2019/12/03 v1.6 Let assignment for LaTeX macros (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/auxhook\auxhook.sty
+Package: auxhook 2019-12-17 v1.6 Hooks for auxiliary files (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+Package: kvoptions 2020-10-07 v3.14 Key value format for package options (HO)
+)
+\@linkdim=\dimen183
+\Hy@linkcounter=\count310
+\Hy@pagecounter=\count311
+ (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\pd1enc.def
+File: pd1enc.def 2022-02-21 v7.00n Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/intcalc\intcalc.sty
+Package: intcalc 2019/12/15 v1.3 Expandable calculations with integers (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/etexcmds\etexcmds.sty
+Package: etexcmds 2019/12/15 v1.7 Avoid name clashes with e-TeX commands (HO)
+)
+\Hy@SavedSpaceFactor=\count312
+ (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\puenc.def
+File: puenc.def 2022-02-21 v7.00n Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+Package hyperref Info: Hyper figures OFF on input line 4137.
+Package hyperref Info: Link nesting OFF on input line 4142.
+Package hyperref Info: Hyper index ON on input line 4145.
+Package hyperref Info: Plain pages OFF on input line 4152.
+Package hyperref Info: Backreferencing OFF on input line 4157.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4390.
+\c@Hy@tempcnt=\count313
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 4749.
+\XeTeXLinkMargin=\dimen184
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/bitset\bitset.sty
+Package: bitset 2019/12/09 v1.3 Handle bit-vector datatype (HO)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/bigintcalc\bigintcalc
+.sty
+Package: bigintcalc 2019/12/15 v1.5 Expandable calculations on big integers (HO
+)
+))
+\Fld@menulength=\count314
+\Field@Width=\dimen185
+\Fld@charsize=\dimen186
+Package hyperref Info: Hyper figures OFF on input line 6027.
+Package hyperref Info: Link nesting OFF on input line 6032.
+Package hyperref Info: Hyper index ON on input line 6035.
+Package hyperref Info: backreferencing OFF on input line 6042.
+Package hyperref Info: Link coloring OFF on input line 6047.
+Package hyperref Info: Link coloring with OCG OFF on input line 6052.
+Package hyperref Info: PDF/A mode OFF on input line 6057.
+LaTeX Info: Redefining \ref on input line 6097.
+LaTeX Info: Redefining \pageref on input line 6101.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/base\atbegshi-ltx.sty
+Package: atbegshi-ltx 2021/01/10 v1.0c Emulation of the original atbegshi
+package with kernel methods
+)
+\Hy@abspage=\count315
+\c@Item=\count316
+\c@Hfootnote=\count317
+) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/memoir\memhfixc.sty
+Package: memhfixc 2021/06/16 v1.19 nameref/hyperref package fixes for memoir cl
+ass
+\c@memhycontfloat=\count318
+\c@Hpagenote=\count319
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\hpdftex.def
+File: hpdftex.def 2022-02-21 v7.00n Hyperref driver for pdfTeX
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/base\atveryend-ltx.sty
+Package: atveryend-ltx 2020/08/19 v1.0a Emulation of the original atveryend pac
+kage
+with kernel methods
+)
+\Fld@listcount=\count320
+\c@bookmark@seq@number=\count321
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/rerunfilecheck\rerunfil
+echeck.sty
+Package: rerunfilecheck 2019/12/05 v1.9 Rerun checks for auxiliary files (HO)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/uniquecounter\uniquec
+ounter.sty
+Package: uniquecounter 2019/12/15 v1.4 Provide unlimited unique counter (HO)
+)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+86.
+)
+\Hy@SectionHShift=\skip191
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bookmark.sty
+Package: bookmark 2020-11-06 v1.29 PDF bookmarks (HO)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/bookmark\bkm-pdftex.def
+File: bkm-pdftex.def 2020-11-06 v1.29 bookmark driver for pdfTeX (HO)
+\BKM@id=\count322
+)) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/babel\babel.sty
+Package: babel 2022/02/26 3.73 The Babel package
+\babel@savecnt=\count323
+\U@D=\dimen187
+\l@unhyphenated=\language79
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/babel\txtbabel.def)
+\bbl@readstream=\read3
+\bbl@dirlevel=\count324
+
+*************************************
+* Local config file bblopts.cfg used
+*
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/arabi\bblopts.cfg
+File: bblopts.cfg 2005/09/08 v0.1 add Arabic and Farsi to "declared" options of
+ babel
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/babel-english\english.l
+df
+Language: english 2017/06/06 v3.3r English support from the babel system
+Package babel Info: Hyphen rules for 'canadian' set to \l@english
+(babel)             (\language0). Reported on input line 102.
+Package babel Info: Hyphen rules for 'australian' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 105.
+Package babel Info: Hyphen rules for 'newzealand' set to \l@ukenglish
+(babel)             (\language73). Reported on input line 108.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/babel-french\french.l
+df
+Language: french 2022/04/18 v3.5n French support from the babel system
+Package babel Info: Hyphen rules for 'acadian' set to \l@french
+(babel)             (\language22). Reported on input line 91.
+Package babel Info: Hyphen rules for 'canadien' set to \l@french
+(babel)             (\language22). Reported on input line 92.
+\FB@nonchar=\count325
+Package babel Info: Making : an active character on input line 430.
+Package babel Info: Making ; an active character on input line 431.
+Package babel Info: Making ! an active character on input line 432.
+Package babel Info: Making ? an active character on input line 433.
+\FBguill@level=\count326
+\FBold@everypar=\toks25
+\FB@Mht=\dimen188
+\mc@charclass=\count327
+\mc@charfam=\count328
+\mc@charslot=\count329
+\std@mcc=\count330
+\dec@mcc=\count331
+\listindentFB=\dimen189
+\descindentFB=\dimen190
+\labelindentFB=\dimen191
+\labelwidthFB=\dimen192
+\leftmarginFB=\dimen193
+\parindentFFN=\dimen194
+\FBfnindent=\dimen195
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/babel-spanish\spanish.l
+df
+Language: spanish.ldf 2021/05/27 v5.0q Spanish support from the babel system
+\es@quottoks=\toks26
+\es@quotdepth=\count332
+Package babel Info: Making " an active character on input line 570.
+Package babel Info: Making . an active character on input line 675.
+Package babel Info: Making < an active character on input line 722.
+Package babel Info: Making > an active character on input line 722.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/babel-portuges\brazil.l
+df
+Language: portuges 2021/07/09 v1.2t Portuguese support from the babel system
+Package babel Info: Hyphen rules for 'brazil' set to \l@portuguese
+(babel)             (\language56). Reported on input line 111.
+))
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/enumitem\enumitem.sty
+Package: enumitem 2019/06/20 v3.9 Customized lists
+\labelindent=\skip192
+\enit@outerparindent=\dimen196
+\enit@toks=\toks27
+\enit@inbox=\box55
+\enit@count@id=\count333
+\enitdp@description=\count334
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count335
+\calc@Bcount=\count336
+\calc@Adimen=\dimen197
+\calc@Bdimen=\dimen198
+\calc@Askip=\skip193
+\calc@Bskip=\skip194
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count337
+\calc@Cskip=\skip195
+)
+
+******************************************************
+Stock height and width: 845.04684pt by 597.50787pt
+Top and edge trims: 0pt and 0pt
+Page height and width: 845.04684pt by 597.50787pt
+Text height and width: 708pt by 455pt
+Spine and edge margins: 85.35826pt and 56.9055pt
+Upper and lower margins: 85.35826pt and 51.68858pt
+Headheight and headsep: 14.5pt and 19.8738pt
+Footskip: 30pt
+Columnsep and columnseprule: 10pt and 0pt
+Marginparsep and marginparwidth: 7pt and 42.9055pt
+Sidecapsep and sidecapwidth: 7pt and 42pt
+Sidebarhsep and sidebarwidth: 7pt and 42pt
+Sidebarvsep and sidebartopsep: 14.5pt and 0pt
+Sidebarheight: 590.14995pt
+Sidefoothsep and sidefootwidth: 7pt and 42pt
+Sidefootvsep and sidefootheight: 14.5pt and 590.14995pt
+******************************************************
+
+\c@abntex@bookmarkcounter=\count338
+\cftlastnumwidth=\skip196
+\chapternamenumlength=\skip197
+\ABNTEXcitacaorecuo=\skip198
+\c@alineasi=\count339
+\c@alineasii=\count340
+\enitdp@alineas=\count341
+\c@subalineasi=\count342
+\enitdp@subalineas=\count343
+\c@incisosi=\count344
+\enitdp@incisos=\count345
+\ABNTEXsignwidth=\skip199
+\ABNTEXsignthickness=\skip256
+\ABNTEXsignskip=\skip257
+) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\lmodern.sty
+Package: lmodern 2009/10/30 v1.6 Latin Modern Fonts
+LaTeX Font Info:    Overwriting symbol font `operators' in version `normal'
+(Font)                  OT1/cmr/m/n --> OT1/lmr/m/n on input line 22.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `normal'
+(Font)                  OML/cmm/m/it --> OML/lmm/m/it on input line 23.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `normal'
+(Font)                  OMS/cmsy/m/n --> OMS/lmsy/m/n on input line 24.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `normal'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 25.
+LaTeX Font Info:    Overwriting symbol font `operators' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 26.
+LaTeX Font Info:    Overwriting symbol font `letters' in version `bold'
+(Font)                  OML/cmm/b/it --> OML/lmm/b/it on input line 27.
+LaTeX Font Info:    Overwriting symbol font `symbols' in version `bold'
+(Font)                  OMS/cmsy/b/n --> OMS/lmsy/b/n on input line 28.
+LaTeX Font Info:    Overwriting symbol font `largesymbols' in version `bold'
+(Font)                  OMX/cmex/m/n --> OMX/lmex/m/n on input line 29.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `normal'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 31.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `normal'
+(Font)                  OT1/cmss/m/n --> OT1/lmss/m/n on input line 32.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `normal'
+(Font)                  OT1/cmr/m/it --> OT1/lmr/m/it on input line 33.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `normal'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 34.
+LaTeX Font Info:    Overwriting math alphabet `\mathbf' in version `bold'
+(Font)                  OT1/cmr/bx/n --> OT1/lmr/bx/n on input line 35.
+LaTeX Font Info:    Overwriting math alphabet `\mathsf' in version `bold'
+(Font)                  OT1/cmss/bx/n --> OT1/lmss/bx/n on input line 36.
+LaTeX Font Info:    Overwriting math alphabet `\mathit' in version `bold'
+(Font)                  OT1/cmr/bx/it --> OT1/lmr/bx/it on input line 37.
+LaTeX Font Info:    Overwriting math alphabet `\mathtt' in version `bold'
+(Font)                  OT1/cmtt/m/n --> OT1/lmtt/m/n on input line 38.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
+LaTeX Font Info:    Trying to load font information for T1+lmr on input line 11
+2.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmr.fd
+File: t1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+))
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/base\inputenc.sty
+Package: inputenc 2021/02/14 v1.3d Input encoding file
+\inpenc@prehook=\toks28
+\inpenc@posthook=\toks29
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\indentfirst.sty
+Package: indentfirst 1995/11/23 v1.03 Indent first paragraph (DPC)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\color.sty
+Package: color 2021/12/07 v1.3c Standard LaTeX Color (DPC)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package color Info: Driver file: pdftex.def on input line 149.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+File: pdftex.def 2020/10/05 v1.2a Graphics/color driver for pdftex
+))
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+Package: graphics 2021/03/04 v1.4d Standard LaTeX Graphics (DPC,SPQR)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+fg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 107.
+)
+\Gin@req@height=\dimen199
+\Gin@req@width=\dimen256
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.sty
+Package: microtype 2022/03/14 v3.0d Micro-typographical refinements (RS)
+\MT@toks=\toks30
+\MT@tempbox=\box56
+\MT@count=\count346
+LaTeX Info: Redefining \noprotrusionifhmode on input line 1027.
+LaTeX Info: Redefining \leftprotrusion on input line 1028.
+LaTeX Info: Redefining \rightprotrusion on input line 1036.
+LaTeX Info: Redefining \textls on input line 1195.
+\MT@outer@kern=\dimen257
+LaTeX Info: Redefining \textmicrotypecontext on input line 1781.
+\MT@listname@count=\count347
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype-pdf
+tex.def
+File: microtype-pdftex.def 2022/03/14 v3.0d Definitions specific to pdftex (RS)
+
+LaTeX Info: Redefining \lsstyle on input line 900.
+LaTeX Info: Redefining \lslig on input line 900.
+\MT@outer@space=\skip258
+)
+Package microtype Info: Loading configuration file microtype.cfg.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\microtype.cfg
+File: microtype.cfg 2022/03/14 v3.0d microtype main configuration file (RS)
+))
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/transparent\transparent
+.sty
+Package: transparent 2019/11/29 v1.4 Transparency via pdfTeX's color stack (HO)
+
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/eso-pic\eso-pic.sty
+Package: eso-pic 2020/10/14 v3.0a eso-pic (RN)
+\ESO@tempdima=\dimen258
+\ESO@tempdimb=\dimen259
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/pdflscape\pdflscape.sty
+Package: pdflscape 2019/12/05 v0.12 Display of landscape pages in PDF (HO)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amscls\amsthm.sty
+Package: amsthm 2020/05/29 v2.20.6
+\thm@style=\toks31
+\thm@bodyfont=\toks32
+\thm@headfont=\toks33
+\thm@notefont=\toks34
+\thm@headpunct=\toks35
+\thm@preskip=\skip259
+\thm@postskip=\skip260
+\thm@headsep=\skip261
+\dth@everypar=\toks36
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\@emptytoks=\toks37
+\symAMSa=\mathgroup4
+\symAMSb=\mathgroup5
+LaTeX Font Info:    Redeclaring math symbol \hbar on input line 98.
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count348
+\float@exts=\toks38
+\float@box=\box57
+\@float@everytoks=\toks39
+\@floatcapt=\box58
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/soul\soul.sty
+Package: soul 2003/11/17 v2.4 letterspacing/underlining (mf)
+\SOUL@word=\toks40
+\SOUL@lasttoken=\toks41
+\SOUL@cmds=\toks42
+\SOUL@buffer=\toks43
+\SOUL@token=\toks44
+\SOUL@spaceskip=\skip262
+\SOUL@ttwidth=\dimen260
+\SOUL@uldp=\dimen261
+\SOUL@ulht=\dimen262
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/multirow\multirow.sty
+Package: multirow 2021/03/15 v2.8 Span multiple rows of a table
+\multirow@colwidth=\skip263
+\multirow@cntb=\count349
+\multirow@dima=\skip264
+\bigstrutjot=\dimen263
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+Package: xcolor 2021/10/31 v2.13 LaTeX color extensions (UK)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 227.
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/colortbl\colortbl.sty
+Package: colortbl 2020/01/04 v1.0e Color table columns (DPC)
+\everycr=\toks45
+\minrowclearance=\skip265
+)
+LaTeX Info: Redefining \color on input line 711.
+\rownum=\count350
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1352.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1356.
+Package xcolor Info: Model `RGB' extended on input line 1368.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1370.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1371.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1372.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1373.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1374.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1375.
+) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/tools\longtable.sty
+Package: longtable 2021-09-01 v4.17 Multi-page Table package (DPC)
+\LTleft=\skip266
+\LTright=\skip267
+\LTpre=\skip268
+\LTpost=\skip269
+\LTchunksize=\count351
+\LTcapwidth=\dimen264
+\LT@head=\box59
+\LT@firsthead=\box60
+\LT@foot=\box61
+\LT@lastfoot=\box62
+\LT@gbox=\box63
+\LT@cols=\count352
+\LT@rows=\count353
+\c@LT@tables=\count354
+\c@LT@chunks=\count355
+\LT@p@ftn=\toks46
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.sty
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/l3keys2e\l3k
+eys2e.sty
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+Package: expl3 2022-02-24 L3 programming layer (loader) 
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+tex.def
+File: l3backend-pdftex.def 2022-02-07 L3 backend support: PDF output (pdfTeX)
+\l__color_backend_stack_int=\count356
+\l__pdf_internal_box=\box64
+))
+Package: l3keys2e 2022-01-12 LaTeX2e option processing using LaTeX3 keys
+)
+Package: lipsum 2021-09-20 v2.7 150 paragraphs of Lorem Ipsum dummy text
+\g__lipsum_par_int=\count357
+\l__lipsum_a_int=\count358
+\l__lipsum_b_int=\count359
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lipsum\lipsum.ltd.tex))
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2cite.sty
+Package: abntex2cite 2018/11/24 v-1.9.7 abnTeX2
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/abntex2\abntex2abrev.st
+y)
+\minimumbiblabelwidth=\skip270
+\ABCIauxlen=\skip271
+\c@ABCIaux=\count360
+\c@ABCImax=\count361
+ (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifpdf.sty
+Package: ifpdf 2019/10/25 v3.4 ifpdf legacy package. Use iftex instead.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifxetex.sty
+Package: ifxetex 2019/10/25 v0.7 ifxetex legacy package. Use iftex instead.
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/relsize\relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\biblabelsep=\skip272
+LaTeX Info: Redefining \newblock on input line 591.
+LaTeX Info: Redefining \cite on input line 618.
+\ABCItoken=\toks47
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption.sty
+Package: caption 2022/03/01 v3.6b Customizing captions (AR)
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption3.sty
+Package: caption3 2022/03/17 v2.3b caption3 kernel (AR)
+\caption@tempdima=\dimen265
+\captionmargin=\dimen266
+\caption@leftmargin=\dimen267
+\caption@rightmargin=\dimen268
+\caption@width=\dimen269
+\caption@indent=\dimen270
+\caption@parindent=\dimen271
+\caption@hangindent=\dimen272
+Package caption Info: memoir document class detected.
+Package caption Info: french babel package is loaded.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\caption-memoir.
+sto
+File: caption-memoir.sto 2022/03/02 v2.2b Adaption of the caption package to th
+e memoir document class (AR)
+))
+\c@caption@flags=\count362
+\c@continuedfloat=\count363
+Package caption Info: changepage package is loaded.
+\caption@adjustwidth@hsize=\dimen273
+\caption@adjustwidth@linewidth=\dimen274
+Package caption Info: float package is loaded.
+Package caption Info: hyperref package is loaded.
+Package caption Info: longtable package is loaded.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/caption\ltcaption.sty
+Package: ltcaption 2021/01/08 v1.4c longtable captions (AR)
+)) (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.st
+y
+\lst@mode=\count364
+\lst@gtempboxa=\box65
+\lst@token=\toks48
+\lst@length=\count365
+\lst@currlwidth=\dimen275
+\lst@column=\count366
+\lst@pos=\count367
+\lst@lostspace=\dimen276
+\lst@width=\dimen277
+\lst@newlines=\count368
+\lst@lineno=\count369
+\lst@maxwidth=\dimen278
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+\c@lstnumber=\count370
+\lst@skipnumbers=\count371
+\lst@framebox=\box66
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+File: listings.cfg 2020/03/24 1.8d listings configuration
+))
+Package: listings 2020/03/24 1.8d (Carsten Heinz)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+File: lstlang1.sty 2020/03/24 1.8d listings language file
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+File: lstmisc.sty 2020/03/24 1.8d (Carsten Heinz)
+)
+Package hyperref Info: Option `colorlinks' set `true' on input line 88.
+\ProjetoShowcolate@idxfile=\write4
+\openout4 = `ProjetoShowcolate.idx'.
+
+
+Writing index file ProjetoShowcolate.idx 
+(ProjetoShowcolate.aux
+
+LaTeX Warning: Label `table1' multiply defined.
+
+
+LaTeX Warning: Label `table4' multiply defined.
+
+
+LaTeX Warning: Label `table2' multiply defined.
+
+
+LaTeX Warning: Label `figtemp' multiply defined.
+
+
+LaTeX Warning: Label `loca' multiply defined.
+
+
+LaTeX Warning: Label `tabela 5' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+
+LaTeX Warning: Label `-' multiply defined.
+
+)
+\openout1 = `ProjetoShowcolate.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 113.
+LaTeX Font Info:    ... okay on input line 113.
+Package hyperref Info: Link coloring ON on input line 113.
+ (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/hyperref\nameref.sty
+Package: nameref 2021-04-02 v2.47 Cross-referencing by name of section
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/refcount\refcount.sty
+Package: refcount 2019/12/15 v3.6 Data extraction from label references (HO)
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/generic/gettitlestring\gettit
+lestring.sty
+Package: gettitlestring 2019/12/15 v1.6 Cleanup title references (HO)
+)
+\c@section@level=\count372
+)
+Redoing nameref's sectioning
+Redoing nameref's label
+LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \ref on input line 113.
+LaTeX Info: Redefining \pageref on input line 113.
+LaTeX Info: Redefining \nameref on input line 113.
+LaTeX Info: Redefining \degres on input line 113.
+LaTeX Info: Redefining \up on input line 113.
+\myptabbox=\box67
+\myptabboxwidth=\skip273
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+ii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count373
+\scratchdimen=\dimen279
+\scratchbox=\box68
+\nofMPsegments=\count374
+\nofMParguments=\count375
+\everyMPshowfont=\toks49
+\MPscratchCnt=\count376
+\MPscratchDim=\dimen280
+\MPnumerator=\count377
+\makeMPintoPDFobject=\count378
+\everyMPtoPDFconversion=\toks50
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+ase.sty
+Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+85.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+fg
+File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
+))
+LaTeX Info: Redefining \microtypecontext on input line 113.
+Package microtype Info: Applying patch `item' on input line 113.
+Package microtype Info: Applying patch `toc' on input line 113.
+Package microtype Info: Applying patch `eqnum' on input line 113.
+Package microtype Info: Applying patch `footnote' on input line 113.
+Package microtype Info: Generating PDF output.
+Package microtype Info: Character protrusion enabled (level 2).
+Package microtype Info: Using default protrusion set `alltext'.
+Package microtype Info: Automatic font expansion enabled (level 2),
+(microtype)             stretch: 20, shrink: 20, step: 1, non-selected.
+Package microtype Info: Using default expansion set `alltext-nott'.
+LaTeX Info: Redefining \showhyphens on input line 113.
+Package microtype Info: No adjustment of tracking.
+Package microtype Info: No adjustment of interword spacing.
+Package microtype Info: No adjustment of character kerning.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-cmr.cfg
+File: mt-cmr.cfg 2013/05/19 v2.2 microtype config. file: Computer Modern Roman 
+(RS)
+)
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: listings package is loaded.
+Package caption Info: End \AtBeginDocument code.
+\c@lstlisting=\count379
+<../../Pictures/uem-modelo-04.png, id=3, 804.606pt x 110.3322pt>
+File: ../../Pictures/uem-modelo-04.png Graphic file (type png)
+<use ../../Pictures/uem-modelo-04.png>
+Package pdftex.def Info: ../../Pictures/uem-modelo-04.png  used on input line 1
+19.
+(pdftex.def)             Requested size: 362.06935pt x 49.64902pt.
+
+Overfull \hbox (362.06935pt too wide) in paragraph at lines 119--120
+ [][] 
+ []
+
+LaTeX Font Info:    Trying to load font information for OT1+lmr on input line 1
+20.
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\ot1lmr.fd
+File: ot1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OML+lmm on input line 1
+20.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omllmm.fd
+File: omllmm.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMS+lmsy on input line 
+120.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omslmsy.fd
+File: omslmsy.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    Trying to load font information for OMX+lmex on input line 
+120.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\omxlmex.fd
+File: omxlmex.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <12> on input line 120.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8> on input line 120.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6> on input line 120.
+LaTeX Font Info:    Trying to load font information for U+msa on input line 120
+.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msa.cfg
+File: mt-msa.cfg 2006/02/04 v1.1 microtype config. file: AMS symbols (a) (RS)
+)
+LaTeX Font Info:    Trying to load font information for U+msb on input line 120
+.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/amsfonts\umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+)
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/microtype\mt-msb.cfg
+File: mt-msb.cfg 2005/06/01 v1.0 microtype config. file: AMS symbols (b) (RS)
+)
+LaTeX Font Info:    Trying to load font information for T1+lmss on input line 1
+28.
+
+(C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\t1lmss.fd
+File: t1lmss.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+Package microtype Info: Loading generic protrusion settings for font family
+(microtype)             `lmss' (encoding: T1).
+(microtype)             For optimal results, create family-specific settings.
+(microtype)             See the microtype manual for details.
+<../../Pictures/logoUEM.jpg, id=5, 578.16pt x 622.4856pt>
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 128.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[1
+
+{C:/Users/grmun/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map} <../../Pictur
+es/logoUEM.jpg> <../../Pictures/uem-modelo-04.png>] (ProjetoShowcolate.toc
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.46 ...ase {BalanÃ§o de Energia}}{41}{chapter.11}
+                                                  %
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 46.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[1
+
+
+]
+Overfull \hbox (9.12938pt too wide) in paragraph at lines 78--78
+ [][] [][][]\T1/lmss/bx/n/12 (-20) PROPRIEDADES NA SA-TU-RA-ÇÃO - RE-FRI-GE-RAN
+TE 
+ []
+
+)
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 148.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[2]
+LaTeX Font Info:    Trying to load font information for TS1+lmr on input line 1
+63.
+ (C:\Users\grmun\AppData\Local\Programs\MiKTeX\tex/latex/lm\ts1lmr.fd
+File: ts1lmr.fd 2009/10/30 v1.6 Font defs for Latin Modern
+)
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 178.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[3
+
+
+]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 183.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[4]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 215.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[5
+
+]
+<../../Pictures/tabela.png, id=173, 338.76563pt x 329.73187pt>
+File: ../../Pictures/tabela.png Graphic file (type png)
+<use ../../Pictures/tabela.png>
+Package pdftex.def Info: ../../Pictures/tabela.png  used on input line 223.
+(pdftex.def)             Requested size: 271.01285pt x 263.78584pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 237.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[6 <../../Pictures/tabela.png (PNG copy)>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 261.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[7]
+LaTeX Font Info:    Calculating math sizes for size <5.8> on input line 269.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5.8> on input line 269.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.05998> on input line 269.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <2.9> on input line 269.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 316.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[8]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 336.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[9]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 394.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[10]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 436.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[11]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 442.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[12]
+<../../Pictures/fig2.jpeg, id=269, 922.44624pt x 654.445pt>
+File: ../../Pictures/fig2.jpeg Graphic file (type jpg)
+<use ../../Pictures/fig2.jpeg>
+Package pdftex.def Info: ../../Pictures/fig2.jpeg  used on input line 451.
+(pdftex.def)             Requested size: 368.97195pt x 261.77336pt.
+<../../Pictures/fig1.jpeg, id=278, 1120.185pt x 583.17876pt>
+File: ../../Pictures/fig1.jpeg Graphic file (type jpg)
+<use ../../Pictures/fig1.jpeg>
+Package pdftex.def Info: ../../Pictures/fig1.jpeg  used on input line 464.
+(pdftex.def)             Requested size: 448.06606pt x 233.26736pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 468.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[13
+
+ <../../Pictures/fig2.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 470.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[14 <../../Pictures/fig1.jpeg>]
+<logoShow.jpeg, id=295, 562.1pt x 108.405pt>
+File: logoShow.jpeg Graphic file (type jpg)
+<use logoShow.jpeg>
+Package pdftex.def Info: logoShow.jpeg  used on input line 478.
+(pdftex.def)             Requested size: 281.04932pt x 54.20236pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 517.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[15
+
+ <./logoShow.jpeg>]
+<org.jpeg, id=302, 1284.8pt x 315.1775pt>
+File: org.jpeg Graphic file (type jpg)
+<use org.jpeg>
+Package pdftex.def Info: org.jpeg  used on input line 525.
+(pdftex.def)             Requested size: 436.82622pt x 107.15892pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 532.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[16 <./org.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 546.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[17
+
+]
+<WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg, id=312, 1204.5pt x 803.0pt>
+File: WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg Graphic file (type jpg)
+<use WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg>
+Package pdftex.def Info: WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg  used o
+n input line 558.
+(pdftex.def)             Requested size: 240.89574pt x 160.59715pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 565.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[18 <./WhatsApp Image 2022-08-25 at 20.37.35 (1).jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 587.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[19]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 602.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[20]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 606.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[21]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 623.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[22
+
+]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 627.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[23]
+<WhatsApp Image 2022-08-19 at 19.04.28.jpeg, id=339, 748.7975pt x 315.1775pt>
+File: WhatsApp Image 2022-08-19 at 19.04.28.jpeg Graphic file (type jpg)
+<use WhatsApp Image 2022-08-19 at 19.04.28.jpeg>
+Package pdftex.def Info: WhatsApp Image 2022-08-19 at 19.04.28.jpeg  used on in
+put line 635.
+(pdftex.def)             Requested size: 374.39783pt x 157.58836pt.
+<concorrentes.jpeg, id=340, 537.00626pt x 386.44376pt>
+File: concorrentes.jpeg Graphic file (type jpg)
+<use concorrentes.jpeg>
+Package pdftex.def Info: concorrentes.jpeg  used on input line 649.
+(pdftex.def)             Requested size: 214.79869pt x 154.57475pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 653.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[24
+
+ <./WhatsApp Image 2022-08-19 at 19.04.28.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 670.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[25 <./concorrentes.jpeg>]
+<concorrentes2.jpeg, id=352, 1284.8pt x 406.51875pt>
+File: concorrentes2.jpeg Graphic file (type jpg)
+<use concorrentes2.jpeg>
+Package pdftex.def Info: concorrentes2.jpeg  used on input line 690.
+(pdftex.def)             Requested size: 385.44298pt x 121.95656pt.
+<WhatsApp Image 2022-08-19 at 18.59.03.jpeg, id=353, 697.60625pt x 405.515pt>
+File: WhatsApp Image 2022-08-19 at 18.59.03.jpeg Graphic file (type jpg)
+<use WhatsApp Image 2022-08-19 at 18.59.03.jpeg>
+Package pdftex.def Info: WhatsApp Image 2022-08-19 at 18.59.03.jpeg  used on in
+put line 698.
+(pdftex.def)             Requested size: 348.80226pt x 202.75699pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 702.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[26 <./concorrentes2.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 703.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[27 <./WhatsApp Image 2022-08-19 at 18.59.03.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 716.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[28
+
+]
+Overfull \hbox (9.9258pt too wide) in alignment at lines 725--733
+ [] [] [] [] 
+ []
+
+LaTeX Font Info:    Calculating math sizes for size <8.8> on input line 735.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <8.8> on input line 735.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <6.15997> on input line 735.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <4.4> on input line 735.
+
+Overfull \hbox (9.9258pt too wide) in alignment at lines 733--749
+ [] [] [] [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 749.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[29]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 754.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[30]
+<../../Pictures/cacaoprocess.png, id=408, 618.05907pt x 476.53032pt>
+File: ../../Pictures/cacaoprocess.png Graphic file (type png)
+<use ../../Pictures/cacaoprocess.png>
+Package pdftex.def Info: ../../Pictures/cacaoprocess.png  used on input line 76
+2.
+(pdftex.def)             Requested size: 364.65169pt x 281.15045pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 776.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[31
+
+ <../../Pictures/cacaoprocess.png (PNG copy)>]
+<../../Pictures/fluxo1.jpeg, id=425, 1284.8pt x 440.64626pt>
+File: ../../Pictures/fluxo1.jpeg Graphic file (type jpg)
+<use ../../Pictures/fluxo1.jpeg>
+Package pdftex.def Info: ../../Pictures/fluxo1.jpeg  used on input line 791.
+(pdftex.def)             Requested size: 436.82622pt x 149.81773pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 798.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[32 <../../Pictures/fluxo1.jpeg>]
+<../../Pictures/nibs1.jpg, id=438, 132.7359pt x 45.2892pt>
+File: ../../Pictures/nibs1.jpg Graphic file (type jpg)
+<use ../../Pictures/nibs1.jpg>
+Package pdftex.def Info: ../../Pictures/nibs1.jpg  used on input line 804.
+(pdftex.def)             Requested size: 398.2067pt x 135.86723pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 811.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[33 <../../Pictures/nibs1.jpg>]
+<../../Pictures/melanger.jpeg, id=453, 1003.75pt x 669.50125pt>
+File: ../../Pictures/melanger.jpeg Graphic file (type jpg)
+<use ../../Pictures/melanger.jpeg>
+Package pdftex.def Info: ../../Pictures/melanger.jpeg  used on input line 815.
+(pdftex.def)             Requested size: 351.31776pt x 234.32895pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 824.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[34 <../../Pictures/melanger.jpeg>]
+<../../Pictures/graficotemperagem.png, id=466, 490.83376pt x 324.21124pt>
+File: ../../Pictures/graficotemperagem.png Graphic file (type png)
+<use ../../Pictures/graficotemperagem.png>
+Package pdftex.def Info: ../../Pictures/graficotemperagem.png  used on input li
+ne 828.
+(pdftex.def)             Requested size: 343.58128pt x 226.94632pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1050.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[35 <../../Pictures/graficotemperagem.png>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1091.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[36]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1133.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[37]
+<../../Pictures/fluxo2.jpeg, id=507, 1284.8pt x 534.99875pt>
+File: ../../Pictures/fluxo2.jpeg Graphic file (type jpg)
+<use ../../Pictures/fluxo2.jpeg>
+Package pdftex.def Info: ../../Pictures/fluxo2.jpeg  used on input line 1149.
+(pdftex.def)             Requested size: 436.82622pt x 181.89716pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1158.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[38
+
+ <../../Pictures/fluxo2.jpeg>]
+<../../Pictures/bm1.png, id=522, 637.63219pt x 350.81062pt>
+File: ../../Pictures/bm1.png Graphic file (type png)
+<use ../../Pictures/bm1.png>
+Package pdftex.def Info: ../../Pictures/bm1.png  used on input line 1165.
+(pdftex.def)             Requested size: 293.31436pt x 161.37483pt.
+<../../Pictures/bm2.png, id=523, 639.13782pt x 302.63063pt>
+File: ../../Pictures/bm2.png Graphic file (type png)
+<use ../../Pictures/bm2.png>
+Package pdftex.def Info: ../../Pictures/bm2.png  used on input line 1174.
+(pdftex.def)             Requested size: 338.74142pt x 160.39346pt.
+<../../Pictures/bm3.png, id=524, 637.63219pt x 263.48438pt>
+File: ../../Pictures/bm3.png Graphic file (type png)
+<use ../../Pictures/bm3.png>
+Package pdftex.def Info: ../../Pictures/bm3.png  used on input line 1183.
+(pdftex.def)             Requested size: 337.94345pt x 139.64604pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1188.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[39 <../../Pictures/bm1.png (PNG copy)> <../../Pictures/bm2.png (PNG copy)>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1189.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[40 <../../Pictures/bm3.png (PNG copy)>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1209.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[41
+
+]
+<../../Pictures/amargo.jpg, id=540, 753.5653pt x 230.36063pt>
+File: ../../Pictures/amargo.jpg Graphic file (type jpg)
+<use ../../Pictures/amargo.jpg>
+Package pdftex.def Info: ../../Pictures/amargo.jpg  used on input line 1215.
+(pdftex.def)             Requested size: 376.78172pt x 115.18002pt.
+<../../Pictures/meio amargo.jpg, id=541, 753.5653pt x 231.86626pt>
+File: ../../Pictures/meio amargo.jpg Graphic file (type jpg)
+<use ../../Pictures/meio amargo.jpg>
+Package pdftex.def Info: ../../Pictures/meio amargo.jpg  used on input line 122
+3.
+(pdftex.def)             Requested size: 376.78172pt x 115.93283pt.
+<../../Pictures/ao leite.jpg, id=542, 753.5653pt x 231.11343pt>
+File: ../../Pictures/ao leite.jpg Graphic file (type jpg)
+<use ../../Pictures/ao leite.jpg>
+Package pdftex.def Info: ../../Pictures/ao leite.jpg  used on input line 1231.
+(pdftex.def)             Requested size: 376.78172pt x 115.55643pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1238.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[42 <../../Pictures/amargo.jpg> <../../Pictures/meio amargo.jpg> <../../Picture
+s/ao leite.jpg>]
+<../../Pictures/esquema.png, id=551, 358.33875pt x 141.52875pt>
+File: ../../Pictures/esquema.png Graphic file (type png)
+<use ../../Pictures/esquema.png>
+Package pdftex.def Info: ../../Pictures/esquema.png  used on input line 1244.
+(pdftex.def)             Requested size: 358.33788pt x 141.5284pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1253.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[43 <../../Pictures/esquema.png>]
+<../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg, id=564
+, 606.265pt x 361.35pt>
+File: ../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg Gr
+aphic file (type jpg)
+<use ../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-02 
+at 19.02.32.jpeg  used on input line 1277.
+(pdftex.def)             Requested size: 303.13176pt x 180.67456pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1281.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[44
+
+]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <7> on input line 1292.
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <5> on input line 1292.
+
+Overfull \hbox (14.78352pt too wide) in alignment at lines 1287--1298
+ [] [] [] [] [] [] [] 
+ []
+
+
+Overfull \hbox (14.78352pt too wide) in alignment at lines 1298--1377
+ [] [] [] [] [] [] [] 
+ []
+
+<../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg, id=571, 527.9725pt 
+x 213.79875pt>
+File: ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg Graphic file (t
+ype jpg)
+<use ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg>
+Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.j
+peg  used on input line 1386.
+(pdftex.def)             Requested size: 263.9856pt x 106.89911pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1390.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[45 <../../../../../../Downloads/WhatsApp Image 2022-09-02 at 19.02.32.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1424.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[46 <../../Pictures/WhatsApp Image 2022-09-22 at 20.48.19.jpeg>]
+<../../../../../../Downloads/1.jpeg, id=586, 294.09875pt x 258.9675pt>
+File: ../../../../../../Downloads/1.jpeg Graphic file (type jpg)
+<use ../../../../../../Downloads/1.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/1.jpeg  used on input line
+ 1432.
+(pdftex.def)             Requested size: 235.27931pt x 207.17426pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1449.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[47
+
+ <../../../../../../Downloads/1.jpeg>]
+<../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg, id=592, 439.6425pt 
+x 304.13625pt>
+File: ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg Graphic file (t
+ype jpg)
+<use ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg>
+Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.j
+peg  used on input line 1456.
+(pdftex.def)             Requested size: 351.71446pt x 243.30933pt.
+<../../../../../../Downloads/2.jpeg, id=593, 331.2375pt x 148.555pt>
+File: ../../../../../../Downloads/2.jpeg Graphic file (type jpg)
+<use ../../../../../../Downloads/2.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/2.jpeg  used on input line
+ 1466.
+(pdftex.def)             Requested size: 264.99034pt x 118.84415pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1472.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[48 <../../Pictures/WhatsApp Image 2022-09-22 at 20.50.16.jpeg> <../../../../..
+/../Downloads/2.jpeg>]
+<../../../../../../Downloads/3.jpeg, id=601, 323.2075pt x 262.9825pt>
+File: ../../../../../../Downloads/3.jpeg Graphic file (type jpg)
+<use ../../../../../../Downloads/3.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/3.jpeg  used on input line
+ 1476.
+(pdftex.def)             Requested size: 258.56635pt x 210.38626pt.
+<../../../../../../Downloads/4.jpeg, id=602, 289.08pt x 108.405pt>
+File: ../../../../../../Downloads/4.jpeg Graphic file (type jpg)
+<use ../../../../../../Downloads/4.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/4.jpeg  used on input line
+ 1486.
+(pdftex.def)             Requested size: 231.2643pt x 86.7241pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1492.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[49 <../../../../../../Downloads/3.jpeg> <../../../../../../Downloads/4.jpeg>]
+<../../Pictures/tabela1.png, id=609, 950.55125pt x 120.45pt>
+File: ../../Pictures/tabela1.png Graphic file (type png)
+<use ../../Pictures/tabela1.png>
+Package pdftex.def Info: ../../Pictures/tabela1.png  used on input line 1514.
+(pdftex.def)             Requested size: 475.27446pt x 60.22484pt.
+
+Overfull \hbox (20.27446pt too wide) in paragraph at lines 1514--1516
+ [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1527.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[50
+
+ <../../Pictures/tabela1.png>]
+<../../Pictures/tabela3.png, id=617, 549.05125pt x 268.00125pt>
+File: ../../Pictures/tabela3.png Graphic file (type png)
+<use ../../Pictures/tabela3.png>
+Package pdftex.def Info: ../../Pictures/tabela3.png  used on input line 1536.
+(pdftex.def)             Requested size: 329.43329pt x 160.80197pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1558.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[51 <../../Pictures/tabela3.png>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1655.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[52]
+<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg, id=629
+, 850.17625pt x 615.29875pt>
+File: ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg Gr
+aphic file (type jpg)
+<use ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-17 
+at 14.15.05.jpeg  used on input line 1661.
+(pdftex.def)             Requested size: 340.06447pt x 246.11513pt.
+<../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg, id=631
+, 1081.03876pt x 963.6pt>
+File: ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg Gr
+aphic file (type jpg)
+<use ../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg>
+Package pdftex.def Info: ../../../../../../Downloads/WhatsApp Image 2022-09-17 
+at 14.37.23.jpeg  used on input line 1673.
+(pdftex.def)             Requested size: 324.31413pt x 289.08223pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1678.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[53 <../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.15.05.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1679.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[54 <../../../../../../Downloads/WhatsApp Image 2022-09-17 at 14.37.23.jpeg>]
+<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg, id=645, 922.44624pt
+ x 472.76625pt>
+File: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg Graphic file (t
+ype jpg)
+<use ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg>
+Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.j
+peg  used on input line 1691.
+(pdftex.def)             Requested size: 368.97195pt x 189.10315pt.
+<../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg, id=646, 1284.8p
+t x 655.44875pt>
+File: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg Graphic fil
+e (type jpg)
+<use ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg>
+Package pdftex.def Info: ../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (
+1).jpeg  used on input line 1700.
+(pdftex.def)             Requested size: 385.44298pt x 196.63614pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1705.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[55
+
+ <../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1706.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[56 <../../Pictures/WhatsApp Image 2022-09-17 at 14.55.23 (1).jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1731.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[57
+
+]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1748.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[58]
+LaTeX Font Info:    External font `lmex10' loaded for size
+(Font)              <10.95> on input line 1757.
+<1.jpeg, id=680, 860.21375pt x 325.215pt>
+File: 1.jpeg Graphic file (type jpg)
+<use 1.jpeg>
+Package pdftex.def Info: 1.jpeg  used on input line 1758.
+(pdftex.def)             Requested size: 430.10582pt x 162.6071pt.
+<2.jpeg, id=685, 785.93625pt x 166.6225pt>
+File: 2.jpeg Graphic file (type jpg)
+<use 2.jpeg>
+Package pdftex.def Info: 2.jpeg  used on input line 1771.
+(pdftex.def)             Requested size: 432.26627pt x 91.64265pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1776.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[59
+
+ <./1.jpeg>]
+<3.jpeg, id=701, 785.93625pt x 105.39375pt>
+File: 3.jpeg Graphic file (type jpg)
+<use 3.jpeg>
+Package pdftex.def Info: 3.jpeg  used on input line 1782.
+(pdftex.def)             Requested size: 432.26627pt x 57.96672pt.
+<4.jpeg, id=708, 784.9325pt x 324.21124pt>
+File: 4.jpeg Graphic file (type jpg)
+<use 4.jpeg>
+Package pdftex.def Info: 4.jpeg  used on input line 1796.
+(pdftex.def)             Requested size: 470.96312pt x 194.52824pt.
+
+Overfull \hbox (15.96312pt too wide) in paragraph at lines 1796--1798
+ [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1801.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[60 <./2.jpeg> <./3.jpeg>]
+<5.jpeg, id=738, 696.6025pt x 420.57124pt>
+File: 5.jpeg Graphic file (type jpg)
+<use 5.jpeg>
+Package pdftex.def Info: 5.jpeg  used on input line 1809.
+(pdftex.def)             Requested size: 417.96472pt x 252.3447pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1814.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[61 <./4.jpeg>]
+<a1.jpeg, id=754, 670.505pt x 586.19pt>
+File: a1.jpeg Graphic file (type jpg)
+<use a1.jpeg>
+Package pdftex.def Info: a1.jpeg  used on input line 1826.
+(pdftex.def)             Requested size: 469.35031pt x 410.3302pt.
+
+Overfull \hbox (14.35031pt too wide) in paragraph at lines 1826--1828
+ [] 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1831.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[62 <./5.jpeg>]
+<a2.jpeg, id=760, 888.31876pt x 344.28625pt>
+File: a2.jpeg Graphic file (type jpg)
+<use a2.jpeg>
+Package pdftex.def Info: a2.jpeg  used on input line 1841.
+(pdftex.def)             Requested size: 355.32121pt x 137.71205pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1846.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[63 <./a1.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1851.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[64 <./a2.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1853.
+
+<a3.jpeg, id=775, 1284.8pt x 456.70625pt>
+File: a3.jpeg Graphic file (type jpg)
+<use a3.jpeg>
+Package pdftex.def Info: a3.jpeg  used on input line 1856.
+(pdftex.def)             Requested size: 642.39844pt x 228.35255pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1862.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[65 <./a3.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1866.
+
+<a4.jpeg, id=780, 1284.8pt x 456.70625pt>
+File: a4.jpeg Graphic file (type jpg)
+<use a4.jpeg>
+Package pdftex.def Info: a4.jpeg  used on input line 1869.
+(pdftex.def)             Requested size: 642.39844pt x 228.35255pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1875.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[66 <./a4.jpeg>]
+
+LaTeX Warning: Reference `imp1' on page 67 undefined on input line 1881.
+
+
+LaTeX Warning: Reference `imp2' on page 67 undefined on input line 1881.
+
+
+LaTeX Warning: Reference `imp3' on page 67 undefined on input line 1881.
+
+
+LaTeX Warning: Reference `imp4' on page 67 undefined on input line 1881.
+
+
+LaTeX Warning: Reference `imp5' on page 67 undefined on input line 1881.
+
+<a5.jpeg, id=786, 303.1325pt x 171.64125pt>
+File: a5.jpeg Graphic file (type jpg)
+<use a5.jpeg>
+Package pdftex.def Info: a5.jpeg  used on input line 1886.
+(pdftex.def)             Requested size: 151.56587pt x 85.8204pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1896.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[67
+
+
+
+
+ <./a5.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1898.
+
+<a6.jpeg, id=796, 1113.15875pt x 288.07625pt>
+File: a6.jpeg Graphic file (type jpg)
+<use a6.jpeg>
+Package pdftex.def Info: a6.jpeg  used on input line 1901.
+(pdftex.def)             Requested size: 667.90042pt x 172.84708pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1907.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[68 <./a6.jpeg>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1911.
+
+<a8.jpeg, id=801, 892.33376pt x 609.27625pt>
+File: a8.jpeg Graphic file (type jpg)
+<use a8.jpeg>
+Package pdftex.def Info: a8.jpeg  used on input line 1914.
+(pdftex.def)             Requested size: 624.62938pt x 426.49046pt.
+
+LaTeX Warning: Float too large for page by 30.73761pt on input line 1918.
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1920.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[69 <./a8.jpeg>]
+<a10.png, id=807, 860.21375pt x 468.75125pt>
+File: a10.png Graphic file (type png)
+<use a10.png>
+Package pdftex.def Info: a10.png  used on input line 1931.
+(pdftex.def)             Requested size: 301.07932pt x 164.06538pt.
+<a11.png, id=808, 860.21375pt x 468.75125pt>
+File: a11.png Graphic file (type png)
+<use a11.png>
+Package pdftex.def Info: a11.png  used on input line 1940.
+(pdftex.def)             Requested size: 301.07932pt x 164.06538pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1946.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[70
+
+
+
+
+ <./a10.png> <./a11.png>]
+
+LaTeX Warning: No positions in optional float specifier.
+               Default added (so using `tbp') on input line 1948.
+
+<a9.jpeg, id=818, 1209.51875pt x 329.23pt>
+File: a9.jpeg Graphic file (type jpg)
+<use a9.jpeg>
+Package pdftex.def Info: a9.jpeg  used on input line 1951.
+(pdftex.def)             Requested size: 665.23738pt x 181.07706pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1957.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[71 <./a9.jpeg>]
+<a12.png, id=824, 855.195pt x 468.75125pt>
+File: a12.png Graphic file (type png)
+<use a12.png>
+Package pdftex.def Info: a12.png  used on input line 1966.
+(pdftex.def)             Requested size: 239.45297pt x 131.24945pt.
+<a13.png, id=826, 867.24pt x 537.00626pt>
+File: a13.png Graphic file (type png)
+<use a13.png>
+Package pdftex.def Info: a13.png  used on input line 1980.
+(pdftex.def)             Requested size: 260.17401pt x 161.10312pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 1985.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[72
+
+
+ <./a12.png>]
+<a11.jpeg, id=836, 445.665pt x 532.99126pt>
+File: a11.jpeg Graphic file (type jpg)
+<use a11.jpeg>
+Package pdftex.def Info: a11.jpeg  used on input line 1997.
+(pdftex.def)             Requested size: 311.96336pt x 373.09134pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2002.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[73 <./a13.png>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2003.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[74 <./a11.jpeg>]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2018.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[75
+
+] (ProjetoShowcolate.bbl
+bibitemlist
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 99.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[76
+
+]
+Overfull \hbox (119.25917pt too wide) in paragraph at lines 118--123
+\T1/lmr/m/n/12 (-20) preco-[]da-[]energia-[]eletrica-[]em-[]minas-[]gerais-[]fo
+i-[]um-[]dos-[]que-[]menos-[]cresceu-[]no-[]pais-[]em-[]2021-[]diz-[]aneel-[]pi
+nd223108>[]$[][]. 
+ []
+
+
+Underfull \hbox (badness 1377) in paragraph at lines 126--130
+[]\T1/lmr/m/n/12 (+20) CENCIFABRISGIOVAN. \T1/lmr/m/it/12 (+20) Der-re-te-deira
+ in-dus-trial de 50kg\T1/lmr/m/n/12 (+20) . 
+ []
+
+
+Underfull \hbox (badness 1024) in paragraph at lines 176--180
+[]\T1/lmr/m/n/12 (+20) DENGO. \T1/lmr/m/it/12 (+20) Ne-gó-cios sus-ten-tá-veis 
+e cho-co-late: qual é a re-la- 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 193.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[77]
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 274.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[78]
+Overfull \hbox (119.59535pt too wide) in paragraph at lines 291--295
+\T1/lmr/m/n/12 (-20) Custom-[]Print-[]Automatic-[]Sachet-[]Packaging-[]Roll-[]F
+ilm-[]Food-[]Plastic-[]Laminated-[]Aluminum-[]Foil-[]Bags-[]Print-[]Rolls _ 
+ []
+
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 379.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[79]
+Overfull \hbox (37.7794pt too wide) in paragraph at lines 388--393
+\T1/lmr/m/n/12 (-20) galpao-[]deposito-[]armazem-[]juliana-[]bairros-[]belo-[]h
+orizonte-[]1000m2-[]aluguel-[]RS17000-[]id-[]2518260511 / 
+ []
+
+)
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2026.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[80]
+<../../Pictures/tabelaamonia.png, id=1005, 367.3725pt x 511.9125pt>
+File: ../../Pictures/tabelaamonia.png Graphic file (type png)
+<use ../../Pictures/tabelaamonia.png>
+Package pdftex.def Info: ../../Pictures/tabelaamonia.png  used on input line 20
+31.
+(pdftex.def)             Requested size: 404.11098pt x 563.1055pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2036.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[81
+
+ <../../Pictures/tabelaamonia.png (PNG copy)>]
+<../../Pictures/graficoamonia.png, id=1011, 344.78813pt x 520.19344pt>
+File: ../../Pictures/graficoamonia.png Graphic file (type png)
+<use ../../Pictures/graficoamonia.png>
+Package pdftex.def Info: ../../Pictures/graficoamonia.png  used on input line 2
+041.
+(pdftex.def)             Requested size: 386.16006pt x 582.61267pt.
+File: ../../Pictures/logoUEM.jpg Graphic file (type jpg)
+<use ../../Pictures/logoUEM.jpg>
+Package pdftex.def Info: ../../Pictures/logoUEM.jpg  used on input line 2051.
+(pdftex.def)             Requested size: 809.41849pt x 871.4739pt.
+
+Overfull \hbox (211.91061pt too wide) has occurred while \output is active
+ [][] 
+ []
+
+[82
+
+ <../../Pictures/graficoamonia.png (PNG copy)>]
+\tf@toc=\write5
+\openout5 = `ProjetoShowcolate.toc'.
+
+ (ProjetoShowcolate.aux)
+
+LaTeX Warning: There were undefined references.
+
+
+LaTeX Warning: There were multiply-defined labels.
+
+ ) 
+Here is how much of TeX's memory you used:
+ 23573 strings out of 478582
+ 388982 string characters out of 2844345
+ 1025912 words of memory out of 3000000
+ 40761 multiletter control sequences out of 15000+600000
+ 594580 words of font info for 267 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 75i,16n,77p,1327b,604s stack positions out of 10000i,1000n,20000p,200000b,80000s
+{C:/Users/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ts1.enc}{
+C:/Users/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-rm.enc}{C:/U
+sers/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-ec.enc}{C:/Users
+/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathit.enc}{C:/Users
+/grmun/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/lm/lm-mathex.enc}<C:/Users
+/grmun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx12.pfb><C:/Users
+/grmun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx6.pfb><C:/Users/
+grmun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx7.pfb><C:/Users/g
+rmun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmbx9.pfb><C:/Users/gr
+mun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmex10.pfb><C:/Users/gr
+mun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi12.pfb><C:/Users/gr
+mun/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmmi8.pfb><C:/Users/grm
+un/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr10.pfb><C:/Users/grmu
+n/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr12.pfb><C:/Users/grmun
+/AppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr6.pfb><C:/Users/grmun/A
+ppData/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr7.pfb><C:/Users/grmun/App
+Data/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr8.pfb><C:/Users/grmun/AppDa
+ta/Local/Programs/MiKTeX/fonts/type1/public/lm/lmr9.pfb><C:/Users/grmun/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri10.pfb><C:/Users/grmun/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmri12.pfb><C:/Users/grmun/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss12.pfb><C:/Users/grmun/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmss17.pfb><C:/Users/grmun/AppData
+/Local/Programs/MiKTeX/fonts/type1/public/lm/lmssbx10.pfb>
+Output written on ProjetoShowcolate.pdf (83 pages, 5739329 bytes).
+PDF statistics:
+ 1321 PDF objects out of 1440 (max. 8388607)
+ 275 named destinations out of 1000 (max. 500000)
+ 72379 words of extra memory for PDF output out of 74296 (max. 10000000)
+
